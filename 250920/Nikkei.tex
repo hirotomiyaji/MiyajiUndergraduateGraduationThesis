@@ -96,14 +96,14 @@
 \newtheorem{lemma}[mycounter]{Lemma}           % 同じカウンタを使う
 \newtheorem{exercise}[mycounter]{Exercise}
 \newtheorem{example}[mycounter]{例}
-\newtheorem{definition}[mycounter]{定義}
+\newtheorem{definition}[mycounter]{Definition}
 \begin{document}
 \maketitle
 \begin{abstract}
   KTGsに対し a universal Vassiliev invariant が存在することは知られていた[MO, CL, Da]．
   KTGsにおいて``edge unzip''という操作のみ準同型にならず，補正項が現れる．dotted Knotted Trivalent Graphs において$Z^{old}$が準同型となるように$Z$を2通りで構成することが目的．
 \end{abstract}
-\section{Introduction}
+\part{Introduction}
 Knotted Trivalent Graphs のなす空間にはいい構造がある(Knots や links を含む)．
 4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
 KTGs は有限生成である．[Th]
@@ -118,6 +118,26 @@ Knots の Kontsevich integral は universal Vassiliev invariant に拡張でき�
 \end{itemize}
 簡単に$Z^{old}$をdKTGsで準同型にすることができ，dKTGsはKTGsの良い性質をすべて保つことを示す．
 有限生成やclose connection to Drinfel'd associators (知らん) など．
+\part{Preliminaries}
+\section{KTGs and $Z^{old}$}
+
+\begin{definition}
+  \textit{Trivalent graph}とは，各頂点が3つの辺をもつグラフ．
+\end{definition}
+
+全ての辺は向きづけられているものとし，頂点は回転するように向きを与える．ループや円などの辺を許す．
+
+\begin{definition}
+  \textit{Surface}とは第2可算公理を満たす2次元多様体をいう．
+\end{definition}
+\begin{definition}
+  単体複体$Y$における\textit{spine}とは，$Y$の部分単体複体$X$出会って，
+\end{definition}
+
+\begin{definition}
+  Trivalent graph $\Gamma$に対し，\textit{its thicking} or \textit{framed graph}[Th]$\mathbb{\Gamma}$とは，頂点を太らせたもの．[Th]を参照すると，1次元単体複体$\Gamma$と，surface $\Sigma$に対し，そのspineとなるように$\Gamma$を埋め込んだもの(なめらか？)の組．
+\end{definition}
+
 % \bibliographystyle{jalpha} %plain, unsrt, alpha などが一般的
 % \bibliography{references} %bibファイルの指定
 \end{document}

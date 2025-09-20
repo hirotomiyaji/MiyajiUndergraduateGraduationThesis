@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.20)  20 SEP 2025 18:46
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.20)  20 SEP 2025 19:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/25
@@ -1698,7 +1698,11 @@ LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 13.31586pt on input line 106.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 13.31586pt on input line 106.
-(load cache: extra_lmsans12-regular.luc)
+(load cache: extra_lmsans12-regular.luc)(load cache: extra_lmsans17-regular.luc)
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 19.17854pt on input line 106.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 19.17854pt on input line 106.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 6.47299pt on input line 119.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
@@ -1710,44 +1714,86 @@ luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
 luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
 luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.(load c
 ache: extra_rsfs7.luc)
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 122.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 122.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 122.
+
+(load cache: extra_lmroman10-bold.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 125.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 125.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 125.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 125.
+(load cache: extra_lmroman10-italic.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 125.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 125.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 125.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 125.
+
 
 [1
 
-] (./Nikkei.aux)
+]
+
+[2] (./Nikkei.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `Nikkei.out' has not changed.
-(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
+(rerunfilecheck)             Checksum: D4D7217EF2AD06BF3126E0A172C4EC01;388.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28920 strings out of 470117
+ 28964 strings out of 470117
  125244,1144653 words of node,token memory allocated
  1229 words of node memory still in use:
    10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 190 attribute, 95 glue_sp
 ec, 28 attribute_list, 2 write, 13 user_defined nodes
-   avail lists: 1:8,2:21044,3:263,4:242,5:153,6:33,7:4039,8:4,9:1038,10:9,11:156
-
- 56492 multiletter control sequences out of 65536+600000
- 119 fonts using 70431855 bytes
- 119i,6n,112p,1861b,346s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:10,2:26694,3:383,4:277,5:193,6:52,7:4876,8:4,9:1323,10:9,11:16
+3
+ 56529 multiletter control sequences out of 65536+600000
+ 134 fonts using 75218959 bytes
+ 119i,6n,112p,1861b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/ns38893/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman
-10-regular.otf><c:/users/ns38893/appdata/local/programs/miktex/fonts/opentype/pu
-blic/lm/lmsans12-regular.otf><c:/users/ns38893/appdata/local/programs/miktex/fon
-ts/opentype/public/lm/lmroman9-regular.otf><C:/Users/ns38893/AppData/Local/Progr
-ams/MiKTeX/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/users/
-ns38893/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-regular
-.otf><C:/Users/ns38893/AppData/Local/Programs/MiKTeX/fonts/opentype/public/haran
-oaji/HaranoAjiMincho-Regular.otf><C:/Users/ns38893/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ns38893/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/ns38893/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ns38893/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
-Output written on Nikkei.pdf (1 page, 86577 bytes).
+10-italic.otf><c:/users/ns38893/appdata/local/programs/miktex/fonts/opentype/pub
+lic/lm/lmroman10-bold.otf><c:/users/ns38893/appdata/local/programs/miktex/fonts/
+opentype/public/lm/lmroman10-regular.otf><c:/users/ns38893/appdata/local/program
+s/miktex/fonts/opentype/public/lm/lmsans17-regular.otf><c:/users/ns38893/appdata
+/local/programs/miktex/fonts/opentype/public/lm/lmsans12-regular.otf><c:/users/n
+s38893/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman9-regular.o
+tf><C:/Users/ns38893/AppData/Local/Programs/MiKTeX/fonts/opentype/public/haranoa
+ji/HaranoAjiGothic-Medium.otf><c:/users/ns38893/appdata/local/programs/miktex/fo
+nts/opentype/public/lm/lmroman12-regular.otf><C:/Users/ns38893/AppData/Local/Pro
+grams/MiKTeX/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><C:/Use
+rs/ns38893/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Users/ns38893/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb><C:/Users/ns38893/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb><C:/Users/ns38893/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ns38893/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/ns38893/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ns38893/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Nikkei.pdf (2 pages, 130462 bytes).
 
-PDF statistics: 77 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 131072)
- 24 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 126 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
