@@ -1,15 +1,10 @@
-%! TeX root = MiyajiUndergraduateGraduationThesis.tex
-\documentclass[
-  a4paper,
-  12pt,
-  dvipdfmx
-]{article}
+\documentclass{ltjsarticle}
 \usepackage{titling}
 \usepackage{amsmath,amssymb}
 \usepackage{amsthm} %定理環境
 \usepackage{bm}
 \usepackage{url}
-\usepackage[dvipdfmx]{graphicx, color}
+% \usepackage[dvipdfmx]{graphicx, color}
 \usepackage{ascmac}
 \usepackage{enumerate} %箇条書き
 \usepackage{enumitem}
@@ -25,8 +20,8 @@
 \usepackage{float}%図の位置
 \usepackage{mathrsfs}%花文字
 \usepackage{tikz}
-\usepackage[dvipdfmx]{hyperref}
-\usepackage{pxjahyper} % (u)pLaTeXのときのみかく
+\usepackage{hyperref}
+% \usepackage{pxjahyper} % (u)pLaTeXのときのみかく
 \usepackage{docmute} %分割に必要 
 \usepackage{tikz-cd} %可換図式
 % \usepackage[margin=30truemm]{geometry}
@@ -110,9 +105,19 @@
 \end{abstract}
 \section{Introduction}
 Knotted Trivalent Graphs のなす空間にはいい構造がある(Knots や links を含む)．
-% 4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
-% KTGs は有限生成である．[Th]
+4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
+KTGs は有限生成である．[Th]
 %要確認
+KTGsはKnot genus(ザイフェルト曲面？)やribbon property(ribbon knot？自己交差あり)などの良い代数構造をもつため，それらを使うことが出来る[BN2]
+
+Knots の Kontsevich integral は universal Vassiliev invariant に拡張できる．
+その中でも unzip 以外が準同型になる．
+\begin{itemize}
+  \item unzip, delete, connected sum を``tree connected sums''と呼ばれるより一般の操作へ変える．
+  \item unzip が出来る edge を制限する．
+\end{itemize}
+簡単に$Z^{old}$をdKTGsで準同型にすることができ，dKTGsはKTGsの良い性質をすべて保つことを示す．
+有限生成やclose connection to Drinfel'd associators (知らん) など．
 % \bibliographystyle{jalpha} %plain, unsrt, alpha などが一般的
 % \bibliography{references} %bibファイルの指定
 \end{document}
