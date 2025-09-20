@@ -1,0 +1,114 @@
+\documentclass[
+  a4paper,
+  12pt,
+  dvipdfmx
+]{article}
+\usepackage{titling}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm} %定理環境
+\usepackage{bm}
+\usepackage{url}
+\usepackage[dvipdfmx]{graphicx, color}
+\usepackage{ascmac}
+\usepackage{enumerate} %箇条書き
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage[all]{xy}
+% \usepackage{ulem} %波線
+\usepackage[normalem]{ulem}
+% %\usepackage{eclbkbox}%四角枠
+\usepackage{tocloft}%体裁を整える
+\usepackage{titlesec}%見出しの設定
+\usepackage{float}%図の位置
+\usepackage{mathrsfs}%花文字
+\usepackage{tikz}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper} % (u)pLaTeXのときのみかく
+\usepackage{docmute} %分割に必要 
+\usepackage{tikz-cd} %可換図式
+% \usepackage[margin=30truemm]{geometry}
+% \usepackage{authblk}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{patterns}
+\usetikzlibrary{spath3}
+\usetikzlibrary{knots}
+\usetikzlibrary{hobby}
+\usetikzlibrary{external}
+
+%自分用のコマンド
+\providecommand{\cprime}{\hbox{$'$}} %bibtex用
+\newcounter{questionCounter}% 新しいカウンターを定義
+\newcommand{\Qbox}{\stepcounter{questionCounter}\fbox{\thequestionCounter}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\engname}[1]{(\textit{#1})}
+\newcommand{\te}{\textrm{there exists\ }}
+\newcommand{\st}{\ \textrm{such that}\ }
+\newcommand{\symb}[3]{#1_{#2}^{#3}}
+\newcommand{\Int}{\textrm{Int}}
+\newcommand{\mcal}[1]{\mathcal{#1}}
+\newcommand{\fall}{\textrm{for all}\ }
+\newcommand{\suml}[2]{\sum\limits_{#1}^{#2}}
+\newcommand{\soejiThree}[3]{#1_{{#2}_{#3}}}
+\newcommand{\vecsigma}[1]{\overrightarrow{[\sigma_0][\sigma_1]},\overrightarrow{[\sigma_0][\sigma_2]},\ldots,\overrightarrow{[\sigma_0][\sigma_#1]}}
+\newcommand{\ub}{\underline{b}}
+\newcommand{\bb}{\bar{b}}
+\newcommand{\sgn}{\mathrm{sgn}}
+\newcommand{\simpangle}[1]{\langle#1\rangle}
+\newcommand{\Ker}{\mathrm{Ker}\,}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\rank}{\mathrm{rank}}
+\DeclareMathOperator{\gr}{gr} %graded
+\DeclareMathOperator{\id}{id} %id
+% \DeclareMathOperator{\Pr}{Pr} %Pr
+
+\let\Re\relax%実部虚部の更新
+\DeclareMathOperator{\Re}{Re}
+\let\Im\relax
+\DeclareMathOperator{\Im}{Im}
+
+\title{
+  \centerline{\mbox{卒論（タイトル未定）}}
+  % Jones 多項式と Vassiliev 不変量の導入と関係性\\
+  \large 元論文: Homomorphic expansions for knotted trivalent graphs
+}
+\author{宮路 宙澄}
+\date{\today}
+\hypersetup{
+  colorlinks=false,
+  pdfborder={0 0 1},
+  linkbordercolor={red},
+}
+
+\theoremstyle{definition}
+\renewcommand{\theenumi}{\roman{enumi}}
+\renewcommand{\labelenumi}{(\theenumi)}
+\renewcommand{\theenumii}{\theenumi-\alph{enumii}}
+\renewcommand{\labelenumii}{(\theenumii)}
+\renewcommand{\theenumiii}{\theenumii-\roman{enumiii}}
+\renewcommand{\labelenumiii}{(\theenumiii)}
+\renewcommand{\proofname}{証明}
+
+\newcounter{mycounter} % 新しいカウンタを定義
+\numberwithin{mycounter}{section} % mycounter を section と同期
+\newtheorem{proposition}[mycounter]{Proposition} % mycounterカウンタを使用する
+\newtheorem{theorem}[mycounter]{定理} % mycounterカウンタを使用する
+\newtheorem{corollary}[mycounter]{Corollary}     % 同じカウンタを使う
+\newtheorem{remark}[mycounter]{Remark}           % 同じカウンタを使う
+\newtheorem{lemma}[mycounter]{Lemma}           % 同じカウンタを使う
+\newtheorem{exercise}[mycounter]{Exercise}
+\newtheorem{example}[mycounter]{例}
+\newtheorem{definition}[mycounter]{定義}
+\begin{document}
+\maketitle
+\begin{abstract}
+  KTGsに対し a universal Vassiliev invariant が存在することは知られていた[MO, CL, Da]．
+  KTGsにおいて``edge unzip''という操作のみ準同型にならず，補正項が現れる．dotted Knotted Trivalent Graphs において$Z^{old}$が準同型となるように$Z$を2通りで構成することが目的．
+\end{abstract}
+\section{Introduction}
+
+% \bibliographystyle{jalpha} %plain, unsrt, alpha などが一般的
+% \bibliography{references} %bibファイルの指定
+\end{document}
