@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  21 SEP 2025 00:34
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  21 SEP 2025 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,26 +718,59 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 111.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 111.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 111.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 127.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 130.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 130.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 130.
 
 
 [1
 
-] (out/MiyajiUndergraduateGraduationThesis.aux)
+]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 136.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 139.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 143.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 143.
+
+
+[2] (out/MiyajiUndergraduateGraduationThesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `MiyajiUndergraduateGraduationThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3D369B87CE57104886F7EC39EFADFE64;157.
+(rerunfilecheck)             Checksum: 5E9D79F6B7ED117523206C1F9DB9E1E5;410.
  ) 
 Here is how much of TeX's memory you used:
- 27061 strings out of 469909
- 539437 string characters out of 5484543
- 913553 words of memory out of 5000000
- 55101 multiletter control sequences out of 15000+600000
- 703628 words of font info for 136 fonts, out of 8000000 for 9000
+ 27107 strings out of 469909
+ 540412 string characters out of 5484543
+ 917553 words of memory out of 5000000
+ 55145 multiletter control sequences out of 15000+600000
+ 709651 words of font info for 160 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 84i,6n,104p,653b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,104p,653b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/MiyajiUndergraduateGraduationThesis.dvi (1 page, 2748 bytes).
+Output written on out/MiyajiUndergraduateGraduationThesis.dvi (2 pages, 6636 bytes).
