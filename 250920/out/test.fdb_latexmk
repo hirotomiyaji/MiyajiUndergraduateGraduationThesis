@@ -1,0 +1,36 @@
+# Fdb version 4
+["dvipdf"] 1758526067.72566 "out/test.dvi" "out/test.pdf" "out/test" 1758526069.41516 0
+  "out/test.dvi" 1758526067 1100 93e098b1479163d4e9decf6536b6337d "latex"
+  (generated)
+  "out/test.pdf"
+  (rewritten before read)
+["latex"] 1758526066.59432 "c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/test.tex" "out/test.dvi" "test" 1758526069.41066 0
+  "c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/test.tex" 1758526063 518 b7bcb5d144f2db4572421ab17f1764d8 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1758515450 468 53f854284f6afa6c36aaa2d1090ecc12 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1758515450 468 53f854284f6afa6c36aaa2d1090ecc12 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1758515451 856 7404843a5f798859944d7973a47821d5 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm" 1758515451 856 39c171483fe1bb7d0e1368980c0c205b ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1758507543 1524 4414a8315f39513458b80dfc63bff03a ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1758507543 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1758507543 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1758507543 1288 655e228510b4c2a1abe905c368440826 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1758507543 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1758507543 1300 b62933e007d01cfd073f79b963c01526 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1758507543 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1758507543 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1758507543 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1758507543 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1758507543 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1758512073 36609 96204e978bd1cd2dc9498df3b9d34247 ""
+  "c:/texlive/2025/texmf-dist/tex/platex/jsclasses/jsarticle.cls" 1758511817 61483 99c09982d7ae5dbc090f46822066f8da ""
+  "c:/texlive/2025/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1758511817 5585 8e4615c54073c390d14154b29cee89cb ""
+  "c:/texlive/2025/texmf-dist/web2c/texmf.cnf" 1758505013 42213 4e2ca030e8e2640502016e9e45868dcb ""
+  "c:/texlive/2025/texmf-var/web2c/euptex/platex.fmt" 1758519972 2353746 742ddb477c02065627435ba58d8e6189 ""
+  "c:/texlive/2025/texmf.cnf" 1758519713 713 614551405fc44b98efbf516466e3c909 ""
+  "out/test.aux" 1758526067 279 eb55e6091b660fe79b0ea28a2349b491 "latex"
+  "test.tex" 1758526063 518 b7bcb5d144f2db4572421ab17f1764d8 ""
+  (generated)
+  "out/test.aux"
+  "out/test.dvi"
+  "out/test.log"
+  (rewritten before read)
