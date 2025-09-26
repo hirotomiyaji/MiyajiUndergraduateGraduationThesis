@@ -28,7 +28,7 @@
 \usepackage{pxjahyper} % (u)pLaTeXのときのみかく
 \usepackage{docmute} %分割に必要 
 \usepackage{tikz-cd} %可換図式
-% \usepackage[margin=30truemm]{geometry}
+\usepackage[margin=30truemm]{geometry}
 % \usepackage{authblk}
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{patterns}
@@ -100,19 +100,23 @@
 \newtheorem{lemma}[mycounter]{Lemma}           % 同じカウンタを使う
 \newtheorem{exercise}[mycounter]{Exercise}
 \newtheorem{example}[mycounter]{例}
-\newtheorem{definition}[mycounter]{定義}
+\newtheorem{definition}[mycounter]{Definition}
 \begin{document}
 \maketitle
 \begin{abstract}
-  KTGsに対し a universal Vassiliev invariant が存在することは知られていた[MO, CL, Da]．
+  KTGsに対し a universal Vassiliev invariant が存在することは知られていた\cite{murakami1997topological,cheptea2007tqft,dancso2010kontsevich}．
   KTGsにおいて``edge unzip''という操作のみ準同型にならず，補正項が現れる．dotted Knotted Trivalent Graphs において$Z^{old}$が準同型となるように$Z$を2通りで構成することが目的．
 \end{abstract}
+
+\tableofcontents
+\newpage
+
 \part{Introduction}
 Knotted Trivalent Graphs のなす空間にはいい構造がある(Knots や links を含む)．
 4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
-KTGs は有限生成である．[Th]
+KTGs は有限生成である\cite{thurston2002algebra}．
 %要確認
-KTGsはKnot genus(ザイフェルト曲面？)やribbon property(ribbon knot？自己交差あり)などの良い代数構造をもつため，それらを使うことが出来る[BN2]
+KTGsはKnot genus(ザイフェルト曲面？)やribbon property(ribbon knot？自己交差あり)などの良い代数構造をもつため，それらを使うことが出来る\cite{bar898algebraic}．
 
 Knots の Kontsevich integral は universal Vassiliev invariant に拡張できる．
 その中でも unzip 以外が準同型になる．
@@ -129,19 +133,56 @@ Knots の Kontsevich integral は universal Vassiliev invariant に拡張でき�
   \textit{Trivalent graph}とは，各頂点が3つの辺をもつグラフ．
 \end{definition}
 
-全ての辺は向きづけられているものとし，頂点は回転するように向きを与える．ループや円などの辺を許す．
+全ての辺は向きづけられているものとし，頂点は回転するように向きを与える．ループや円などの辺を許すこととする．
 
 \begin{definition}
-  \textit{Surface}とは第2可算公理を満たす2次元多様体をいう．
-\end{definition}
-\begin{definition}
-  単体複体$Y$における\textit{spine}とは，$Y$の部分単体複体$X$出会って，
+  \textit{Surface}とは第2可算公理（高々可算な開基を持つ）を満たす2次元多様体をいう．
 \end{definition}
 
 \begin{definition}
-  Trivalent graph $\Gamma$に対し，\textit{its thicking} or \textit{framed graph}[Th]$\mathbb{\Gamma}$とは，頂点を太らせたもの．[Th]を参照すると，1次元単体複体$\Gamma$と，surface $\Sigma$に対し，そのspineとなるように$\Gamma$を埋め込んだもの(なめらか？)の組．
+  $K$を単体複体，$\sigma, \tau$を以下の条件を満たす$K$の単体とする．
+  \begin{itemize}
+    \item $\tau \precneqq \sigma$,
+    \item $\sigma$は$K$の最大の面単体で，他の最大面単体は$\tau$を含まない．このような$\tau$を\textit{free face}という．
+  \end{itemize}
+  このとき，$K$の\textit{collapse}とは，$\tau\preceq\gamma\preceq\sigma$となる$\gamma$をすべて取り除くことをいう．
 \end{definition}
-aaaaa
-% \bibliographystyle{jalpha} %plain, unsrt, alpha などが一般的
-% \bibliography{references} %bibファイルの指定
+
+\begin{definition}
+  単体複体$Y$における\textit{spine}とは，$Y$の部分単体複体$X$であって，$Y$をcollapseして$X$となるものをいう．
+\end{definition}
+
+\begin{definition}
+  Trivalent graph $\Gamma$に対し，\textit{thickened trivalent graph} or \textit{framed trivalent graph}\cite{thurston2002algebra} $\mathbf{\Gamma}$とは，頂点を太らせたもの．参照先の定義では，1次元単体複体$\Gamma$と，surface $\Sigma$に対しそのspineとなるように$\Gamma$を埋め込んだもの(なめらか？)の組．
+\end{definition}
+
+\begin{definition}
+  \textit{Knotted trivalent graph (KTG)}を，framed trivalent graph $\mathbf{\gamma}$から$\RR^3$への埋め込み，KTGの$\textit{skeleton}$をtrivalent graph $\Gamma$とする．(framed knotsやlinksも含む)
+\end{definition}
+
+KTGs において，skeleton が isotopy で移りあうものを同一視する．
+Trivalent graph $\Gamma$ に対し，$\Gamma$をskeletonとする．すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書く．
+
+\begin{proposition}
+  Framed knots と， knot diagrams で$R1', R2, R3$の操作で移りあうものを同一視したものは1対1に対応する．
+\end{proposition}
+
+\begin{proof}
+  Quantum Invariants by 大槻 Theorem~1.8 p15
+\end{proof}
+
+\begin{proposition}
+  KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．
+\end{proposition}
+\begin{proof}
+  \cite{dancso2010kontsevich} (p19下部) の [Y] An invariant of spatial graphs by Yamada，[Y] のp3のLemma~1．
+\end{proof}
+
+KTGsには以下の4つの操作がある．
+\begin{definition}
+  Trivalent graph $\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
+  \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
+\end{definition}
+\bibliographystyle{alpha} %plain, unsrt, alpha などが一般的
+\bibliography{references} %bibファイルの指定
 \end{document}
