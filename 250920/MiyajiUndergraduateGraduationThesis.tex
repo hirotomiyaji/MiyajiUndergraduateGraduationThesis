@@ -183,6 +183,34 @@ KTGsには以下の4つの操作がある．
   Trivalent graph $\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
   \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
 \end{definition}
+
+\begin{definition}
+  $\Gamma$のedgeであって，両端に接続されているedgeの向きが一致している$e$を\textit{delete}するとは，$e$を削除し，三価性を保つように$e$の両端の頂点を削除することをいう．
+  \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
+\end{definition}
+
+\begin{definition}
+  $\Gamma$のedge $e$を\textit{unzip}するとは，$e$を``限りなく近い''2つのedgesに分け，端点をなくすことをいう．端点をなくしたとき，edgeの向きが合っていることが必要である．
+  同様の議論でframed graph $\mathbf{\Gamma}$に対し，unzipを定義できる．
+  \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
+\end{definition}
+
+\begin{definition}
+  2つのtrivalent graph とそのedgeのペア$(\Gamma,e), (\Gamma',f)$の\textit{connected sum} $\Gamma\#_{e,f}\Gamma'$とは$e,f$をつなぐedgeを新たに作ること．well-definedであるために，新たなedgeの向きは$\Gamma$から$\Gamma'$への向きとし，KTGsにおいてはねじれを許さず，辺を付ける場合は$e,f$の右側に付けるとする．(2次元では自由に動かせないため左右が重要)
+\end{definition}
+
+KTGsのfinite type invariantsは，linksへのものを単に拡張する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．
+
+\begin{definition}
+  \textit{n-singular KTG}とは，$n$この特異点を持つtrivalent graphを$\RR^3$に埋め込んだもの．各特異点は横断的な2重点か，``$F$''と書かれた線上の点である．
+\end{definition}
+
+$n$-singular KTGの解消は，各2重点を上下の差とすることでとすることで得られる．また，``$F$-point''は，それを取り除いたframed graphと，1-unit分 twist させたframed graphの差として解消する．
+%図
+
+% この操作により$2^n$個のKTGsが現れる．
+
+\newpage
 \bibliographystyle{alpha} %plain, unsrt, alpha などが一般的
 \bibliography{references} %bibファイルの指定
 \end{document}
