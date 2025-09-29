@@ -261,10 +261,6 @@ INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
-INPUT c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex

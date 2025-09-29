@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  29 SEP 2025 22:59
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  29 SEP 2025 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,24 +605,7 @@ File: pgflibraryarrows.meta.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfarrowlength=\dimen312
 \pgfarrowwidth=\dimen313
 \pgfarrowlinewidth=\dimen314
-))) (c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count341
-\Gm@cntv=\count342
-\c@Gm@tempcnt=\count343
-\Gm@bindingoffset=\dimen315
-\Gm@wd@mp=\dimen316
-\Gm@odd@mp=\dimen317
-\Gm@even@mp=\dimen318
-\Gm@layoutwidth=\dimen319
-\Gm@layoutheight=\dimen320
-\Gm@layouthoffset=\dimen321
-\Gm@layoutvoffset=\dimen322
-\Gm@dimlist=\toks49
-) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2025-08-14 v3.1.11 (3.1.11)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2025-08-14 v3.1.11 (3.1.11)
@@ -630,56 +613,56 @@ File: pgflibrarypatterns.code.tex 2025-08-14 v3.1.11 (3.1.11)
 Package: expl3 2025-08-13 L3 programming layer (loader) 
 (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 File: l3backend-dvipdfmx.def 2025-06-09 L3 backend support: dvipdfmx
-\g__graphics_track_int=\count344
-\g__pdfannot_backend_int=\count345
-\g__pdfannot_backend_link_int=\count346
+\g__graphics_track_int=\count341
+\g__pdfannot_backend_int=\count342
+\g__pdfannot_backend_link_int=\count343
 ))
 Package: spath3 2024/05/31 v2.8 Functions for manipulating PGF soft paths
 (c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-\g__spath_output_int=\count347
-\l__spath_tmpa_dim=\dimen323
-\l__spath_tmpb_dim=\dimen324
-\l__spath_tmpa_int=\count348
-\l__spath_tmpb_int=\count349
-\l__spath_move_x_dim=\dimen325
-\l__spath_move_y_dim=\dimen326
-\l__spath_rectx_dim=\dimen327
-\l__spath_recty_dim=\dimen328
-\g__spath_anon_int=\count350
+\g__spath_output_int=\count344
+\l__spath_tmpa_dim=\dimen315
+\l__spath_tmpb_dim=\dimen316
+\l__spath_tmpa_int=\count345
+\l__spath_tmpb_int=\count346
+\l__spath_move_x_dim=\dimen317
+\l__spath_move_y_dim=\dimen318
+\l__spath_rectx_dim=\dimen319
+\l__spath_recty_dim=\dimen320
+\g__spath_anon_int=\count347
 )
-\l__tikzspath_tmpa_int=\count351
+\l__tikzspath_tmpa_int=\count348
 ) (c:/texlive/2025/texmf-dist/tex/latex/spath3/tikzlibraryknots.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count352
+\pgf@intersect@solutions=\count349
 ))
-\l__knot_tmpa_int=\count353
-\l__knot_strands_int=\count354
-\g__knot_intersections_int=\count355
-\g__knot_filaments_int=\count356
-\l__knot_component_start_int=\count357
-\l__knot_tmpa_dim=\dimen329
-\l__knot_tmpb_dim=\dimen330
-\l__knot_tolerance_dim=\dimen331
-\l__knot_redraw_tolerance_dim=\dimen332
-\l__knot_clip_bg_radius_dim=\dimen333
-\l__knot_clip_draw_radius_dim=\dimen334
+\l__knot_tmpa_int=\count350
+\l__knot_strands_int=\count351
+\g__knot_intersections_int=\count352
+\g__knot_filaments_int=\count353
+\l__knot_component_start_int=\count354
+\l__knot_tmpa_dim=\dimen321
+\l__knot_tmpb_dim=\dimen322
+\l__knot_tolerance_dim=\dimen323
+\l__knot_redraw_tolerance_dim=\dimen324
+\l__knot_clip_bg_radius_dim=\dimen325
+\l__knot_clip_draw_radius_dim=\dimen326
 ) (c:/texlive/2025/texmf-dist/tex/latex/hobby/tikzlibraryhobby.code.tex (c:/texlive/2025/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex (c:/texlive/2025/texmf-dist/tex/latex/hobby/hobby.code.tex (c:/texlive/2025/texmf-dist/tex/latex/hobby/pml3array.sty
-\l_array_base_int=\count358
-\l_array_top_int=\count359
-\l_array_tmp_int=\count360
-\g_array_map_int=\count361
-\g_array_base_int=\count362
+\l_array_base_int=\count355
+\l_array_top_int=\count356
+\l_array_tmp_int=\count357
+\g_array_map_int=\count358
+\g_array_base_int=\count359
 )
-\g__hobby_npoints_int=\count363
-\g__hobby_draw_int=\count364
+\g__hobby_npoints_int=\count360
+\g__hobby_draw_int=\count361
 ))) (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code.tex (c:/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshared.code.tex))
-\c@questionCounter=\count365
+\c@questionCounter=\count362
 Package hyperref Info: Option `colorlinks' set `false' on input line 83.
-\c@mycounter=\count366
+\c@mycounter=\count363
 (out/MiyajiUndergraduateGraduationThesis.aux)
 \openout1 = `MiyajiUndergraduateGraduationThesis.aux'.
 
@@ -710,40 +693,7 @@ Package hyperref Info: Link coloring OFF on input line 104.
 \@outlinefile=\write4
 \openout4 = `MiyajiUndergraduateGraduationThesis.out'.
 
-*geometry* detected driver: dvipdfm
-*geometry* verbose mode - [ preamble ] result:
-* driver: dvipdfm
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=674.33032pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-23.91173pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\docmute@nestinglevel=\count367
+\docmute@nestinglevel=\count364
 LaTeX Font Info:    Trying to load font information for U+msa on input line 106.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -812,17 +762,22 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 148.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 152.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 156.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 156.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 160.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 160.
 
 
 [2]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 156.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 156.
+
+Overfull \hbox (2.32361pt too wide) in paragraph at lines 156--157
+[][]\OT1/cmr/bx/n/12 Definition 1.5. []\OT1/cmr/m/n/12 Triva-lent graph $^^@$ \JY1/mc/m/n/12 に対し ， \OT1/cmr/m/it/12 thick-ened triva-lent graph \OT1/cmr/m/n/12 or \OT1/cmr/m/it/12 framed
+ []
+
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 160.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 160.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 171.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
@@ -835,11 +790,18 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 193.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 199.
+
+
+[3]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 205.
 
 
-[3] (out/MiyajiUndergraduateGraduationThesis.bbl
+[4] (out/MiyajiUndergraduateGraduationThesis.bbl
+Underfull \hbox (badness 5908) in paragraph at lines 4--7
+[]\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
+ []
+
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 11.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
@@ -850,7 +812,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 26.
 )
 
-[4] (out/MiyajiUndergraduateGraduationThesis.aux)
+[5] (out/MiyajiUndergraduateGraduationThesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -860,12 +822,12 @@ Package rerunfilecheck Info: File `MiyajiUndergraduateGraduationThesis.out' has 
 (rerunfilecheck)             Checksum: 5E9D79F6B7ED117523206C1F9DB9E1E5;410.
  ) 
 Here is how much of TeX's memory you used:
- 27633 strings out of 469909
- 548805 string characters out of 5484543
- 935052 words of memory out of 5000000
- 55654 multiletter control sequences out of 15000+600000
+ 27150 strings out of 469909
+ 541415 string characters out of 5484543
+ 919571 words of memory out of 5000000
+ 55176 multiletter control sequences out of 15000+600000
  711741 words of font info for 168 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  84i,6n,104p,653b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/MiyajiUndergraduateGraduationThesis.dvi (4 pages, 17228 bytes).
+Output written on out/MiyajiUndergraduateGraduationThesis.dvi (5 pages, 17924 bytes).
