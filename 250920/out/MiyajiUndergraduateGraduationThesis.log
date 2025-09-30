@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.9.22)  30 SEP 2025 12:38
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.9.22)  30 SEP 2025 12:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -879,6 +879,6 @@ Here is how much of TeX's memory you used:
  55394 multiletter control sequences out of 15000+600000
  713572 words of font info for 176 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 84i,20n,104p,655b,1269s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,20n,104p,655b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/MiyajiUndergraduateGraduationThesis.dvi (8 pages, 35212 bytes).
+Output written on out/MiyajiUndergraduateGraduationThesis.dvi (8 pages, 35548 bytes).

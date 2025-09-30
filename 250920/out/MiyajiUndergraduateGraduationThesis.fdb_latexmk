@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/MiyajiUndergraduateGraduationThesis"] 1759203514.46325 "out/MiyajiUndergraduateGraduationThesis.aux" "out/MiyajiUndergraduateGraduationThesis.bbl" "out/MiyajiUndergraduateGraduationThesis" 1759203542.1915 0
+["bibtex out/MiyajiUndergraduateGraduationThesis"] 1759203514.46325 "out/MiyajiUndergraduateGraduationThesis.aux" "out/MiyajiUndergraduateGraduationThesis.bbl" "out/MiyajiUndergraduateGraduationThesis" 1759204026.06283 0
   "./references.bib" 1758866988 1355 7fc9811a1de37f7bd138b100e247729f ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/base/alpha.bst" 1758506608 23907 a5f93555796fb564b924339521f10a7c ""
-  "out/MiyajiUndergraduateGraduationThesis.aux" 1759203538 1421 79ec4a145ed5b753e7a80011edb51901 "latex"
+  "out/MiyajiUndergraduateGraduationThesis.aux" 1759204021 1421 79ec4a145ed5b753e7a80011edb51901 "latex"
   (generated)
   "out/MiyajiUndergraduateGraduationThesis.bbl"
   "out/MiyajiUndergraduateGraduationThesis.blg"
   (rewritten before read)
-["dvipdf"] 1759203540.32933 "out/MiyajiUndergraduateGraduationThesis.dvi" "out/MiyajiUndergraduateGraduationThesis.pdf" "out/MiyajiUndergraduateGraduationThesis" 1759203542.2339 0
-  "out/MiyajiUndergraduateGraduationThesis.dvi" 1759203538 35212 4e0b0e6b6f1f67ff98dffc4859f14cb5 "latex"
+["dvipdf"] 1759204024.48034 "out/MiyajiUndergraduateGraduationThesis.dvi" "out/MiyajiUndergraduateGraduationThesis.pdf" "out/MiyajiUndergraduateGraduationThesis" 1759204026.10784 0
+  "out/MiyajiUndergraduateGraduationThesis.dvi" 1759204021 35548 bd16c9505e5d68e2cc89f4ae7da84cb0 "latex"
   (generated)
   "out/MiyajiUndergraduateGraduationThesis.pdf"
   (rewritten before read)
-["latex"] 1759203528.77242 "c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/MiyajiUndergraduateGraduationThesis.tex" "out/MiyajiUndergraduateGraduationThesis.dvi" "MiyajiUndergraduateGraduationThesis" 1759203542.19335 0
-  "MiyajiUndergraduateGraduationThesis.tex" 1759203517 17508 c0db91e72ea4a288314f8f63e3de3728 ""
+["latex"] 1759204011.19054 "c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/MiyajiUndergraduateGraduationThesis.tex" "out/MiyajiUndergraduateGraduationThesis.dvi" "MiyajiUndergraduateGraduationThesis" 1759204026.06391 0
+  "MiyajiUndergraduateGraduationThesis.tex" 1759203998 17727 5ef9b83239df924f1ab50449f91fc337 ""
   "TikZ/out/Crossing.pdf" 1741589693 1069 c385d9badaa80b3a1f92f40d53c9643e ""
   "TikZ/out/Crossing_solve1.pdf" 1741589717 1244 0b379f37f9626c23a739f78656cb8b38 ""
   "TikZ/out/Crossing_solve2.pdf" 1741589736 1249 d6ff537e340baef5b95e919b61d9a065 ""
@@ -22,7 +22,7 @@
   "TikZ/out/Trefoil_with_one_double_point.pdf" 1743228928 2035 ebb56eea11f62cec0be839e7068634b0 ""
   "TikZ/out/Unknot.pdf" 1750215377 986 970731a0425d6a00c41f12b80bdaf9e5 ""
   "TikZ/out/figre-eight.pdf" 1740711049 1863 e5badc0902fa939cdb9e26d51af90d3c ""
-  "c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/MiyajiUndergraduateGraduationThesis.tex" 1759203517 17508 c0db91e72ea4a288314f8f63e3de3728 ""
+  "c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/MiyajiUndergraduateGraduationThesis.tex" 1759203998 17727 5ef9b83239df924f1ab50449f91fc337 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1758508992 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1758515451 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1758515451 1196 1be730212205a270378fba11a44765dc ""
@@ -242,10 +242,10 @@
   "c:/texlive/2025/texmf-dist/web2c/texmf.cnf" 1758505013 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "c:/texlive/2025/texmf-var/web2c/euptex/platex.fmt" 1758519972 2353746 742ddb477c02065627435ba58d8e6189 ""
   "c:/texlive/2025/texmf.cnf" 1758519713 713 614551405fc44b98efbf516466e3c909 ""
-  "out/MiyajiUndergraduateGraduationThesis.aux" 1759203538 1421 79ec4a145ed5b753e7a80011edb51901 "latex"
+  "out/MiyajiUndergraduateGraduationThesis.aux" 1759204021 1421 79ec4a145ed5b753e7a80011edb51901 "latex"
   "out/MiyajiUndergraduateGraduationThesis.bbl" 1759203515 1042 10be36f269ba67c929752a9af677b933 "bibtex out/MiyajiUndergraduateGraduationThesis"
-  "out/MiyajiUndergraduateGraduationThesis.out" 1759203538 615 214d05ad76b8dd755ad87ede50c892a0 "latex"
-  "out/MiyajiUndergraduateGraduationThesis.toc" 1759203538 330 39c8b435bc65032c325fd006b0dc72ef "latex"
+  "out/MiyajiUndergraduateGraduationThesis.out" 1759204021 615 214d05ad76b8dd755ad87ede50c892a0 "latex"
+  "out/MiyajiUndergraduateGraduationThesis.toc" 1759204021 330 39c8b435bc65032c325fd006b0dc72ef "latex"
   (generated)
   "out/MiyajiUndergraduateGraduationThesis.aux"
   "out/MiyajiUndergraduateGraduationThesis.dvi"
