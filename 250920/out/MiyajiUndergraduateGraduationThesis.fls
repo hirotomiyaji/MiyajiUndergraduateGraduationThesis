@@ -1,15 +1,14 @@
-PWD c:/Users/hirot/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920
+PWD c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/hirot/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/MiyajiUndergraduateGraduationThesis.tex
+INPUT c:/Users/ns38893/OneDrive/documents/LaTeX/Undergraduate Graduation Thesis/250920/MiyajiUndergraduateGraduationThesis.tex
 OUTPUT out/MiyajiUndergraduateGraduationThesis.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-INPUT c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
@@ -432,6 +431,58 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin6.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Unknot.pdf
+INPUT ./TikZ/out/Unknot.pdf
+INPUT ./TikZ/out/Unknot.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Unknot.pdf
+INPUT ./TikZ/out/figre-eight.pdf
+INPUT ./TikZ/out/figre-eight.pdf
+INPUT ./TikZ/out/figre-eight.pdf
+INPUT extractbb -B cropbox -O TikZ/out/figre-eight.pdf
+INPUT ./TikZ/out/Crossing.pdf
+INPUT ./TikZ/out/Crossing.pdf
+INPUT ./TikZ/out/Crossing.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Crossing.pdf
+INPUT ./TikZ/out/Crossing_solve1.pdf
+INPUT ./TikZ/out/Crossing_solve1.pdf
+INPUT ./TikZ/out/Crossing_solve1.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Crossing_solve1.pdf
+INPUT ./TikZ/out/Crossing_solve2.pdf
+INPUT ./TikZ/out/Crossing_solve2.pdf
+INPUT ./TikZ/out/Crossing_solve2.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Crossing_solve2.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
 INPUT out/MiyajiUndergraduateGraduationThesis.bbl
 INPUT out/MiyajiUndergraduateGraduationThesis.bbl
 INPUT out/MiyajiUndergraduateGraduationThesis.bbl

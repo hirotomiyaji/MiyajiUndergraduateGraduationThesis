@@ -1,0 +1,16 @@
+\documentclass[
+  dvipdfmx,
+  border=1pt,
+]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{spath3}
+\usetikzlibrary{knots}
+\usetikzlibrary{hobby}
+\usetikzlibrary{patterns}
+\begin{document}
+\begin{tikzpicture}[baseline={(0,0.1)}, scale=0.4, line width=0.5pt]
+  \draw (0,0) arc[start angle=0, end angle=180, radius=0.5];
+  \draw (0,1.2) arc[start angle=0, end angle=-180, radius=0.5];
+  % \draw[densely dotted] (-0.5,0.6) circle (0.5);
+\end{tikzpicture}
+\end{document}

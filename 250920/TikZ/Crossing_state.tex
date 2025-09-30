@@ -1,0 +1,22 @@
+\documentclass[
+  dvipdfmx
+]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{spath3}
+\usetikzlibrary{knots}
+\usetikzlibrary{hobby}
+\usetikzlibrary{patterns}
+\begin{document}
+\begin{tikzpicture}[baseline={(0,0)}, scale=0.5, line width=0.5pt]
+  \begin{knot}[
+    consider self intersections=true,
+    ignore endpoint intersections=false,
+    flip crossing=1,
+  ]
+    \strand (0,1) -- (1,0);
+    \strand (0,0) -- (1,1);
+  \end{knot}
+  %中心(0.5,0.5)，半径1/2の点線の円(点線は細かく)
+  % \draw[densely dotted] (0.5,0.5) circle (0.5);
+\end{tikzpicture}
+\end{document}

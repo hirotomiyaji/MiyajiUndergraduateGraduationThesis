@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="RI.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.8519888"
+     inkscape:cx="473.81495"
+     inkscape:cy="249.19157"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="knot"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1"
+       switcher_size="14.9"
+       interruption_width="5.3"
+       prop_to_stroke_width="true"
+       add_stroke_width="inkscape_1.0_and_up"
+       both="false"
+       inverse_width="false"
+       add_other_stroke_width="inkscape_1.0_and_up"
+       crossing_points_vector="70.938094 | 57.485115 | 0 | 0 | 0 | 1 | 0.47413565 | 1.5258643 | -1" />
+    <inkscape:path-effect
+       effect="knot"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1"
+       switcher_size="14.9"
+       interruption_width="5.3"
+       prop_to_stroke_width="true"
+       add_stroke_width="inkscape_1.0_and_up"
+       both="false"
+       inverse_width="false"
+       add_other_stroke_width="inkscape_1.0_and_up"
+       crossing_points_vector="70.938094 | 57.485115 | 0 | 0 | 0 | 1 | 0.47413565 | 1.5258643 | 1" />
+    <inkscape:path-effect
+       effect="knot"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       switcher_size="14.9"
+       interruption_width="5.3"
+       prop_to_stroke_width="true"
+       add_stroke_width="inkscape_1.0_and_up"
+       both="false"
+       inverse_width="false"
+       add_other_stroke_width="inkscape_1.0_and_up"
+       crossing_points_vector="70.938094 | 57.485115 | 0 | 0 | 0 | 1 | 0.47413565 | 1.5258643 | 1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1"
+       d="m 60.197288,32.612258 c 0,0 23.286902,63.020747 23.286902,23.666261 0,-17.606149 -5.431102,-12.087737 -11.047574,-1.67385 M 69.4849,60.453697 c -4.938911,10.354805 -9.287612,22.062644 -9.287612,22.062644"
+       id="path3"
+       sodipodi:nodetypes="csc"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="m 60.197288,32.612258 c 0,0 23.286902,63.020747 23.286902,23.666261 0,-36.456608 -23.286902,26.237822 -23.286902,26.237822"
+       inkscape:export-filename="R1_1.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1"
+       d="m 60.197288,32.612258 c 0,0 23.286902,63.020747 23.286902,23.666261 0,-17.606149 -5.431102,-12.087737 -11.047574,-1.67385 M 69.4849,60.453697 c -4.938911,10.354805 -9.287612,22.062644 -9.287612,22.062644"
+       id="path4"
+       sodipodi:nodetypes="csc"
+       inkscape:path-effect="#path-effect5"
+       inkscape:original-d="m 60.197288,32.612258 c 0,0 23.286902,63.020747 23.286902,23.666261 0,-36.456608 -23.286902,26.237822 -23.286902,26.237822"
+       inkscape:export-filename="R1_2.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="matrix(1,0,0,-1,78.790083,114.2722)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1"
+       d="M 60.197288,32.612258 V 82.516341"
+       id="path5"
+       sodipodi:nodetypes="cc"
+       inkscape:path-effect="#path-effect7"
+       inkscape:original-d="M 60.197288,32.612258 V 82.516341"
+       inkscape:export-filename="R1_0.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(42.862521)" />
+  </g>
+</svg>

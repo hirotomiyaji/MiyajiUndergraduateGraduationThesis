@@ -3,11 +3,14 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: MiyajiUndergraduateGraduationThesis.aux
 The style file: alpha.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "大槻結び目の不変量"
+Warning--I didn't find a database entry for "zbMATH07372147"
+Warning--I didn't find a database entry for "MR1391727"
 Warning--empty journal in bar898algebraic
 Warning--empty year in bar898algebraic
 You've used 5 entries,
             2543 wiz_defined-function locations,
-            595 strings with 5286 characters,
+            600 strings with 5350 characters,
 and the built_in function-call counts, 1955 in all, are:
 = -- 204
 > -- 62
@@ -47,4 +50,4 @@ while$ -- 22
 width$ -- 6
 write$ -- 65
 is.kanji.str$ -- 0
-(There were 2 warnings)
+(There were 5 warnings)

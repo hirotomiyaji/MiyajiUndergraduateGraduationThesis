@@ -1,0 +1,20 @@
+\documentclass[
+  dvipdfmx,
+  border=3pt,
+]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{spath3}
+\usetikzlibrary{knots}
+\usetikzlibrary{hobby}
+\usetikzlibrary{patterns}
+\begin{document}
+\begin{tikzpicture}[
+  line width=1pt,
+  every strand/.append style={line width=1pt},
+]
+  % \draw (0,0)
+  % .. controls +(0,0.1) and +(0,-0.1) .. (0.1,0.3)
+  % .. controls +(0,0.1) and +(0,-0.1) .. (0,0.6);
+  \draw (0,0) circle[radius=0.5];
+\end{tikzpicture}
+\end{document}

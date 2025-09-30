@@ -1,0 +1,23 @@
+\documentclass[
+  dvipdfmx
+]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{spath3}
+\usetikzlibrary{knots}
+\usetikzlibrary{hobby}
+\usetikzlibrary{patterns}
+\begin{document}
+\begin{tikzpicture}
+  \begin{knot}[
+    consider self intersections=true,
+    ignore endpoint intersections=false,
+    % draft mode=crossings,
+    every strand/.append style={line width=1pt},
+    clip width=6,
+    clip radius=6pt,
+    % background color=red,
+  ]
+  \strand[smooth, domain=0:360, samples=200, scale=0.3] plot ({2*cos(\x)}, {sin(2*\x)});
+  \end{knot}
+\end{tikzpicture}
+\end{document}

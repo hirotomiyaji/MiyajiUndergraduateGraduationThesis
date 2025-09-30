@@ -1,0 +1,28 @@
+\documentclass[
+  dvipdfmx,
+  border=2pt
+]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{spath3}
+\usetikzlibrary{knots}
+\usetikzlibrary{hobby}
+\usetikzlibrary{patterns}
+\begin{document}
+\begin{tikzpicture}[
+  baseline={(0,0)},
+  line width=1pt
+  ]
+  \draw (0,0) 
+  arc[start angle=270, end angle=90, radius=0.5]
+  .. controls +(0.4,0) and +(0,0.2) .. (0.15,0.5)
+  .. controls +(0,-0.2) and +(0.4,0) .. (0,0)
+  ;
+
+  \draw (0.6,0)
+  arc[start angle=-90, end angle=90, radius=0.5]
+  .. controls +(-0.4,0) and +(0,0.2) .. (0.45,0.5)
+  .. controls +(0,-0.2) and +(-0.4,0) .. (0.6,0)
+  ;
+
+\end{tikzpicture}
+\end{document}
