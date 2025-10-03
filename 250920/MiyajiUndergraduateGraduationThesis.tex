@@ -46,20 +46,16 @@
 \newcommand{\engname}[1]{(\textit{#1})}
 \newcommand{\te}{\textrm{there exists\ }}
 \newcommand{\st}{\ \textrm{such that}\ }
-\newcommand{\symb}[3]{#1_{#2}^{#3}}
-\newcommand{\Int}{\textrm{Int}}
 \newcommand{\mcal}[1]{\mathcal{#1}}
 \newcommand{\fall}{\textrm{for all}\ }
 \newcommand{\suml}[2]{\sum\limits_{#1}^{#2}}
-\newcommand{\soejiThree}[3]{#1_{{#2}_{#3}}}
-\newcommand{\vecsigma}[1]{\overrightarrow{[\sigma_0][\sigma_1]},\overrightarrow{[\sigma_0][\sigma_2]},\ldots,\overrightarrow{[\sigma_0][\sigma_#1]}}
-\newcommand{\ub}{\underline{b}}
-\newcommand{\bb}{\bar{b}}
-\newcommand{\sgn}{\mathrm{sgn}}
 \newcommand{\simpangle}[1]{\langle#1\rangle}
-\newcommand{\Ker}{\mathrm{Ker}\,}
 \newcommand{\ZZ}{\mathbb{Z}}
-\newcommand{\rank}{\mathrm{rank}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ca}{\mathcal{A}}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\rank}{rank}
 \DeclareMathOperator{\gr}{gr} %graded
 \DeclareMathOperator{\id}{id} %id
 % \DeclareMathOperator{\Pr}{Pr} %Pr
@@ -112,8 +108,8 @@
 \newpage
 
 \part{Introduction}
-Knotted Trivalent Graphs のなす空間にはいい構造がある(Knots や links を含む)．
-4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
+Knotted Trivalent Graphs(Knots や links を含む) のなす空間には良い構造がある．
+次の4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
 KTGs は有限生成である\cite{thurston2002algebra}．
 %要確認
 KTGsはKnot genus(ザイフェルト曲面？)やribbon property(ribbon knot？自己交差あり)などの良い代数構造をもつため，それらを使うことが出来る\cite{bar898algebraic}．
@@ -130,7 +126,7 @@ Knots の Kontsevich integral は universal Vassiliev invariant に拡張でき�
 \section{KTGs and $Z^{old}$}
 
 \begin{definition}
-  \textit{Trivalent graph}とは，各頂点が3つの辺をもつグラフ．
+  \textit{Trivalent graph}とは，各頂点が3つの辺をもつグラフである．
 \end{definition}
 
 全ての辺は向きづけられているものとし，頂点は回転するように向きを与える．ループや円などの辺を許すこととする．
@@ -146,6 +142,8 @@ Knots の Kontsevich integral は universal Vassiliev invariant に拡張でき�
     \item $\sigma$は$K$の最大の面単体で，他の最大面単体は$\tau$を含まない．このような$\tau$を\textit{free face}という．
   \end{itemize}
   このとき，$K$の\textit{collapse}とは，$\tau\preceq\gamma\preceq\sigma$となる$\gamma$をすべて取り除くことをいう．
+
+  図
 \end{definition}
 
 \begin{definition}
@@ -165,6 +163,8 @@ Trivalent graph $\Gamma$ に対し，$\Gamma$をskeletonとする．すべての
 
 \begin{proposition}
   Framed knots と， knot diagrams で$R1', R2, R3$の操作で移りあうものを同一視したものは1対1に対応する．
+
+  図
 \end{proposition}
 
 \begin{proof}
@@ -173,30 +173,40 @@ Trivalent graph $\Gamma$ に対し，$\Gamma$をskeletonとする．すべての
 
 \begin{proposition}
   KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．
+
+  図
 \end{proposition}
 \begin{proof}
-  \cite{dancso2010kontsevich} (p19下部) の [Y] An invariant of spatial graphs by Yamada，[Y] のp3のLemma~1．
+  \cite{dancso2010kontsevich} (p19下部) で引用されている [Y] An invariant of spatial graphs by Yamada のp3のLemma~1．
 \end{proof}
 
 KTGsには以下の4つの操作がある．
 \begin{definition}
   Trivalent graph $\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
   \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
+
+  図
 \end{definition}
 
 \begin{definition}
   $\Gamma$のedgeであって，両端に接続されているedgeの向きが一致している$e$を\textit{delete}するとは，$e$を削除し，三価性を保つように$e$の両端の頂点を削除することをいう．
   \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
+
+  図
 \end{definition}
 
 \begin{definition}
   $\Gamma$のedge $e$を\textit{unzip}するとは，$e$を``限りなく近い''2つのedgesに分け，端点をなくすことをいう．端点をなくしたとき，edgeの向きが合っていることが必要である．
   同様の議論でframed graph $\mathbf{\Gamma}$に対し，unzipを定義できる．
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
+
+  図
 \end{definition}
 
 \begin{definition}
   2つのtrivalent graph とそのedgeのペア$(\Gamma,e), (\Gamma',f)$の\textit{connected sum} $\Gamma\#_{e,f}\Gamma'$とは$e,f$をつなぐedgeを新たに作ること．well-definedであるために，新たなedgeの向きは$\Gamma$から$\Gamma'$への向きとし，KTGsにおいてはねじれを許さず，辺を付ける場合は$e,f$の右側に付けるとする．(2次元では自由に動かせないため左右が重要)
+
+  図
 \end{definition}
 
 KTGsのfinite type invariantsは，linksへのものを単に拡張する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．
@@ -215,6 +225,32 @@ Vassiliev invariantを構成する段階で現れるfiltration\footnote{付録�
 を(filtrationに対する)\textit{associated graded space}とし(vector spaceである．要証明)，$\mathcal{A}\coloneqq \bigcup_\Gamma\mathcal{A}(\Gamma)$とする．
 
 $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
+
+\begin{definition}
+  skeleton graph $\Gamma$上の$n$次の\textit{chord diagram}とは，$\Gamma$の辺上の$2n$この点のペアからなる組み合わせ的なものであり，辺の向きを保つ同相写像で移りあうものを同一視する．
+\end{definition}
+
+\begin{proposition}
+  $\pi\colon\{\text{Chord diagrams of } \Gamma\}\to \ca(\Gamma)$ は well-defined であり surjective.
+\end{proposition}
+
+\begin{proof}
+  この論文だけ$\ca(\Gamma)$の構成法が違うので一旦パス．(結局は$\{\text{Chord diagrams}\}/(\text{VI, 4T})\cong \ca$のはず)
+\end{proof}
+
+上記の写像の kernel に含まれる2つの関係式がある．(要証明←goodnoteとAlge Knot Theoryのノートでできたはず)(Kerが一致するとはまだ言ってない)
+
+\begin{itemize}
+  \item (4T) Four term relation
+  図
+  \item (VI) Vertex invariance relation
+  図
+\end{itemize}
+図に描かれていない部分にはgraphがあるが，それらは全て同じでなければならない．4Tでは反時計回りの向きを与える(これ必要？)．VI において，$(-1)^\to$は，chord の付いたedgeが外向きなら-1, 内向きなら1をかける(つまり式は8つある)．
+
+4T, VI のrelationsが存在することは分かったが，これ以上のrelationが存在``しない''ことを示すのは困難である．これを示すには，universal finite type invariant $\QQ \text{KTG}\to \ca$を構成するのが最善である(ここでは定義しないが，後で一般の文脈で定義する)．これは，T.Le, H.Murakami, J. Murakami, T.Ohtsuki の結果をもとに，またDrinfeldのassociatorの理論を用いて[KO, CD],\cite{bar898algebraic}でのKontsevich integral を拡張する形で\cite{murakami1997topological}で初めて得られた．
+
+KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K}(\Gamma)$のassociated graded spaceである．)
 
 \newpage
 
