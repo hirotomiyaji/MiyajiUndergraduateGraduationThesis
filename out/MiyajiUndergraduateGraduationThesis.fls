@@ -460,6 +460,54 @@ INPUT ./inkscape/exKTG.pdf
 INPUT ./inkscape/exKTG.pdf
 INPUT ./inkscape/exKTG.pdf
 INPUT extractbb -B cropbox -O inkscape/exKTG.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR1_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR1_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_2.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR1_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR2_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR2_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_2.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR2_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR3_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR3_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4b_1.pdf
 INPUT ./TikZ/out/Trefoil_solve1.pdf
 INPUT ./TikZ/out/Trefoil_solve1.pdf
 INPUT ./TikZ/out/Trefoil_solve1.pdf

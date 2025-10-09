@@ -180,27 +180,58 @@ KTGs において，skeleton が isotopy で移りあうものを同一視する
 Trivalent graph $\Gamma$ に対し，$\Gamma$をskeletonとする．すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書く．
 
 \begin{proposition}
-  Framed knots と， knot diagrams で$R1', R2, R3$の操作で移りあうものを同一視したものは1対1に対応する．
-
-  図
+  Framed knots と，framed knot の diagrams で 3つの Reidemeister 変形 $R1', R2, R3$ の操作で移りあうものを同一視したものは1対1に対応する．
+  \begin{figure}[H]
+    \centering
+    $R1'$:\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR1_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR1_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR1_2.pdf}}
+    
+    \vspace{3mm}
+    $R2$:\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_2.pdf}}
+    
+    \vspace{3mm}
+    $R3$:\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR3_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR3_1.pdf}}
+    \caption{Framed knots における3種類の Reidemeister 変形}
+    \label{fig:Reidemeister}
+  \end{figure}
 \end{proposition}
 
 \begin{proof}
-  \cite{ohtsuki2002quantum}~Theorem~1.8 p15
+  \cite{ohtsuki2002quantum}~P15~Theorem~1.8
 \end{proof}
 
 \begin{proposition}
   KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．
 
-  図
+  \begin{figure}[H]
+    \centering
+    $R4a$:\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4a_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4a_1.pdf}}
+
+    \vspace{3mm}
+    $R4b$:\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4b_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4b_1.pdf}}
+    \caption{Framed knots における3種類の Reidemeister 変形}
+    \label{fig:ReidemeisterKTG}
+  \end{figure}
 \end{proposition}
 \begin{proof}
-  \cite{dancso2010kontsevich} (p19下部) で引用されている [Y] An invariant of spatial graphs by Yamada のp3のLemma~1．
+  \cite{dancso2010kontsevich} (p19下部) で引用されている．\cite{yamada1987invariant} のp3のLemma~1．
+  「$\RR^3$に埋め込まれたグラフ (空間グラフ) が isotopic であることと，その diagrams が Reidemeister moves で変形できるということが同値．」
 \end{proof}
 
 KTGsには以下の4つの操作がある．
 \begin{definition}
-  Trivalent graph $\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
+  Trivalent graph を$\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
   \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
 
   図

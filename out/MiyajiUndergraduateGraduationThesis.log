@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  9 OCT 2025 17:52
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  9 OCT 2025 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,45 +786,72 @@ File: inkscape/exKTG.pdf Graphic file (type pdf)
 
 
 [3]
+File: inkscape/FramedReideMoves/fR1_0.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR1_0.pdf>
+File: inkscape/FramedReideMoves/fR1_1.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR1_1.pdf>
+File: inkscape/FramedReideMoves/fR1_2.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR1_2.pdf>
+File: inkscape/FramedReideMoves/fR2_0.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR2_0.pdf>
+File: inkscape/FramedReideMoves/fR2_1.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR2_1.pdf>
+File: inkscape/FramedReideMoves/fR2_2.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR2_2.pdf>
+File: inkscape/FramedReideMoves/fR3_0.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR3_0.pdf>
+File: inkscape/FramedReideMoves/fR3_1.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR3_1.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 189.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 198.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 203.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 210.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 217.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 225.
+(Font)              No change on input line 207.
+File: inkscape/FramedReideMoves/fR4a_0.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR4a_0.pdf>
+File: inkscape/FramedReideMoves/fR4a_1.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR4a_1.pdf>
+File: inkscape/FramedReideMoves/fR4b_0.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR4b_0.pdf>
+File: inkscape/FramedReideMoves/fR4b_1.pdf Graphic file (type pdf)
+<inkscape/FramedReideMoves/fR4b_1.pdf>
 
 
 [4]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 233.
+(Font)              No change on input line 228.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 243.
+(Font)              No change on input line 234.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 241.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 248.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 256.
 
-Overfull \hbox (91.04pt too wide) in paragraph at lines 256--257
+
+[5]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 264.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 274.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 279.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 287.
+
+Overfull \hbox (91.04pt too wide) in paragraph at lines 287--288
 []\JY1/mc/m/n/12 この論文だけ $\OMS/cmsy/m/n/12 A\OT1/cmr/m/n/12 (^^@)$ \JY1/mc/m/n/12 の構成法が違うので一旦パス ． \OT1/cmr/m/n/12 (\JY1/mc/m/n/12 結局は $\OMS/cmsy/m/n/12 f[]g\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 ([]) []
  []
 
 
 
-[5]
-
 [6]
 
-LaTeX Warning: Citation `大槻結び目の不変量' on page 7 undefined on input line 283.
-
-
-
 [7]
+
+LaTeX Warning: Citation `大槻結び目の不変量' on page 8 undefined on input line 314.
+
+
+
+[8]
 File: TikZ/out/Trefoil_solve1.pdf Graphic file (type pdf)
 <TikZ/out/Trefoil_solve1.pdf>
 File: TikZ/out/Unknot.pdf Graphic file (type pdf)
@@ -832,7 +859,7 @@ File: TikZ/out/Unknot.pdf Graphic file (type pdf)
 File: TikZ/out/figre-eight.pdf Graphic file (type pdf)
 <TikZ/out/figre-eight.pdf>
 
-LaTeX Warning: Citation `zbMATH07372147' on page 8 undefined on input line 339.
+LaTeX Warning: Citation `zbMATH07372147' on page 9 undefined on input line 370.
 
 File: TikZ/out/Crossing.pdf Graphic file (type pdf)
 <TikZ/out/Crossing.pdf>
@@ -842,7 +869,7 @@ File: TikZ/out/Crossing_solve2.pdf Graphic file (type pdf)
 <TikZ/out/Crossing_solve2.pdf>
 
 
-[8]
+[9]
 File: TikZ/out/Trefoil_with_one_double_point.pdf Graphic file (type pdf)
 <TikZ/out/Trefoil_with_one_double_point.pdf>
 File: TikZ/out/Trefoil_solve2.pdf Graphic file (type pdf)
@@ -856,17 +883,17 @@ File: TikZ/out/Trefoil_solve2.pdf Graphic file (type pdf)
 File: TikZ/out/Trefoil_solve1.pdf Graphic file (type pdf)
 <TikZ/out/Trefoil_solve1.pdf>
 
-Overfull \hbox (12.62791pt too wide) detected at line 357
+Overfull \hbox (12.62791pt too wide) detected at line 388
 []
  []
 
 
-LaTeX Warning: Citation `MR1391727' on page 9 undefined on input line 375.
+LaTeX Warning: Citation `MR1391727' on page 10 undefined on input line 406.
 
 
 
-[9] (out/MiyajiUndergraduateGraduationThesis.bbl
-Underfull \hbox (badness 5908) in paragraph at lines 4--7
+[10] (out/MiyajiUndergraduateGraduationThesis.bbl
+Underfull \hbox (badness 5331) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
  []
 
@@ -880,9 +907,11 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 25.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 31.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 36.
 )
 
-[10] (out/MiyajiUndergraduateGraduationThesis.aux)
+[11] (out/MiyajiUndergraduateGraduationThesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -895,12 +924,12 @@ Package rerunfilecheck Info: File `MiyajiUndergraduateGraduationThesis.out' has 
 (rerunfilecheck)             Checksum: 214D05AD76B8DD755AD87EDE50C892A0;615.
  ) 
 Here is how much of TeX's memory you used:
- 27419 strings out of 469909
- 548193 string characters out of 5484543
+ 27496 strings out of 469909
+ 551020 string characters out of 5484543
  920499 words of memory out of 5000000
- 55417 multiletter control sequences out of 15000+600000
+ 55480 multiletter control sequences out of 15000+600000
  713572 words of font info for 176 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  84i,20n,104p,633b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/MiyajiUndergraduateGraduationThesis.dvi (10 pages, 42324 bytes).
+Output written on out/MiyajiUndergraduateGraduationThesis.dvi (11 pages, 45460 bytes).
