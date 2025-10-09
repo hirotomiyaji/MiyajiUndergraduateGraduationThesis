@@ -18,7 +18,7 @@
 % \usepackage[all]{xy}
 % \usepackage{ulem} %波線
 \usepackage[normalem]{ulem}
-% %\usepackage{eclbkbox}%四角枠
+% %\usepackage{eclbkbox}%四角枠　
 \usepackage{tocloft}%体裁を整える
 \usepackage{titlesec}%見出しの設定
 \usepackage{float}%図の位置
@@ -85,7 +85,7 @@
 \renewcommand{\labelenumii}{(\theenumii)}
 \renewcommand{\theenumiii}{\theenumii-\roman{enumiii}}
 \renewcommand{\labelenumiii}{(\theenumiii)}
-\renewcommand{\proofname}{証明}
+% \renewcommand{\proofname}{証明}
 
 \newcounter{mycounter} % 新しいカウンタを定義
 \numberwithin{mycounter}{section} % mycounter を section と同期
@@ -126,36 +126,54 @@ Knots の Kontsevich integral は universal Vassiliev invariant に拡張でき�
 \section{KTGs and $Z^{old}$}
 
 \begin{definition}
-  \textit{Trivalent graph}とは，各頂点が3つの辺をもつグラフである．
+  \textit{Trivalent graph}(3価グラフ)とは，各頂点が3つの辺をもつようなグラフをいう．
 \end{definition}
 
-全ての辺は向きづけられているものとし，頂点は回転するように向きを与える．ループや円などの辺を許すこととする．
+全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．ループや円などの辺を許すこととする．
 
 \begin{definition}
-  \textit{Surface}とは第2可算公理（高々可算な開基を持つ）を満たす2次元多様体をいう．
+  \textit{Surface}(曲面)とは第2可算公理\footnote{高々可算な開基を持つ．}を満たす2次元多様体をいう．
 \end{definition}
 
 \begin{definition}
-  $K$を単体複体，$\sigma, \tau$を以下の条件を満たす$K$の単体とする．
+  $K$を単体複体，$\sigma, \tau\in K$を以下の条件を満たすとする．
   \begin{itemize}
     \item $\tau \precneqq \sigma$,
     \item $\sigma$は$K$の最大の面単体で，他の最大面単体は$\tau$を含まない．このような$\tau$を\textit{free face}という．
   \end{itemize}
   このとき，$K$の\textit{collapse}とは，$\tau\preceq\gamma\preceq\sigma$となる$\gamma$をすべて取り除くことをいう．
 
-  図
+  \raisebox{-0.4\height}{\includegraphics[scale=0.5]{images/collapseNot.png}}
+
+  \raisebox{-0.4\height}{\includegraphics[scale=0.5]{images/collapse.png}}
 \end{definition}
 
 \begin{definition}
-  単体複体$Y$における\textit{spine}とは，$Y$の部分単体複体$X$であって，$Y$をcollapseして$X$となるものをいう．
+  単体複体$K$における\textit{spine}(スパイン)とは，$K$の部分単体複体$K'$であって，$K$をcollapseして$K'$となるものをいう．
 \end{definition}
 
 \begin{definition}
-  Trivalent graph $\Gamma$に対し，\textit{thickened trivalent graph} or \textit{framed trivalent graph}\cite{thurston2002algebra} $\mathbf{\Gamma}$とは，頂点を太らせたもの．参照先の定義では，1次元単体複体$\Gamma$と，surface $\Sigma$に対しそのspineとなるように$\Gamma$を埋め込んだもの(なめらか？)の組．
+  graph $\Gamma$に対し \textit{framed graph} (枠付きグラフ) $\mathbf{\Gamma}$とは，$\Gamma$と，$\Gamma$をspineとして曲面$\Sigma$へ埋め込む\footnote{グラフを1次元CW複体とみなす．}写像$\Gamma\hookrightarrow\Sigma$の組をいう．特に$\Gamma$がTrivalent graphのとき，$\mathbf{\Gamma}$を\textit{framed trivalent graph}\footnote{論文では thickened trivalent graph と書いてある．}という．
+  \begin{figure}[H]
+    \centering
+    \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/trivalentgraph.pdf}}
+    $\leadsto$
+    \raisebox{-0.4\height}{\includegraphics[scale=0.23]{inkscape/framedtrivalentgraph.pdf}}
+  \end{figure}
 \end{definition}
+
+% \begin{definition}
+%   Trivalent graph $\Gamma$に対し，\textit{framed trivalent graph}\footnote{論文には thickened trivalent graph と書いてある．}(枠付き3価グラフ)\cite{thurston2002algebra} $\mathbf{\Gamma}$とは，頂点を太らせたもの．参照先の定義では，1次元単体複体$\Gamma$と，surface $\Sigma$に対しそのspineとなるように$\Gamma$を滑らかに埋め込んだものの組．
+% \end{definition}
 
 \begin{definition}
   \textit{Knotted trivalent graph (KTG)}を，framed trivalent graph $\mathbf{\gamma}$から$\RR^3$への埋め込み，KTGの$\textit{skeleton}$をtrivalent graph $\Gamma$とする．(framed knotsやlinksも含む)
+  \begin{figure}[H]
+    \centering
+    \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/exKTG.pdf}}
+    \caption{Knotted Trivalent Graphの例}
+    \label{fig:exKTG}
+  \end{figure}
 \end{definition}
 
 KTGs において，skeleton が isotopy で移りあうものを同一視する．
@@ -168,7 +186,7 @@ Trivalent graph $\Gamma$ に対し，$\Gamma$をskeletonとする．すべての
 \end{proposition}
 
 \begin{proof}
-  Quantum Invariants by 大槻 Theorem~1.8 p15
+  \cite{ohtsuki2002quantum}~Theorem~1.8 p15
 \end{proof}
 
 \begin{proposition}
