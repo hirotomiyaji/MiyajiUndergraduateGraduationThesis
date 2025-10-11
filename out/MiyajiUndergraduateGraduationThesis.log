@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  9 OCT 2025 23:31
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.8.23)  10 OCT 2025 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,7 +847,7 @@ Overfull \hbox (91.04pt too wide) in paragraph at lines 287--288
 
 [7]
 
-LaTeX Warning: Citation `大槻結び目の不変量' on page 8 undefined on input line 314.
+LaTeX Warning: Citation `大槻結び目の不変量' on page 8 undefined on input line 315.
 
 
 
@@ -859,7 +859,7 @@ File: TikZ/out/Unknot.pdf Graphic file (type pdf)
 File: TikZ/out/figre-eight.pdf Graphic file (type pdf)
 <TikZ/out/figre-eight.pdf>
 
-LaTeX Warning: Citation `zbMATH07372147' on page 9 undefined on input line 370.
+LaTeX Warning: Citation `zbMATH07372147' on page 9 undefined on input line 371.
 
 File: TikZ/out/Crossing.pdf Graphic file (type pdf)
 <TikZ/out/Crossing.pdf>
@@ -883,12 +883,12 @@ File: TikZ/out/Trefoil_solve2.pdf Graphic file (type pdf)
 File: TikZ/out/Trefoil_solve1.pdf Graphic file (type pdf)
 <TikZ/out/Trefoil_solve1.pdf>
 
-Overfull \hbox (12.62791pt too wide) detected at line 388
+Overfull \hbox (12.62791pt too wide) detected at line 389
 []
  []
 
 
-LaTeX Warning: Citation `MR1391727' on page 10 undefined on input line 406.
+LaTeX Warning: Citation `MR1391727' on page 10 undefined on input line 407.
 
 
 
@@ -926,10 +926,10 @@ Package rerunfilecheck Info: File `MiyajiUndergraduateGraduationThesis.out' has 
 Here is how much of TeX's memory you used:
  27496 strings out of 469909
  551020 string characters out of 5484543
- 920499 words of memory out of 5000000
+ 920500 words of memory out of 5000000
  55480 multiletter control sequences out of 15000+600000
  713572 words of font info for 176 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  84i,20n,104p,633b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/MiyajiUndergraduateGraduationThesis.dvi (11 pages, 45460 bytes).
+Output written on out/MiyajiUndergraduateGraduationThesis.dvi (11 pages, 45504 bytes).
