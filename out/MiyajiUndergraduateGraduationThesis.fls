@@ -439,3 +439,121 @@ INPUT ./images/collapseNot.png
 INPUT ./images/collapseNot.png
 INPUT ./images/collapseNot.png
 INPUT extractbb -B cropbox -O images/collapseNot.png
+INPUT ./images/collapse.png
+INPUT ./images/collapse.png
+INPUT ./images/collapse.png
+INPUT extractbb -B cropbox -O images/collapse.png
+INPUT ./inkscape/trivalentgraph.pdf
+INPUT ./inkscape/trivalentgraph.pdf
+INPUT ./inkscape/trivalentgraph.pdf
+INPUT extractbb -B cropbox -O inkscape/trivalentgraph.pdf
+INPUT ./inkscape/framedtrivalentgraph.pdf
+INPUT ./inkscape/framedtrivalentgraph.pdf
+INPUT ./inkscape/framedtrivalentgraph.pdf
+INPUT extractbb -B cropbox -O inkscape/framedtrivalentgraph.pdf
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin6.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT ./inkscape/exKTG.pdf
+INPUT ./inkscape/exKTG.pdf
+INPUT ./inkscape/exKTG.pdf
+INPUT extractbb -B cropbox -O inkscape/exKTG.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR1_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR1_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR1_2.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR1_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR2_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR2_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR2_2.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR2_2.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR3_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR3_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR3_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4a_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4a_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4b_0.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
+INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
+INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4b_1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Unknot.pdf
+INPUT ./TikZ/out/Unknot.pdf
+INPUT ./TikZ/out/Unknot.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Unknot.pdf
+INPUT ./TikZ/out/figre-eight.pdf
+INPUT ./TikZ/out/figre-eight.pdf
+INPUT ./TikZ/out/figre-eight.pdf
+INPUT extractbb -B cropbox -O TikZ/out/figre-eight.pdf
+INPUT ./TikZ/out/Crossing.pdf
+INPUT ./TikZ/out/Crossing.pdf
+INPUT ./TikZ/out/Crossing.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Crossing.pdf
+INPUT ./TikZ/out/Crossing_solve1.pdf
+INPUT ./TikZ/out/Crossing_solve1.pdf
+INPUT ./TikZ/out/Crossing_solve1.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Crossing_solve1.pdf
+INPUT ./TikZ/out/Crossing_solve2.pdf
+INPUT ./TikZ/out/Crossing_solve2.pdf
+INPUT ./TikZ/out/Crossing_solve2.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Crossing_solve2.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT extractbb -B cropbox -O TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve2.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT out/MiyajiUndergraduateGraduationThesis.bbl
+INPUT out/MiyajiUndergraduateGraduationThesis.bbl
+INPUT out/MiyajiUndergraduateGraduationThesis.bbl
+INPUT out/MiyajiUndergraduateGraduationThesis.aux
+INPUT out/MiyajiUndergraduateGraduationThesis.out
+INPUT out/MiyajiUndergraduateGraduationThesis.out
