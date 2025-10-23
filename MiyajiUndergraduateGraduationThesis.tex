@@ -301,7 +301,7 @@ $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
 \begin{proposition}
   $\pi\colon\mathcal{D}(\Gamma)\to \mathcal{A}(\Gamma)$ は well-defined であり surjective.
 
-  aaaa
+  aaaaasadafa
 \end{proposition}
 
 \begin{proof}
@@ -323,114 +323,114 @@ $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
 KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K}(\Gamma)$のassociated graded spaceである．)
 
 aaa
-\newpage
+% \newpage
 
-\part{付録}
-\section{Vassiliev 不変量}
-本章では2重に重なる点を許す特異結び目を用いて定義される Vassiliev 不変量を構成する．絡み目に対しても同様の定義が可能である．\textbf{これは結び目に対するものであり，Trivalent graphに対するものではないので修正が必要．Trivalent graphに対するものの構成がどの文献に書いてあるのかは不明．}
+% \part{付録}
+% \section{Vassiliev 不変量}
+% 本章では2重に重なる点を許す特異結び目を用いて定義される Vassiliev 不変量を構成する．絡み目に対しても同様の定義が可能である．\textbf{これは結び目に対するものであり，Trivalent graphに対するものではないので修正が必要．Trivalent graphに対するものの構成がどの文献に書いてあるのかは不明．}
 
-\begin{definition}
-  \textbf{結び目 (knot) }とは，$S^1$から$\RR^3$への滑らかな埋めこみのことをいい，結び目の非交和を\textbf{絡み目 (link) }という．また，\textbf{向き付けられた結び目 (oriented knot)}，\textbf{向き付けられた絡み目 (oriented link) }とは，各$S^1$上の向きが定められた結び目，絡み目である．
-\end{definition}
+% \begin{definition}
+%   \textbf{結び目 (knot) }とは，$S^1$から$\RR^3$への滑らかな埋めこみのことをいい，結び目の非交和を\textbf{絡み目 (link) }という．また，\textbf{向き付けられた結び目 (oriented knot)}，\textbf{向き付けられた絡み目 (oriented link) }とは，各$S^1$上の向きが定められた結び目，絡み目である．
+% \end{definition}
 
-\begin{definition}[\cite{大槻結び目の不変量}]
-  $I$を単位区間とする. $F$が結び目$K$と$K'$の間の\textbf{イソトピー (isotopy) }\footnote{正確にはアンビエントイソトピー (ambient isotopy) という．}であるとは，連続写像
-  \[F\colon \RR^3\times I\to \RR^3\]
-  であって，以下を満たすものをいう:
-  \begin{enumerate}
-    \item 各$t\in I$に対して，$F_t(x)=F(x,t)$として定義される写像$F_t\colon \RR^3\times \{t\}\to \RR^3$が同相写像，
-    \item $F_0=\id_{\RR^3}$，
-    \item $F_1\circ K=K'$, つまり次の図式が可換であることをいう:
-    \[
-    \begin{tikzcd}
-      S^1 \arrow[hook]{r}{K} \arrow[bend right=30]{rr}{K'} & \mathbb{R}^3\,(\cong\RR^3\times\{1\}) \arrow{r}{F_1} & \mathbb{R}^3.
-    \end{tikzcd}
-    \]
-  \end{enumerate}
-  このとき，$K$と$K'$は\textbf{イソトピック (isotopic) }であると言い，$K\simeq K'$と書く．
-\end{definition}
+% \begin{definition}
+%   $I$を単位区間とする. $F$が結び目$K$と$K'$の間の\textbf{イソトピー (isotopy) }\footnote{正確にはアンビエントイソトピー (ambient isotopy) という．}であるとは，連続写像
+%   \[F\colon \RR^3\times I\to \RR^3\]
+%   であって，以下を満たすものをいう:
+%   \begin{enumerate}
+%     \item 各$t\in I$に対して，$F_t(x)=F(x,t)$として定義される写像$F_t\colon \RR^3\times \{t\}\to \RR^3$が同相写像，
+%     \item $F_0=\id_{\RR^3}$，
+%     \item $F_1\circ K=K'$, つまり次の図式が可換であることをいう:
+%     \[
+%     \begin{tikzcd}
+%       S^1 \arrow[hook]{r}{K} \arrow[bend right=30]{rr}{K'} & \mathbb{R}^3\,(\cong\RR^3\times\{1\}) \arrow{r}{F_1} & \mathbb{R}^3.
+%     \end{tikzcd}
+%     \]
+%   \end{enumerate}
+%   このとき，$K$と$K'$は\textbf{イソトピック (isotopic) }であると言い，$K\simeq K'$と書く．
+% \end{definition}
 
-イソトピックは結び目の同値関係であり，イソトピーを用いて結び目を同一視することができる．
+% イソトピックは結び目の同値関係であり，イソトピーを用いて結び目を同一視することができる．
 
-\begin{definition}
-  結び目$K$が点$x\in \RR^3$で\textbf{2重点 (double point) }を持つとは，
-  \[
-    K^{-1}(x)=\{t_1,t_2\}\quad (t_1\neq t_2)
-  \]
-  であり，$t_1, t_2$における微分$K'(t_1)$と$K'(t_2)$が線形独立であることをいう．
-\end{definition}
+% \begin{definition}
+%   結び目$K$が点$x\in \RR^3$で\textbf{2重点 (double point) }を持つとは，
+%   \[
+%     K^{-1}(x)=\{t_1,t_2\}\quad (t_1\neq t_2)
+%   \]
+%   であり，$t_1, t_2$における微分$K'(t_1)$と$K'(t_2)$が線形独立であることをいう．
+% \end{definition}
 
-$\mathcal{K}$を結び目のイソトピー類として以下のように定義する．
-\[
-  \mathcal{K} \coloneqq \{ K\mid K \text{ は向き付けられた結び目．} \}/\simeq.
-\]
-次に，$\mathcal{K}$の元による有限な形式和の全体がなす$\CC$上のベクトル空間
-\[
-  \CC\mathcal{K}\coloneqq \left\{ \sum_{K\in\mathcal{K}} a_i K_i\;|\; a_i \in \CC,\, a_i\text{は有限個を除いて}0. \right\}
-\]
-を考える．
+% $\mathcal{K}$を結び目のイソトピー類として以下のように定義する．
+% \[
+%   \mathcal{K} \coloneqq \{ K\mid K \text{ は向き付けられた結び目．} \}/\simeq.
+% \]
+% 次に，$\mathcal{K}$の元による有限な形式和の全体がなす$\CC$上のベクトル空間
+% \[
+%   \CC\mathcal{K}\coloneqq \left\{ \sum_{K\in\mathcal{K}} a_i K_i\;|\; a_i \in \CC,\, a_i\text{は有限個を除いて}0. \right\}
+% \]
+% を考える．
 
-この集合は，特異結び目の2重点を解消するために必要な形式和を扱えるように導入されるものである．例えば，これらの和は$\CC\mathcal{K}$の元である．
-\[
-  \raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_solve1.pdf}}+2 \raisebox{-0.4\height}{\includegraphics[scale=0.6]{TikZ/out/Unknot.pdf}}\hspace{2mm}-3 \raisebox{-0.5\height}{\includegraphics[scale=0.55]{TikZ/out/figre-eight.pdf}}\in \CC\mathcal{K}.
-\]
+% この集合は，特異結び目の2重点を解消するために必要な形式和を扱えるように導入されるものである．例えば，これらの和は$\CC\mathcal{K}$の元である．
+% \[
+%   \raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_solve1.pdf}}+2 \raisebox{-0.4\height}{\includegraphics[scale=0.6]{TikZ/out/Unknot.pdf}}\hspace{2mm}-3 \raisebox{-0.5\height}{\includegraphics[scale=0.55]{TikZ/out/figre-eight.pdf}}\in \CC\mathcal{K}.
+% \]
 
-\begin{definition}
-  \textbf{特異結び目 (singular knot) }とは，$S^1$から$\RR^3$へのなめらかな写像について有限個の2重点を除いてはめ込みであるもので，\textbf{向き付けられた特異結び目 (oriented singular knot) }とは，定義域$S^1$に向きが与えられている特異結び目のことをいう．
-\end{definition}
+% \begin{definition}
+%   \textbf{特異結び目 (singular knot) }とは，$S^1$から$\RR^3$へのなめらかな写像について有限個の2重点を除いてはめ込みであるもので，\textbf{向き付けられた特異結び目 (oriented singular knot) }とは，定義域$S^1$に向きが与えられている特異結び目のことをいう．
+% \end{definition}
 
-特異結び目は，通常の結び目と異なり2重点を許したものである．この2重点の個数が少ないものから順に分けることで，不変量を構成することができる．そこで，2重点の個数が少なくとも$n$個である特異結び目から生成されるベクトル空間$\mathcal{F}_n$を以下のように定義する:
-\[
-\mathcal{F}_n \coloneqq \left\{ \sum_{i = 1}^m a_i K_i\,\middle|\,
-  \begin{aligned}
-    & m\in \mathbb{N},\ a_i \in \mathbb{C},\ K_i \text{ は向き付けられた} \\
-    & \hspace{1.5cm}\text{特異結び目で少なくとも} n \text{個の2重点を持つ．}
-  \end{aligned}
-  \right\}.
-\]
+% 特異結び目は，通常の結び目と異なり2重点を許したものである．この2重点の個数が少ないものから順に分けることで，不変量を構成することができる．そこで，2重点の個数が少なくとも$n$個である特異結び目から生成されるベクトル空間$\mathcal{F}_n$を以下のように定義する:
+% \[
+% \mathcal{F}_n \coloneqq \left\{ \sum_{i = 1}^m a_i K_i\,\middle|\,
+%   \begin{aligned}
+%     & m\in \mathbb{N},\ a_i \in \mathbb{C},\ K_i \text{ は向き付けられた} \\
+%     & \hspace{1.5cm}\text{特異結び目で少なくとも} n \text{個の2重点を持つ．}
+%   \end{aligned}
+%   \right\}.
+% \]
 
-2重点を解消する写像 $\rho\colon \mathcal{F}_n\to \mathcal{F}_{n-1}$ (\cite{zbMATH07372147}) を，図~\ref{fig:resolution}のように向き付けられた特異結び目の各2重点を正の交点と負の交点の差によって解消することで与える．
+% 2重点を解消する写像 $\rho\colon \mathcal{F}_n\to \mathcal{F}_{n-1}$ (\cite{zbMATH07372147}) を，図~\ref{fig:resolution}のように向き付けられた特異結び目の各2重点を正の交点と負の交点の差によって解消することで与える．
 
-\begin{figure}[H]
-  \centering
-  \raisebox{-0.4\height}{\includegraphics{TikZ/out/Crossing.pdf}} $\mapsto$ 
-  \raisebox{-0.4\height}{\includegraphics{TikZ/out/Crossing_solve1.pdf}} $-$ 
-  \raisebox{-0.4\height}{\includegraphics{TikZ/out/Crossing_solve2.pdf}}.
-  \caption{特異結び目の2重点の解消法．}
-  \label{fig:resolution}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \raisebox{-0.4\height}{\includegraphics{TikZ/out/Crossing.pdf}} $\mapsto$ 
+%   \raisebox{-0.4\height}{\includegraphics{TikZ/out/Crossing_solve1.pdf}} $-$ 
+%   \raisebox{-0.4\height}{\includegraphics{TikZ/out/Crossing_solve2.pdf}}.
+%   \caption{特異結び目の2重点の解消法．}
+%   \label{fig:resolution}
+% \end{figure}
 
-写像$\rho$により特異結び目を結び目の線形結合として見なすことが出来るため，各$\rho^{(n)}(\mathcal{F}_n)$は$\CC\mathcal{K}$の部分空間となる．
-\begin{example}
-  写像$\rho$を用いた例として以下のようなものがあげられる．
-  \begin{align*}
-    \mathcal{F}_1 \ni \raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_with_one_double_point.pdf}}
-    \mapsto & \raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_solve2.pdf}}-\raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_solve1.pdf}}\\
-    & \hspace{1cm}=\text{ (自明な結び目) }-\text{ (三葉結び目) }\in \mathcal{F}_0=\CC\mathcal{K}.
-  \end{align*}
-\end{example}
+% 写像$\rho$により特異結び目を結び目の線形結合として見なすことが出来るため，各$\rho^{(n)}(\mathcal{F}_n)$は$\CC\mathcal{K}$の部分空間となる．
+% \begin{example}
+%   写像$\rho$を用いた例として以下のようなものがあげられる．
+%   \begin{align*}
+%     \mathcal{F}_1 \ni \raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_with_one_double_point.pdf}}
+%     \mapsto & \raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_solve2.pdf}}-\raisebox{-0.5\height}{\includegraphics[scale=0.5]{TikZ/out/Trefoil_solve1.pdf}}\\
+%     & \hspace{1cm}=\text{ (自明な結び目) }-\text{ (三葉結び目) }\in \mathcal{F}_0=\CC\mathcal{K}.
+%   \end{align*}
+% \end{example}
 
-\begin{definition}
-  $A$が体$\mathbb{F}$上の\textbf{フィルター付きベクトル空間 (filtered vector space) }であるとは，$A$の部分空間$F_i$で以下のような列
-  \[
-    A=F_0\supset F_1\supset F_2\supset \cdots
-  \]
-  を持つベクトル空間のことをいう．特にこの列$\{F_i\}$を$A$の\textbf{フィルター (filtration) }と呼ぶ．
-\end{definition}
-$\{\rho^{(n)}(\mathcal{F}_n)\}$は2重点の数が増えるにつれて空間が小さくなっていく．これは$\CC\mathcal{K}$が$\{\rho^{(n)}(\mathcal{F}_n)\}$を列に持つフィルター付きベクトル空間であることを意味する．
-\[
-  \CC\mathcal{K}=\mathcal{F}_0\supset \rho(\mathcal{F}_1)\supset \rho^{(2)}(\mathcal{F}_2)\supset \cdots.
-\]
+% \begin{definition}
+%   $A$が体$\mathbb{F}$上の\textbf{フィルター付きベクトル空間 (filtered vector space) }であるとは，$A$の部分空間$F_i$で以下のような列
+%   \[
+%     A=F_0\supset F_1\supset F_2\supset \cdots
+%   \]
+%   を持つベクトル空間のことをいう．特にこの列$\{F_i\}$を$A$の\textbf{フィルター (filtration) }と呼ぶ．
+% \end{definition}
+% $\{\rho^{(n)}(\mathcal{F}_n)\}$は2重点の数が増えるにつれて空間が小さくなっていく．これは$\CC\mathcal{K}$が$\{\rho^{(n)}(\mathcal{F}_n)\}$を列に持つフィルター付きベクトル空間であることを意味する．
+% \[
+%   \CC\mathcal{K}=\mathcal{F}_0\supset \rho(\mathcal{F}_1)\supset \rho^{(2)}(\mathcal{F}_2)\supset \cdots.
+% \]
 
-2重点が$d+1$個以上ある特異結び目の線形和は$\mathcal{F}_{d+1}$の元である．この階層構造を利用し Vassiliev 不変量を定義する．この不変量は，ある一定の複雑さを超える結び目は全て区別せず0と見なすという線形写像で定義される．
+% 2重点が$d+1$個以上ある特異結び目の線形和は$\mathcal{F}_{d+1}$の元である．この階層構造を利用し Vassiliev 不変量を定義する．この不変量は，ある一定の複雑さを超える結び目は全て区別せず0と見なすという線形写像で定義される．
 
-\begin{definition}
-  $\mathbf{d}$\textbf{次の Vassiliev 不変量} ($d$\textbf{-th Vassiliev invariants})~\cite{MR1391727}とは線形写像
-  \[
-    v\colon \CC\mathcal{K}\to \CC
-  \]
-  であって，任意の$x\in \mathcal{F}_{d+1}$に対し$v(x)=0$となるものをいう．
-\end{definition}
+% \begin{definition}
+%   $\mathbf{d}$\textbf{次の Vassiliev 不変量} ($d$\textbf{-th Vassiliev invariants})~\cite{MR1391727}とは線形写像
+%   \[
+%     v\colon \CC\mathcal{K}\to \CC
+%   \]
+%   であって，任意の$x\in \mathcal{F}_{d+1}$に対し$v(x)=0$となるものをいう．
+% \end{definition}
 \newpage
 \bibliographystyle{alpha} %plain, unsrt, alpha などが一般的
 \bibliography{references} %bibファイルの指定

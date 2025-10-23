@@ -507,50 +507,9 @@ INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
 INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
 INPUT ./inkscape/FramedReideMoves/fR4b_1.pdf
 INPUT extractbb -B cropbox -O inkscape/FramedReideMoves/fR4b_1.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT extractbb -B cropbox -O TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Unknot.pdf
-INPUT ./TikZ/out/Unknot.pdf
-INPUT ./TikZ/out/Unknot.pdf
-INPUT extractbb -B cropbox -O TikZ/out/Unknot.pdf
-INPUT ./TikZ/out/figre-eight.pdf
-INPUT ./TikZ/out/figre-eight.pdf
-INPUT ./TikZ/out/figre-eight.pdf
-INPUT extractbb -B cropbox -O TikZ/out/figre-eight.pdf
-INPUT ./TikZ/out/Crossing.pdf
-INPUT ./TikZ/out/Crossing.pdf
-INPUT ./TikZ/out/Crossing.pdf
-INPUT extractbb -B cropbox -O TikZ/out/Crossing.pdf
-INPUT ./TikZ/out/Crossing_solve1.pdf
-INPUT ./TikZ/out/Crossing_solve1.pdf
-INPUT ./TikZ/out/Crossing_solve1.pdf
-INPUT extractbb -B cropbox -O TikZ/out/Crossing_solve1.pdf
-INPUT ./TikZ/out/Crossing_solve2.pdf
-INPUT ./TikZ/out/Crossing_solve2.pdf
-INPUT ./TikZ/out/Crossing_solve2.pdf
-INPUT extractbb -B cropbox -O TikZ/out/Crossing_solve2.pdf
-INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
-INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
-INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
-INPUT extractbb -B cropbox -O TikZ/out/Trefoil_with_one_double_point.pdf
-INPUT ./TikZ/out/Trefoil_solve2.pdf
-INPUT ./TikZ/out/Trefoil_solve2.pdf
-INPUT ./TikZ/out/Trefoil_solve2.pdf
-INPUT extractbb -B cropbox -O TikZ/out/Trefoil_solve2.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
-INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
-INPUT ./TikZ/out/Trefoil_with_one_double_point.pdf
-INPUT ./TikZ/out/Trefoil_solve2.pdf
-INPUT ./TikZ/out/Trefoil_solve2.pdf
-INPUT ./TikZ/out/Trefoil_solve2.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT ./TikZ/out/Trefoil_solve1.pdf
+INPUT out/MiyajiUndergraduateGraduationThesis.bbl
+INPUT out/MiyajiUndergraduateGraduationThesis.bbl
+INPUT out/MiyajiUndergraduateGraduationThesis.bbl
 INPUT out/MiyajiUndergraduateGraduationThesis.aux
 INPUT out/MiyajiUndergraduateGraduationThesis.out
 INPUT out/MiyajiUndergraduateGraduationThesis.out
