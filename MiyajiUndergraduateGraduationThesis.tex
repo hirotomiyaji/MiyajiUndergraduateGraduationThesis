@@ -177,7 +177,7 @@ Knots の Kontsevich integral は universal Vassiliev invariant に拡張でき�
 \end{definition}
 
 KTGs において，skeleton が isotopy で移りあうものを同一視する．特に，framed knots や links は KTGs の特別な場合である．
-Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書く．
+Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書き，$\mathcal{K}\coloneqq \bigcup_{\Gamma}\mathcal{K}(\Gamma)$とする．
 
 \begin{proposition}
   Framed knots と，framed knot の diagrams で 3つの Reidemeister 変形 $R1', R2, R3$ の操作で移りあうものを同一視したものは1対1に対応する．
@@ -227,14 +227,15 @@ Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Ga
 \begin{proof}
   % \cite{dancso2010kontsevich} (p19下部) で引用されている．\cite{yamada1987invariant} のp3のLemma~1．
   % 「$\RR^3$に埋め込まれたグラフ (空間グラフ) が isotopic であることと，その diagrams が Reidemeister moves で変形できるということが同値．」だが，怪しい．一旦パス．
-  \cite{murakami1997topological}~P505~Theorem~1.4\\
-  向きづけられた枠付き3価グラフ$\mathbf{\Gamma}$の$S^3$への埋め込み$G$の universal Vassiliev invariant $\hat{Z}(G)$ は isotopy invariant である．(Reidemeister moves で移り変わっても変わらない)
+  % \cite{murakami1997topological}~P505~Theorem~1.4\\
+  % 向きづけられた枠付き3価グラフ$\mathbf{\Gamma}$の$S^3$への埋め込み$G$の universal Vassiliev invariant $\hat{Z}(G)$ は isotopy invariant である．(Reidemeister moves で移り変わっても変わらない)
 \end{proof}
 
 KTGsには以下の4つの操作がある．
 \begin{definition}
   Trivalent graph を$\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
   \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
+  % \[S_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto S_e(\gamma)\]
 
   図
 \end{definition}
@@ -242,6 +243,7 @@ KTGsには以下の4つの操作がある．
 \begin{definition}
   $\Gamma$のedgeであって，両端に接続されているedgeの向きが一致している$e$を\textit{delete}するとは，$e$を削除し，三価性を保つように$e$の両端の頂点を削除することをいう．
   \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
+  % \[d_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto d_e(\gamma)\]
 
   図
 \end{definition}
@@ -250,39 +252,56 @@ KTGsには以下の4つの操作がある．
   $\Gamma$のedge $e$を\textit{unzip}するとは，$e$を``限りなく近い''2つのedgesに分け，端点をなくすことをいう．端点をなくしたとき，edgeの向きが合っていることが必要である．
   同様の議論でframed graph $\mathbf{\Gamma}$に対し，unzipを定義できる．
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
+  % \[u_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto u_e(\gamma)\]
 
   図
 \end{definition}
 
 \begin{definition}
   2つのtrivalent graph とそのedgeのペア$(\Gamma,e), (\Gamma',f)$の\textit{connected sum} $\Gamma\#_{e,f}\Gamma'$とは$e,f$をつなぐedgeを新たに作ること．well-definedであるために，新たなedgeの向きは$\Gamma$から$\Gamma'$への向きとし，KTGsにおいてはねじれを許さず，辺を付ける場合は$e,f$の右側に付けるとする．(2次元では自由に動かせないため左右が重要)
+  \[\#_{e,f}\colon \mathcal{K}\to \mathcal{K}\,;\,\]
 
   図
 \end{definition}
 
 KTGsのfinite type invariantsは，linksへのものを単に拡張する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．
 
+\[\mathcal{F}^0(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \mathbf{\Gamma}\middle| m\in\NN, a_i\in \QQ, \Gamma_i\in \mathcal{K}(\Gamma)\right\}\]
+をKTGsの有限な形式和全体がなす$\QQ$-ベクトル空間とする．
+
 \begin{definition}
-  \textit{n-singular KTG}とは，$n$この特異点を持つtrivalent graphを$\RR^3$に埋め込んだもの．各特異点は横断的な2重点か，``$F$''と書かれた線上の点である．
+  \textit{n-singular KTG}とは，$n$この特異点を持つtrivalent graphの$\RR^3$へのはめ込み．各特異点は横断的な2重点か，``$F$''と書かれた線上の点である．
 \end{definition}
-
-$n$-singular KTGの解消は，各2重点を上下の差とすることでとすることで得られる．また，``$F$-point''は，それを取り除いたframed graphと，1-unit分 twist させたframed graphの差として解消する．
-
-図
-
+$n\geq 1$に対し以下のようなベクトル空間を考える．
+\[\mathcal{F}^n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \mathbf{\Gamma}\middle| m\in\NN, a_i\in \QQ, \Gamma'_i\colon \Gamma\text{を骨格とし少なくとも}n\text{この特異点を持つKTG}\right\}\]
+特異点を解消する写像として，
+\[\rho\colon\mathcal{F}^\ast \to \mathcal{F}^0,\]
+であって，以下のように定めるものを考える:
+\[\text{図}\]
+$\mathcal{F}^n (n\geq 1)$に対し，$\rho$で送ると，
+\[\mathcal{F}^0\subset \rho(\mathcal{F}^1)\subset \rho(\mathcal{F}^2)\cdots.\]
+というfiltrationが得られる．このfiltrationに対するassociated graded spaceとして，
+\[\mathcal{A}(\Gamma)\coloneqq \prod_{i=0}^{\infty}\mathcal{F}^{i}(\Gamma)/\mathcal{F}^{i+1}(\Gamma)\]
+とする．
+% $n$-singular KTGの解消は，各2重点を上下の差とすることでとすることで得られる．また，``$F$-point''は，それを取り除いたframed graphと，1-unit分 twist させたframed graphの差として解消する．
+% 図
 % この操作により$2^n$個のKTGsが現れる．
-Vassiliev invariantを構成する段階で現れるfiltration\footnote{付録にて解説} $\mathcal{F}^n(\Gamma)$は$n$-singular KTGs (skeletonは$\Gamma$)を解消して得られたものの線形和で表される．
-\[\mathcal{A}(\Gamma)= \bigoplus_{n=0}^\infty \mathcal{F}^n(\Gamma)/\mathcal{F}^{n+1}(\Gamma)\ (\mathcal{F}^0(\Gamma)=\mathcal{K}(\Gamma))\]
-を(filtrationに対する)\textit{associated graded space}とし(vector spaceである．要証明)，$\mathcal{A}\coloneqq \bigcup_\Gamma\mathcal{A}(\Gamma)$とする．
+% Vassiliev invariantを構成する段階で現れるfiltration\footnote{付録にて解説} $\mathcal{F}^n(\Gamma)$は$n$-singular KTGs (skeletonは$\Gamma$)を解消して得られたものの線形和で表される．
+% \[\mathcal{A}(\Gamma)= \bigoplus_{n=0}^\infty \mathcal{F}^n(\Gamma)/\mathcal{F}^{n+1}(\Gamma)\ (\mathcal{F}^0(\Gamma)=\mathcal{K}(\Gamma))\]
+% を(filtrationに対する)\textit{associated graded space}とし(vector spaceである．要証明)，$\mathcal{A}\coloneqq \bigcup_\Gamma\mathcal{A}(\Gamma)$とする．
 
 $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
 
 \begin{definition}
-  skeleton graph $\Gamma$上の$n$次の\textit{chord diagram}とは，$\Gamma$の辺上の$2n$この点のペアからなる組み合わせ的なものであり，辺の向きを保つ同相写像で移りあうものを同一視する．
+  skeleton graph $\Gamma$上の$n$次の\textit{chord diagram}とは，$\Gamma$の辺上の$2n$この点のペアからなる組み合わせ的なものであり，辺の向きを保つ同相写像で移りあうものを同一視する．特に，次数$n$のchord diagramを基底とする$\QQ$上のベクトル空間を$\mathcal{D}_n(\Gamma)$と書く．
 \end{definition}
 
+% $D_1, D_2\in \mathcal{D}_n(\Gamma)$に対し，$D_1\sim_{\text{Diag}} D_2$を
+
 \begin{proposition}
-  $\pi\colon\{\text{Chord diagrams of } \Gamma\}\to \ca(\Gamma)$ は well-defined であり surjective.
+  $\pi\colon\mathcal{D}(\Gamma)\to \mathcal{A}(\Gamma)$ は well-defined であり surjective.
+
+  aaaa
 \end{proposition}
 
 \begin{proof}

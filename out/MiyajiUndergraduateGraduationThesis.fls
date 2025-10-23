@@ -551,9 +551,6 @@ INPUT ./TikZ/out/Trefoil_solve2.pdf
 INPUT ./TikZ/out/Trefoil_solve1.pdf
 INPUT ./TikZ/out/Trefoil_solve1.pdf
 INPUT ./TikZ/out/Trefoil_solve1.pdf
-INPUT out/MiyajiUndergraduateGraduationThesis.bbl
-INPUT out/MiyajiUndergraduateGraduationThesis.bbl
-INPUT out/MiyajiUndergraduateGraduationThesis.bbl
 INPUT out/MiyajiUndergraduateGraduationThesis.aux
 INPUT out/MiyajiUndergraduateGraduationThesis.out
 INPUT out/MiyajiUndergraduateGraduationThesis.out
