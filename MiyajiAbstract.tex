@@ -1,0 +1,146 @@
+\documentclass{jarticle}
+
+\setlength{\topmargin}{-1.4cm}
+%\setlength{\paperwidth}{14cm}
+\setlength{\oddsidemargin}{-30Q}
+\setlength{\evensidemargin}{0cm}
+
+\setlength{\columnsep}{2.5zw}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{eucal}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% 以下の項目を適宜，修正して
+%%%%%% 利用してください．
+%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\TITLE}%
+{卒業研究 題目}%卒論タイトルを書く
+\newcommand{\eTITLE}%
+{英文タイトル}%%英語タイトル
+\newcommand{\STNO}%
+{22xxxxxx}%学籍番号
+\newcommand{\NAME}%
+{横浜 みらい}%氏名
+\newcommand{\ADVR}%
+{横浜 みなと 教授}%指導教員氏名
+
+%%%% 以下は変更しないでください
+\newcommand{\DATE}%
+{(2026年2月6日)}%〆切
+\newcommand{\NENDO}%
+{2025年度}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\textwidth}{52zw}
+\setlength{\textheight}{25cm}
+
+
+\makeatletter
+
+\def\ps@lrheadf{\ps@empty
+  \def\@evenhead{\normalfont%\footnotesize
+      \leftmark{}{}\hfil \rightmark{}{}}%
+  \let\@oddhead\@evenhead
+  \def\@oddfoot{}
+  \let\@evenfoot\@oddfoot
+  \let\@mkboth\markboth}
+\makeatother
+
+
+\pagestyle{lrheadf}
+
+\markboth{\NENDO \hskip1zw 
+数物・電子情報系学科 数理科学EP 
+\hskip1zw
+卒業研究 \hskip1zw 概要}{}
+
+
+
+\begin{document}
+%\fontsize{9pt}{14pt}\selectfont
+\fontsize{10pt}{14pt}\selectfont
+
+
+\hfil
+\textbf{\Large \TITLE }
+
+\vskip5Q
+\hfil
+{\large \eTITLE }
+
+
+\vskip5Q
+\hfil 
+{\large \STNO \hskip1zw \NAME
+\hskip 2zw 指導教員： \ADVR}
+
+\vskip20Q
+
+
+\noindent
+\textbf{１．研究背景・動機}
+
+\NENDO 数理科学EP卒業研究の概要フォーマットです．
+用紙はA4用紙1枚です．
+最初の1段組の枠に，
+日本語の研究題目，英文の研究題目，学籍番号，
+氏名，指導教員の氏名を記入してください．
+
+用紙はA4用紙で1ページです．文章本体は2段組です．
+文字の
+大きさは10ポイント程度です．
+
+全体の構成は，１．研究背景・動機， 
+２．主結果， ３．意義・証明のアイデアや方法， 
+４．今後の課題， 参考文献， を参考にしてください． 
+項目ごとに，
+(専門外の人にも概要がわかるように)
+わかりやすく，明確に記述してください．
+
+\vskip10Q
+\noindent
+\textbf{２．主結果}
+
+ここでは，卒業論文の主結果を簡潔に説明してください．
+必要な用語は(できれば)簡単に説明するなど，専門外の人にもわかるように
+書いてください．
+
+\vskip10Q
+\noindent
+\textbf{３．意義・証明のアイデアや方法}
+
+主結果の意義，証明(アイデアや方法)を説明してください．
+とくに，新しいアイデアや，証明のポイントを簡潔に説明してください．
+また，得られた主結果にどのような意義があるのか，専門外の人にわかるように，
+明確に説明してください．
+
+\vskip10Q
+\noindent
+\textbf{４．今後の課題}
+
+今後，研究を続けるとしたら，どのような課題があるのか，
+また，どのような問題を研究したいか，説明してください．
+さらに，研究を発展させる計画や，予想などがあれば，
+明確に説明してください．
+
+\vskip10Q
+\noindent
+\textbf{参考文献}
+
+{\small
+
+\noindent
+[1] 著者名，論文題目，雑誌名，巻，号 (年号)， ページ番号.
+
+\noindent
+[2] 著者名，論文題目，雑誌名，巻，号 (年号)， ページ番号.
+
+
+}
+
+\end{document}
