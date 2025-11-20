@@ -54,6 +54,19 @@
 \newcommand{\NN}{\mathbb{N}}
 \newcommand{\QQ}{\mathbb{Q}}
 \newcommand{\ca}{\mathcal{A}}
+\newcommand{\ck}{\mathcal{K}}
+% 卒論
+\setlength{\topmargin}{0truecm}
+\newcommand{\TITLE}%
+{Homomorphic Expansions for Knotted Trivalent Graphs}
+\newcommand{\STNO}%
+{2264246}
+\newcommand{\NAME}%
+{宮路 宙澄}%氏名
+\newcommand{\ADVR}%
+{野崎 雄太 准教授}
+\newcommand{\DATE}%
+{（2026年1月30日）}
 \DeclareMathOperator{\Ker}{Ker}
 \DeclareMathOperator{\rank}{rank}
 \DeclareMathOperator{\gr}{gr} %graded
@@ -98,16 +111,45 @@
 \newtheorem{example}[mycounter]{例}
 \newtheorem{definition}[mycounter]{Definition}
 \begin{document}
-\maketitle
+% \maketitle
+\thispagestyle{empty}
+\hfil 2025年度 横浜国立大学 理工学部 数理科学EP 卒業研究
+\vskip3cm
+{
+  \Large
+  \begin{center}
+    \huge
+    \textbf{\TITLE}
+  \end{center}
+  \vfill
+  \hfil
+  {
+    \LARGE\textbf{\STNO\ \NAME}
+  }
+  \vskip10Q
+  \hfil\textbf{指導教員：\ADVR }\hfil\textbf{\DATE}
+}
+\vfill
+\hfill
+\begin{tabular}{|p{6zw}|p{6zw}|} \hline\hskip.5zw 指導教員印 & \hskip1.5zw 受理印 \\
+  \hline& \\
+  [2cm] \hline 
+\end{tabular}
+\newpage
 \begin{abstract}
   KTGsに対し a universal Vassiliev invariant が存在することは知られていた\cite{murakami1997topological,cheptea2007tqft,dancso2010kontsevich}．
   KTGsにおいて``edge unzip''という操作のみ準同型にならず，補正項が現れる．dotted Knotted Trivalent Graphs において$Z^{old}$が準同型となるように$Z$を2通りで構成することが目的．
-\end{abstract}
 
+  It has been known since old times \cite{murakami1997topological,cheptea2007tqft,dancso2010kontsevich} that there exists a universal finite type invariant $Z^{old}$ for Knotted Trivalent Graphs. While the behavior of $Z^{old}$ under edge unzip is well understood, it is not plainly homomorphic as some ``correction factors'' appear.
+
+  In this paper we modify $Z^{old}$ into a new expansion $Z$, defined on ``dotted Knotted Trivalent Graphs'', which is homomorphic with respect to a large set of operations.
+\end{abstract}
 \tableofcontents
 \newpage
 
 \part{Introduction}
+結び目理論とは位相幾何学の分野の一つであり，物理学とも関係する分野である．その中でも，結び目同士が異なるかどうかを区別する際に手段として使われるものとして結び目の不変量というものがある．
+
 Knotted Trivalent Graphs(Knots や links を含む) のなす空間には良い構造がある．
 次の4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
 KTGs は有限生成である\cite{thurston2002algebra}．
@@ -122,6 +164,9 @@ Knots の Kontsevich integral は universal Vassiliev invariant に拡張でき�
 \end{itemize}
 簡単に$Z^{old}$をdKTGsで準同型にすることができ，dKTGsはKTGsの良い性質をすべて保つことを示す．
 有限生成やclose connection to Drinfel'd associators (知らん) など．
+\section*{謝辞}
+\raisebox{-0.4\height}{\includegraphics[scale=0.2]{images/help.jpg}}
+% \includegraphics{images/help.jpg}
 \part{Preliminaries}
 \section{KTGs and $Z^{old}$}
 
@@ -236,16 +281,20 @@ KTGsには以下の4つの操作がある．
   Trivalent graph を$\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
   \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
   % \[S_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto S_e(\gamma)\]
-
-  図
+  \begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
 \end{definition}
 
 \begin{definition}
   $\Gamma$のedgeであって，両端に接続されているedgeの向きが一致している$e$を\textit{delete}するとは，$e$を削除し，三価性を保つように$e$の両端の頂点を削除することをいう．
   \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
   % \[d_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto d_e(\gamma)\]
-
-  図
+  \begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
 \end{definition}
 
 \begin{definition}
@@ -254,41 +303,48 @@ KTGsには以下の4つの操作がある．
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
   % \[u_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto u_e(\gamma)\]
 
-  図
+  \begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
 \end{definition}
 
 \begin{definition}
   2つのtrivalent graph とそのedgeのペア$(\Gamma,e), (\Gamma',f)$の\textit{connected sum} $\Gamma\#_{e,f}\Gamma'$とは$e,f$をつなぐedgeを新たに作ること．well-definedであるために，新たなedgeの向きは$\Gamma$から$\Gamma'$への向きとし，KTGsにおいてはねじれを許さず，辺を付ける場合は$e,f$の右側に付けるとする．(2次元では自由に動かせないため左右が重要)
-  \[\#_{e,f}\colon \mathcal{K}\to \mathcal{K}\,;\,\]
+  \[\#_{e,f}\colon \mathcal{K}(\Gamma)\times\mathcal{K}(\Gamma')\to \mathcal{K}(\Gamma\#_{e, f}\Gamma')\]
 
-  図
+  \begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
 \end{definition}
 
-KTGsのfinite type invariantsは，linksへのものを単に拡張する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．
+KTGsのfinite type invariantsは，linksにおけるものと同様に定義する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．
 
-\[\mathcal{F}^0(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \mathbf{\Gamma}\middle| m\in\NN, a_i\in \QQ, \Gamma_i\in \mathcal{K}(\Gamma)\right\}\]
+\[\mathcal{F}_0(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\NN, a_i\in \QQ, \gamma_i\in \mathcal{K}(\Gamma)\right\}\]
 をKTGsの有限な形式和全体がなす$\QQ$-ベクトル空間とする．
 
 \begin{definition}
   \textit{n-singular KTG}とは，$n$この特異点を持つtrivalent graphの$\RR^3$へのはめ込み．各特異点は横断的な2重点か，``$F$''と書かれた線上の点である．
+  \begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
 \end{definition}
 $n\geq 1$に対し以下のようなベクトル空間を考える．
-\[\mathcal{F}^n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \mathbf{\Gamma}\middle| m\in\NN, a_i\in \QQ, \Gamma'_i\colon \Gamma\text{を骨格とし少なくとも}n\text{この特異点を持つKTG}\right\}\]
+\[\mathcal{F}'_n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\NN, a_i\in \QQ, \gamma'_i\colon \Gamma\text{を骨格とし少なくとも}n\text{この特異点を持つKTG}\right\}\]
 特異点を解消する写像として，
-\[\rho\colon\mathcal{F}^\ast \to \mathcal{F}^0,\]
+\[\rho\colon\mathcal{F}'_\ast \to \mathcal{F}_0,\]
 であって，以下のように定めるものを考える:
-\[\text{図}\]
-$\mathcal{F}^n (n\geq 1)$に対し，$\rho$で送ると，
-\[\mathcal{F}^0\supset \rho(\mathcal{F}^1)\supset \rho(\mathcal{F}^2)\cdots.\]
+\begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
+$\mathcal{F}_n\ (n\geq 1)$に対し，$\rho$で送ると，
+\[\mathcal{F}_0\supset \rho(\mathcal{F}_1)\supset \rho(\mathcal{F}_2)\cdots.\]
 というfiltrationが得られる．このfiltrationに対するassociated graded spaceとして，
-\[\mathcal{A}(\Gamma)\coloneqq \prod_{i=0}^{\infty}\mathcal{F}^{i}(\Gamma)/\mathcal{F}^{i+1}(\Gamma)\]
+\[\mathcal{A}(\Gamma)\coloneqq \prod_{i=0}^{\infty}\mathcal{F}_{i}(\Gamma)/\mathcal{F}_{i+1}(\Gamma)\]
 とする．
-% $n$-singular KTGの解消は，各2重点を上下の差とすることでとすることで得られる．また，``$F$-point''は，それを取り除いたframed graphと，1-unit分 twist させたframed graphの差として解消する．
-% 図
-% この操作により$2^n$個のKTGsが現れる．
-% Vassiliev invariantを構成する段階で現れるfiltration\footnote{付録にて解説} $\mathcal{F}^n(\Gamma)$は$n$-singular KTGs (skeletonは$\Gamma$)を解消して得られたものの線形和で表される．
-% \[\mathcal{A}(\Gamma)= \bigoplus_{n=0}^\infty \mathcal{F}^n(\Gamma)/\mathcal{F}^{n+1}(\Gamma)\ (\mathcal{F}^0(\Gamma)=\mathcal{K}(\Gamma))\]
-% を(filtrationに対する)\textit{associated graded space}とし(vector spaceである．要証明)，$\mathcal{A}\coloneqq \bigcup_\Gamma\mathcal{A}(\Gamma)$とする．
 
 $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
 
@@ -300,8 +356,6 @@ $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
 
 \begin{proposition}
   $\pi\colon\mathcal{D}(\Gamma)\to \mathcal{A}(\Gamma)$ は well-defined であり surjective.
-
-  aaaaasadafa
 \end{proposition}
 
 \begin{proof}
@@ -312,9 +366,15 @@ $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
 
 \begin{itemize}
   \item (4T) Four term relation
-  図
+  \begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
   \item (VI) Vertex invariance relation
-  図
+  \begin{figure}[htbp]
+  \centering
+  \Huge 図
+  \end{figure}
 \end{itemize}
 図に描かれていない部分にはgraphがあるが，それらは全て同じでなければならない．4Tでは反時計回りの向きを与える(これ必要？)．VI において，$(-1)^\to$は，chord の付いたedgeが外向きなら-1, 内向きなら1をかける(つまり式は8つある)．
 
@@ -335,6 +395,51 @@ KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K
 \end{theorem}
 
 \section{Algebraic structures and expansions}
+$\mathcal{K}$において，orientation switch, edge delete, edge unzip, connected sum を linear に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$は vector space となる．
+
+\begin{definition}
+  $\Gamma$をKTGとする．$\ck(\Gamma)$ において，係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigcup_{\Gamma}\mathcal{I}(\Gamma)$とする．
+\end{definition}
+
+\begin{example}
+  Let $\gamma_1, \gamma_2, \gamma_3$ be KTGs with skeleton $\Gamma$. Then, $\gamma_1-\gamma_2, \gamma_1-\frac{1}{2}\gamma-\frac{1}{2}\gamma_3\in \mathcal{I}(\Gamma)$.
+\end{example}
+
+\begin{definition}
+  $\mathcal{I}^m$を，$\mathcal{I}$の元を少なくとも$m$個含むようなものの演算の合成で生成される$\ck$の部分空間とする．つまり，
+  % \[(\mathcal{I})^m\coloneqq\{\gamma\in\mathcal{K}\mid \text{There exist }n, f\colon\prod^n_{i=1}\ck\to\ck, x_1,\dots,x_n\in\ck \text{ such that }\gamma=f(x_1,\dots,x_n), \#\{i\mid x_i\in\mathcal{I}\}\geq m\}.\]
+  \[ 
+    \mathcal{I}^m \coloneqq \left\{ \gamma\in\mathcal{K} \;\middle|\;
+    \begin{aligned}
+      &\text{There exist } n, f\colon\prod^n_{i=1}\mathcal{K}\to\mathcal{K}, x_1,\dots,x_n\in\mathcal{K} \\
+      &\quad \text{ such that }\gamma=f(x_1,\dots,x_n), \#\{i\mid x_i\in\mathcal{I}\}\geq m
+    \end{aligned}\right\}.
+  \]
+\end{definition}
+$\mathcal{I}^m$は明らかにfiltrationの構造をもつ．
+
+\begin{lemma}
+  $\mathcal{I}(\Gamma)=\{\sum_{i}c_i(\gamma_{1_i} - \gamma_{2_i})\mid \gamma_{1_i}, \gamma_{2_i}\colon \text{generators of }\ck(\Gamma), c_i\in\QQ\}$.
+\end{lemma}
+
+\begin{proof}
+  $(\supset)$ This is obvious.\\
+  $(\subset)$ For any element of $\mathcal{I}$, it can be written as $\sum_{i=1}^{n}c_i \gamma_i$. Since $\sum_{i=1}^{n}c_i=0$, we have $c_n = - \sum_{i=1}^{n-1}c_i$. Thus 
+  \[\sum_{i=1}^{n}c_i \gamma_i = c_1\gamma_1+c_2\gamma_2+\dots +\left(-\sum_{i=1}^{n-1}c_i\right)\gamma_n = \sum_{i=1}^{n-1}c_i(\gamma_i-\gamma_n).\]
+\end{proof}
+
+\begin{theorem}
+  $\mathcal{I}^n(\Gamma)=\mathcal{F}_n(\Gamma) \text{ for all } n\geq 0, \Gamma\colon\text{skeleton}$.
+\end{theorem}
+
+\begin{proof}
+  \begin{enumerate}
+    \item $(\mathcal{I}^1=\mathcal{F}_1)$\\
+    $(\supset)$ 任意の$\mathcal{F}_1$の元は少なくとも1つのdouble pointを持つような1-singular KTGの交点の正負の差を元に持つため，$\mathcal{F}_1\subset \mathcal{I}\subset\mathcal{I}^1$. \\
+    $(\subset)$ 任意の$\mathcal{I}$の元は，$\sum_i c_i(\gamma_i-\gamma'_i)$と書ける．$\mathcal{F}_1$において，同じskeleton を持つ任意の2つのKTGはcrossing change により移りあうため，$\gamma_i - \gamma'_i$を1点における正負の交差の差 $\tilde{\gamma}_i-\tilde{\gamma}'_i$となるようにできる．よって
+    \[\sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1.\]
+  \end{enumerate}
+\end{proof}
 
 \newpage
 \bibliographystyle{alpha} %plain, unsrt, alpha などが一般的

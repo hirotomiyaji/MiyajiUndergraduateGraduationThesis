@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  20 NOV 2025 17:13
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  20 NOV 2025 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,63 +661,75 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pack
 with kernel methods
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshared.code.tex))
 \c@questionCounter=\count362
-Package hyperref Info: Option `colorlinks' set `false' on input line 79.
+Package hyperref Info: Option `colorlinks' set `false' on input line 92.
 \c@mycounter=\count363
 (out/MiyajiUndergraduateGraduationThesis.aux)
 \openout1 = `MiyajiUndergraduateGraduationThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-Package hyperref Info: Link coloring OFF on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+Package hyperref Info: Link coloring OFF on input line 113.
 (out/MiyajiUndergraduateGraduationThesis.out) (out/MiyajiUndergraduateGraduationThesis.out)
 \@outlinefile=\write4
 \openout4 = `MiyajiUndergraduateGraduationThesis.out'.
 
 \docmute@nestinglevel=\count364
-LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 122.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 122.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 127.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 127.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 130.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 130.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 102.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 134.
 (c:/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 102.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 134.
 (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+
+[1
+
+]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 102.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 102.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 107.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 107.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 139.
 (out/MiyajiUndergraduateGraduationThesis.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
@@ -733,59 +745,55 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
 
 
-[1
-
-]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 110.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 110.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 126.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 126.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 126.
-
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 129.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 135.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 142.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 144.
-
-
 [2]
+File: images/help.jpg Graphic file (type bmp)
+<images/help.jpg>
+
+
+[3]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 171.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 171.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 171.
+
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 174.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 180.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 187.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 189.
 File: images/collapseNot.png Graphic file (type bmp)
 <images/collapseNot.png>
 File: images/collapse.png Graphic file (type bmp)
 <images/collapse.png>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 152.
+(Font)              No change on input line 197.
+
+
+[4]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 156.
+(Font)              No change on input line 201.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 156.
+(Font)              No change on input line 201.
 File: inkscape/trivalentgraph.pdf Graphic file (type pdf)
 <inkscape/trivalentgraph.pdf>
 File: inkscape/framedtrivalentgraph.pdf Graphic file (type pdf)
 <inkscape/framedtrivalentgraph.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 170.
+(Font)              No change on input line 215.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 170.
+(Font)              No change on input line 215.
 File: inkscape/exKTG.pdf Graphic file (type pdf)
 <inkscape/exKTG.pdf>
-
-
-[3]
 File: inkscape/FramedReideMoves/fR1_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR1_0.pdf>
 File: inkscape/FramedReideMoves/fR1_1.pdf Graphic file (type pdf)
@@ -802,8 +810,11 @@ File: inkscape/FramedReideMoves/fR3_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR3_0.pdf>
 File: inkscape/FramedReideMoves/fR3_1.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR3_1.pdf>
+
+
+[5]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 207.
+(Font)              No change on input line 252.
 File: inkscape/FramedReideMoves/fR4a_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR4a_0.pdf>
 File: inkscape/FramedReideMoves/fR4a_1.pdf Graphic file (type pdf)
@@ -812,43 +823,50 @@ File: inkscape/FramedReideMoves/fR4b_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR4b_0.pdf>
 File: inkscape/FramedReideMoves/fR4b_1.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR4b_1.pdf>
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 277.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 281.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 291.
 
 
-[4]
+[6]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 232.
+(Font)              No change on input line 301.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 236.
+(Font)              No change on input line 313.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 244.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 252.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 261.
+(Font)              No change on input line 328.
 
-
-[5]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 273.
-
-Overfull \hbox (73.84723pt too wide) detected at line 276
+Overfull \hbox (76.85045pt too wide) detected at line 335
 \OMS/cmsy/m/n/12 F[]\OT1/cmr/m/n/12 (^^@) [][]= []
  []
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 296.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 308.
 
-Overfull \hbox (91.04pt too wide) in paragraph at lines 308--309
+
+[7]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 352.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 362.
+
+Overfull \hbox (91.04pt too wide) in paragraph at lines 362--363
 []\JY1/mc/m/n/12 この論文だけ $\OMS/cmsy/m/n/12 A\OT1/cmr/m/n/12 (^^@)$ \JY1/mc/m/n/12 の構成法が違うので一旦パス ． \OT1/cmr/m/n/12 (\JY1/mc/m/n/12 結局は $\OMS/cmsy/m/n/12 f[]g\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 ([]) []
  []
 
 
 
-[6]
+[8]
 
-[7] (out/MiyajiUndergraduateGraduationThesis.bbl
+[9]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 426.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 436.
+
+
+[10] (out/MiyajiUndergraduateGraduationThesis.bbl
 Underfull \hbox (badness 5908) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
  []
@@ -865,7 +883,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 31.
 )
 
-[8] (out/MiyajiUndergraduateGraduationThesis.aux)
+[11] (out/MiyajiUndergraduateGraduationThesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -875,12 +893,12 @@ Package rerunfilecheck Info: File `MiyajiUndergraduateGraduationThesis.out' has 
 (rerunfilecheck)             Checksum: 8B66E1C4CFF301E504EFD907FE7FCEE4;643.
  ) 
 Here is how much of TeX's memory you used:
- 27290 strings out of 469856
- 545522 string characters out of 5479602
- 917182 words of memory out of 5000000
- 55337 multiletter control sequences out of 15000+600000
- 714468 words of font info for 176 fonts, out of 8000000 for 9000
+ 27321 strings out of 469856
+ 546081 string characters out of 5479602
+ 923282 words of memory out of 5000000
+ 55366 multiletter control sequences out of 15000+600000
+ 716000 words of font info for 182 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 84i,8n,104p,633b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,104p,633b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/MiyajiUndergraduateGraduationThesis.dvi (8 pages, 29888 bytes).
+Output written on out/MiyajiUndergraduateGraduationThesis.dvi (11 pages, 38468 bytes).
