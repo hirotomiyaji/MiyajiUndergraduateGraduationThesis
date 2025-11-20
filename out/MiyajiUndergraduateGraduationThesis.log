@@ -1,13 +1,12 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.9.22)  15 NOV 2025 19:26
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  20 NOV 2025 17:13
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/ns38893/Documents/MiyajiUndergraduateGraduationThesis/MiyajiUndergraduateGraduationThesis.tex
-(c:/Users/ns38893/Documents/MiyajiUndergraduateGraduationThesis/MiyajiUndergraduateGraduationThesis.tex
+**c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/MiyajiUndergraduateGraduationThesis.tex
+(c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/MiyajiUndergraduateGraduationThesis.tex
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+L3 programming layer <2025-10-24>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
@@ -138,7 +137,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 106.
 (c:/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+File: dvipdfmx.def 2025/09/29 v5.0n Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen174
 \Gin@req@width=\dimen175
@@ -511,7 +510,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count327
 ) (c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count328
 ) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
@@ -611,16 +610,16 @@ File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (c:/texlive/2025/texmf-dist/tex/latex/spath3/tikzlibraryspath3.code.tex (c:/texlive/2025/texmf-dist/tex/latex/spath3/spath3.sty (c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
+Package: expl3 2025-10-24 L3 programming layer (loader) 
 (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
-File: l3backend-dvipdfmx.def 2025-06-09 L3 backend support: dvipdfmx
+File: l3backend-dvipdfmx.def 2025-10-09 L3 backend support: dvipdfmx
 \g__graphics_track_int=\count341
 \g__pdfannot_backend_int=\count342
 \g__pdfannot_backend_link_int=\count343
 ))
 Package: spath3 2024/05/31 v2.8 Functions for manipulating PGF soft paths
 (c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 \g__spath_output_int=\count344
 \l__spath_tmpa_dim=\dimen315
@@ -870,18 +869,18 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `MiyajiUndergraduateGraduationThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8B66E1C4CFF301E504EFD907FE7FCEE4;643.
  ) 
 Here is how much of TeX's memory you used:
- 27285 strings out of 469906
- 545432 string characters out of 5484464
- 916910 words of memory out of 5000000
- 55282 multiletter control sequences out of 15000+600000
- 713572 words of font info for 176 fonts, out of 8000000 for 9000
+ 27290 strings out of 469856
+ 545522 string characters out of 5479602
+ 917182 words of memory out of 5000000
+ 55337 multiletter control sequences out of 15000+600000
+ 714468 words of font info for 176 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 84i,8n,104p,635b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,104p,633b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/MiyajiUndergraduateGraduationThesis.dvi (8 pages, 29200 bytes).
+Output written on out/MiyajiUndergraduateGraduationThesis.dvi (8 pages, 29888 bytes).
