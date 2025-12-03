@@ -103,12 +103,12 @@
 \newcounter{mycounter} % 新しいカウンタを定義
 \numberwithin{mycounter}{section} % mycounter を section と同期
 \newtheorem{proposition}[mycounter]{Proposition} % mycounterカウンタを使用する
-\newtheorem{theorem}[mycounter]{定理} % mycounterカウンタを使用する
+\newtheorem{theorem}[mycounter]{Theorem} % mycounterカウンタを使用する
 \newtheorem{corollary}[mycounter]{Corollary}     % 同じカウンタを使う
 \newtheorem{remark}[mycounter]{Remark}           % 同じカウンタを使う
 \newtheorem{lemma}[mycounter]{Lemma}           % 同じカウンタを使う
 \newtheorem{exercise}[mycounter]{Exercise}
-\newtheorem{example}[mycounter]{例}
+\newtheorem{example}[mycounter]{Example}
 \newtheorem{definition}[mycounter]{Definition}
 \begin{document}
 % \maketitle
@@ -390,7 +390,7 @@ KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K
   well-definedである．Introduction to Vassiliev knot invariants(Chmutov) のLemma4.2.9
 \end{itemize}
 
-\begin{theorem}
+\begin{theorem}\label{thm:KTGgen}
   KTGs は trivially embedded tetrahedron と twisted tetrahedron の列により有限生成．
 \end{theorem}
 
@@ -398,7 +398,7 @@ KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K
 $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connected sum を linear に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$は vector space となる．
 
 \begin{definition}
-  $\Gamma$をKTGとする．$\ck(\Gamma)$ において，係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigcup_{\Gamma}\mathcal{I}(\Gamma)$とする．
+  $\Gamma$をKTGとする．$\ck(\Gamma)$ において，係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$とする．
 \end{definition}
 
 \begin{example}
@@ -406,20 +406,20 @@ $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connect
 \end{example}
 
 \begin{definition}
-  $\mathcal{I}^m$を，$\mathcal{I}$の元を少なくとも$m$個含むようなものの演算の合成で生成される$\ck$の部分空間とする．つまり，
-  % \[(\mathcal{I})^m\coloneqq\{\gamma\in\mathcal{K}\mid \text{There exist }n, f\colon\prod^n_{i=1}\ck\to\ck, x_1,\dots,x_n\in\ck \text{ such that }\gamma=f(x_1,\dots,x_n), \#\{i\mid x_i\in\mathcal{I}\}\geq m\}.\]
+  $\mathcal{I}^m$を，$\mathcal{I}$の元を少なくとも$m$個含むようなものから任意の演算の合成で得られる元が生成する$\ck$の部分空間とする．つまり，
   \[ 
     \mathcal{I}^m \coloneqq \left\{ \gamma\in\mathcal{K} \;\middle|\;
     \begin{aligned}
-      &\text{There exist } n, f\colon\prod^n_{i=1}\mathcal{K}\to\mathcal{K}, x_1,\dots,x_n\in\mathcal{K} \\
+      &\text{There exist } n,\, f\colon\prod^n_{i=1}\mathcal{K}\to\mathcal{K},\, x_1,\dots,x_n\in\mathcal{K} \\
       &\quad \text{ such that }\gamma=f(x_1,\dots,x_n), \#\{i\mid x_i\in\mathcal{I}\}\geq m
     \end{aligned}\right\}.
   \]
+  さらに，$\mathcal{I}^n(\Gamma)\coloneqq \mathcal{I}\cap \mathcal{I}(\Gamma)$とする．
 \end{definition}
-$\mathcal{I}^m$は明らかにfiltrationの構造をもつ．
+ここで，$\mathcal{I}^m$は明らかにfiltrationの構造をもつ．
 
 \begin{lemma}
-  $\mathcal{I}(\Gamma)=\{\sum_{i}c_i(\gamma_{1_i} - \gamma_{2_i})\mid \gamma_{1_i}, \gamma_{2_i}\colon \text{generators of }\ck(\Gamma), c_i\in\QQ\}$.
+  $\mathcal{I}(\Gamma)=\{\sum\limits_{i}c_i(\gamma_{1_i} - \gamma_{2_i})\mid \gamma_{1_i}, \gamma_{2_i}\colon \text{generators of }\ck(\Gamma), c_i\in\QQ\}$.
 \end{lemma}
 
 \begin{proof}
@@ -434,8 +434,8 @@ $\mathcal{I}^m$は明らかにfiltrationの構造をもつ．
 
 \begin{proof}
   \begin{enumerate}
-    \item $(\mathcal{I}^1(\Gamma)=\mathcal{F}_1(\Gamma))$\\
-    $(\supset)$ 任意の$\mathcal{F}_1(\Gamma)$の元は少なくとも1つのdouble pointを持つような1-singular KTGの交点の正負の差を元に持つため，$\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)\subset\mathcal{I}^1(\Gamma)$. \\
+    \item $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$\\
+    $(\supset)$ 任意の$\mathcal{F}_1(\Gamma)$の元は少なくとも1つのdouble pointを持つような1-singular KTGの交点の正負の差を元に持つため，$\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$. \\
     $(\subset)$ 任意の$\mathcal{I}(\Gamma)$の元は，$\sum_i c_i(\gamma_i-\gamma'_i)$と書ける．$\mathcal{F}_1(\Gamma)$において，同じskeleton を持つ任意の2つのKTGはcrossing change により移りあうため，$\gamma_i - \gamma'_i$を1点における正負の交差の差 $\tilde{\gamma}_i-\tilde{\gamma}'_i$となるようにできる．よって
     \[\sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).\]
     \item $\mathcal{I}^n(\Gamma)\subset\mathcal{F}_n(\Gamma)$\\
@@ -465,7 +465,16 @@ $\mathcal{I}^m$は明らかにfiltrationの構造をもつ．
       \end{figure}
       Unzipを行うedgeにchordが接続されている場合，chordは2つに分かれるため，double point の数は変わらない．
     \end{itemize}
+    \item $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$
+    \begin{lemma}\label{Lem:singKTGgen}
+      Any $n$-singular KTG can be obtained from the trivially embedded tetrahedron, twisted tetrahedron and singular twisted tetrahedron using the four operations.
+    \end{lemma}
+    \begin{proof}
+      Same as Theorem~\ref{thm:KTGgen}.
+    \end{proof}
+    Since any $n$-singular KTG can be obtained from $n$ pieces of 1-singular KTGs by Lemma~\ref{Lem:singKTGgen} and the four operations, $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$.
   \end{enumerate}
+  Therefore, $\mathcal{I}^n(\Gamma)=\mathcal{F}_n(\Gamma)$ for all $n\geq 0$ and skeleton $\Gamma$.
 \end{proof}
 
 \newpage
