@@ -71,7 +71,7 @@
 \DeclareMathOperator{\rank}{rank}
 \DeclareMathOperator{\gr}{gr} %graded
 \DeclareMathOperator{\id}{id} %id
-% \DeclareMathOperator{\Pr}{Pr} %Pr
+\DeclareMathOperator{\proj}{proj}
 
 \let\Re\relax%実部虚部の更新
 \DeclareMathOperator{\Re}{Re}
@@ -340,10 +340,10 @@ $n\geq 1$に対し以下のようなベクトル空間を考える．
   \centering
   \Huge 図
   \end{figure}
-$\mathcal{F}_n\ (n\geq 1)$に対し，$\rho$で送ると，
-\[\mathcal{F}_0\supset \rho(\mathcal{F}_1)\supset \rho(\mathcal{F}_2)\cdots.\]
-というfiltrationが得られる．このfiltrationに対するassociated graded spaceとして，
-\[\mathcal{A}(\Gamma)\coloneqq \prod_{i=0}^{\infty}\mathcal{F}_{i}(\Gamma)/\mathcal{F}_{i+1}(\Gamma)\]
+$\mathcal{F}_n'\ (n\geq 1)$に対し，$\rho$の像$\rho(\mathcal{F}_n')$を$\mathcal{F}_n$と定義すると，
+\[\mathcal{F}_0\supset \mathcal{F}_1\supset \mathcal{F}_2\cdots.\]
+というfiltrationが得られる．このfiltrationにおいて隣合う2つのベクトル空間から得られる商ベクトル空間を$\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n/\mathcal{F}_{n+1}$とし，associated graded spaceとして，
+\[\mathcal{A}(\Gamma)\coloneqq \bigoplus_{i=0}^{\infty}\mathcal{A}_n(\Gamma) = \bigoplus_{i=0}^{\infty}\mathcal{F}_{i}(\Gamma)/\mathcal{F}_{i+1}(\Gamma)\]
 とする．
 
 $\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
@@ -476,6 +476,10 @@ $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connect
   \end{enumerate}
   Therefore, $\mathcal{I}^n(\Gamma)=\mathcal{F}_n(\Gamma)$ for all $n\geq 0$ and skeleton $\Gamma$.
 \end{proof}
+
+\begin{definition}
+  Let $\Gamma$, $\mathcal{K}(\Gamma)$ be a skeleton and the set of KTGs with skeleton $\Gamma$. An \textit{expansion} $Z$ for $\mathcal{K}(\Gamma)$ is a map $Z\colon \mathcal{K}(\Gamma)\to \hat{\mathcal{A}}(\Gamma) = \prod_{n=0}^{\infty}\mathcal{A}_n(\Gamma)$ such that if $\gamma\in\mathcal{I}^n(\Gamma)=\mathcal{F}_n(\Gamma)$, then $Z(\gamma)\in\prod_{n\geq m}\mathcal{I}^n(\Gamma)/\mathcal{I}^{n+1}(\Gamma)$ and $\gr Z\colon \gr\mathcal{K(\Gamma)}\to \gr\proj \mathcal{K(\Gamma)}$ is the identity map, where $\proj\mathcal{K}(\Gamma)\coloneqq \bigoplus_{n=0}^\infty \mathcal{I}^n(\Gamma)/\mathcal{I}^{n+1}(\Gamma)$.
+\end{definition}
 
 \newpage
 \bibliographystyle{alpha} %plain, unsrt, alpha などが一般的
