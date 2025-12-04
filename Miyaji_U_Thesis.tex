@@ -174,11 +174,11 @@
 \part{Preliminaries}
 \section{KTGs and $Z^{old}$}
 
-\begin{definition}
-  \textit{Trivalent graph}(3価グラフ)とは，各頂点が3つの辺をもつようなグラフをいう．
-\end{definition}
+% \begin{definition}
+%   \textit{Trivalent graph}(3価グラフ)とは，各頂点が3つの辺をもつようなグラフをいう．
+% \end{definition}
 
-全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．ループや円などの辺を許すこととする．
+全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．ループや円などの辺を許すこととする．All edges are oriented, and the vertices are given a counterclockwise orientation. Loops are allowed.
 
 \begin{definition}
   \textit{Surface}(曲面)とは第2可算公理\footnote{高々可算な開基を持つ．}を満たす2次元多様体をいう．A \textit{surface} is a 2-dimensional manifold that satisfies the second-countable axiom.
@@ -206,11 +206,9 @@
 \begin{definition}
   単体複体$K$における\textit{spine}(スパイン)とは，$K$の部分単体複体$K'$であって，$K$をcollapseして$K'$となるものをいう．A \textit{spine} of a simplicial complex $K$ is a sub-simplicial complex $K'$ such that $K$ collapses to $K'$.
 \end{definition}
-\begin{theorem}
-  aaa
-\end{theorem}
+
 \begin{definition}
-  graph $\Gamma$に対し \textit{framed graph} (枠付きグラフ) $\mathbf{\Gamma}$とは，$\Gamma$と，$\Gamma$をspineとして曲面$\Sigma$へ埋め込む\footnote{グラフを1次元CW複体とみなす．}写像$\Gamma\hookrightarrow\Sigma$の組をいう．特に$\Gamma$がTrivalent graphのとき，$\mathbf{\Gamma}$を\textit{framed trivalent graph}\footnote{論文では thickened trivalent graph と書いてある．}という．
+  graph $\Gamma$に対し \textit{framed graph} (枠付きグラフ) $\mathbf{\Gamma}$とは，$\Gamma$と，$\Gamma$をspineとして曲面$\Sigma$へ埋め込む\footnote{グラフを1次元CW複体とみなす．}写像$\Gamma\hookrightarrow\Sigma$の組をいう．特に$\Gamma$がTrivalent graphのとき，$\mathbf{\Gamma}$を\textit{framed trivalent graph}\footnote{論文では thickened trivalent graph と書いてある．}という．For a graph $\Gamma$, a \textit{framed graph} $\mathbf{\Gamma}$ is a pair of $\Gamma$ and an embedding $\Gamma\hookrightarrow\Sigma$ into a surface $\Sigma$ such that $\Gamma$ is a spine of $\Sigma$. In particular, when $\Gamma$ is a trivalent graph, $\mathbf{\Gamma}$ is called a \textit{framed trivalent graph}.
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/trivalentgraph.pdf}}
@@ -235,11 +233,13 @@
   \end{figure}
 \end{definition}
 
-KTGs において，skeleton が isotopy で移りあうものを同一視する．特に，framed knots や links は KTGs の特別な場合である．
-Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書き，$\mathcal{K}\coloneqq \bigcup_{\Gamma}\mathcal{K}(\Gamma)$とする．
+KTGs において，skeleton が isotopy で移りあうものを同一視する．特に，framed knots や links は KTGs の特別な場合である．Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書く．
+We identify KTGs whose skeletons are isotopic. For a trivalent graph $\Gamma$, we denote the set of all KTGs with skeleton $\Gamma$ by $\mathcal{K}(\Gamma)$.
 
 \begin{proposition}
-  Framed knots と，framed knot の diagrams で 3つの Reidemeister 変形 $R1', R2, R3$ の操作で移りあうものを同一視したものは1対1に対応する．
+  Framed links と，framed link の diagrams で 3つの Reidemeister 変形 $R1', R2, R3$ の操作で移りあうものを同一視したものは1対1に対応する．
+  Two framed links are isotopic if and only if their diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3$.
+
   \begin{figure}[H]
     \centering
     $R1'$:\hspace{3mm}
@@ -267,7 +267,7 @@ Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Ga
 \end{proof}
 
 \begin{proposition}
-  KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．
+  KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．Two KTGs are isotopic if and only if their graph diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3, R4$.
 
   \begin{figure}[H]
     \centering
@@ -289,33 +289,32 @@ Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Ga
   % \cite{murakami1997topological}~P505~Theorem~1.4\\
   % 向きづけられた枠付き3価グラフ$\mathbf{\Gamma}$の$S^3$への埋め込み$G$の universal Vassiliev invariant $\hat{Z}(G)$ は isotopy invariant である．(Reidemeister moves で移り変わっても変わらない)
 \end{proof}
-
-KTGsには以下の4つの操作がある．
+% Let $\Gamma$ be a trivalent graph.
+There are four operations on KTGs:
 \begin{definition}
-  Trivalent graph を$\Gamma$，KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
+  KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．
+  Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and $e$ be an edge of $\Gamma$. The \textit{switch the orientation} of $e$ is defined as reversing its orientation, and is denoted by $S_e(\gamma)$.
   \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
-  Let $\Gamma$ be a trivalent graph, $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and $e$ be an edge of $\Gamma$. The \textit{switch the orientation} of $e$ is defined as reversing its orientation, and is denoted by $S_e(\gamma)$.
-  \begin{figure}[htbp]
+  \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/switch.pdf}}
   \end{figure}
 \end{definition}
 
 \begin{definition}
-  $\Gamma$のedgeであって，両端に接続されているedgeの向きが一致している$e$を\textit{delete}するとは，$e$を削除し，三価性を保つように$e$の両端の頂点を削除することをいう．
+  $\Gamma$のedgeであって，両端に接続されているedgeの向きが一致している$e$を\textit{delete}するとは，$e$を削除し，三価性を保つように$e$の両端の頂点を削除することをいう．Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and let $e$ be an edge of $\gamma$. \textit{Delete} of $e$ is defined as removing $e$ and the two vertices at the ends of $e$ also cease to exist to preserve the trivalence. To do this, it is required that the orientations of the two edges connecting to $e$ at either end match.
   \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
   % \[d_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto d_e(\gamma)\]
-  \begin{figure}[htbp]
+  \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/delete.pdf}}
   \end{figure}
 \end{definition}
 
 \begin{definition}
-  $\Gamma$のedge $e$を\textit{unzip}するとは，$e$を``限りなく近い''2つのedgesに分け，端点をなくすことをいう．端点をなくしたとき，edgeの向きが合っていることが必要である．
-  同様の議論でframed graph $\mathbf{\Gamma}$に対し，unzipを定義できる．
+  $\Gamma$のedge $e$を\textit{unzip}するとは，$e$を``限りなく近い''2つのedgesに分け，端点をなくすことをいう．端点をなくしたとき，edgeの向きが合っていることが必要である．同様の議論でframed graph $\mathbf{\Gamma}$に対し，unzipを定義できる．Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and let $e$ be an edge of $\gamma$. \textit{Unzip} the edge $e$ is replacing it by two edges that are ``very close to each other''. Thw two vertices at the ends of $e$ will disappear. Again the edges at the vertex where $e$ begins have to both be incoming, while the edges at the vertex where $e$ ends must both be outgoing.
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
-  \begin{figure}[htbp]
+  \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/unzip.pdf}}
   \end{figure}
@@ -323,8 +322,9 @@ KTGsには以下の4つの操作がある．
 
 \begin{definition}
   2つのtrivalent graph とそのedgeのペア$(\Gamma,e), (\Gamma',f)$の\textit{connected sum} $\Gamma\#_{e,f}\Gamma'$とは$e,f$をつなぐedgeを新たに作ること．well-definedであるために，新たなedgeの向きは$\Gamma$から$\Gamma'$への向きとし，KTGsにおいてはねじれを許さず，辺を付ける場合は$e,f$の右側に付けるとする．(2次元では自由に動かせないため左右が重要)
+  Let $(\Gamma,e), (\Gamma',f)$ be two pairs of trivalent graphs and their edges. The \textit{connected sum} $\Gamma\#_{e,f}\Gamma'$ is obtained by joining $e$ and $f$ by a new edge. For this to be well-defined, we also need to specify the direction of the new edge, the cyclic orientations at each new vertex, and in the case of KTGs, the framing on the new edge. To compress notatio, let us declare that the new edge be oriented from $\Gamma$ towards $\Gamma'$, have no twists, and, using the blackboard framing, be attached to the right side of $e$ and $f$.
   \[\#_{e,f}\colon \mathcal{K}(\Gamma)\times\mathcal{K}(\Gamma')\to \mathcal{K}(\Gamma\#_{e, f}\Gamma')\]
-  \begin{figure}[htbp]
+  \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/connectedSum.pdf}}
   \end{figure}
@@ -342,12 +342,7 @@ KTGsのfinite type invariantsは，linksにおけるものと同様に定義す�
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/singularKTG.pdf}}
   \end{figure}
 \end{definition}
-% \begin{example}
-%   \begin{figure}[H]
-%   \centering
-%   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/singularKTG.pdf}}
-%   \end{figure}
-% \end{example}
+
 $n\geq 1$に対し以下のようなベクトル空間を考える．
 \[\mathcal{F}'_n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\NN, a_i\in \QQ, \gamma'_i\colon \Gamma\text{を骨格とし少なくとも}n\text{この特異点を持つKTG}\right\}\]
 特異点を解消する写像として，
@@ -356,7 +351,7 @@ $n\geq 1$に対し以下のようなベクトル空間を考える．
 \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResDouble.pdf}},\\ \vspace{5mm}
-  \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF1.pdf}},\quad
+  \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF1.pdf}},\hspace{10mm}
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF2.pdf}}.
 \end{figure}
 $\mathcal{F}_n'\ (n\geq 1)$に対し，$\rho$の像$\rho(\mathcal{F}_n')$を$\mathcal{F}_n$と定義すると，
