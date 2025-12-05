@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  5 DEC 2025 01:31
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  5 DEC 2025 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -892,16 +892,13 @@ File: inkscape/ResF2.pdf Graphic file (type pdf)
 
 [9]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 376.
+(Font)              No change on input line 380.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 381.
+(Font)              No change on input line 380.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 386.
-
-Overfull \hbox (91.04pt too wide) in paragraph at lines 386--387
-[]\JY1/mc/m/n/12 この論文だけ $\OMS/cmsy/m/n/12 A\OT1/cmr/m/n/12 (^^@)$ \JY1/mc/m/n/12 の構成法が違うので一旦パス ． \OT1/cmr/m/n/12 (\JY1/mc/m/n/12 結局は $\OMS/cmsy/m/n/12 f[]g\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 ([]) []
- []
-
+(Font)              No change on input line 383.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 388.
 File: inkscape/4t.pdf Graphic file (type pdf)
 <inkscape/4t.pdf>
 File: inkscape/vi.pdf Graphic file (type pdf)
@@ -910,35 +907,38 @@ File: inkscape/vi.pdf Graphic file (type pdf)
 
 [10]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 418.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 446.
+(Font)              No change on input line 423.
 
 
 [11]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 451.
+(Font)              No change on input line 452.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 456.
+(Font)              No change on input line 457.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 461.
+(Font)              No change on input line 462.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 494.
+(Font)              No change on input line 467.
 
 
 [12]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 498.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 506.
+(Font)              No change on input line 507.
 
-Overfull \hbox (77.66644pt too wide) in paragraph at lines 506--507
+
+[13]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 511.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 519.
+
+Overfull \hbox (77.66644pt too wide) in paragraph at lines 519--520
 [] \OML/cmm/m/it/12 Z [] []  [] [] \OMS/cmsy/m/n/12 ! [] [] []$ \OT1/cmr/m/n/12 is the iden-tity map, where $[] \OMS/cmsy/m/n/12 K\OT1/cmr/m/n/12 (^^@) [][]= [][] \OMS/cmsy/m/n/12 I[]\OT1/cmr/m/n/12 (^^@)\OML/cmm/m/it/12 =\OMS/cmsy/m/n/12 I[]\OT1/cmr/m/n/12 (^^@)$. 
  []
 
 
 
-[13] (out/Miyaji_U_Thesis.bbl
+[14] (out/Miyaji_U_Thesis.bbl
 Underfull \hbox (badness 5862) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
  []
@@ -953,7 +953,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 25.
 )
 
-[14] (out/Miyaji_U_Thesis.aux)
+[15] (out/Miyaji_U_Thesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -963,12 +963,12 @@ Package rerunfilecheck Info: File `Miyaji_U_Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8B66E1C4CFF301E504EFD907FE7FCEE4;643.
  ) 
 Here is how much of TeX's memory you used:
- 27384 strings out of 469856
- 546965 string characters out of 5479602
- 921260 words of memory out of 5000000
- 55419 multiletter control sequences out of 15000+600000
+ 27385 strings out of 469856
+ 546976 string characters out of 5479602
+ 924261 words of memory out of 5000000
+ 55420 multiletter control sequences out of 15000+600000
  716000 words of font info for 182 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 84i,10n,104p,824b,860s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,104p,888b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/Miyaji_U_Thesis.dvi (14 pages, 48132 bytes).
+Output written on out/Miyaji_U_Thesis.dvi (15 pages, 53416 bytes).

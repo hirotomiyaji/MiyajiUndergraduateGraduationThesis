@@ -316,7 +316,7 @@ There are four operations on KTGs:
 
 \begin{definition}
   $\Gamma$のedge $e$を\textit{unzip}するとは，$e$を``限りなく近い''2つのedgesに分け，端点をなくすことをいう．端点をなくしたとき，edgeの向きが合っていることが必要である．同様の議論でframed graph $\mathbf{\Gamma}$に対し，unzipを定義できる．Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and let $e$ be an edge of $\gamma$. \textit{Unzip} the edge $e$ is replacing it by two edges that are ``very close to each other''. Thw two vertices at the ends of $e$ will disappear. Again the edges at the vertex where $e$ begins have to both be incoming, while the edges at the vertex where $e$ ends must both be outgoing.
-  \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
+  \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]　
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/unzip.pdf}}
@@ -333,10 +333,10 @@ There are four operations on KTGs:
   \end{figure}
 \end{definition}
 
-KTGsのfinite type invariantsは，linksにおけるものと同様に定義する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．
+KTGsのfinite type invariantsは，linksにおけるものと同様に定義する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．We define finite type invariants of KTGs in the same way as for links. In detail, we allow linear combinations of KTGs with the same skeleton, and filter the resulting vector space by the resolution of singular points.
 
-\[\mathcal{F}_0(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\NN, a_i\in \QQ, \gamma_i\in \mathcal{K}(\Gamma)\right\}\]
-をKTGsの有限な形式和全体がなす$\QQ$-ベクトル空間とする．
+% \[\mathcal{F}_0(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\NN, a_i\in \QQ, \gamma_i\in \mathcal{K}(\Gamma)\right\}\]
+% をKTGsの有限な形式和全体がなす$\QQ$-ベクトル空間とする
 
 \begin{definition}
   \textit{n-singular KTG}とは，$n$この特異点を持つtrivalent graphの$\RR^3$へのはめ込み．各特異点は横断的な2重点か，``$F$''と書かれた線上の点である．An \textit{n-singular KTG} is a trivalent graph immersed in $\RR^3$ with $n$ singular points: each singular point is a transverse double point or a point on an edge marked with an ``$F$''.
@@ -346,66 +346,71 @@ KTGsのfinite type invariantsは，linksにおけるものと同様に定義す�
   \end{figure}
 \end{definition}
 
-$n\geq 1$に対し以下のようなベクトル空間を考える．
+$n\geq 1$に対し以下のようなベクトル空間を考える．For $n\geq 1$, we consider the following vector space:
 \[
   \mathcal{F}'_n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\,
   \begin{aligned}
-    &m\in\NN, a_i\in \QQ, \gamma'_i\colon \Gamma\text{を骨格とし}\\
-    &\quad\text{少なくとも}n\text{この特異点を持つKTG}
+    &m\in\NN, a_i\in \QQ, \gamma'_i\colon \text{KTG which has } \\
+    &\quad \text{ at least } n \text{ double point with skeleton }\Gamma
   \end{aligned}
   \right\}
 \]
-特異点を解消する写像として，
-\[\rho\colon\mathcal{F}'_\ast \to \mathcal{F}_0,\]
-であって，以下のように定めるものを考える:
+全ての特異点を解消する写像$\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$を以下のように定める:
+We define a map $\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$ that resolves all double points as follows:
 \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResDouble.pdf}},\\ \vspace{5mm}
-  \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF1.pdf}},\hspace{10mm}
+  \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF1.pdf}},\hspace{7mm}
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF2.pdf}}.
 \end{figure}
-$\mathcal{F}_n'\ (n\geq 1)$に対し，$\rho$の像$\rho(\mathcal{F}_n')$を$\mathcal{F}_n$と定義すると，
-\[\mathcal{F}_0\supset \mathcal{F}_1\supset \mathcal{F}_2\cdots.\]
-というfiltrationが得られる．このfiltrationにおいて隣合う2つのベクトル空間から得られる商ベクトル空間を$\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n/\mathcal{F}_{n+1}$とし，associated graded spaceとして，
-\[\mathcal{A}(\Gamma)\coloneqq \bigoplus_{i=0}^{\infty}\mathcal{A}_n(\Gamma) = \bigoplus_{i=0}^{\infty}\mathcal{F}_{i}(\Gamma)/\mathcal{F}_{i+1}(\Gamma)\]
-とする．
 
-$\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．
+$\mathcal{F}_n'(\Gamma)\ (n\geq 1)$に対し，$\mathcal{F}_n(\Gamma)$を$\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$と定義すると，明らかに$\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$であり，For each $\mathcal{F}_n'(\Gamma)\ (n\geq 1)$, we define $\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$. Then, obviously, $\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$, and we obtain a following filtration:
+\[
+  \mathcal{K}(\Gamma) = \mathcal{F}_0(\Gamma)\supset \mathcal{F}_1(\Gamma)\supset \mathcal{F}_2(\Gamma) \supset \mathcal{F}_3(\Gamma)\cdots.
+\]
+というfiltrationが得られる．このfiltrationにおいて隣合う2つのベクトル空間から得られる商ベクトル空間を$\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n/\mathcal{F}_{n+1}$とし，associated graded spaceを以下のように定義する:
+In this filtration, we denote the quotient vector space obtained from two adjacent vector spaces by $\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n/\mathcal{F}_{n+1}$, and define the associated graded space as follows:
+\[
+  \mathcal{A}(\Gamma)\coloneqq \bigoplus_{n=0}^{\infty}\mathcal{A}_n(\Gamma) \left(= \bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F}_{n+1}(\Gamma)\right)
+\]
+
+$\mathcal{A}(\Gamma)$はchord diagramを用いて表すことができる．$\mathcal{A}(\Gamma)$ can be represented using chord diagrams.
 
 \begin{definition}
-  skeleton graph $\Gamma$上の$n$次の\textit{chord diagram}とは，$\Gamma$の辺上の$2n$この点のペアからなる組み合わせ的なものであり，辺の向きを保つ同相写像で移りあうものを同一視する．特に，次数$n$のchord diagramを基底とする$\QQ$上のベクトル空間を$\mathcal{D}_n(\Gamma)$と書く．
+  skeleton graph $\Gamma$上の$n$次の\textit{chord diagram}とは，$\Gamma$の辺上の$2n$この点のペアからなる組み合わせ的なものであり，辺の向きを保つ同相写像で移りあうものを同一視する．特に，次数$n$のchord diagramを基底とする$\QQ$上のベクトル空間を$\mathcal{D}_n(\Gamma)$と書く．A \textit{chord diagram} of order $n$ on a skeleton graph $\Gamma$ is a combinatorial object consisting of a pairing of $2n$ points on the edges of $\Gamma$, up to orientation-preserving homeomorphisms of the edges. In particular, we denote by $\mathcal{D}_n(\Gamma)$ the vector space over $\QQ$ generated by chord diagrams of order $n$.
 \end{definition}
 
-% $D_1, D_2\in \mathcal{D}_n(\Gamma)$に対し，$D_1\sim_{\text{Diag}} D_2$を
-
 \begin{proposition}
-  $\pi\colon\mathcal{D}(\Gamma)\to \mathcal{A}(\Gamma)$ は well-defined であり surjective.
+  $\pi\colon\mathcal{D}(\Gamma)\to \mathcal{A}(\Gamma)$ is well-defined and surjective.
 \end{proposition}
 
 \begin{proof}
-  この論文だけ$\ca(\Gamma)$の構成法が違うので一旦パス．(結局は$\{\text{Chord diagrams}\}/(\text{VI, 4T})\cong \ca$のはず)
+  この論文だけ$\ca(\Gamma)$の構成法が違うので一旦パス．\\(結局は$\{\text{Chord diagrams}\}/(\text{VI, 4T})\cong \ca$のはず)
 \end{proof}
 
-上記の写像の kernel に含まれる2つの関係式がある．(要証明←goodnoteとAlge Knot Theoryのノートでできたはず)(Kerが一致するとはまだ言ってない)
+上記の写像の kernel に含まれる2つの関係式がある．
+There are two relations contained in the kernel of the above map $\pi$.
 
 \begin{itemize}
-  \item (4T) Four term relation
+  \item ($4T$) Four term relation
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.45]{inkscape/4t.pdf}}
   \end{figure}
 
-  \item (VI) Vertex invariance relation
+  \item ($VI$) Vertex invariance relation
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.45]{inkscape/vi.pdf}}
   \end{figure}
 \end{itemize}
-図に描かれていない部分にはgraphがあるが，それらは全て同じでなければならない．4Tでは反時計回りの向きを与える(これ必要？)．VI において，$(-1)^\to$は，chord の付いたedgeが外向きなら-1, 内向きなら1をかける(つまり式は8つある)．
+図に描かれていない部分にはgraphがあるが，それらは全て同じでなければならない．4Tでは反時計回りの向きを与える(これ必要？)．$VI$ において，$(-1)^\to$は，chord の付いたedgeが外向きなら-1, 内向きなら1をかける(つまり式は8つある)．
+In both pictures, there may be other chords in the parts of the graph not shown, but they have to be the same throughout.  In $4T$, all skeleton parts (solid lines) are oriented counterclockwise. In $VI$, the sign $(-1)^\to$ is $-1$ if the edge the chord is ending on is oriented to be outgoing from the vertex, and $+1$ if it is incoming (thus there are 8 versions of the relation).
 
-4T, VI のrelationsが存在することは分かったが，これ以上のrelationが存在``しない''ことを示すのは困難である．これを示すには，universal finite type invariant $\QQ \text{KTG}\to \ca$を構成するのが最善である(ここでは定義しないが，後で一般の文脈で定義する)．これは，T.Le, H.Murakami, J. Murakami, T.Ohtsuki の結果をもとに，またDrinfeldのassociatorの理論を用いて[KO, CD],\cite{bar898algebraic}でのKontsevich integral を拡張する形で\cite{murakami1997topological}で初めて得られた．
+$4T$, $VI$ のrelationsが存在することは分かったが，これ以上のrelationが存在``しない''ことを示すのは困難である．これを示すには，universal finite type invariant $\QQ \text{KTG}\to \ca$を構成するのが最善である(ここでは定義しないが，後で一般の文脈で定義する)．これは，T.Le, H.Murakami, J. Murakami, T.Ohtsuki の結果をもとに，またDrinfeldのassociatorの理論を用いて[KO, CD],\cite{bar898algebraic}でのKontsevich integral を拡張する形で\cite{murakami1997topological}で初めて得られた．Although it is easy to see that these relations are present, showing that there are no more is difficult, and is best achieved by constructing a universal finite type invariant $\QQ KTG\to \mathcal{A}$ (we do not define universal finite type invariants here, but will do so later in the general context).
 
 KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K}(\Gamma)$のassociated graded spaceである．)
+Each operation on KTGs induces an operation on $\ca$ (the associated graded space of $\mathcal{K}(\Gamma)$).
 
 \begin{itemize}
   \item orientation switch
@@ -416,22 +421,23 @@ KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K
 \end{itemize}
 
 \begin{theorem}\label{thm:KTGgen}
-  KTGs は trivially embedded tetrahedron と twisted tetrahedron の列により有限生成．
+  Any KTG can be obtained from the trivially embedded tetrahedron and the twisted tetrahedron by a finite sequence of the four operations defined above.
 \end{theorem}
 
 \section{Algebraic structures and expansions}
-$\mathcal{K}$において，orientation switch, edge delete, edge unzip, connected sum を linear に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$は vector space となる．
+$\mathcal{K}$において，orientation switch, edge delete, edge unzip, connected sum を linear に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$は vector space となる．By linearly extending the operations of orientation switch, edge delete, edge unzip, and connected sum on $\mathcal{K}$ to allow linear combinations with coefficients in $\QQ$, $\mathcal{K}$ becomes a vector space.
 
 \begin{definition}
-  $\Gamma$をKTGとする．$\ck(\Gamma)$ において，係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$とする．
+  $\Gamma$をKTGとする．$\ck(\Gamma)$ において，係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$とする．Let $\Gamma$ be a KTG. Let $\mathcal{I}(\Gamma)$ be the sub-structure made out of all such combinations in which the sum of coefficients is 0, and let $\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$.
 \end{definition}
 
 \begin{example}
-  Let $\gamma_1, \gamma_2, \gamma_3$ be KTGs with skeleton $\Gamma$. Then, $\gamma_1-\gamma_2, \gamma_1-\frac{1}{2}\gamma-\frac{1}{2}\gamma_3\in \mathcal{I}(\Gamma)$.
+  Let $\gamma_1, \gamma_2$ and $\gamma_3$ be KTGs with skeleton $\Gamma$. Then, $\gamma_1-\gamma_2, \gamma_1-\frac{1}{2}\gamma-\frac{1}{2}\gamma_3\in \mathcal{I}(\Gamma)$.
 \end{example}
 
 \begin{definition}
   $\mathcal{I}^m$を，$\mathcal{I}$の元を少なくとも$m$個含むようなものから任意の演算の合成で得られる元が生成する$\ck$の部分空間とする．つまり，
+  Let $\mathcal{I}^m$ be the set of all outputs of arbitrary compositions of the operations in $\mathcal{K}$ that have at least $m$ inputs in $\mathcal{I}$. In other words,
   \[ 
     \mathcal{I}^m \coloneqq \left\{ \gamma\in\mathcal{K} \;\middle|\;
     \begin{aligned}
@@ -439,11 +445,11 @@ $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connect
       &\quad \text{ such that }\gamma=f(x_1,\dots,x_n), \#\{i\mid x_i\in\mathcal{I}\}\geq m
     \end{aligned}\right\}.
   \]
-  さらに，$\mathcal{I}^n(\Gamma)\coloneqq \mathcal{I}\cap \mathcal{I}(\Gamma)$とする．
+  さらに，$\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$とする．Moreover, we define $\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$.
 \end{definition}
-ここで，$\mathcal{I}^m$は明らかにfiltrationの構造をもつ．
+ここで，$\mathcal{I}^m$は明らかにfiltrationの構造をもつ．Clearly, $\mathcal{I}^m$ has a filtration structure.
 
-\begin{lemma}
+\begin{lemma}\label{lem:Ichar}
   $\mathcal{I}(\Gamma)=\{\sum\limits_{i}c_i(\gamma_{1_i} - \gamma_{2_i})\mid \gamma_{1_i}, \gamma_{2_i}\colon \text{generators of }\ck(\Gamma), c_i\in\QQ\}$.
 \end{lemma}
 
@@ -461,8 +467,15 @@ $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connect
   \begin{enumerate}
     \item $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$\\
     $(\supset)$ 任意の$\mathcal{F}_1(\Gamma)$の元は少なくとも1つのdouble pointを持つような1-singular KTGの交点の正負の差を元に持つため，$\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$. \\
-    $(\subset)$ 任意の$\mathcal{I}(\Gamma)$の元は，$\sum_i c_i(\gamma_i-\gamma'_i)$と書ける．$\mathcal{F}_1(\Gamma)$において，同じskeleton を持つ任意の2つのKTGはcrossing change により移りあうため，$\gamma_i - \gamma'_i$を1点における正負の交差の差 $\tilde{\gamma}_i-\tilde{\gamma}'_i$となるようにできる．よって
-    \[\sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).\]
+    Since any element $\gamma\in\mathcal{F}_1(\Gamma)$ has at least one double point, so there exist $\gamma_+, \gamma_-\in \mathcal{K}(\Gamma)$ such that $\gamma=\gamma_+ - \gamma_-$, thus $\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$.\\
+    $(\subset)$ 任意の$\mathcal{I}(\Gamma)$の元はLemma~\ref{lem:Ichar}より$\sum_i c_i(\gamma_i-\gamma'_i)$と書ける．$\mathcal{F}_1(\Gamma)$において，同じskeleton を持つ任意の2つのKTGはcrossing change により移りあうため，$\gamma_i - \gamma'_i$を1点における正負の交差の差 $\tilde{\gamma}_i-\tilde{\gamma}'_i$となるようにできる．よって
+    \[
+      \sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).
+    \]
+    Any element of $\mathcal{I}(\Gamma)$ can be written as $\sum_i c_i(\gamma_i-\gamma'_i)$ by Lemma~\ref{lem:Ichar}. In $\mathcal{F}_1(\Gamma)$, any two KTGs with the same skeleton can be related by crossing changes, so we can make $\gamma_i - \gamma'_i$ into the difference of positive and negative crossings at one point $\tilde{\gamma}_i-\tilde{\gamma}'_i$. Therefore,
+    \[
+      \sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).
+    \]
     \item $\mathcal{I}^n(\Gamma)\subset\mathcal{F}_n(\Gamma)$\\
     By $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$, any element $\gamma\in\mathcal{I}^n(\Gamma)$ is generated by at least $n$ elements of $\mathcal{F}_1(\Gamma)$. we check that the four operations preserve number of double points.\\
     \begin{itemize}
