@@ -462,10 +462,6 @@ INPUT ./inkscape/framedtrivalentgraph.pdf
 INPUT ./inkscape/framedtrivalentgraph.pdf
 INPUT ./inkscape/framedtrivalentgraph.pdf
 INPUT extractbb -B cropbox -O inkscape/framedtrivalentgraph.pdf
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin6.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT ./inkscape/exKTG.pdf
 INPUT ./inkscape/exKTG.pdf
 INPUT ./inkscape/exKTG.pdf
@@ -538,6 +534,8 @@ INPUT ./inkscape/singularKTG.pdf
 INPUT ./inkscape/singularKTG.pdf
 INPUT ./inkscape/singularKTG.pdf
 INPUT extractbb -B cropbox -O inkscape/singularKTG.pdf
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin6.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
 INPUT ./inkscape/ResDouble.pdf
 INPUT ./inkscape/ResDouble.pdf
 INPUT ./inkscape/ResDouble.pdf
@@ -558,6 +556,8 @@ INPUT ./inkscape/vi.pdf
 INPUT ./inkscape/vi.pdf
 INPUT ./inkscape/vi.pdf
 INPUT extractbb -B cropbox -O inkscape/vi.pdf
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT out/Miyaji_U_Thesis.bbl
 INPUT out/Miyaji_U_Thesis.bbl
 INPUT out/Miyaji_U_Thesis.bbl

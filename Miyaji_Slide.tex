@@ -1,9 +1,92 @@
 %!TEX program = lualatex
-\documentclass{ltjsarticle}
+\documentclass[aspectratio=169]{beamer}
+
+\usetheme[block=fill, progressbar=foot]{moloch}
+
+\usepackage{luatexja}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\definecolor{MyGreen}{RGB}{26, 109, 0}
+% \setbeamercolor{palette primary}{bg=blue, fg=white}
+\setbeamercolor{frametitle}{fg=white, bg=MyGreen!95}
+\setbeamercolor{alerted text}{fg=red}
+\setbeamercolor{block title}{bg=MyGreen!80, fg=white}
+\setbeamercolor{block body}{bg=gray!20}
+\setbeamercolor{progress bar}{fg=MyGreen}
+
+\setbeamertemplate{block begin}{
+  \begin{tcolorbox}[
+    enhanced,              % 高度な描画機能を有効化
+    title=\insertblocktitle,
+    colframe=MyGreen!80,   % 枠（タイトル部）の色
+    colback=gray!20,       % 本文の背景色
+    coltitle=white,        % タイトルの文字色
+    fonttitle=\bfseries,   % タイトルのフォント
+    arc=2mm,               % 【ここを調整】角の丸み
+    drop shadow,           % 【ここを調整】影を有効化
+    boxrule=0.5mm,         % 枠線の太さ
+    top=2mm, bottom=2mm, left=2mm, right=2mm % 内側の余白
+  ]
+}
+\setbeamertemplate{block end}{\end{tcolorbox}}
+
+\makeatletter
+\setlength{\moloch@progressinheadfoot@linewidth}{3pt} % ここで太さを指定（デフォルトは0.4pt）
+\makeatother
+
+
+\title{宮路の卒論}
+\author{宮路 宙澄}
+\date{\today}
 
 \begin{document}
 
-ここには日本語が書けます。
-LuaLaTeXはUnicodeに完全対応しています。
-aaa
+\maketitle
+
+\begin{frame}{目次}
+  \tableofcontents
+\end{frame}
+
+\section{前提知識}
+
+\begin{frame}{前提知識}
+  \begin{definition}[KTG]
+    \textit{Knotted trivalent graph (KTG)}を，framed trivalent graph $\mathbf{\gamma}$から$\mathbb{R}^3$への埋め込み，KTGの\textit{skeleton}をtrivalent graph $\Gamma$とする．
+  \end{definition}
+\end{frame}
+
+\section{KTGs and $Z^{old}$}
+
+\begin{frame}{研究の背景}
+  ここに内容を記述します。
+  \begin{itemize}
+    \item 従来の結び目理論では...
+    \item 本研究の目的は...
+  \end{itemize}
+  
+  \vspace{1em}
+  重要な点は \alert{ここです}。
+\end{frame}
+
+\begin{frame}{スライドのタイトル}
+  頑張る
+  \begin{itemize}
+    \item あ
+    \item い
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{定義と定理}
+  数学の発表ではブロックが見やすいと便利です。
+
+  \begin{definition}[結び目]
+    つながった紐
+  \end{definition}
+
+  \begin{theorem}[主要定理]
+    $1+1=2$.
+  \end{theorem}
+\end{frame}
+
 \end{document}
