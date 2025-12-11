@@ -445,15 +445,6 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT ./images/collapseNot.png
-INPUT ./images/collapseNot.png
-INPUT ./images/collapseNot.png
-INPUT extractbb -B cropbox -O images/collapseNot.png
-INPUT ./images/collapse.png
-INPUT ./images/collapse.png
-INPUT ./images/collapse.png
-INPUT extractbb -B cropbox -O images/collapse.png
 INPUT ./inkscape/trivalentgraph.pdf
 INPUT ./inkscape/trivalentgraph.pdf
 INPUT ./inkscape/trivalentgraph.pdf
@@ -548,6 +539,7 @@ INPUT ./inkscape/ResF2.pdf
 INPUT ./inkscape/ResF2.pdf
 INPUT ./inkscape/ResF2.pdf
 INPUT extractbb -B cropbox -O inkscape/ResF2.pdf
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT ./inkscape/4t.pdf
 INPUT ./inkscape/4t.pdf
 INPUT ./inkscape/4t.pdf
