@@ -7,44 +7,44 @@ Warning--empty journal in bar898algebraic
 Warning--empty year in bar898algebraic
 You've used 5 entries,
             2543 wiz_defined-function locations,
-            595 strings with 5252 characters,
-and the built_in function-call counts, 1884 in all, are:
-= -- 193
+            597 strings with 5218 characters,
+and the built_in function-call counts, 1937 in all, are:
+= -- 202
 > -- 62
 < -- 3
-+ -- 19
++ -- 20
 - -- 18
-* -- 142
-:= -- 312
-add.period$ -- 16
+* -- 150
+:= -- 316
+add.period$ -- 15
 call.type$ -- 5
-change.case$ -- 26
+change.case$ -- 27
 chr.to.int$ -- 5
 cite$ -- 7
-duplicate$ -- 74
-empty$ -- 150
+duplicate$ -- 73
+empty$ -- 152
 format.name$ -- 25
-if$ -- 377
+if$ -- 385
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 6
+missing$ -- 5
 newline$ -- 28
 num.names$ -- 15
-pop$ -- 24
+pop$ -- 20
 preamble$ -- 1
 purify$ -- 32
 quote$ -- 0
-skip$ -- 56
+skip$ -- 58
 stack$ -- 0
-substring$ -- 148
+substring$ -- 168
 swap$ -- 4
 text.length$ -- 3
 text.prefix$ -- 2
 top$ -- 0
-type$ -- 36
+type$ -- 40
 warning$ -- 2
-while$ -- 20
-width$ -- 7
+while$ -- 22
+width$ -- 6
 write$ -- 65
 is.kanji.str$ -- 0
 (There were 2 warnings)

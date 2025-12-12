@@ -1,4 +1,4 @@
-\begin{thebibliography}{Dan10}
+\begin{thebibliography}{Yam87}
 
 \bibitem[BN]{bar898algebraic}
 D~Bar-Natan.
@@ -20,9 +20,9 @@ Jun Murakami and Tomotada Ohtsuki.
 \newblock Topological quantum field theory for the universal quantum invariant.
 \newblock {\em Communications in Mathematical Physics}, 188(3):501--520, 1997.
 
-\bibitem[Oht02]{ohtsuki2002quantum}
-T.~Ohtsuki.
-\newblock {\em Quantum Invariants: A Study of Knots, 3-manifolds, and Their Sets}.
-\newblock K \& E series on knots and everything. World Scientific, 2002.
+\bibitem[Yam87]{yamada1987invariant}
+Shuji Yamada.
+\newblock An invariant of spatial graphs.
+\newblock {\em 数理解析研究所講究録}, 636:16--41, 1987.
 
 \end{thebibliography}
