@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  12 DEC 2025 19:27
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  12 DEC 2025 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -827,13 +827,12 @@ File: inkscape/FramedReideMoves/fR4b_1.pdf Graphic file (type pdf)
 
 
 [5]
+
+[6]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 322.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 323.
-
-
-[6]
 File: inkscape/switch.pdf Graphic file (type pdf)
 <inkscape/switch.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
@@ -848,13 +847,13 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 342.
 File: inkscape/unzip.pdf Graphic file (type pdf)
 <inkscape/unzip.pdf>
+
+
+[7]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 351.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 352.
-
-
-[7]
 File: inkscape/connectedSum.pdf Graphic file (type pdf)
 <inkscape/connectedSum.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
@@ -872,13 +871,13 @@ File: inkscape/ResF1.pdf Graphic file (type pdf)
 <inkscape/ResF1.pdf>
 File: inkscape/ResF2.pdf Graphic file (type pdf)
 <inkscape/ResF2.pdf>
+
+
+[9]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 408.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 413.
-
-
-[9]
 File: inkscape/4t.pdf Graphic file (type pdf)
 <inkscape/4t.pdf>
 File: inkscape/vi.pdf Graphic file (type pdf)
@@ -889,23 +888,32 @@ File: inkscape/vi.pdf Graphic file (type pdf)
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 448.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 477.
+(Font)              No change on input line 453.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 460.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 465.
 
 
 [11]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 482.
+(Font)              No change on input line 493.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 487.
+(Font)              No change on input line 498.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 492.
-File: inkscape/ThmS.pdf Graphic file (type pdf)
-<inkscape/ThmS.pdf>
+(Font)              No change on input line 503.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 508.
 
 
 [12]
+File: inkscape/ThmS.pdf Graphic file (type pdf)
+<inkscape/ThmS.pdf>
 File: inkscape/ThmD.pdf Graphic file (type pdf)
 <inkscape/ThmD.pdf>
+
+
+[13]
 File: inkscape/ThmU.pdf Graphic file (type pdf)
 <inkscape/ThmU.pdf>
 File: inkscape/ThmC1.pdf Graphic file (type pdf)
@@ -914,16 +922,12 @@ File: inkscape/ThmC2.pdf Graphic file (type pdf)
 <inkscape/ThmC2.pdf>
 
 
-[13]
+[14]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 535.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 539.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 547.
+(Font)              No change on input line 557.
 
 
-[14] (out/Miyaji_U_Thesis.bbl
+[15] (out/Miyaji_U_Thesis.bbl
 Underfull \hbox (badness 5331) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
  []
@@ -938,7 +942,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 26.
 )
 
-[15] (out/Miyaji_U_Thesis.aux)
+[16] (out/Miyaji_U_Thesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -949,11 +953,11 @@ Package rerunfilecheck Info: File `Miyaji_U_Thesis.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  27401 strings out of 469856
- 547314 string characters out of 5479602
- 923262 words of memory out of 5000000
+ 547319 string characters out of 5479602
+ 924262 words of memory out of 5000000
  55434 multiletter control sequences out of 15000+600000
  716000 words of font info for 182 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  84i,10n,104p,888b,857s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/Miyaji_U_Thesis.dvi (15 pages, 53868 bytes).
+Output written on out/Miyaji_U_Thesis.dvi (16 pages, 54416 bytes).

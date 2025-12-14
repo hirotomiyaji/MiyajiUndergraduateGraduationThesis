@@ -281,32 +281,32 @@ We identify KTGs whose skeletons are isotopic. For a trivalent graph $\Gamma$, w
 
   \begin{figure}[H]
     \centering
-    $R1'$:\hspace{3mm}
+    $R1'$:\hspace{2mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR1_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR1_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR1_2.pdf}}
     
     \vspace{3mm}
-    $R2$:\hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_2.pdf}}
+    $R2$:\hspace{2mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR2_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR2_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR2_2.pdf}}
     
     \vspace{3mm}
-    $R3$:\hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR3_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR3_1.pdf}}
+    $R3$:\hspace{2mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR3_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR3_1.pdf}}
 
     \vspace{3mm}
-    $R4a$:\hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4a_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4a_1.pdf}}
+    $R4a$:\hspace{2mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4a_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4a_1.pdf}}
 
     \vspace{3mm}
-    $R4b$:\hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4b_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR4b_1.pdf}}
-    \caption{Framed knots における3種類の Reidemeister 変形}
+    $R4b$:\hspace{2mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4b_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4b_1.pdf}}
+    \caption{Knotted Trivalent Graph における4種類の Reidemeister 変形}
     \label{fig:ReidemeisterKTG}
   \end{figure}
 \end{proposition}
@@ -449,6 +449,22 @@ Each operation on KTGs induces an operation on $\ca$ (the associated graded spac
   Any KTG can be obtained from the trivially embedded tetrahedron and the twisted tetrahedron by a finite sequence of the four operations defined above.
 \end{theorem}
 
+\begin{proof}
+  aa
+  \begin{figure}[H]
+    \centering
+    \huge 図
+  \end{figure}
+\end{proof}
+
+\begin{theorem}\label{thm:nSingularKTGgen}
+  Any $n$-singular KTG can be obtained from the trivially embedded tetrahedron, twisted tetrahedron and singular twisted tetrahedron using the four operations.
+\end{theorem}
+
+\begin{proof}
+  Same as Theorem~\ref{thm:KTGgen}.
+\end{proof}
+
 \section{Algebraic structures and expansions}
 $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connected sum を linear に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$は vector space となる．By linearly extending the operations of orientation switch, edge delete, edge unzip, and connected sum on $\mathcal{K}$ to allow linear combinations with coefficients in $\QQ$, $\mathcal{K}$ becomes a vector space.
 
@@ -532,13 +548,7 @@ $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connect
       Unzipを行うedgeにchordが接続されている場合，chordは2つに分かれるため，double point の数は変わらない．
     \end{itemize}
     \item $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$
-    \begin{lemma}\label{Lem:singKTGgen}
-      Any $n$-singular KTG can be obtained from the trivially embedded tetrahedron, twisted tetrahedron and singular twisted tetrahedron using the four operations.
-    \end{lemma}
-    \begin{proof}
-      Same as Theorem~\ref{thm:KTGgen}.
-    \end{proof}
-    Since any $n$-singular KTG can be obtained from $n$ pieces of 1-singular KTGs by Lemma~\ref{Lem:singKTGgen} and the four operations, $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$.
+    Since any $n$-singular KTG can be obtained from $n$ pieces of 1-singular KTGs and the four operations by Theorem~\ref{thm:nSingularKTGgen}, $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$.
   \end{enumerate}
   Therefore, $\mathcal{I}^n(\Gamma)=\mathcal{F}_n(\Gamma)$ for all $n\geq 0$ and skeleton $\Gamma$.
 \end{proof}
