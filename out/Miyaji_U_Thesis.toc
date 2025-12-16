@@ -1,5 +1,6 @@
-\contentsline {part}{I\hspace {1em}Introduction}{3}{part.1}%
-\contentsline {part}{II\hspace {1em}Preliminaries}{4}{part.2}%
-\contentsline {section}{\numberline {1}KTGs and $Z^{old}$}{4}{section.1}%
-\contentsline {section}{\numberline {2}Algebraic structures and expansions}{12}{section.2}%
-\contentsline {section}{\numberline {3}Appendix}{16}{section.3}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Preliminaries}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}KTGs and $Z^{old}$}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Algebraic structures and expansions}{12}{subsection.2.2}%
+\renewcommand {\cftsecpresnum }{Appendix } \renewcommand {\cftsecaftersnum }{:} \setlength {\cftsecnumwidth }{7em} 
+\contentsline {section}{\numberline {A}Proof of Theorem~\ref {thm:4TVI}}{16}{appendix.A}%

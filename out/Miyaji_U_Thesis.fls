@@ -1,15 +1,14 @@
-PWD c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis
+PWD c:/Users/ns38893/Documents/MiyajiUndergraduateGraduationThesis
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex
+INPUT c:/Users/ns38893/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex
 OUTPUT out/Miyaji_U_Thesis.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-INPUT c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
@@ -261,6 +260,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+INPUT c:/texlive/2025/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
@@ -390,6 +391,11 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT out/Miyaji_U_Thesis.toc
 INPUT out/Miyaji_U_Thesis.toc
 INPUT out/Miyaji_U_Thesis.toc
+OUTPUT out/Miyaji_U_Thesis.toc
+INPUT ./images/help.jpg
+INPUT ./images/help.jpg
+INPUT ./images/help.jpg
+INPUT extractbb -B cropbox -O images/help.jpg
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -420,20 +426,6 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
-OUTPUT out/Miyaji_U_Thesis.toc
-INPUT ./images/help.jpg
-INPUT ./images/help.jpg
-INPUT ./images/help.jpg
-INPUT extractbb -B cropbox -O images/help.jpg
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
