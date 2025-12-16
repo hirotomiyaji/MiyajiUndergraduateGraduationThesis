@@ -1,14 +1,15 @@
-PWD c:/Users/ns38893/Documents/MiyajiUndergraduateGraduationThesis
+PWD c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/ns38893/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex
+INPUT c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex
 OUTPUT out/Miyaji_U_Thesis.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+INPUT c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
@@ -610,6 +611,42 @@ INPUT ./inkscape/prove4t11.pdf
 INPUT ./inkscape/prove4t11.pdf
 INPUT ./inkscape/prove4t11.pdf
 INPUT extractbb -B cropbox -O inkscape/prove4t11.pdf
+INPUT ./inkscape/vipre.pdf
+INPUT ./inkscape/vipre.pdf
+INPUT ./inkscape/vipre.pdf
+INPUT extractbb -B cropbox -O inkscape/vipre.pdf
+INPUT ./inkscape/vi1.pdf
+INPUT ./inkscape/vi1.pdf
+INPUT ./inkscape/vi1.pdf
+INPUT extractbb -B cropbox -O inkscape/vi1.pdf
+INPUT ./inkscape/vi2.pdf
+INPUT ./inkscape/vi2.pdf
+INPUT ./inkscape/vi2.pdf
+INPUT extractbb -B cropbox -O inkscape/vi2.pdf
+INPUT ./inkscape/vi3.pdf
+INPUT ./inkscape/vi3.pdf
+INPUT ./inkscape/vi3.pdf
+INPUT extractbb -B cropbox -O inkscape/vi3.pdf
+INPUT ./inkscape/vi4.pdf
+INPUT ./inkscape/vi4.pdf
+INPUT ./inkscape/vi4.pdf
+INPUT extractbb -B cropbox -O inkscape/vi4.pdf
+INPUT ./inkscape/vi5.pdf
+INPUT ./inkscape/vi5.pdf
+INPUT ./inkscape/vi5.pdf
+INPUT extractbb -B cropbox -O inkscape/vi5.pdf
+INPUT ./inkscape/vi6.pdf
+INPUT ./inkscape/vi6.pdf
+INPUT ./inkscape/vi6.pdf
+INPUT extractbb -B cropbox -O inkscape/vi6.pdf
+INPUT ./inkscape/vi7.pdf
+INPUT ./inkscape/vi7.pdf
+INPUT ./inkscape/vi7.pdf
+INPUT extractbb -B cropbox -O inkscape/vi7.pdf
+INPUT ./inkscape/vi8.pdf
+INPUT ./inkscape/vi8.pdf
+INPUT ./inkscape/vi8.pdf
+INPUT extractbb -B cropbox -O inkscape/vi8.pdf
 INPUT out/Miyaji_U_Thesis.bbl
 INPUT out/Miyaji_U_Thesis.bbl
 INPUT out/Miyaji_U_Thesis.bbl
