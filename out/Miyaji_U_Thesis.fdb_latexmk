@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex out/Miyaji_U_Thesis"] 1765899110.77882 "out/Miyaji_U_Thesis.aux" "out/Miyaji_U_Thesis.bbl" "out/Miyaji_U_Thesis" 1765899361.59819 0
+["bibtex out/Miyaji_U_Thesis"] 1765939465.03965 "out/Miyaji_U_Thesis.aux" "out/Miyaji_U_Thesis.bbl" "out/Miyaji_U_Thesis" 1766027242.9489 0
   "./references.bib" 1761796978 2316 845a6af84e3b06d64eaf52dfee65e843 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/base/alpha.bst" 1761759400 23907 a5f93555796fb564b924339521f10a7c ""
-  "out/Miyaji_U_Thesis.aux" 1765899360 2355 847aa7e9f0f3ba92ff789be9a071e4be "latex"
+  "out/Miyaji_U_Thesis.aux" 1766027241 2355 847aa7e9f0f3ba92ff789be9a071e4be "latex"
   (generated)
   "out/Miyaji_U_Thesis.bbl"
   "out/Miyaji_U_Thesis.blg"
   (rewritten before read)
-["dvipdf"] 1765899360.89956 "out/Miyaji_U_Thesis.dvi" "out/Miyaji_U_Thesis.pdf" "out/Miyaji_U_Thesis" 1765899361.61213 0
-  "out/Miyaji_U_Thesis.dvi" 1765899360 60468 024d73f9d67d82e43be1d0a804188b87 "latex"
+["dvipdf"] 1766027242.26099 "out/Miyaji_U_Thesis.dvi" "out/Miyaji_U_Thesis.pdf" "out/Miyaji_U_Thesis" 1766027242.96412 0
+  "out/Miyaji_U_Thesis.dvi" 1766027241 61060 8503651534303f4c1f210cc380728a95 "latex"
   (generated)
   "out/Miyaji_U_Thesis.pdf"
   (rewritten before read)
-["latex"] 1765899340.24763 "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" "out/Miyaji_U_Thesis.dvi" "Miyaji_U_Thesis" 1765899361.59849 0
-  "Miyaji_U_Thesis.tex" 1765899343 40273 ff432a4d000232ab67feda71b75c2f62 ""
-  "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" 1765899343 40273 ff432a4d000232ab67feda71b75c2f62 ""
+["latex"] 1766027221.17598 "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" "out/Miyaji_U_Thesis.dvi" "Miyaji_U_Thesis" 1766027242.94932 0
+  "Miyaji_U_Thesis.tex" 1766027220 40737 b69eca78178a570137365068234e5283 ""
+  "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" 1766027220 40737 b69eca78178a570137365068234e5283 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761759936 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1761759771 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1761760818 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -263,7 +263,7 @@
   "inkscape/exKTG.pdf" 1761796978 1688 a8fc68aed9e727554371b3b07a4e970d ""
   "inkscape/framedtrivalentgraph.pdf" 1761796978 1467 e0b63639441b5337c14dd14bfe9205d8 ""
   "inkscape/prove4t1.pdf" 1765806823 2904 00c406284ddc86b0c2c90f8a8d70fd34 ""
-  "inkscape/prove4t10.pdf" 1765809134 3204 53dfd95c9c8311831c57dd0c53c32f3f ""
+  "inkscape/prove4t10.pdf" 1765938794 3636 7bb676e3587d3bceda4476dff6432bc0 ""
   "inkscape/prove4t11.pdf" 1765809130 3549 c5f2cd9c62fd0ae03dd230d6d1993446 ""
   "inkscape/prove4t2.pdf" 1765806844 2239 60c196a7a0755c4273d7aea4d1957dab ""
   "inkscape/prove4t3.pdf" 1765806854 3164 a819aa6e2e6c819a63edf6e242d8d7b6 ""
@@ -272,7 +272,7 @@
   "inkscape/prove4t6.pdf" 1765806881 3310 14438a7db1a2da6301792e31db253524 ""
   "inkscape/prove4t7.pdf" 1765806890 4242 b7601b8518bd869ceca12d46e4250682 ""
   "inkscape/prove4t8.pdf" 1765806899 3823 dd524bc62763dc02d06bde34d238677d ""
-  "inkscape/prove4t9.pdf" 1765809138 4471 6fea5d60b566e74f1ab0f2d7c9cf4172 ""
+  "inkscape/prove4t9.pdf" 1765938789 4862 4e1bb7bfa980c6455354a88273145395 ""
   "inkscape/prove4tpre.pdf" 1765899339 4267 ab43ba706b96baaf23e263fd4ceee86d ""
   "inkscape/singularKTG.pdf" 1764822713 2004 500e22b1459493736e21b03bc0bf64e1 ""
   "inkscape/switch.pdf" 1764815504 1984 842506f6e5c7cdec0d67f8a010a2f16c ""
@@ -288,10 +288,10 @@
   "inkscape/vi7.pdf" 1765898387 2995 e75fdbe4e40e1bef869c97ec3e55c25b ""
   "inkscape/vi8.pdf" 1765898396 3147 53f96b522bd78e175ed0d4795731b955 ""
   "inkscape/vipre.pdf" 1765898315 3877 45a6f6e14636f34801f4fe551d6f2f19 ""
-  "out/Miyaji_U_Thesis.aux" 1765899360 2355 847aa7e9f0f3ba92ff789be9a071e4be "latex"
-  "out/Miyaji_U_Thesis.bbl" 1765899111 1000 22842c65aaa0837a63933098b902183d "bibtex out/Miyaji_U_Thesis"
-  "out/Miyaji_U_Thesis.out" 1765899360 792 9cb5b5d2706fc49b681a0e23ba13f877 "latex"
-  "out/Miyaji_U_Thesis.toc" 1765899360 529 b2870bee8d8cd3a07306179025822860 "latex"
+  "out/Miyaji_U_Thesis.aux" 1766027241 2355 847aa7e9f0f3ba92ff789be9a071e4be "latex"
+  "out/Miyaji_U_Thesis.bbl" 1765939465 1000 22842c65aaa0837a63933098b902183d "bibtex out/Miyaji_U_Thesis"
+  "out/Miyaji_U_Thesis.out" 1766027241 792 9cb5b5d2706fc49b681a0e23ba13f877 "latex"
+  "out/Miyaji_U_Thesis.toc" 1766027241 529 b2870bee8d8cd3a07306179025822860 "latex"
   (generated)
   "out/Miyaji_U_Thesis.aux"
   "out/Miyaji_U_Thesis.dvi"

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  17 DEC 2025 00:35
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  18 DEC 2025 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,15 +954,20 @@ File: inkscape/prove4t8.pdf Graphic file (type pdf)
 <inkscape/prove4t8.pdf>
 File: inkscape/prove4t9.pdf Graphic file (type pdf)
 <inkscape/prove4t9.pdf>
-File: inkscape/prove4t10.pdf Graphic file (type pdf)
-<inkscape/prove4t10.pdf>
 
 
 [17]
+File: inkscape/prove4t10.pdf Graphic file (type pdf)
+<inkscape/prove4t10.pdf>
+
+Overfull \hbox (4.47374pt too wide) in paragraph at lines 618--618
+ [][] 
+ []
+
 File: inkscape/prove4t11.pdf Graphic file (type pdf)
 <inkscape/prove4t11.pdf>
 
-Overfull \hbox (2.06607pt too wide) in paragraph at lines 615--617
+Overfull \hbox (2.06607pt too wide) in paragraph at lines 619--621
 [][]  
  []
 
@@ -1019,10 +1024,10 @@ Package rerunfilecheck Info: File `Miyaji_U_Thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  27630 strings out of 469856
  552009 string characters out of 5479602
- 925743 words of memory out of 5000000
+ 925745 words of memory out of 5000000
  55639 multiletter control sequences out of 15000+600000
  713869 words of font info for 173 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  84i,10n,104p,661b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/Miyaji_U_Thesis.dvi (21 pages, 60468 bytes).
+Output written on out/Miyaji_U_Thesis.dvi (21 pages, 61060 bytes).
