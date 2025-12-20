@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex out/Miyaji_U_Thesis"] 1765939465.03965 "out/Miyaji_U_Thesis.aux" "out/Miyaji_U_Thesis.bbl" "out/Miyaji_U_Thesis" 1766027242.9489 0
+["bibtex out/Miyaji_U_Thesis"] 1766127504.00444 "out/Miyaji_U_Thesis.aux" "out/Miyaji_U_Thesis.bbl" "out/Miyaji_U_Thesis" 1766127527.61778 0
   "./references.bib" 1761796978 2316 845a6af84e3b06d64eaf52dfee65e843 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/base/alpha.bst" 1761759400 23907 a5f93555796fb564b924339521f10a7c ""
-  "out/Miyaji_U_Thesis.aux" 1766027241 2355 847aa7e9f0f3ba92ff789be9a071e4be "latex"
+  "out/Miyaji_U_Thesis.aux" 1766127525 2497 48a1cc58998f9acc38d5352addfa7d16 "latex"
   (generated)
   "out/Miyaji_U_Thesis.bbl"
   "out/Miyaji_U_Thesis.blg"
   (rewritten before read)
-["dvipdf"] 1766027242.26099 "out/Miyaji_U_Thesis.dvi" "out/Miyaji_U_Thesis.pdf" "out/Miyaji_U_Thesis" 1766027242.96412 0
-  "out/Miyaji_U_Thesis.dvi" 1766027241 61060 8503651534303f4c1f210cc380728a95 "latex"
+["dvipdf"] 1766127526.84542 "out/Miyaji_U_Thesis.dvi" "out/Miyaji_U_Thesis.pdf" "out/Miyaji_U_Thesis" 1766127527.63274 0
+  "out/Miyaji_U_Thesis.dvi" 1766127525 63004 1dade0d145860d0471a93e6fc0bab76a "latex"
   (generated)
   "out/Miyaji_U_Thesis.pdf"
   (rewritten before read)
-["latex"] 1766027221.17598 "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" "out/Miyaji_U_Thesis.dvi" "Miyaji_U_Thesis" 1766027242.94932 0
-  "Miyaji_U_Thesis.tex" 1766027220 40737 b69eca78178a570137365068234e5283 ""
-  "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" 1766027220 40737 b69eca78178a570137365068234e5283 ""
+["latex"] 1766127504.36093 "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" "out/Miyaji_U_Thesis.dvi" "Miyaji_U_Thesis" 1766127527.61819 0
+  "Miyaji_U_Thesis.tex" 1766127496 41847 4c70c8016da8e841c4a5d2c3645fd002 ""
+  "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex" 1766127496 41847 4c70c8016da8e841c4a5d2c3645fd002 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761759936 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1761759771 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1761760818 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -251,13 +251,19 @@
   "inkscape/FramedReideMoves/fR4b_0.pdf" 1761796978 1331 25fb634a1fcebd1b30483e468bcc2141 ""
   "inkscape/FramedReideMoves/fR4b_1.pdf" 1761796978 1285 e37cdaf42bf655f4adf7e0ee71ae5e16 ""
   "inkscape/ResDouble.pdf" 1764827345 1969 ccc619a14f9a89e05447c8c028a189d8 ""
-  "inkscape/ResF1.pdf" 1764864069 2433 3785175ed9f71fd77150c1c82efc8a40 ""
-  "inkscape/ResF2.pdf" 1764864076 2744 018d2f018e27b47a926e6c13bc7c8f2e ""
-  "inkscape/ThmC1.pdf" 1765532335 6502 30e141fa4d3bf52f0d8a35b913c09489 ""
+  "inkscape/ResF1.pdf" 1766125133 2514 de2b8e9f1d7658fc23b6b01d376fb9bf ""
+  "inkscape/ResF2.pdf" 1766125137 2839 36a3ce2a0b41e41998599e8633d34359 ""
+  "inkscape/ThmC1.pdf" 1766123508 13664 003a507b36b43e15fd1666b6727212d9 ""
   "inkscape/ThmC2.pdf" 1765533762 5928 fcaf24864e949899ce8e7739d996260b ""
-  "inkscape/ThmD.pdf" 1765531607 2982 d9228dcebc865e4e562062f6eac92a24 ""
-  "inkscape/ThmS.pdf" 1765531563 3960 973eb50aab9f68e1bd20078301de2086 ""
-  "inkscape/ThmU.pdf" 1765531626 3430 948c538dcaf3f4104425e7a702adcc39 ""
+  "inkscape/ThmD1.pdf" 1766111330 4050 9e1db21bcfe476110f28f4f57a292576 ""
+  "inkscape/ThmD2.pdf" 1766111336 2795 f3cf55bbc1a8f01d5b7a1cb6fcf3f38c ""
+  "inkscape/ThmS1.pdf" 1766108049 4054 663a73cf0938cd9323051b99d5314f09 ""
+  "inkscape/ThmS2.pdf" 1766122680 3446 e7939eaac5c8f2c0404d6c5472659012 ""
+  "inkscape/ThmS3.pdf" 1766108065 2834 e747b370941109adedff793af8fa7f82 ""
+  "inkscape/ThmU1.pdf" 1766116679 3401 e7a88940b6fdccc24527dc459c44a4e7 ""
+  "inkscape/ThmU3.pdf" 1766114098 2906 f93a2119229493bc9fd296f4144fc19b ""
+  "inkscape/ThmU4.pdf" 1766114128 2812 abd52f4d7915334990f9b1769f4af5ae ""
+  "inkscape/ThmU5.pdf" 1766114136 2152 7430ad562d9ef5127bad4be10847d5cc ""
   "inkscape/connectedSum.pdf" 1764815531 2587 90a1c75185d858acdce935df40fd9a2d ""
   "inkscape/delete.pdf" 1764815500 2198 4e326acef9acf1079e943f07e3bf7cbd ""
   "inkscape/exKTG.pdf" 1761796978 1688 a8fc68aed9e727554371b3b07a4e970d ""
@@ -274,7 +280,7 @@
   "inkscape/prove4t8.pdf" 1765806899 3823 dd524bc62763dc02d06bde34d238677d ""
   "inkscape/prove4t9.pdf" 1765938789 4862 4e1bb7bfa980c6455354a88273145395 ""
   "inkscape/prove4tpre.pdf" 1765899339 4267 ab43ba706b96baaf23e263fd4ceee86d ""
-  "inkscape/singularKTG.pdf" 1764822713 2004 500e22b1459493736e21b03bc0bf64e1 ""
+  "inkscape/singularKTG.pdf" 1766127051 2021 7a13f935b92e30327ec6c5b1e7762377 ""
   "inkscape/switch.pdf" 1764815504 1984 842506f6e5c7cdec0d67f8a010a2f16c ""
   "inkscape/trivalentgraph.pdf" 1761796978 1308 8c87a020208966d30ef485ec378e255b ""
   "inkscape/unzip.pdf" 1764815517 2211 e6752cb93d94c2d52baccef770abd3b2 ""
@@ -288,10 +294,10 @@
   "inkscape/vi7.pdf" 1765898387 2995 e75fdbe4e40e1bef869c97ec3e55c25b ""
   "inkscape/vi8.pdf" 1765898396 3147 53f96b522bd78e175ed0d4795731b955 ""
   "inkscape/vipre.pdf" 1765898315 3877 45a6f6e14636f34801f4fe551d6f2f19 ""
-  "out/Miyaji_U_Thesis.aux" 1766027241 2355 847aa7e9f0f3ba92ff789be9a071e4be "latex"
-  "out/Miyaji_U_Thesis.bbl" 1765939465 1000 22842c65aaa0837a63933098b902183d "bibtex out/Miyaji_U_Thesis"
-  "out/Miyaji_U_Thesis.out" 1766027241 792 9cb5b5d2706fc49b681a0e23ba13f877 "latex"
-  "out/Miyaji_U_Thesis.toc" 1766027241 529 b2870bee8d8cd3a07306179025822860 "latex"
+  "out/Miyaji_U_Thesis.aux" 1766127525 2497 48a1cc58998f9acc38d5352addfa7d16 "latex"
+  "out/Miyaji_U_Thesis.bbl" 1766127504 1000 22842c65aaa0837a63933098b902183d "bibtex out/Miyaji_U_Thesis"
+  "out/Miyaji_U_Thesis.out" 1766127525 792 9cb5b5d2706fc49b681a0e23ba13f877 "latex"
+  "out/Miyaji_U_Thesis.toc" 1766127525 529 ec75fa1be3fd35915309e4a02a16ca59 "latex"
   (generated)
   "out/Miyaji_U_Thesis.aux"
   "out/Miyaji_U_Thesis.dvi"

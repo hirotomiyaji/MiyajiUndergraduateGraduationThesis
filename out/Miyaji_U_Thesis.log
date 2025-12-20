@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  18 DEC 2025 12:07
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  19 DEC 2025 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,53 +884,71 @@ File: inkscape/4t.pdf Graphic file (type pdf)
 File: inkscape/vi.pdf Graphic file (type pdf)
 <inkscape/vi.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 439.
+(Font)              No change on input line 440.
 
 
 [10]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 459.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 464.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 471.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 476.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 481.
 
 
 [11]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 506.
+(Font)              No change on input line 488.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 511.
+(Font)              No change on input line 493.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 516.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 521.
+(Font)              No change on input line 523.
 
 
 [12]
-File: inkscape/ThmS.pdf Graphic file (type pdf)
-<inkscape/ThmS.pdf>
-File: inkscape/ThmD.pdf Graphic file (type pdf)
-<inkscape/ThmD.pdf>
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 528.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 533.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 538.
+File: inkscape/ThmS1.pdf Graphic file (type pdf)
+<inkscape/ThmS1.pdf>
 
 
 [13]
-File: inkscape/ThmU.pdf Graphic file (type pdf)
-<inkscape/ThmU.pdf>
+File: inkscape/ThmS2.pdf Graphic file (type pdf)
+<inkscape/ThmS2.pdf>
+File: inkscape/ThmS3.pdf Graphic file (type pdf)
+<inkscape/ThmS3.pdf>
+File: inkscape/ThmD1.pdf Graphic file (type pdf)
+<inkscape/ThmD1.pdf>
+File: inkscape/ThmD2.pdf Graphic file (type pdf)
+<inkscape/ThmD2.pdf>
+File: inkscape/ThmU1.pdf Graphic file (type pdf)
+<inkscape/ThmU1.pdf>
+
+
+[14]
+File: inkscape/ThmU3.pdf Graphic file (type pdf)
+<inkscape/ThmU3.pdf>
+File: inkscape/ThmU4.pdf Graphic file (type pdf)
+<inkscape/ThmU4.pdf>
+
+
+[15]
+File: inkscape/ThmU5.pdf Graphic file (type pdf)
+<inkscape/ThmU5.pdf>
 File: inkscape/ThmC1.pdf Graphic file (type pdf)
 <inkscape/ThmC1.pdf>
 File: inkscape/ThmC2.pdf Graphic file (type pdf)
 <inkscape/ThmC2.pdf>
 
 
-[14]
+[16]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 570.
+(Font)              No change on input line 603.
 
 
-[15]
+[17]
 File: inkscape/prove4tpre.pdf Graphic file (type pdf)
 <inkscape/prove4tpre.pdf>
 File: inkscape/prove4t1.pdf Graphic file (type pdf)
@@ -943,7 +961,7 @@ File: inkscape/prove4t4.pdf Graphic file (type pdf)
 <inkscape/prove4t4.pdf>
 
 
-[16]
+[18]
 File: inkscape/prove4t5.pdf Graphic file (type pdf)
 <inkscape/prove4t5.pdf>
 File: inkscape/prove4t6.pdf Graphic file (type pdf)
@@ -956,24 +974,24 @@ File: inkscape/prove4t9.pdf Graphic file (type pdf)
 <inkscape/prove4t9.pdf>
 
 
-[17]
+[19]
 File: inkscape/prove4t10.pdf Graphic file (type pdf)
 <inkscape/prove4t10.pdf>
 
-Overfull \hbox (4.47374pt too wide) in paragraph at lines 618--618
+Overfull \hbox (4.47374pt too wide) in paragraph at lines 656--656
  [][] 
  []
 
 File: inkscape/prove4t11.pdf Graphic file (type pdf)
 <inkscape/prove4t11.pdf>
 
-Overfull \hbox (2.06607pt too wide) in paragraph at lines 619--621
+Overfull \hbox (2.06607pt too wide) in paragraph at lines 662--664
 [][]  
  []
 
 
 
-[18]
+[20]
 File: inkscape/vipre.pdf Graphic file (type pdf)
 <inkscape/vipre.pdf>
 File: inkscape/vi1.pdf Graphic file (type pdf)
@@ -988,7 +1006,7 @@ File: inkscape/vi5.pdf Graphic file (type pdf)
 <inkscape/vi5.pdf>
 
 
-[19]
+[21]
 File: inkscape/vi6.pdf Graphic file (type pdf)
 <inkscape/vi6.pdf>
 File: inkscape/vi7.pdf Graphic file (type pdf)
@@ -997,7 +1015,7 @@ File: inkscape/vi8.pdf Graphic file (type pdf)
 <inkscape/vi8.pdf>
 
 
-[20] (out/Miyaji_U_Thesis.bbl
+[22] (out/Miyaji_U_Thesis.bbl
 Underfull \hbox (badness 5331) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
  []
@@ -1012,7 +1030,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 26.
 )
 
-[21] (out/Miyaji_U_Thesis.aux)
+[23] (out/Miyaji_U_Thesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -1022,12 +1040,12 @@ Package rerunfilecheck Info: File `Miyaji_U_Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 9CB5B5D2706FC49B681A0E23BA13F877;792.
  ) 
 Here is how much of TeX's memory you used:
- 27630 strings out of 469856
- 552009 string characters out of 5479602
- 925745 words of memory out of 5000000
- 55639 multiletter control sequences out of 15000+600000
+ 27666 strings out of 469856
+ 552849 string characters out of 5479602
+ 924745 words of memory out of 5000000
+ 55669 multiletter control sequences out of 15000+600000
  713869 words of font info for 173 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 84i,10n,104p,661b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,104p,661b,891s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/Miyaji_U_Thesis.dvi (21 pages, 61060 bytes).
+Output written on out/Miyaji_U_Thesis.dvi (23 pages, 63004 bytes).

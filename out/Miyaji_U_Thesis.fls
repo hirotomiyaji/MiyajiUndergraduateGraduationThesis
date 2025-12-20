@@ -543,18 +543,42 @@ INPUT ./inkscape/vi.pdf
 INPUT extractbb -B cropbox -O inkscape/vi.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
-INPUT ./inkscape/ThmS.pdf
-INPUT ./inkscape/ThmS.pdf
-INPUT ./inkscape/ThmS.pdf
-INPUT extractbb -B cropbox -O inkscape/ThmS.pdf
-INPUT ./inkscape/ThmD.pdf
-INPUT ./inkscape/ThmD.pdf
-INPUT ./inkscape/ThmD.pdf
-INPUT extractbb -B cropbox -O inkscape/ThmD.pdf
-INPUT ./inkscape/ThmU.pdf
-INPUT ./inkscape/ThmU.pdf
-INPUT ./inkscape/ThmU.pdf
-INPUT extractbb -B cropbox -O inkscape/ThmU.pdf
+INPUT ./inkscape/ThmS1.pdf
+INPUT ./inkscape/ThmS1.pdf
+INPUT ./inkscape/ThmS1.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmS1.pdf
+INPUT ./inkscape/ThmS2.pdf
+INPUT ./inkscape/ThmS2.pdf
+INPUT ./inkscape/ThmS2.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmS2.pdf
+INPUT ./inkscape/ThmS3.pdf
+INPUT ./inkscape/ThmS3.pdf
+INPUT ./inkscape/ThmS3.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmS3.pdf
+INPUT ./inkscape/ThmD1.pdf
+INPUT ./inkscape/ThmD1.pdf
+INPUT ./inkscape/ThmD1.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmD1.pdf
+INPUT ./inkscape/ThmD2.pdf
+INPUT ./inkscape/ThmD2.pdf
+INPUT ./inkscape/ThmD2.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmD2.pdf
+INPUT ./inkscape/ThmU1.pdf
+INPUT ./inkscape/ThmU1.pdf
+INPUT ./inkscape/ThmU1.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmU1.pdf
+INPUT ./inkscape/ThmU3.pdf
+INPUT ./inkscape/ThmU3.pdf
+INPUT ./inkscape/ThmU3.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmU3.pdf
+INPUT ./inkscape/ThmU4.pdf
+INPUT ./inkscape/ThmU4.pdf
+INPUT ./inkscape/ThmU4.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmU4.pdf
+INPUT ./inkscape/ThmU5.pdf
+INPUT ./inkscape/ThmU5.pdf
+INPUT ./inkscape/ThmU5.pdf
+INPUT extractbb -B cropbox -O inkscape/ThmU5.pdf
 INPUT ./inkscape/ThmC1.pdf
 INPUT ./inkscape/ThmC1.pdf
 INPUT ./inkscape/ThmC1.pdf
