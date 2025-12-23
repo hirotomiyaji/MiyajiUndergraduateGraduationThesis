@@ -872,4 +872,124 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 490.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 495.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' 
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 525.
+[12]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 530.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 535.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 540.
+File: inkscape/ThmS1.pdf Graphic file (type pdf)
+<inkscape/ThmS1.pdf>
+[13]
+File: inkscape/ThmS2.pdf Graphic file (type pdf)
+<inkscape/ThmS2.pdf>
+File: inkscape/ThmS3.pdf Graphic file (type pdf)
+<inkscape/ThmS3.pdf>
+File: inkscape/ThmD1.pdf Graphic file (type pdf)
+<inkscape/ThmD1.pdf>
+File: inkscape/ThmD2.pdf Graphic file (type pdf)
+<inkscape/ThmD2.pdf>
+File: inkscape/ThmU1.pdf Graphic file (type pdf)
+<inkscape/ThmU1.pdf>
+[14]
+File: inkscape/ThmU3.pdf Graphic file (type pdf)
+<inkscape/ThmU3.pdf>
+File: inkscape/ThmU4.pdf Graphic file (type pdf)
+<inkscape/ThmU4.pdf>
+[15]
+File: inkscape/ThmU5.pdf Graphic file (type pdf)
+<inkscape/ThmU5.pdf>
+File: inkscape/ThmC1.pdf Graphic file (type pdf)
+<inkscape/ThmC1.pdf>
+File: inkscape/ThmC2.pdf Graphic file (type pdf)
+<inkscape/ThmC2.pdf>
+[16]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 605.
+[17]
+File: inkscape/prove4tpre.pdf Graphic file (type pdf)
+<inkscape/prove4tpre.pdf>
+File: inkscape/prove4t1.pdf Graphic file (type pdf)
+<inkscape/prove4t1.pdf>
+File: inkscape/prove4t2.pdf Graphic file (type pdf)
+<inkscape/prove4t2.pdf>
+File: inkscape/prove4t3.pdf Graphic file (type pdf)
+<inkscape/prove4t3.pdf>
+File: inkscape/prove4t4.pdf Graphic file (type pdf)
+<inkscape/prove4t4.pdf>
+[18]
+File: inkscape/prove4t5.pdf Graphic file (type pdf)
+<inkscape/prove4t5.pdf>
+File: inkscape/prove4t6.pdf Graphic file (type pdf)
+<inkscape/prove4t6.pdf>
+File: inkscape/prove4t7.pdf Graphic file (type pdf)
+<inkscape/prove4t7.pdf>
+File: inkscape/prove4t8.pdf Graphic file (type pdf)
+<inkscape/prove4t8.pdf>
+File: inkscape/prove4t9.pdf Graphic file (type pdf)
+<inkscape/prove4t9.pdf>
+[19]
+File: inkscape/prove4t10.pdf Graphic file (type pdf)
+<inkscape/prove4t10.pdf>
+
+Overfull \hbox (4.47374pt too wide) in paragraph at lines 658--658
+ [][] 
+ []
+
+File: inkscape/prove4t11.pdf Graphic file (type pdf)
+<inkscape/prove4t11.pdf>
+
+Overfull \hbox (2.06607pt too wide) in paragraph at lines 664--666
+[][]  
+ []
+
+[20]
+File: inkscape/vipre.pdf Graphic file (type pdf)
+<inkscape/vipre.pdf>
+File: inkscape/vi1.pdf Graphic file (type pdf)
+<inkscape/vi1.pdf>
+File: inkscape/vi2.pdf Graphic file (type pdf)
+<inkscape/vi2.pdf>
+File: inkscape/vi3.pdf Graphic file (type pdf)
+<inkscape/vi3.pdf>
+File: inkscape/vi4.pdf Graphic file (type pdf)
+<inkscape/vi4.pdf>
+File: inkscape/vi5.pdf Graphic file (type pdf)
+<inkscape/vi5.pdf>
+[21]
+File: inkscape/vi6.pdf Graphic file (type pdf)
+<inkscape/vi6.pdf>
+File: inkscape/vi7.pdf Graphic file (type pdf)
+<inkscape/vi7.pdf>
+File: inkscape/vi8.pdf Graphic file (type pdf)
+<inkscape/vi8.pdf>
+[22] (out/Miyaji_U_Thesis.bbl
+Underfull \hbox (badness 5331) in paragraph at lines 4--7
+[]\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
+ []
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 12.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 17.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 22.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 27.
+) [23] (out/Miyaji_U_Thesis.aux)
+Package rerunfilecheck Info: File `Miyaji_U_Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 2A9C102CE91505C30D94A28658248DEB;352.
+ ) 
+Here is how much of TeX's memory you used:
+ 27524 strings out of 478496
+ 545616 string characters out of 5854316
+ 824443 words of memory out of 5000000
+ 45605 multiletter control sequences out of 15000+600000
+ 531850 words of font info for 160 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 84i,10n,104p,661b,867s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on out/Miyaji_U_Thesis.dvi (23 pages, 59048 bytes).

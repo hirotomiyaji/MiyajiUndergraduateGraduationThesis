@@ -1435,3 +1435,42 @@ INPUT ./inkscape/vipre.pdf
 INPUT ./inkscape/vipre.pdf
 INPUT inkscape/vipre.pdf
 INPUT extractbb -B cropbox -O inkscape/vipre.pdf
+INPUT ./inkscape/vi1.pdf
+INPUT ./inkscape/vi1.pdf
+INPUT inkscape/vi1.pdf
+INPUT extractbb -B cropbox -O inkscape/vi1.pdf
+INPUT ./inkscape/vi2.pdf
+INPUT ./inkscape/vi2.pdf
+INPUT inkscape/vi2.pdf
+INPUT extractbb -B cropbox -O inkscape/vi2.pdf
+INPUT ./inkscape/vi3.pdf
+INPUT ./inkscape/vi3.pdf
+INPUT inkscape/vi3.pdf
+INPUT extractbb -B cropbox -O inkscape/vi3.pdf
+INPUT ./inkscape/vi4.pdf
+INPUT ./inkscape/vi4.pdf
+INPUT inkscape/vi4.pdf
+INPUT extractbb -B cropbox -O inkscape/vi4.pdf
+INPUT ./inkscape/vi5.pdf
+INPUT ./inkscape/vi5.pdf
+INPUT inkscape/vi5.pdf
+INPUT extractbb -B cropbox -O inkscape/vi5.pdf
+INPUT ./inkscape/vi6.pdf
+INPUT ./inkscape/vi6.pdf
+INPUT inkscape/vi6.pdf
+INPUT extractbb -B cropbox -O inkscape/vi6.pdf
+INPUT ./inkscape/vi7.pdf
+INPUT ./inkscape/vi7.pdf
+INPUT inkscape/vi7.pdf
+INPUT extractbb -B cropbox -O inkscape/vi7.pdf
+INPUT ./inkscape/vi8.pdf
+INPUT ./inkscape/vi8.pdf
+INPUT inkscape/vi8.pdf
+INPUT extractbb -B cropbox -O inkscape/vi8.pdf
+INPUT out/Miyaji_U_Thesis.bbl
+INPUT out/Miyaji_U_Thesis.bbl
+INPUT out/Miyaji_U_Thesis.bbl
+INPUT out/Miyaji_U_Thesis.bbl
+INPUT out/Miyaji_U_Thesis.aux
+INPUT out/Miyaji_U_Thesis.out
+INPUT out/Miyaji_U_Thesis.out
