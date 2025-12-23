@@ -1387,3 +1387,51 @@ INPUT ./inkscape/prove4tpre.pdf
 INPUT ./inkscape/prove4tpre.pdf
 INPUT inkscape/prove4tpre.pdf
 INPUT extractbb -B cropbox -O inkscape/prove4tpre.pdf
+INPUT ./inkscape/prove4t1.pdf
+INPUT ./inkscape/prove4t1.pdf
+INPUT inkscape/prove4t1.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t1.pdf
+INPUT ./inkscape/prove4t2.pdf
+INPUT ./inkscape/prove4t2.pdf
+INPUT inkscape/prove4t2.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t2.pdf
+INPUT ./inkscape/prove4t3.pdf
+INPUT ./inkscape/prove4t3.pdf
+INPUT inkscape/prove4t3.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t3.pdf
+INPUT ./inkscape/prove4t4.pdf
+INPUT ./inkscape/prove4t4.pdf
+INPUT inkscape/prove4t4.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t4.pdf
+INPUT ./inkscape/prove4t5.pdf
+INPUT ./inkscape/prove4t5.pdf
+INPUT inkscape/prove4t5.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t5.pdf
+INPUT ./inkscape/prove4t6.pdf
+INPUT ./inkscape/prove4t6.pdf
+INPUT inkscape/prove4t6.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t6.pdf
+INPUT ./inkscape/prove4t7.pdf
+INPUT ./inkscape/prove4t7.pdf
+INPUT inkscape/prove4t7.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t7.pdf
+INPUT ./inkscape/prove4t8.pdf
+INPUT ./inkscape/prove4t8.pdf
+INPUT inkscape/prove4t8.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t8.pdf
+INPUT ./inkscape/prove4t9.pdf
+INPUT ./inkscape/prove4t9.pdf
+INPUT inkscape/prove4t9.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t9.pdf
+INPUT ./inkscape/prove4t10.pdf
+INPUT ./inkscape/prove4t10.pdf
+INPUT inkscape/prove4t10.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t10.pdf
+INPUT ./inkscape/prove4t11.pdf
+INPUT ./inkscape/prove4t11.pdf
+INPUT inkscape/prove4t11.pdf
+INPUT extractbb -B cropbox -O inkscape/prove4t11.pdf
+INPUT ./inkscape/vipre.pdf
+INPUT ./inkscape/vipre.pdf
+INPUT inkscape/vipre.pdf
+INPUT extractbb -B cropbox -O inkscape/vipre.pdf
