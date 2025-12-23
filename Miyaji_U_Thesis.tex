@@ -31,6 +31,7 @@
 % \usepackage[margin=30truemm]{geometry}
 % \usepackage{authblk}
 \usepackage{appendix}
+\usepackage{caption}
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{patterns}
 \usetikzlibrary{spath3}
@@ -169,8 +170,9 @@
 % \end{itemize}
 % 簡単に$Z^{old}$をdKTGsで準同型にすることができ，dKTGsはKTGsの良い性質をすべて保つことを示す．
 % 有限生成やclose connection to Drinfel'd associators (知らん) など．
-\section*{謝辞}
-\raisebox{-0.4\height}{\includegraphics[scale=0.2]{images/help.jpg}}
+\section{Acknowledgements}
+% \raisebox{-0.4\height}{\includegraphics[scale=0.2]{images/help.jpg}}
+\raisebox{-0.4\height}{\includegraphics[scale=0.4]{images/vanish.JPEG}}
 \newpage
 \section{Preliminaries}
 \subsection{KTGs and $Z^{old}$}
@@ -212,19 +214,26 @@ All edges are oriented, and the vertices are given a counterclockwise orientatio
 
 \begin{definition}
   % 単体複体 $Y$ のspine (スパイン) とは，$Y$ が $X$ へと collapse するような，$Y$ の部分複体 $X$ のことをいう．ここで \textit{collapse} とは，$k$-単体 $\Delta^{k}$ と $(k+1)$-単体 $\Delta^{k+1}$ の対を取り除いていく操作のことをいう．ただし，$\Delta^{k+1}$ はその境界上に $\Delta^{k}$ を持つような唯一の $(k+1)$-単体でなければならない．\\
-  A \textit{spine} of a simplicial complex $Y$ is a subcomplex $X$ of $Y$ onto which $Y$ collapses, where collapsing means successively removing pairs of a $k$-simplex $\Delta^k$ and a $(k+1)$-simplex $\Delta^{k+1}$, where $\Delta^{k+1}$ is the unique $(k+1)$-simplex having $\Delta^k$ on its boundary.
+  A \textit{spine} of a simplicial complex $Y$ is a subcomplex $X$ of $Y$ onto which $Y$ collapses, where collapsing means successively removing finite number of pairs of a $k$-simplex $\Delta^k$ and a $(k+1)$-simplex $\Delta^{k+1}$, where $\Delta^{k+1}$ is the unique $(k+1)$-simplex having $\Delta^k$ on its boundary.
 \end{definition}
 
 \begin{definition}
-  graph $\Gamma$に対し \textit{framed graph} (枠付きグラフ) $\mathbf{\Gamma}$とは，$\Gamma$と，$\Gamma$をspineとして曲面$\Sigma$へ埋め込む\footnote{グラフを1次元CW複体とみなす．}写像$\Gamma\hookrightarrow\Sigma$の組をいう．特に$\Gamma$がTrivalent graphのとき，$\mathbf{\Gamma}$を\textit{framed trivalent graph}\footnote{論文では thickened trivalent graph と書いてある．}という．\\
-  For a graph $\Gamma$, a \textit{framed graph} is a 1-dimensional simplicial complex $\Gamma$ together with an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph. it is denoted by $\mathbf{\Gamma}=(\Gamma,\Sigma)$ and is called a \textit{framed trivalent graph}.
-%修正
-  Moreover, for a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textit{Knotted Trivalent graph (KTG)} is an embedding of a framed trivalent graph $\mathbf{\Gamma}$ into $\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the combinatorial object (trivalent graph $\Gamma$) behind it.
+  % graph $\Gamma$に対し \textit{framed graph} (枠付きグラフ) $\mathbf{\Gamma}$とは，$\Gamma$と，$\Gamma$をspineとして曲面$\Sigma$へ埋め込む\footnote{グラフを1次元CW複体とみなす．}写像$\Gamma\hookrightarrow\Sigma$の組をいう．特に$\Gamma$がTrivalent graphのとき，$\mathbf{\Gamma}$を\textit{framed trivalent graph}\footnote{論文では thickened trivalent graph と書いてある．}という．
+  For a graph $\Gamma$, a \textit{framed graph} is a 1-dimensional simplicial complex $\Gamma$ together with an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine and denoted by $\mathbf{\Gamma}=(\Gamma,\Sigma)$. In particular, when $\Gamma$ is a trivalent graph, it is called a \textit{framed trivalent graph}.
+
+  Moreover, for a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textit{knotted trivalent graph (KTG)} $\gamma$ is an embedding of a surface $\Sigma$ into $\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the trivalent graph $\Gamma$ behind it.
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/trivalentgraph.pdf}}
     $\leadsto$
     \raisebox{-0.4\height}{\includegraphics[scale=0.23]{inkscape/framedtrivalentgraph.pdf}}
+    \caption{An image of a framed trivalent graph}
+  \end{figure}
+  \begin{figure}[H]
+    \centering
+    \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/exKTG.pdf}}
+    \caption{Example of a knotted trivalent graph}
+    \label{fig:exKTG}
   \end{figure}
 \end{definition}
 
@@ -232,61 +241,31 @@ All edges are oriented, and the vertices are given a counterclockwise orientatio
 %   Trivalent graph $\Gamma$に対し，\textit{framed trivalent graph}\footnote{論文には thickened trivalent graph と書いてある．}(枠付き3価グラフ)\cite{thurston2002algebra} $\mathbf{\Gamma}$とは，頂点を太らせたもの．参照先の定義では，1次元単体複体$\Gamma$と，surface $\Sigma$に対しそのspineとなるように$\Gamma$を滑らかに埋め込んだものの組．
 % \end{definition}
 
-\begin{definition}
-  \textit{Knotted trivalent graph (KTG)}を，framed trivalent graph $\mathbf{\Gamma}$から$\RR^3$への埋め込み，KTGの\textit{skeleton}をtrivalent graph $\Gamma$とする．(framed knotsやlinksも含む)\\
-  A \textit{Knotted Trivalent graph (KTG)} is an embedding of a framed trivalent graph $\mathbf{\Gamma}$ into $\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the combinatorial object (trivalent graph $\Gamma$) behind it.
-  \begin{figure}[H]
-    \centering
-    \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/exKTG.pdf}}
-    \caption{Knotted Trivalent Graphの例}
-    \label{fig:exKTG}
-  \end{figure}
-\end{definition}
+% \begin{definition}
+%   % \textit{Knotted trivalent graph (KTG)}を，framed trivalent graph $\mathbf{\Gamma}$から$\RR^3$への埋め込み，KTGの\textit{skeleton}をtrivalent graph $\Gamma$とする．(framed knotsやlinksも含む)\\
+%   A \textit{Knotted Trivalent graph (KTG)} is an embedding of a framed trivalent graph $\mathbf{\Gamma}$ into $\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the combinatorial object (trivalent graph $\Gamma$) behind it.
+%   \begin{figure}[H]
+%     \centering
+%     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/exKTG.pdf}}
+%     \caption{Knotted Trivalent Graphの例}
+%     \label{fig:exKTG}
+%   \end{figure}
+% \end{definition}
 
-KTGs において，skeleton が isotopy で移りあうものを同一視する．特に，framed knots や links は KTGs の特別な場合である．Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書く．\\
+% KTGs において，skeleton が isotopy で移りあうものを同一視する．特に，framed knots や links は KTGs の特別な場合である．Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書く．\\
 We identify KTGs whose skeletons are isotopic. For a trivalent graph $\Gamma$, we denote the vector space over $\QQ$ generated by all linear combinations of KTGs with skeleton $\Gamma$ by
 \[
-  \mathcal{K}(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\NN, a_i\in \QQ, \gamma_i\text{ is a knotted trivalent graph.}\right\}.
+  \mathcal{K}(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\ZZ_{> 0}, a_i\in \QQ, \gamma_i\text{ is a knotted trivalent graph.}\right\}.
 \]
 \begin{definition}
   For a graph $\Gamma$, a \textit{chord diagram} $D$ with support $\Gamma$ is $\Gamma$ together with an vertex-oriented uni-trivalent graph whose univalent vertices are on $\Gamma$; and the graph does not have any connected component homeomorphic to a circle. We call the uni-trivalent graph the chord graph of the diagram.
 \end{definition}
-% \begin{proposition}
-%   Framed links と，framed link の diagrams で 3つの Reidemeister 変形 $R1', R2, R3$ の操作で移りあうものを同一視したものは1対1に対応する．
-%   Two framed links are isotopic if and only if their diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3$.
-
-%   \begin{figure}[H]
-%     \centering
-%     $R1'$:\hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR1_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR1_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR1_2.pdf}}
-    
-%     \vspace{3mm}
-%     $R2$:\hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR2_2.pdf}}
-    
-%     \vspace{3mm}
-%     $R3$:\hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR3_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-%     \raisebox{-0.45\height}{\includegraphics[scale=0.4]{inkscape/FramedReideMoves/fR3_1.pdf}}
-%     \caption{Framed knots における3種類の Reidemeister 変形}
-%     \label{fig:Reidemeister}
-%   \end{figure}
-% \end{proposition}
-
-% \begin{proof}
-%   \cite{ohtsuki2002quantum}~P15~Theorem~1.8
-% \end{proof}
 
 \begin{proposition}
-  KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．\\
-  Two KTGs are isotopic if and only if their graph diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3, R4$.
+  % KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．\\
+  Two KTGs are isotopic if and only if their graph diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3$ and $R4$.
 
-  \begin{figure}[H]
-    \centering
+  \begin{center}
     $R1'$:\hspace{2mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR1_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR1_1.pdf}} \hspace{3mm}$\longleftrightarrow$\hspace{3mm}
@@ -307,26 +286,24 @@ We identify KTGs whose skeletons are isotopic. For a trivalent graph $\Gamma$, w
     $R4a$:\hspace{2mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4a_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4a_1.pdf}}
-
     \vspace{3mm}
-    $R4b$:\hspace{2mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4b_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
-    \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4b_1.pdf}}
-    \caption{Knotted Trivalent Graph における4種類の Reidemeister 変形}
-    \label{fig:ReidemeisterKTG}
-  \end{figure}
+    \noindent
+    \begin{minipage}{\linewidth}
+      \centering
+      $R4b$:\hspace{2mm}
+      \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4b_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
+      \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR4b_1.pdf}}
+      \captionof{figure}{Reidemeister moves on knotted trivalent graphs}
+      \label{fig:ReidemeisterKTG}
+    \end{minipage}
+  \end{center}
 \end{proposition}
-% \cite{dancso2010kontsevich} (p19下部) で引用されている．\cite{yamada1987invariant} のp3のLemma~1．
-% 「$\RR^3$に埋め込まれたグラフ (空間グラフ) が isotopic であることと，その diagrams が Reidemeister moves で変形できるということが同値．」だが，怪しい．一旦パス．
-% 向きづけられた枠付き3価グラフ$\mathbf{\Gamma}$の$S^3$への埋め込み$G$の universal Vassiliev invariant $\hat{Z}(G)$ は isotopy invariant である．(Reidemeister moves で移り変わっても変わらない)
-証明は省略する．詳しくは\cite[Theorem~1.4]{murakami1997topological}を参照されたい．ここでは\cite{yamada1987invariant}で定義された空間グラフのための拡張されたReidemeister movesのもとで不変であることを示せば十分であると述べられている．注意として，blackboard framing を用いているため，\cite{yamada1987invariant}において定義されている頂点周りのedgeの順序を変える移動は必要としない．\\
 We omit the proof here. For details, please refer to \cite[Theorem~1.4]{murakami1997topological}. It is sufficient to show the invariance under extended Reidemeister moves for spatial graphs defined in \cite{yamada1987invariant}. Note that we do not need the move in \cite{yamada1987invariant} which changes the order of edges around a vertex, since we consider framed graphs with the blackboard framing.
 
-% Let $\Gamma$ be a trivalent graph.
 There are four operations on KTGs:
 \begin{definition}
-  KTGを$\gamma\in \mathcal{K}(\Gamma)$とし，$\Gamma$のedgeを$e$とする．$e$の\textit{switch the orientation}を，向きを変えるものとして定め，$S_e(\gamma)$と書く．\\
-  Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and $e$ be an edge of $\Gamma$. The \textit{switch the orientation} of $e$ is defined as reversing its orientation, and is denoted by $S_e(\gamma)$.
+  Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and $e$ be an edge of $\Gamma$. \textit{Switch the orientation} of $e$ is defined as reversing its orientation, and is denoted by $S_e$. \\
+  {\Large 4つの演算の定義未完}
   \[S_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(S_e(\Gamma))\,;\,\gamma\mapsto S_e(\gamma)\]
   \begin{figure}[H]
   \centering
@@ -335,7 +312,6 @@ There are four operations on KTGs:
 \end{definition}
 
 \begin{definition}
-  $\Gamma$のedgeであって，両端に接続されているedgeの向きが一致している$e$を\textit{delete}するとは，$e$を削除し，三価性を保つように$e$の両端の頂点を削除することをいう．\\
   Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and let $e$ be an edge of $\gamma$. \textit{Delete} of $e$ is defined as removing $e$ and the two vertices at the ends of $e$ also cease to exist to preserve the trivalence. To do this, it is required that the orientations of the two edges connecting to $e$ at either end match.
   \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
   % \[d_e\colon \mathcal{K}\to\mathcal{K}\,;\,\gamma\mapsto d_e(\gamma)\]
@@ -346,7 +322,6 @@ There are four operations on KTGs:
 \end{definition}
 
 \begin{definition}
-  $\Gamma$のedge $e$を\textit{unzip}するとは，$e$を``限りなく近い''2つのedgesに分け，端点をなくすことをいう．端点をなくしたとき，edgeの向きが合っていることが必要である．同様の議論でframed graph $\mathbf{\Gamma}$に対し，unzipを定義できる．\\
   Let $\Gamma$ be a trivalent graph and let $\gamma\in \mathcal{K}(\Gamma)$ be a KTG, and let $e$ be an edge of $\gamma$. \textit{Unzip} the edge $e$ is replacing it by two edges that are ``very close to each other''. Thw two vertices at the ends of $e$ will disappear. Again the edges at the vertex where $e$ begins have to both be incoming, while the edges at the vertex where $e$ ends must both be outgoing.
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
   \begin{figure}[H]
@@ -356,7 +331,6 @@ There are four operations on KTGs:
 \end{definition}
 
 \begin{definition}
-  2つのtrivalent graph とそのedgeのペア$(\Gamma,e), (\Gamma',f)$の\textit{connected sum} $\Gamma\#_{e,f}\Gamma'$とは$e,f$をつなぐedgeを新たに作ること．well-definedであるために，新たなedgeの向きは$\Gamma$から$\Gamma'$への向きとし，KTGsにおいてはねじれを許さず，辺を付ける場合は$e,f$の右側に付けるとする．(2次元では自由に動かせないため左右が重要)\\
   Let $(\Gamma,e), (\Gamma',f)$ be two pairs of trivalent graphs and their edges. The \textit{connected sum} $\Gamma\#_{e,f}\Gamma'$ is obtained by joining $e$ and $f$ by a new edge. For this to be well-defined, we also need to specify the direction of the new edge, the cyclic orientations at each new vertex, and in the case of KTGs, the framing on the new edge. To compress notatio, let us declare that the new edge be oriented from $\Gamma$ towards $\Gamma'$, have no twists, and, using the blackboard framing, be attached to the right side of $e$ and $f$.
   \[\#_{e,f}\colon \mathcal{K}(\Gamma)\times\mathcal{K}(\Gamma')\to \mathcal{K}(\Gamma\#_{e, f}\Gamma')\]
   \begin{figure}[H]
@@ -365,15 +339,10 @@ There are four operations on KTGs:
   \end{figure}
 \end{definition}
 
-KTGsのfinite type invariantsは，linksにおけるものと同様に定義する．同じskeletonのKTGsの形式和を許し，得られたベクトル空間を特異点の解消によってフィルター分けする．\\
-We define finite type invariants of KTGs in the same way as for links. In detail, we allow linear combinations of KTGs with the same skeleton, and filter the resulting vector space by the resolution of singular points.
-
-% \[\mathcal{F}_0(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\NN, a_i\in \QQ, \gamma_i\in \mathcal{K}(\Gamma)\right\}\]
-% をKTGsの有限な形式和全体がなす$\QQ$-ベクトル空間とする
+We define finite type invariants of KTGs in the same way as for links. In detail, we filter the resulting vector space by the resolution of ``singular points''.
 
 \begin{definition}
-  \textit{n-singular KTG}とは，$n$この特異点を持つtrivalent graphの$\RR^3$へのはめ込み．各特異点は横断的な2重点か，``$F$''と書かれた線上の点である．\\
-  An \textit{n-singular KTG} is a trivalent graph immersed in $\RR^3$ with $n$ singular points: each singular point is a transverse double point or a point on an edge marked with an ``$F$''.
+  An \textit{n-singular KTG} is a trivalent graph immersed in $\RR^3$ with $n$ singular points: each singular point is a transverse double point or a point on an edge marked with an ``$F$''.←こいつは何者か？
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/singularKTG.pdf}}
@@ -381,36 +350,36 @@ We define finite type invariants of KTGs in the same way as for links. In detail
   \end{figure}
 \end{definition}
 
-$n\geq 1$に対し以下のようなベクトル空間を考える．For $n\geq 1$, we consider the following vector space:
+For $n\geq 0$, we consider the following vector space:
 \[
   \mathcal{F}'_n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\,
   \begin{aligned}
-    &m\in\NN, a_i\in \QQ, \gamma'_i\colon \text{KTG which has } \\
+    &m\in\ZZ_{> 0}, a_i\in \QQ, \gamma'_i\colon \text{KTG which has } \\
     &\quad \text{ at least } n \text{ double point with skeleton }\Gamma
   \end{aligned}
   \right\}
 \]
-全ての特異点を解消する写像$\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$を以下のように定める:
-We define a map $\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$ that resolves all double points as follows:
+% 全ての特異点を解消する写像$\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$を以下のように定める:
+We define a map $\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$ that resolves all singular points as follows:
 \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResDouble.pdf}},\\ \vspace{5mm}
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF1.pdf}},\hspace{7mm}
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF2.pdf}}.
 \end{figure}
-
-$\mathcal{F}_n'(\Gamma)\ (n\geq 1)$に対し，$\mathcal{F}_n(\Gamma)$を$\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$と定義すると，明らかに$\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$であり，\\
-For each $\mathcal{F}_n'(\Gamma)\ (n\geq 1)$, we define $\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$. Then, obviously, $\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$, and we obtain a following filtration:
+{\Large ひねりの説明未完}
+% $\mathcal{F}_n'(\Gamma)\ (n\geq 0)$に対し，$\mathcal{F}_n(\Gamma)$を$\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$と定義すると，明らかに$\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$であり，\\
+For each $\mathcal{F}_n'(\Gamma)\ (n\geq 0)$, we define $\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$. Then, obviously, $\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$, and we obtain the following filtration:
 \[
   \mathcal{K}(\Gamma) = \mathcal{F}_0(\Gamma)\supset \mathcal{F}_1(\Gamma)\supset \mathcal{F}_2(\Gamma) \supset \mathcal{F}_3(\Gamma)\cdots.
 \]
-というfiltrationが得られる．このfiltrationにおいて隣合う2つのベクトル空間から得られる商ベクトル空間を$\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$とし，associated graded spaceを以下のように定義する:\\
+% というfiltrationが得られる．このfiltrationにおいて隣合う2つのベクトル空間から得られる商ベクトル空間を$\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$とし，associated graded spaceを以下のように定義する:\\
 In this filtration, we denote the quotient vector space obtained from two adjacent vector spaces by $\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$, and define the associated graded space as follows:
 \[
   \mathcal{A}(\Gamma)\coloneqq \bigoplus_{n=0}^{\infty}\mathcal{A}_n(\Gamma) \left(= \bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F}_{n+1}(\Gamma)\right)
 \]
 
-次数$n$のchord diagramを基底とする$\QQ$上のベクトル空間を$\mathcal{D}_n(\Gamma)$と書き，$\mathcal{D}(\Gamma)\coloneqq \bigoplus_n\mathcal{D}_n(\Gamma)$とする．Chord diagram における chords を縮めて double points に対応させることで，$\mathcal{D}(\Gamma)$から$\mathcal{A}(\Gamma)$への自然な全射$\pi$が存在する．\\
+% 次数$n$のchord diagramを基底とする$\QQ$上のベクトル空間を$\mathcal{D}_n(\Gamma)$と書き，$\mathcal{D}(\Gamma)\coloneqq \bigoplus_n\mathcal{D}_n(\Gamma)$とする．Chord diagram における chords を縮めて double points に対応させることで，$\mathcal{D}(\Gamma)$から$\mathcal{A}(\Gamma)$への自然な全射$\pi$が存在する．\\
 We denote by $\mathcal{D}_n(\Gamma)$ the vector space over $\QQ$ generated by chord diagrams of order $n$, and set $\mathcal{D}(\Gamma)\coloneqq \bigoplus_n\mathcal{D}_n(\Gamma)$. There is a natural surjection $\pi$ from $\mathcal{D}(\Gamma)$ to $\mathcal{A}(\Gamma)$ by associating the chords in a chord diagram to double points.
 
 % \begin{proposition}
@@ -437,18 +406,18 @@ We call the following relations the $4T$ and $VI$ relations in $\mathcal{D}(\Gam
   \raisebox{-0.45\height}{\includegraphics{inkscape/vi.pdf}}
   \end{figure}
 \end{itemize}
-図に描かれていない部分にはgraphがあるが，それらは全て同じでなければならない．4Tでは反時計回りの向きを与える(これ必要？)．$VI$ において，$(-1)^\to$は，chord の付いたedgeが外向きなら-1, 内向きなら1をかける(つまり式は8つある)．\\
+% 図に描かれていない部分にはgraphがあるが，それらは全て同じでなければならない．4Tでは反時計回りの向きを与える(これ必要？)．$VI$ において，$(-1)^\to$は，chord の付いたedgeが外向きなら-1, 内向きなら1をかける(つまり式は8つある)．\\
 In both pictures, there may be other chords in the parts of the graph not shown, but they have to be the same throughout.  In $4T$, all skeleton parts (solid lines) are oriented counterclockwise. In $VI$, the sign $(-1)^\to$ is $-1$ if the edge the chord is ending on is oriented to be outgoing from the vertex, and $+1$ if it is incoming (thus there are 8 versions of the relation).
 \begin{theorem}\label{thm:4TVI}
   The relations $4T$ and $VI$ are contained in $\ker\pi$.
 \end{theorem}
-この定理の証明は Appendix~\ref{sec:thm4TVIproof} で与える．\\
+% この定理の証明は Appendix~\ref{sec:thm4TVIproof} で与える．\\
 The proof of this theorem is given in Appendix~\ref{sec:thm4TVIproof}.
 
 $4T$, $VI$ が kernel に含まれることは分かったが，これ以上の relations が存在``しない''ことを示すのは困難である．これを示すには，universal finite type invariant $\QQ \text{KTG}\to \ca$を構成するのが最善である(ここでは定義しないが，後で一般の文脈で定義する)．これは，T.Le, H.Murakami, J. Murakami, T.Ohtsuki の結果をもとに，またDrinfeldのassociatorの理論を用いて[KO, CD],\cite{bar898algebraic}でのKontsevich integral を拡張する形で\cite{murakami1997topological}で初めて得られた．\\
 Although it is easy to see that these relations are contained in kernel, showing that there are no more is difficult, and is best achieved by constructing a universal finite type invariant $\QQ \text{KTG}\to \mathcal{A}$ (we do not define universal finite type invariants here, but will do so later in the general context).
 
-KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K}(\Gamma)$のassociated graded spaceである．)\\
+% KTGsの各operationは$\ca$上のoperationを誘導する．($\ca$は$\mathcal{K}(\Gamma)$のassociated graded spaceである．)\\
 Each operation on KTGs induces an operation on $\ca$ (the associated graded space of $\mathcal{K}(\Gamma)$).
 
 \begin{itemize}
@@ -476,7 +445,7 @@ Each operation on KTGs induces an operation on $\ca$ (the associated graded spac
 \end{itemize}
 
 \begin{theorem}\label{thm:KTGgen}
-  Any KTG can be obtained from the trivially embedded tetrahedron and the twisted tetrahedron by a finite sequence of the four operations defined above.
+  Any KTG can be obtained from the trivially embedded tetrahedron and the twisted tetrahedron by a finite sequence of the four operations defined above.{\Large 引用文献書け}
 \end{theorem}
 
 \begin{proof}
@@ -496,11 +465,11 @@ Each operation on KTGs induces an operation on $\ca$ (the associated graded spac
 \end{proof}
 
 \subsection{Algebraic structures and expansions}
-$\mathcal{K}$において，orientation switch, edge delete, edge unzip, connected sum を linear に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$は vector space となる．\\
-By linearly extending the operations of orientation switch, edge delete, edge unzip, and connected sum on $\mathcal{K}$ to allow linear combinations with coefficients in $\QQ$, $\mathcal{K}$ becomes a vector space.
+% $\mathcal{K}$において，orientation switch, edge delete, edge unzip, connected sum を linear に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$は vector space となる．\\
+By linearly extending the operations of orientation switch, edge delete, edge unzip and connected sum on $\mathcal{K}$ to allow linear combinations with coefficients in $\QQ$, $\mathcal{K}$ becomes a vector space.
 
 \begin{definition}
-  $\Gamma$をKTGとする．$\ck(\Gamma)$ において，係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$とする．\\
+  % $\Gamma$をKTGとする．$\ck(\Gamma)$ において，係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$とする．\\
   Let $\Gamma$ be a KTG. Let $\mathcal{I}(\Gamma)$ be the sub-structure made out of all such combinations in which the sum of coefficients is 0, and let $\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$.
 \end{definition}
 
@@ -509,7 +478,7 @@ By linearly extending the operations of orientation switch, edge delete, edge un
 \end{example}
 
 \begin{definition}
-  $\mathcal{I}^m$を，$\mathcal{I}$の元を少なくとも$m$個含むようなものから任意の演算の合成で得られる元が生成する$\ck$の部分空間とする．つまり，\\
+  % $\mathcal{I}^m$を，$\mathcal{I}$の元を少なくとも$m$個含むようなものから任意の演算の合成で得られる元が生成する$\ck$の部分空間とする．つまり，\\
   Let $\mathcal{I}^m$ be the set of all outputs of arbitrary compositions of the operations in $\mathcal{K}$ that have at least $m$ inputs in $\mathcal{I}$. In other words,
   \[ 
     \mathcal{I}^m \coloneqq \left\{ \gamma\in\mathcal{K} \;\middle|\;
@@ -518,9 +487,11 @@ By linearly extending the operations of orientation switch, edge delete, edge un
       &\quad \text{ such that }\gamma=f(x_1,\dots,x_n), \#\{i\mid x_i\in\mathcal{I}\}\geq m.
     \end{aligned}\right\}.
   \]
-  さらに，$\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$とする．Moreover, we define $\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$.
+  % さらに，$\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$とする．
+  Moreover, we define $\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$.
 \end{definition}
-ここで，$\mathcal{I}^m$は明らかにfiltrationの構造をもつ．Clearly, $\mathcal{I}^m$ has a filtration structure.
+% ここで，$\mathcal{I}^m$は明らかにfiltrationの構造をもつ．
+Clearly, $\mathcal{I}^m$ has a filtration structure.
 
 \begin{lemma}\label{lem:Ichar}
   $\mathcal{I}(\Gamma)=\{\sum\limits_{i}c_i(\gamma_i - \gamma_i')\mid \gamma_i, \gamma_i'\colon \text{generators of }\ck(\Gamma), c_i\in\QQ\}$.
@@ -539,62 +510,64 @@ By linearly extending the operations of orientation switch, edge delete, edge un
 \begin{proof}
   \begin{enumerate}
     \item $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$\\
-    $(\supset)$ 任意の$\mathcal{F}_1(\Gamma)$の元は少なくとも1つのdouble pointを持つような1-singular KTGの交点の正負の差を元に持つため，$\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$. \\
+    $(\supset)$
+    % 任意の$\mathcal{F}_1(\Gamma)$の元は少なくとも1つのdouble pointを持つような1-singular KTGの交点の正負の差を元に持つため，$\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$. \\
     Since any element $\gamma\in\mathcal{F}_1(\Gamma)$ has at least one double point, so there exist $\gamma_+, \gamma_-\in \mathcal{K}(\Gamma)$ such that $\gamma=\gamma_+ - \gamma_-$, thus $\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$.\\
-    $(\subset)$ 任意の$\mathcal{I}(\Gamma)$の元はLemma~\ref{lem:Ichar}より$\sum_i c_i(\gamma_i-\gamma'_i)$と書ける．$\mathcal{F}_1(\Gamma)$において，同じskeleton を持つ任意の2つのKTGはcrossing change により移りあうため，$\gamma_i - \gamma'_i$を1点における正負の交差の差 $\tilde{\gamma}_i-\tilde{\gamma}'_i$となるようにできる．よって
-    \[
-      \sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).
-    \]
+    $(\subset)$
+    % 任意の$\mathcal{I}(\Gamma)$の元はLemma~\ref{lem:Ichar}より$\sum_i c_i(\gamma_i-\gamma'_i)$と書ける．$\mathcal{F}_1(\Gamma)$において，同じskeleton を持つ任意の2つのKTGはcrossing change により移りあうため，$\gamma_i - \gamma'_i$を1点における正負の交差の差 $\tilde{\gamma}_i-\tilde{\gamma}'_i$となるようにできる．よって
+    % \[
+    %   \sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).
+    % \]
     Any element of $\mathcal{I}(\Gamma)$ can be written as $\sum_i c_i(\gamma_i-\gamma'_i)$ by Lemma~\ref{lem:Ichar}. In $\mathcal{F}_1(\Gamma)$, any two KTGs with the same skeleton can be related by crossing changes, so we can make $\gamma_i - \gamma'_i$ into the difference of positive and negative crossings at one point $\tilde{\gamma}_i-\tilde{\gamma}'_i$. Therefore,
     \[
       \sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).
     \]
     \item $\mathcal{I}^n(\Gamma)\subset\mathcal{F}_n(\Gamma)$\\
     By $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$, any element $\gamma\in\mathcal{I}^n(\Gamma)$ is generated by at least $n$ elements of $\mathcal{F}_1(\Gamma)$. It is enough to check that the four operations for an edge with double points preserve number of double points.
-    \begin{itemize}
-      \item orientation switch of an edge with a double point,
-      \begin{figure}[H]
+    In the case of orientation switch,
+    \begin{figure}[H]
       \centering
-      \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmS1.pdf}}
+      \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmS1.pdf}}
       \end{figure}
       If $e$ does not connect to $f$,
       \begin{figure}[H]
       \centering
-      \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmS2.pdf}}.
+      \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmS2.pdf}}.
       \end{figure}
       If $e$ connects to $f$,
       \begin{figure}[H]
       \centering
-      \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmS3.pdf}}.
+      \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmS3.pdf}}.
       \end{figure}
-      In both cases, the number of double points does not change.
-      \item edge delete,
-      \begin{figure}[H]
+    In both cases, the number of double points does not change.
+
+    In the case of edge delete,
+    \begin{figure}[H]
         \centering
-        \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmD1.pdf}}\\ \vspace{5mm}
-        \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmD2.pdf}}
+        \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmD1.pdf}}\\ \vspace{5mm}
+        \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmD2.pdf}}
       \end{figure}
       Both cases, if $e$ connects to $f$ or not, $d_e(\Gamma) = 0$. 0 is included in $\mathcal{F}_n$ for all $n\geq 0$, so the number of double points does not change.
-      \item edge unzip,
-      
-      We prove with a technical method by adding and subtracting same diagrams as follows:
-      
+
+    In the case of edge unzip,
+
+    We prove with a technical method by adding and subtracting same diagrams as follows:
+
       {
         \centering
-        \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmU1.pdf}}\\ \vspace{5mm}
+        \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmU1.pdf}}\\ \vspace{5mm}
         % \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmU2.pdf}}
-        \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmU3.pdf}}\\ \vspace{5mm}
-        \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmU4.pdf}}\\ \vspace{5mm}
-        \raisebox{-0.45\height}{\includegraphics[scale=0.8]{inkscape/ThmU5.pdf}}\\ \vspace{5mm}
+        \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmU3.pdf}}\\ \vspace{5mm}
+        \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmU4.pdf}}\\ \vspace{5mm}
+        \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmU5.pdf}}\\ \vspace{5mm}
       }
-      
-      \item connected sum.
-      \begin{figure}[H]
+    
+    In the case of connected sum,
+    \begin{figure}[H]
         \centering
-        \raisebox{-0.45\height}{\includegraphics[scale=0.65]{inkscape/ThmC1.pdf}}\\ \vspace{5mm}\hspace{10mm}
-        \raisebox{-0.45\height}{\includegraphics[scale=0.65]{inkscape/ThmC2.pdf}}
+        \raisebox{-0.45\height}{\includegraphics[scale=0.7]{inkscape/ThmC1.pdf}}\\ \vspace{5mm}\hspace{10mm}
+        % \raisebox{-0.45\height}{\includegraphics[scale=0.65]{inkscape/ThmC2.pdf}}
       \end{figure}
-    \end{itemize}
     \item $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$
     Since any $n$-singular KTG can be obtained from $n$ pieces of 1-singular KTGs and the four operations by Theorem~\ref{thm:nSingularKTGgen}, $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$.
   \end{enumerate}
@@ -683,6 +656,7 @@ Finally, we obtain the $4T$ relation:\\
   \raisebox{-0.45\height}{\includegraphics{inkscape/vi8.pdf}}
 }
 \newpage
+{\Large Bibtexのエクスポートはゴミなので自分で書け}
 \bibliographystyle{alpha} %plain, unsrt, alpha などが一般的
 \bibliography{references} %bibファイルの指定
 \end{document}
