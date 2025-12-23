@@ -179,11 +179,11 @@
 %   \textit{Trivalent graph}(3価グラフ)とは，各頂点が3つの辺をもつようなグラフをいう．
 % \end{definition}
 
-全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．ループや円などの辺を許すこととする．\\
+% 全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．ループや円などの辺を許すこととする．\\
 All edges are oriented, and the vertices are given a counterclockwise orientation. Loops are allowed.
 
 \begin{definition}
-  \textit{Surface}(曲面)とはコンパクトで向き付け可能で第2可算公理\footnote{高々可算な開基を持つ．}を満たす2次元多様体をいう．\\
+  % \textit{Surface}(曲面)とはコンパクトで向き付け可能で第2可算公理\footnote{高々可算な開基を持つ．}を満たす2次元多様体をいう．\\
   A \textit{surface} is a compact, oriented 2-dimensional manifold that satisfies the second-countable axiom.
 \end{definition}
 
@@ -211,13 +211,15 @@ All edges are oriented, and the vertices are given a counterclockwise orientatio
 % \end{definition}
 
 \begin{definition}
-  単体複体 $Y$ のspine (スパイン) とは，$Y$ が $X$ へと collapse するような，$Y$ の部分複体 $X$ のことをいう．ここで \textit{collapse} とは，$k$-単体 $\Delta^{k}$ と $(k+1)$-単体 $\Delta^{k+1}$ の対を取り除いていく操作のことをいう．ただし，$\Delta^{k+1}$ はその境界上に $\Delta^{k}$ を持つような唯一の $(k+1)$-単体でなければならない．\\
+  % 単体複体 $Y$ のspine (スパイン) とは，$Y$ が $X$ へと collapse するような，$Y$ の部分複体 $X$ のことをいう．ここで \textit{collapse} とは，$k$-単体 $\Delta^{k}$ と $(k+1)$-単体 $\Delta^{k+1}$ の対を取り除いていく操作のことをいう．ただし，$\Delta^{k+1}$ はその境界上に $\Delta^{k}$ を持つような唯一の $(k+1)$-単体でなければならない．\\
   A \textit{spine} of a simplicial complex $Y$ is a subcomplex $X$ of $Y$ onto which $Y$ collapses, where collapsing means successively removing pairs of a $k$-simplex $\Delta^k$ and a $(k+1)$-simplex $\Delta^{k+1}$, where $\Delta^{k+1}$ is the unique $(k+1)$-simplex having $\Delta^k$ on its boundary.
 \end{definition}
 
 \begin{definition}
   graph $\Gamma$に対し \textit{framed graph} (枠付きグラフ) $\mathbf{\Gamma}$とは，$\Gamma$と，$\Gamma$をspineとして曲面$\Sigma$へ埋め込む\footnote{グラフを1次元CW複体とみなす．}写像$\Gamma\hookrightarrow\Sigma$の組をいう．特に$\Gamma$がTrivalent graphのとき，$\mathbf{\Gamma}$を\textit{framed trivalent graph}\footnote{論文では thickened trivalent graph と書いてある．}という．\\
-  For a graph $\Gamma$, a \textit{framed graph} $\mathbf{\Gamma}$ is a 1-dimensional simplicial complex $\Gamma$ together with an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph, $\mathbf{\Gamma}$ is called a \textit{framed trivalent graph}.
+  For a graph $\Gamma$, a \textit{framed graph} is a 1-dimensional simplicial complex $\Gamma$ together with an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph. it is denoted by $\mathbf{\Gamma}=(\Gamma,\Sigma)$ and is called a \textit{framed trivalent graph}.
+%修正
+  Moreover, for a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textit{Knotted Trivalent graph (KTG)} is an embedding of a framed trivalent graph $\mathbf{\Gamma}$ into $\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the combinatorial object (trivalent graph $\Gamma$) behind it.
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/trivalentgraph.pdf}}
