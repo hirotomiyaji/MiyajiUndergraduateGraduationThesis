@@ -2,6 +2,6 @@
 \contentsline {section}{\numberline {2}Acknowledgements}{3}{section.2}%
 \contentsline {section}{\numberline {3}Preliminaries}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}KTGs and $Z^{old}$}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Algebraic structures and expansions}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Algebraic structures and expansions}{11}{subsection.3.2}%
 \renewcommand {\cftsecpresnum }{Appendix } \renewcommand {\cftsecaftersnum }{:} \setlength {\cftsecnumwidth }{7em} 
-\contentsline {section}{\numberline {A}Proof of Theorem~\ref {thm:4TVI}}{15}{appendix.A}%
+\contentsline {section}{\numberline {A}Proof of Theorem\nobreakspace {}\ref {thm:4TVI}}{15}{appendix.A}%
