@@ -171,8 +171,6 @@
 % 簡単に$Z^{old}$をdKTGsで準同型にすることができ，dKTGsはKTGsの良い性質をすべて保つことを示す．
 % 有限生成やclose connection to Drinfel'd associators (知らん) など．
 \section{Acknowledgements}
-% \raisebox{-0.4\height}{\includegraphics[scale=0.2]{images/help.jpg}}
-\raisebox{-0.4\height}{\includegraphics[scale=0.4]{images/vanish.JPEG}}
 \newpage
 \section{Preliminaries}
 \subsection{KTGs and $Z^{old}$}
@@ -182,35 +180,12 @@
 % \end{definition}
 
 % 全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．ループや円などの辺を許すこととする．\\
-If we consider graphs, all edges are oriented, and the vertices are given a counterclockwise orientation. Loops are allowed.
+If we consider graphs, all edges are oriented, and vertices be equipped with a cyclic orientation, and loops are allowed.
 
 \begin{definition}
   % \textit{Surface}(曲面)とはコンパクトで向き付け可能で第2可算公理\footnote{高々可算な開基を持つ．}を満たす2次元多様体をいう．\\
-  A \textit{surface} is a compact, oriented 2-dimensional manifold that satisfies the second-countable axiom.
+  A \textit{surface} is a compact, oriented 2-dimensional manifold with boundary that satisfies the second-countable axiom.
 \end{definition}
-
-% \begin{definition}
-%   $K$を単体複体，$\sigma, \tau\in K$を以下の条件を満たすとする．
-%   \begin{itemize}
-%     \item $\tau \precneqq \sigma$,
-%     \item $\sigma$は$K$の最大の面単体で，他の最大面単体は$\tau$を含まない．このような$\tau$を\textit{free face}という．
-%   \end{itemize}
-%   このとき，$K$の\textit{collapse}とは，$\tau\preceq\gamma\preceq\sigma$となる$\gamma$をすべて取り除くことをいう．
-%   Let $K$ be a simplicial complex, and let $\sigma,\tau\in K$ satisfy the following conditions:
-%   \begin{itemize}
-%     \item $\tau \precneqq \sigma$,
-%     \item $\sigma$ is a maximal face simplex of $K$, and no other maximal face simplex contains $\tau$. Such a $\tau$ is called a \textit{free face}.
-%   \end{itemize}
-%   Then, a \textit{collapse} of $K$ is the removal of all $\gamma$ such that $\tau\preceq\gamma\preceq\sigma$.
-  
-%   \raisebox{-0.4\height}{\includegraphics[scale=0.5]{images/collapseNot.png}}
-
-%   \raisebox{-0.4\height}{\includegraphics[scale=0.5]{images/collapse.png}}
-% \end{definition}
-
-% \begin{definition}
-%   単体複体$K$における\textit{spine}(スパイン)とは，$K$の部分単体複体$K'$であって，$K$をcollapseして$K'$となるものをいう．A \textit{spine} of a simplicial complex $K$ is a sub-simplicial complex $K'$ such that $K$ collapses to $K'$.
-% \end{definition}
 
 \begin{definition}
   % 単体複体 $Y$ のspine (スパイン) とは，$Y$ が $X$ へと collapse するような，$Y$ の部分複体 $X$ のことをいう．ここで \textit{collapse} とは，$k$-単体 $\Delta^{k}$ と $(k+1)$-単体 $\Delta^{k+1}$ の対を取り除いていく操作のことをいう．ただし，$\Delta^{k+1}$ はその境界上に $\Delta^{k}$ を持つような唯一の $(k+1)$-単体でなければならない．\\
@@ -219,10 +194,15 @@ If we consider graphs, all edges are oriented, and the vertices are given a coun
 
 \begin{definition}
   % graph $\Gamma$に対し \textit{framed graph} (枠付きグラフ) $\mathbf{\Gamma}$とは，$\Gamma$と，$\Gamma$をspineとして曲面$\Sigma$へ埋め込む\footnote{グラフを1次元CW複体とみなす．}写像$\Gamma\hookrightarrow\Sigma$の組をいう．特に$\Gamma$がTrivalent graphのとき，$\mathbf{\Gamma}$を\textit{framed trivalent graph}\footnote{論文では thickened trivalent graph と書いてある．}という．
-  For a graph $\Gamma$, a \textit{framed graph} $\mathbf{\Gamma}$ is a pair of 1-dimensional simplicial complex $\Gamma$ and an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph, it is called a \textit{framed trivalent graph}.
+  For a graph $\Gamma$, a \textit{framed graph} $\mathbf{\Gamma}$ is a pair $(\Gamma, \Sigma)$ of 1-dimensional simplicial complex $\Gamma$ and an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph, it is called a \textit{framed trivalent graph}.
+\end{definition}
+
+We regard two framed graphs $(\Gamma, \Sigma)$ and $(\Gamma, \Sigma')$ as equivalent if there exists an orientation-preserving diffeomorphism $h\colon \Sigma \to \Sigma'$ such that $h|_{\Gamma} = \id_{\Gamma}$. We consider framed graphs up to this equivalence. Under a fixed cyclic ordering of edges at each vertex, the framed graph is uniquely determined up to this equivalence.
+
+\begin{definition}
   %修正 どっちか消す
   % For a graph $\Gamma$, a \textit{framed graph} is a 1-dimensional simplicial complex $\Gamma$ together with an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine and denoted by $\mathbf{\Gamma}=(\Gamma,\Sigma)$. In particular, when $\Gamma$ is a trivalent graph, it is called a \textit{framed trivalent graph}.
-  Moreover, for a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textit{knotted trivalent graph (KTG)} $\gamma$ is an embedding of a surface $\Sigma$ into $\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the trivalent graph $\Gamma$ behind it.
+  For a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textit{knotted trivalent graph (KTG)} $\gamma$ is a triple $(\Gamma, \Sigma, g)$ consisting of the framed graph $\Gamma$ and an embedding $g\colon \Sigma\hookrightarrow\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the trivalent graph $\Gamma$ behind it.
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/trivalentgraph.pdf}}
@@ -238,23 +218,38 @@ If we consider graphs, all edges are oriented, and the vertices are given a coun
   \end{figure}
 \end{definition}
 
-% \begin{definition}
-%   Trivalent graph $\Gamma$に対し，\textit{framed trivalent graph}\footnote{論文には thickened trivalent graph と書いてある．}(枠付き3価グラフ)\cite{thurston2002algebra} $\mathbf{\Gamma}$とは，頂点を太らせたもの．参照先の定義では，1次元単体複体$\Gamma$と，surface $\Sigma$に対しそのspineとなるように$\Gamma$を滑らかに埋め込んだものの組．
-% \end{definition}
+\begin{definition}
+  Two knotted trivalent graphs $\gamma_1=(\Gamma, \Sigma, g)$ and $\gamma_2=(\Gamma, \Sigma, h)$ are said to be \textit{framed isotopic} if there exists a smooth embedding
+  \[
+    \Phi \colon \Sigma_1 \times I \to \RR^3 \times I\quad (I=[0,1])
+  \]
+  satisfying the following conditions:
+  \begin{enumerate}
+    \item For any $x \in \Sigma$ and $t \in I$, $\Phi(x,t) = (\varphi_t(x), t)$ for a smooth embedding $\varphi_t \colon \Sigma \hookrightarrow \RR^3$,
+    \item The restriction of $\Phi$ to the graph $\Gamma \times I$ gives an ambient isotopy of the underlying graph,
+    \item At $t=0$, $\varphi_0 = g$, and at $t=1$, $\varphi_1 = h$.
+  \end{enumerate}
+\end{definition}
 
 % \begin{definition}
-%   % \textit{Knotted trivalent graph (KTG)}を，framed trivalent graph $\mathbf{\Gamma}$から$\RR^3$への埋め込み，KTGの\textit{skeleton}をtrivalent graph $\Gamma$とする．(framed knotsやlinksも含む)\\
-%   A \textit{Knotted Trivalent graph (KTG)} is an embedding of a framed trivalent graph $\mathbf{\Gamma}$ into $\RR^3$. The \textit{skeleton} of a KTG $\gamma$ is the combinatorial object (trivalent graph $\Gamma$) behind it.
-%   \begin{figure}[H]
-%     \centering
-%     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/exKTG.pdf}}
-%     \caption{Knotted Trivalent Graphの例}
-%     \label{fig:exKTG}
-%   \end{figure}
+%   {\Large framed isotopy の定義未完}\\
+%   Let $\gamma_1=(\Gamma, \Sigma_1, g), \gamma_2=(\Gamma, \Sigma_2,h)$ be knotted trivalent graphs with same skeleton.
+%   We say that $\gamma_1$ and $\gamma_2$ are \textit{framed isotopic} if there exists an isotopy map (smooth embedding)
+%   \[
+%     f\colon \Gamma\times I\to S^3\times I
+%   \]
+%   from $g$ to $h$, which extends to a smooth isotopy of the surfaces
+%   \[
+%     \tilde{f}\colon \Sigma_1\times I \to S^3\times I
+%   \]
+%   satisfying the following conditions:
+%   \begin{enumerate}
+%     \item The map $\tilde{f}$ is an extension of $f$, meaning $\tilde{f}$ restricted to the graph $\Gamma$ coincides with $f$,
+%     \item For any $t_0\in I = [0,1]$, the restriction map $\tilde{f}_{t_0}\colon \Sigma_1\to S^3$ defined by $\tilde{f}(x,t_0)=(\tilde{f}_{t_0},t_0)$,
+%     \item If $t=0$, the map $\tilde{f}_0$ coincides with $g\colon \Sigma_1\to \RR^3$. And if $t=1$, the map $\tilde{f}_1$ coincides with $h\colon \Sigma_2\to \RR^3$.
+%   \end{enumerate}
 % \end{definition}
-
-% KTGs において，skeleton が isotopy で移りあうものを同一視する．特に，framed knots や links は KTGs の特別な場合である．Trivalent graph $\Gamma$ に対し，すべてのKTGの集合を$\mathcal{K}(\Gamma)$と書く．\\
-We identify KTGs whose skeletons, together with their framing, are ambient isotopic. For a trivalent graph $\Gamma$, we denote the vector space over $\QQ$ generated by all linear combinations of KTGs with skeleton $\Gamma$ by
+We identify KTGs whose are framed isotopic. For a trivalent graph $\Gamma$, we denote the vector space over $\QQ$ generated by all linear combinations of KTGs with skeleton $\Gamma$ by
 \[
   \mathcal{K}(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\ZZ_{> 0}, a_i\in \QQ, \gamma_i\text{ is a knotted trivalent graph.}\right\}.
 \]
@@ -264,7 +259,7 @@ We identify KTGs whose skeletons, together with their framing, are ambient isoto
 
 \begin{proposition}
   % KTGsのisotopy classとgraph diagrams (交点の上下の情報を残した射影)で$R1', R2, R3, R4$で移りあうものは1対1に対応する．\\
-  Two KTGs are isotopic if and only if their graph diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3$ and $R4$.
+  Two KTGs are framed isotopic if and only if their graph diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3$ and $R4$.
 
   \begin{center}
     $R1'$:\hspace{2mm}

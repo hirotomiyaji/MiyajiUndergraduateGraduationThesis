@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.6.29)  27 DEC 2025 17:40
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2022.6.29)  28 DEC 2025 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -757,38 +757,35 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 \tf@toc=\write5
 \openout5 = `Miyaji_U_Thesis.toc'.
 
-[2]
-File: images/vanish.JPEG Graphic file (type bmp)
-<images/vanish.JPEG>
-[3]
+[2] [3]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 178.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 176.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 178.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 176.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 178.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 178.
+(hyperref)                removing `math shift' on input line 176.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 178.
+(hyperref)                removing `superscript' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 176.
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 189.
+(Font)              No change on input line 187.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 217.
+(Font)              No change on input line 192.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 222.
+(Font)              No change on input line 197.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 222.
+(Font)              No change on input line 197.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 225.
+(Font)              No change on input line 205.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 225.
+(Font)              No change on input line 205.
 File: inkscape/trivalentgraph.pdf Graphic file (type pdf)
 <inkscape/trivalentgraph.pdf>
 File: inkscape/framedtrivalentgraph.pdf Graphic file (type pdf)
@@ -797,9 +794,11 @@ File: inkscape/exKTG.pdf Graphic file (type pdf)
 <inkscape/exKTG.pdf>
 [4]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 262.
+(Font)              No change on input line 222.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 265.
+(Font)              No change on input line 257.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 260.
 File: inkscape/FramedReideMoves/fR1_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR1_0.pdf>
 File: inkscape/FramedReideMoves/fR1_1.pdf Graphic file (type pdf)
@@ -812,6 +811,7 @@ File: inkscape/FramedReideMoves/fR2_1.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR2_1.pdf>
 File: inkscape/FramedReideMoves/fR2_2.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR2_2.pdf>
+[5]
 File: inkscape/FramedReideMoves/fR3_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR3_0.pdf>
 File: inkscape/FramedReideMoves/fR3_1.pdf Graphic file (type pdf)
@@ -826,32 +826,31 @@ File: inkscape/FramedReideMoves/fR4b_1.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR4b_1.pdf>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 297.
+(caption)                particular \caption on input line 292.
 See the caption package documentation for explanation.
 
-[5]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 309.
+(Font)              No change on input line 304.
 File: inkscape/switch.pdf Graphic file (type pdf)
 <inkscape/switch.pdf>
+[6]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 321.
+(Font)              No change on input line 316.
 File: inkscape/delete.pdf Graphic file (type pdf)
 <inkscape/delete.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 331.
-[6]
+(Font)              No change on input line 326.
 File: inkscape/unzip.pdf Graphic file (type pdf)
 <inkscape/unzip.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 341.
+(Font)              No change on input line 336.
+[7]
 File: inkscape/connectedSum.pdf Graphic file (type pdf)
 <inkscape/connectedSum.pdf>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 352.
+(Font)              No change on input line 347.
 File: inkscape/singularKTG.pdf Graphic file (type pdf)
 <inkscape/singularKTG.pdf>
-[7]
 File: inkscape/ResDouble.pdf Graphic file (type pdf)
 <inkscape/ResDouble.pdf>
 File: inkscape/ResF1.pdf Graphic file (type pdf)
@@ -863,52 +862,52 @@ File: inkscape/4t.pdf Graphic file (type pdf)
 <inkscape/4t.pdf>
 File: inkscape/vi.pdf Graphic file (type pdf)
 <inkscape/vi.pdf>
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 418.
 [9]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 413.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
+(Font)              No change on input line 449.
+[10]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 454.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 459.
+(Font)              No change on input line 461.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 466.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 471.
-[10]
+(Font)              No change on input line 498.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 503.
+[11]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 508.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
 (Font)              No change on input line 513.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 518.
 File: inkscape/ThmS1.pdf Graphic file (type pdf)
 <inkscape/ThmS1.pdf>
-[11]
 File: inkscape/ThmS2.pdf Graphic file (type pdf)
 <inkscape/ThmS2.pdf>
 File: inkscape/ThmS3.pdf Graphic file (type pdf)
 <inkscape/ThmS3.pdf>
+[12]
 File: inkscape/ThmD1.pdf Graphic file (type pdf)
 <inkscape/ThmD1.pdf>
 File: inkscape/ThmD2.pdf Graphic file (type pdf)
 <inkscape/ThmD2.pdf>
 File: inkscape/ThmU1.pdf Graphic file (type pdf)
 <inkscape/ThmU1.pdf>
-[12]
 File: inkscape/ThmU3.pdf Graphic file (type pdf)
 <inkscape/ThmU3.pdf>
 File: inkscape/ThmU4.pdf Graphic file (type pdf)
 <inkscape/ThmU4.pdf>
+[13]
 File: inkscape/ThmU5.pdf Graphic file (type pdf)
 <inkscape/ThmU5.pdf>
 File: inkscape/ThmC1.pdf Graphic file (type pdf)
 <inkscape/ThmC1.pdf>
-[13]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 585.
-[14]
+(Font)              No change on input line 580.
+[14] [15]
 File: inkscape/prove4tpre.pdf Graphic file (type pdf)
 <inkscape/prove4tpre.pdf>
 File: inkscape/prove4t1.pdf Graphic file (type pdf)
@@ -919,7 +918,7 @@ File: inkscape/prove4t3.pdf Graphic file (type pdf)
 <inkscape/prove4t3.pdf>
 File: inkscape/prove4t4.pdf Graphic file (type pdf)
 <inkscape/prove4t4.pdf>
-[15]
+[16]
 File: inkscape/prove4t5.pdf Graphic file (type pdf)
 <inkscape/prove4t5.pdf>
 File: inkscape/prove4t6.pdf Graphic file (type pdf)
@@ -930,22 +929,22 @@ File: inkscape/prove4t8.pdf Graphic file (type pdf)
 <inkscape/prove4t8.pdf>
 File: inkscape/prove4t9.pdf Graphic file (type pdf)
 <inkscape/prove4t9.pdf>
-[16]
+[17]
 File: inkscape/prove4t10.pdf Graphic file (type pdf)
 <inkscape/prove4t10.pdf>
 
-Overfull \hbox (4.47374pt too wide) in paragraph at lines 638--638
+Overfull \hbox (4.47374pt too wide) in paragraph at lines 633--633
  [][] 
  []
 
 File: inkscape/prove4t11.pdf Graphic file (type pdf)
 <inkscape/prove4t11.pdf>
 
-Overfull \hbox (2.06607pt too wide) in paragraph at lines 644--646
+Overfull \hbox (2.06607pt too wide) in paragraph at lines 639--641
 [][]  
  []
 
-[17]
+[18]
 File: inkscape/vipre.pdf Graphic file (type pdf)
 <inkscape/vipre.pdf>
 File: inkscape/vi1.pdf Graphic file (type pdf)
@@ -958,14 +957,14 @@ File: inkscape/vi4.pdf Graphic file (type pdf)
 <inkscape/vi4.pdf>
 File: inkscape/vi5.pdf Graphic file (type pdf)
 <inkscape/vi5.pdf>
-[18]
+[19]
 File: inkscape/vi6.pdf Graphic file (type pdf)
 <inkscape/vi6.pdf>
 File: inkscape/vi7.pdf Graphic file (type pdf)
 <inkscape/vi7.pdf>
 File: inkscape/vi8.pdf Graphic file (type pdf)
 <inkscape/vi8.pdf>
-[19] (out/Miyaji_U_Thesis.bbl
+[20] (out/Miyaji_U_Thesis.bbl
 Underfull \hbox (badness 5331) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
  []
@@ -978,17 +977,17 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 22.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 27.
-) [20] (out/Miyaji_U_Thesis.aux)
+) [21] (out/Miyaji_U_Thesis.aux)
 Package rerunfilecheck Info: File `Miyaji_U_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A9E87AE1D4CD023B4384F5638D715A4F;403.
+(rerunfilecheck)             Checksum: 7BEEB2F50A0A69D2378E64DA69C82B80;403.
  ) 
 Here is how much of TeX's memory you used:
- 28782 strings out of 478496
- 570483 string characters out of 5854316
- 849918 words of memory out of 5000000
- 46864 multiletter control sequences out of 15000+600000
+ 28774 strings out of 478496
+ 570331 string characters out of 5854316
+ 846919 words of memory out of 5000000
+ 46860 multiletter control sequences out of 15000+600000
  530366 words of font info for 153 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  84i,10n,104p,613b,774s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/Miyaji_U_Thesis.dvi (20 pages, 50268 bytes).
+Output written on out/Miyaji_U_Thesis.dvi (21 pages, 52488 bytes).

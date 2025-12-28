@@ -1212,10 +1212,6 @@ INPUT out/Miyaji_U_Thesis.toc
 INPUT out/Miyaji_U_Thesis.toc
 INPUT out/Miyaji_U_Thesis.toc
 OUTPUT out/Miyaji_U_Thesis.toc
-INPUT ./images/vanish.JPEG
-INPUT ./images/vanish.JPEG
-INPUT images/vanish.JPEG
-INPUT extractbb -B cropbox -O images/vanish.JPEG
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
