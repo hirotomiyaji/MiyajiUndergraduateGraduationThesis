@@ -1,93 +1,118 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  29 DEC 2025 15:09
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  30 DEC 2025 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex
-(c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/Miyaji_U_Thesis.tex
+**c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/JP_Miyaji_U_Thesis.tex
+(c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/JP_Miyaji_U_Thesis.tex
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-24>
-(c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-)
+(c:/texlive/2025/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2025/04/27 jsclasses (okumura, texjporg)
+Class jsarticle Info: Autodetected engine: pLaTeX on input line 236.
+\jsc@mpt=\dimen164
+\jsc@mmm=\dimen165
+\jsc@smallskipamount=\skip49
+LaTeX Info: Redefining \textmc on input line 511.
+LaTeX Info: Redefining \textgt on input line 513.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 575.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 769.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 769.
+\fullwidth=\dimen166
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 922.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 922.
 \c@part=\count274
 \c@section=\count275
 \c@subsection=\count276
 \c@subsubsection=\count277
 \c@paragraph=\count278
 \c@subparagraph=\count279
+\@abstractbox=\box70
 \c@figure=\count280
 \c@table=\count281
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen164
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\jsc@tocl@width=\dimen167
+\@lnumwidth=\dimen168
+\bibindent=\dimen169
+(c:/texlive/2025/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
+)
+\heisei=\count282
 ) (c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip51
-\thanksmargin=\skip52
-\droptitle=\skip53
+\thanksmarkwidth=\skip52
+\thanksmargin=\skip53
+\droptitle=\skip54
 ) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
-\@mathmargin=\skip54
+\@mathmargin=\skip55
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen165
+\ex@=\dimen170
 )) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen166
+\pmbraise@=\dimen171
 ) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count282
+\inf@bad=\count283
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count283
-\leftroot@=\count284
+\uproot@=\count284
+\leftroot@=\count285
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count285
-\DOTSCASE@=\count286
+\classnum@=\count286
+\DOTSCASE@=\count287
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box70
-\strutbox@=\box71
+\Mathstrutbox@=\box71
+\strutbox@=\box72
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen167
+\big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count287
+\macc@depth=\count288
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count288
+\c@MaxMatrixCols=\count289
 \dotsspace@=\muskip17
-\c@parentequation=\count289
-\dspbrk@lvl=\count290
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
 \tag@help=\toks19
-\row@=\count291
-\column@=\count292
-\maxfields@=\count293
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
 \andhelp@=\toks20
-\eqnshift@=\dimen168
-\alignsep@=\dimen169
-\tagshift@=\dimen170
-\tagwidth@=\dimen171
-\totwidth@=\dimen172
-\lineht@=\dimen173
+\eqnshift@=\dimen173
+\alignsep@=\dimen174
+\tagshift@=\dimen175
+\tagwidth@=\dimen176
+\totwidth@=\dimen177
+\lineht@=\dimen178
 \@envbody=\toks21
-\multlinegap=\skip55
-\multlinetaggap=\skip56
+\multlinegap=\skip56
+\multlinetaggap=\skip57
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
@@ -95,8 +120,8 @@ LaTeX Info: Redefining \] on input line 2950.
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
@@ -107,16 +132,17 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks25
 \thm@notefont=\toks26
 \thm@headpunct=\toks27
-\thm@preskip=\skip57
-\thm@postskip=\skip58
-\thm@headsep=\skip59
+\thm@preskip=\skip58
+\thm@postskip=\skip59
+\thm@headsep=\skip60
 \dth@everypar=\toks28
 ) (c:/texlive/2025/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup6
-\symboldletters=\mathgroup7
-\symboldsymbols=\mathgroup8
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+\symboldmincho=\mathgroup10
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
@@ -139,8 +165,8 @@ Package graphics Info: Driver file: dvipdfmx.def on input line 106.
 (c:/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2025/09/29 v5.0n Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
 ) (c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
 (c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -153,141 +179,141 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
 (c:/texlive/2025/texmf-dist/tex/latex/ascmac/tascmac.sty
 Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
-\@savetbaselineshift=\dimen176
-\@saveybaselineshift=\dimen177
-\scb@x=\box72
-\scscb@x=\box73
-\@bw=\dimen178
-\@nbox=\box74
-\@nbody=\box75
-\@scw=\dimen179
-\ascmac@hoboxa=\box76
-\ascmac@hoboxb=\box77
-\@itemh=\dimen180
+\@savetbaselineshift=\dimen181
+\@saveybaselineshift=\dimen182
+\scb@x=\box73
+\scscb@x=\box74
+\@bw=\dimen183
+\@nbox=\box75
+\@nbody=\box76
+\@scw=\dimen184
+\ascmac@hoboxa=\box77
+\ascmac@hoboxb=\box78
+\@itemh=\dimen185
 \@iboxpos=\toks30
-\@iboxstr=\box78
-\@bwsp=\box79
-\@@bwsp=\box80
-\@bcal=\count294
-\shaderule=\dimen181
+\@iboxstr=\box79
+\@bwsp=\box80
+\@@bwsp=\box81
+\@bcal=\count295
+\shaderule=\dimen186
 )) (c:/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 ) (c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip60
-\enit@outerparindent=\dimen182
+\labelindent=\skip61
+\enit@outerparindent=\dimen187
 \enit@toks=\toks32
-\enit@inbox=\box81
-\enit@count@id=\count295
-\enitdp@description=\count296
+\enit@inbox=\box82
+\enit@count@id=\count296
+\enitdp@description=\count297
 ) (c:/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
 (c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count297
-\calc@Bcount=\count298
-\calc@Adimen=\dimen183
-\calc@Bdimen=\dimen184
-\calc@Askip=\skip61
-\calc@Bskip=\skip62
+\calc@Acount=\count298
+\calc@Bcount=\count299
+\calc@Adimen=\dimen188
+\calc@Bdimen=\dimen189
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count299
-\calc@Cskip=\skip63
+\calc@Ccount=\count300
+\calc@Cskip=\skip64
 ) (c:/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count300
-\l_MT_multwidth_dim=\dimen185
-\origjot=\skip64
-\l_MT_shortvdotswithinadjustabove_dim=\dimen186
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen187
-\l_MT_above_intertext_sep=\dimen188
-\l_MT_below_intertext_sep=\dimen189
-\l_MT_above_shortintertext_sep=\dimen190
-\l_MT_below_shortintertext_sep=\dimen191
-\xmathstrut@box=\box82
-\xmathstrut@dim=\dimen192
+\g_MT_multlinerow_int=\count301
+\l_MT_multwidth_dim=\dimen190
+\origjot=\skip65
+\l_MT_shortvdotswithinadjustabove_dim=\dimen191
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen192
+\l_MT_above_intertext_sep=\dimen193
+\l_MT_below_intertext_sep=\dimen194
+\l_MT_above_shortintertext_sep=\dimen195
+\l_MT_below_shortintertext_sep=\dimen196
+\xmathstrut@box=\box83
+\xmathstrut@dim=\dimen197
 ) (c:/texlive/2025/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup9
+\symlasy=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) (c:/texlive/2025/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box83
-\UL@hyphenbox=\box84
-\UL@skip=\skip65
+\UL@box=\box84
+\UL@hyphenbox=\box85
+\UL@skip=\skip66
 \UL@hook=\toks33
-\UL@height=\dimen193
-\UL@pe=\count301
-\UL@pixel=\dimen194
-\ULC@box=\box85
+\UL@height=\dimen198
+\UL@pe=\count302
+\UL@pixel=\dimen199
+\ULC@box=\box86
 Package: ulem 2019/11/18
-\ULdepth=\dimen195
+\ULdepth=\dimen256
 ) (c:/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip66
-\cftbeforetoctitleskip=\skip67
-\cftaftertoctitleskip=\skip68
-\cftbeforepartskip=\skip69
-\cftpartnumwidth=\skip70
-\cftpartindent=\skip71
-\cftbeforesecskip=\skip72
-\cftsecindent=\skip73
-\cftsecnumwidth=\skip74
-\cftbeforesubsecskip=\skip75
-\cftsubsecindent=\skip76
-\cftsubsecnumwidth=\skip77
-\cftbeforesubsubsecskip=\skip78
-\cftsubsubsecindent=\skip79
-\cftsubsubsecnumwidth=\skip80
-\cftbeforeparaskip=\skip81
-\cftparaindent=\skip82
-\cftparanumwidth=\skip83
-\cftbeforesubparaskip=\skip84
-\cftsubparaindent=\skip85
-\cftsubparanumwidth=\skip86
-\cftbeforeloftitleskip=\skip87
-\cftafterloftitleskip=\skip88
-\cftbeforefigskip=\skip89
-\cftfigindent=\skip90
-\cftfignumwidth=\skip91
-\c@lofdepth=\count302
-\c@lotdepth=\count303
-\cftbeforelottitleskip=\skip92
-\cftafterlottitleskip=\skip93
-\cftbeforetabskip=\skip94
-\cfttabindent=\skip95
-\cfttabnumwidth=\skip96
+\cftparskip=\skip67
+\cftbeforetoctitleskip=\skip68
+\cftaftertoctitleskip=\skip69
+\cftbeforepartskip=\skip70
+\cftpartnumwidth=\skip71
+\cftpartindent=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\c@lofdepth=\count303
+\c@lotdepth=\count304
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
 ) (c:/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box86
-\beforetitleunit=\skip97
-\aftertitleunit=\skip98
-\ttl@plus=\dimen196
-\ttl@minus=\dimen197
+\ttl@box=\box87
+\beforetitleunit=\skip98
+\aftertitleunit=\skip99
+\ttl@plus=\dimen257
+\ttl@minus=\dimen258
 \ttl@toksa=\toks34
-\titlewidth=\dimen198
-\titlewidthlast=\dimen199
-\titlewidthfirst=\dimen256
+\titlewidth=\dimen259
+\titlewidthlast=\dimen260
+\titlewidthfirst=\dimen261
 ) (c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count304
+\c@float@type=\count305
 \float@exts=\toks35
-\float@box=\box87
+\float@box=\box88
 \@float@everytoks=\toks36
-\@floatcapt=\box88
+\@floatcapt=\box89
 ) (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup10
+\symrsfs=\mathgroup12
 ) (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks37
-\pgfutil@tempdima=\dimen257
-\pgfutil@tempdimb=\dimen258
+\pgfutil@tempdima=\dimen262
+\pgfutil@tempdimb=\dimen263
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box89
+\pgfutil@abb=\box90
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
@@ -300,26 +326,26 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks40
 ))
-\pgf@x=\dimen259
-\pgf@y=\dimen260
-\pgf@xa=\dimen261
-\pgf@ya=\dimen262
-\pgf@xb=\dimen263
-\pgf@yb=\dimen264
-\pgf@xc=\dimen265
-\pgf@yc=\dimen266
-\pgf@xd=\dimen267
-\pgf@yd=\dimen268
+\pgf@x=\dimen264
+\pgf@y=\dimen265
+\pgf@xa=\dimen266
+\pgf@ya=\dimen267
+\pgf@xb=\dimen268
+\pgf@yb=\dimen269
+\pgf@xc=\dimen270
+\pgf@yc=\dimen271
+\pgf@xd=\dimen272
+\pgf@yd=\dimen273
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count305
-\c@pgf@countb=\count306
-\c@pgf@countc=\count307
-\c@pgf@countd=\count308
+\c@pgf@counta=\count306
+\c@pgf@countb=\count307
+\c@pgf@countc=\count308
+\c@pgf@countd=\count309
 \t@pgf@toka=\toks41
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
-\pgf@sys@id@count=\count309
+\pgf@sys@id@count=\count310
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -329,11 +355,11 @@ File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )
-\pgfsys@objnum=\count310
+\pgfsys@objnum=\count311
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count311
-\pgfsyssoftpath@bigbuffer@items=\count312
+\pgfsyssoftpath@smallbuffer@items=\count312
+\pgfsyssoftpath@bigbuffer@items=\count313
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -355,52 +381,52 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen269
-\pgfmath@count=\count313
-\pgfmath@box=\box90
+\pgfmath@dimen=\dimen274
+\pgfmath@count=\count314
+\pgfmath@box=\box91
 \pgfmath@toks=\toks44
 \pgfmath@stack@operand=\toks45
 \pgfmath@stack@operation=\toks46
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count314
+\c@pgfmathroundto@lastzeros=\count315
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen270
-\pgf@picmaxx=\dimen271
-\pgf@picminy=\dimen272
-\pgf@picmaxy=\dimen273
-\pgf@pathminx=\dimen274
-\pgf@pathmaxx=\dimen275
-\pgf@pathminy=\dimen276
-\pgf@pathmaxy=\dimen277
-\pgf@xx=\dimen278
-\pgf@xy=\dimen279
-\pgf@yx=\dimen280
-\pgf@yy=\dimen281
-\pgf@zx=\dimen282
-\pgf@zy=\dimen283
+\pgf@picminx=\dimen275
+\pgf@picmaxx=\dimen276
+\pgf@picminy=\dimen277
+\pgf@picmaxy=\dimen278
+\pgf@pathminx=\dimen279
+\pgf@pathmaxx=\dimen280
+\pgf@pathminy=\dimen281
+\pgf@pathmaxy=\dimen282
+\pgf@xx=\dimen283
+\pgf@xy=\dimen284
+\pgf@yx=\dimen285
+\pgf@yy=\dimen286
+\pgf@zx=\dimen287
+\pgf@zy=\dimen288
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen284
-\pgf@path@lasty=\dimen285
+\pgf@path@lastx=\dimen289
+\pgf@path@lasty=\dimen290
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen286
-\pgf@shorten@start@additional=\dimen287
+\pgf@shorten@end@additional=\dimen291
+\pgf@shorten@start@additional=\dimen292
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box91
-\pgf@hbox=\box92
-\pgf@layerbox@main=\box93
-\pgf@picture@serial@count=\count315
+\pgfpic=\box92
+\pgf@hbox=\box93
+\pgf@layerbox@main=\box94
+\pgf@picture@serial@count=\count316
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen288
+\pgflinewidth=\dimen293
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen289
-\pgf@pt@y=\dimen290
-\pgf@pt@temp=\dimen291
+\pgf@pt@x=\dimen294
+\pgf@pt@y=\dimen295
+\pgf@pt@temp=\dimen296
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -409,17 +435,17 @@ File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen292
+\pgfarrowsep=\dimen297
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen293
-\pgf@sys@shading@range@num=\count316
-\pgf@shadingcount=\count317
+\pgf@max=\dimen298
+\pgf@sys@shading@range@num=\count317
+\pgf@shadingcount=\count318
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box94
+\pgfexternal@startupbox=\box95
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -430,51 +456,51 @@ File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box95
+\pgfnodeparttextbox=\box96
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen294
-\pgf@nodesepend=\dimen295
+\pgf@nodesepstart=\dimen299
+\pgf@nodesepend=\dimen300
 ) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen296
-\pgffor@skip=\dimen297
+\pgffor@iter=\dimen301
+\pgffor@skip=\dimen302
 \pgffor@stack=\toks47
 \pgffor@toks=\toks48
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count318
-\pgfplotmarksize=\dimen298
+\pgf@plot@mark@count=\count319
+\pgfplotmarksize=\dimen303
 )
-\tikz@lastx=\dimen299
-\tikz@lasty=\dimen300
-\tikz@lastxsaved=\dimen301
-\tikz@lastysaved=\dimen302
-\tikz@lastmovetox=\dimen303
-\tikz@lastmovetoy=\dimen304
-\tikzleveldistance=\dimen305
-\tikzsiblingdistance=\dimen306
-\tikz@figbox=\box96
-\tikz@figbox@bg=\box97
-\tikz@tempbox=\box98
-\tikz@tempbox@bg=\box99
-\tikztreelevel=\count319
-\tikznumberofchildren=\count320
-\tikznumberofcurrentchild=\count321
-\tikz@fig@count=\count322
+\tikz@lastx=\dimen304
+\tikz@lasty=\dimen305
+\tikz@lastxsaved=\dimen306
+\tikz@lastysaved=\dimen307
+\tikz@lastmovetox=\dimen308
+\tikz@lastmovetoy=\dimen309
+\tikzleveldistance=\dimen310
+\tikzsiblingdistance=\dimen311
+\tikz@figbox=\box97
+\tikz@figbox@bg=\box98
+\tikz@tempbox=\box99
+\tikz@tempbox@bg=\box100
+\tikztreelevel=\count320
+\tikznumberofchildren=\count321
+\tikznumberofcurrentchild=\count322
+\tikz@fig@count=\count323
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count323
-\pgfmatrixcurrentcolumn=\count324
-\pgf@matrix@numberofcolumns=\count325
+\pgfmatrixcurrentrow=\count324
+\pgfmatrixcurrentcolumn=\count325
+\pgf@matrix@numberofcolumns=\count326
 )
-\tikz@expandcount=\count326
+\tikz@expandcount=\count327
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -508,16 +534,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count327
+\c@section@level=\count328
 ) (c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count328
+\etb@tempcnta=\count329
 ) (c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen307
-\Hy@linkcounter=\count329
-\Hy@pagecounter=\count330
+\@linkdim=\dimen312
+\Hy@linkcounter=\count330
+\Hy@pagecounter=\count331
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -525,7 +551,7 @@ Now handling font encoding PD1 ...
 ) (c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count331
+\Hy@SavedSpaceFactor=\count332
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -538,17 +564,17 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count332
+\c@Hy@tempcnt=\count333
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen308
+\XeTeXLinkMargin=\dimen313
 (c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count333
-\Field@Width=\dimen309
-\Fld@charsize=\dimen310
+\Fld@menulength=\count334
+\Field@Width=\dimen314
+\Fld@charsize=\dimen315
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -556,18 +582,18 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count334
-\c@Item=\count335
-\c@Hfootnote=\count336
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
 )
 Package hyperref Info: Driver: hdvipdfm.
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hdvipdfm.def
 File: hdvipdfm.def 2025-07-12 v7.01o Hyperref driver for dvipdfm
-\pdfm@box=\box100
-\c@Hy@AnnotLevel=\count337
-\HyField@AnnotCount=\count338
-\Fld@listcount=\count339
-\c@bookmark@seq@number=\count340
+\pdfm@box=\box101
+\c@Hy@AnnotLevel=\count338
+\HyField@AnnotCount=\count339
+\Fld@listcount=\count340
+\c@bookmark@seq@number=\count341
 (c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 (c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -575,7 +601,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip99
+\Hy@SectionHShift=\skip100
 ) (c:/texlive/2025/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
 Package: pxjahyper 2024/08/25 v1.5
 (c:/texlive/2025/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty
@@ -601,31 +627,38 @@ File: tikzlibrarymatrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: tikzlibraryquotes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen311
-\pgfarrowlength=\dimen312
-\pgfarrowwidth=\dimen313
-\pgfarrowlinewidth=\dimen314
+\pgfarrowinset=\dimen316
+\pgfarrowlength=\dimen317
+\pgfarrowwidth=\dimen318
+\pgfarrowlinewidth=\dimen319
 ))) (c:/texlive/2025/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count341
-\c@@ppsavesec=\count342
-\c@@ppsaveapp=\count343
+\c@@pps=\count342
+\c@@ppsavesec=\count343
+\c@@ppsaveapp=\count344
 ) (c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen315
-\captionmargin=\dimen316
-\caption@leftmargin=\dimen317
-\caption@rightmargin=\dimen318
-\caption@width=\dimen319
-\caption@indent=\dimen320
-\caption@parindent=\dimen321
-\caption@hangindent=\dimen322
-Package caption Info: Standard document class detected.
+\caption@tempdima=\dimen320
+\captionmargin=\dimen321
+\caption@leftmargin=\dimen322
+\caption@rightmargin=\dimen323
+\caption@width=\dimen324
+\caption@indent=\dimen325
+\caption@parindent=\dimen326
+\caption@hangindent=\dimen327
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \leftskip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionskip \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \centering \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 1175.
 )
-\c@caption@flags=\count344
-\c@continuedfloat=\count345
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count345
+\c@continuedfloat=\count346
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
@@ -636,114 +669,148 @@ File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 Package: expl3 2025-10-24 L3 programming layer (loader) 
 (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 File: l3backend-dvipdfmx.def 2025-10-09 L3 backend support: dvipdfmx
-\g__graphics_track_int=\count346
-\g__pdfannot_backend_int=\count347
-\g__pdfannot_backend_link_int=\count348
+\g__graphics_track_int=\count347
+\g__pdfannot_backend_int=\count348
+\g__pdfannot_backend_link_int=\count349
 ))
 Package: spath3 2024/05/31 v2.8 Functions for manipulating PGF soft paths
 (c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
-\g__spath_output_int=\count349
-\l__spath_tmpa_dim=\dimen323
-\l__spath_tmpb_dim=\dimen324
-\l__spath_tmpa_int=\count350
-\l__spath_tmpb_int=\count351
-\l__spath_move_x_dim=\dimen325
-\l__spath_move_y_dim=\dimen326
-\l__spath_rectx_dim=\dimen327
-\l__spath_recty_dim=\dimen328
-\g__spath_anon_int=\count352
+\g__spath_output_int=\count350
+\l__spath_tmpa_dim=\dimen328
+\l__spath_tmpb_dim=\dimen329
+\l__spath_tmpa_int=\count351
+\l__spath_tmpb_int=\count352
+\l__spath_move_x_dim=\dimen330
+\l__spath_move_y_dim=\dimen331
+\l__spath_rectx_dim=\dimen332
+\l__spath_recty_dim=\dimen333
+\g__spath_anon_int=\count353
 )
-\l__tikzspath_tmpa_int=\count353
+\l__tikzspath_tmpa_int=\count354
 ) (c:/texlive/2025/texmf-dist/tex/latex/spath3/tikzlibraryknots.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count354
+\pgf@intersect@solutions=\count355
 ))
-\l__knot_tmpa_int=\count355
-\l__knot_strands_int=\count356
-\g__knot_intersections_int=\count357
-\g__knot_filaments_int=\count358
-\l__knot_component_start_int=\count359
-\l__knot_tmpa_dim=\dimen329
-\l__knot_tmpb_dim=\dimen330
-\l__knot_tolerance_dim=\dimen331
-\l__knot_redraw_tolerance_dim=\dimen332
-\l__knot_clip_bg_radius_dim=\dimen333
-\l__knot_clip_draw_radius_dim=\dimen334
+\l__knot_tmpa_int=\count356
+\l__knot_strands_int=\count357
+\g__knot_intersections_int=\count358
+\g__knot_filaments_int=\count359
+\l__knot_component_start_int=\count360
+\l__knot_tmpa_dim=\dimen334
+\l__knot_tmpb_dim=\dimen335
+\l__knot_tolerance_dim=\dimen336
+\l__knot_redraw_tolerance_dim=\dimen337
+\l__knot_clip_bg_radius_dim=\dimen338
+\l__knot_clip_draw_radius_dim=\dimen339
 ) (c:/texlive/2025/texmf-dist/tex/latex/hobby/tikzlibraryhobby.code.tex (c:/texlive/2025/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex (c:/texlive/2025/texmf-dist/tex/latex/hobby/hobby.code.tex (c:/texlive/2025/texmf-dist/tex/latex/hobby/pml3array.sty
-\l_array_base_int=\count360
-\l_array_top_int=\count361
-\l_array_tmp_int=\count362
-\g_array_map_int=\count363
-\g_array_base_int=\count364
+\l_array_base_int=\count361
+\l_array_top_int=\count362
+\l_array_tmp_int=\count363
+\g_array_map_int=\count364
+\g_array_base_int=\count365
 )
-\g__hobby_npoints_int=\count365
-\g__hobby_draw_int=\count366
+\g__hobby_npoints_int=\count366
+\g__hobby_draw_int=\count367
 ))) (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code.tex (c:/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshared.code.tex))
-\c@questionCounter=\count367
+\c@questionCounter=\count368
 Package hyperref Info: Option `colorlinks' set `false' on input line 94.
-\c@mycounter=\count368
-(out/Miyaji_U_Thesis.aux)
-\openout1 = `Miyaji_U_Thesis.aux'.
+\c@mycounter=\count369
+(out/JP_Miyaji_U_Thesis.aux)
+\openout1 = `JP_Miyaji_U_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-Package hyperref Info: Link coloring OFF on input line 118.
-(out/Miyaji_U_Thesis.out) (out/Miyaji_U_Thesis.out)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+Package hyperref Info: Link coloring OFF on input line 117.
+(out/JP_Miyaji_U_Thesis.out) (out/JP_Miyaji_U_Thesis.out)
 \@outlinefile=\write4
-\openout4 = `Miyaji_U_Thesis.out'.
+\openout4 = `JP_Miyaji_U_Thesis.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\docmute@nestinglevel=\count369
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 127.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 127.
+\docmute@nestinglevel=\count370
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 123.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 123.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 125.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 125.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 132.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 126.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 126.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 132.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 126.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 126.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 131.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 131.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 135.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 131.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 135.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 139.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 16.60605pt on input line 131.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 134.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 134.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 134.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 134.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 138.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 138.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 138.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 139.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 138.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 139.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 138.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 138.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 138.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 138.
 (c:/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 139.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 138.
 (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
@@ -751,52 +818,64 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [1
 
 ]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 144.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 144.
-(out/Miyaji_U_Thesis.toc
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 143.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 143.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 143.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 143.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 146.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 146.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 148.
+(out/JP_Miyaji_U_Thesis.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 1.
 )
 \tf@toc=\write5
-\openout5 = `Miyaji_U_Thesis.toc'.
+\openout5 = `JP_Miyaji_U_Thesis.toc'.
 
 
 
 [2]
 
 [3]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 176.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 176.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 171.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 171.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 171.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 171.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 171.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `math shift' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 176.
+(hyperref)                removing `superscript' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `math shift' on input line 171.
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 187.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 192.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 197.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 197.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 205.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 205.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 180.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 180.
 File: inkscape/trivalentgraph.pdf Graphic file (type pdf)
 <inkscape/trivalentgraph.pdf>
 File: inkscape/framedtrivalentgraph.pdf Graphic file (type pdf)
@@ -806,12 +885,11 @@ File: inkscape/exKTG.pdf Graphic file (type pdf)
 
 
 [4]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 222.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 257.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 260.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 241.
+
+
+[5]
 File: inkscape/FramedReideMoves/fR1_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR1_0.pdf>
 File: inkscape/FramedReideMoves/fR1_1.pdf Graphic file (type pdf)
@@ -824,9 +902,6 @@ File: inkscape/FramedReideMoves/fR2_1.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR2_1.pdf>
 File: inkscape/FramedReideMoves/fR2_2.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR2_2.pdf>
-
-
-[5]
 File: inkscape/FramedReideMoves/fR3_0.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR3_0.pdf>
 File: inkscape/FramedReideMoves/fR3_1.pdf Graphic file (type pdf)
@@ -841,35 +916,28 @@ File: inkscape/FramedReideMoves/fR4b_1.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR4b_1.pdf>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 292.
+(caption)                particular \caption on input line 280.
 See the caption package documentation for explanation.
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 304.
-File: inkscape/switch.pdf Graphic file (type pdf)
-<inkscape/switch.pdf>
 
 
 [6]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 316.
+File: inkscape/switch.pdf Graphic file (type pdf)
+<inkscape/switch.pdf>
 File: inkscape/delete.pdf Graphic file (type pdf)
 <inkscape/delete.pdf>
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 326.
-File: inkscape/unzip.pdf Graphic file (type pdf)
-<inkscape/unzip.pdf>
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 336.
 
 
 [7]
+File: inkscape/unzip.pdf Graphic file (type pdf)
+<inkscape/unzip.pdf>
 File: inkscape/connectedSum.pdf Graphic file (type pdf)
 <inkscape/connectedSum.pdf>
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 347.
 File: inkscape/singularKTG.pdf Graphic file (type pdf)
 <inkscape/singularKTG.pdf>
+
+
+[8]
 File: inkscape/ResDouble.pdf Graphic file (type pdf)
 <inkscape/ResDouble.pdf>
 File: inkscape/ResF1.pdf Graphic file (type pdf)
@@ -878,51 +946,50 @@ File: inkscape/ResF2.pdf Graphic file (type pdf)
 <inkscape/ResF2.pdf>
 
 
-[8]
+[9]
 File: inkscape/4t.pdf Graphic file (type pdf)
 <inkscape/4t.pdf>
+
+Overfull \hbox (19.58011pt too wide) in paragraph at lines 395--396
+ [][] 
+ []
+
 File: inkscape/vi.pdf Graphic file (type pdf)
 <inkscape/vi.pdf>
 
+Overfull \hbox (18.57637pt too wide) in paragraph at lines 401--402
+ [][] 
+ []
 
-[9]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 413.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 449.
 
 
 [10]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 454.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 461.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 466.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 498.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 503.
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 448.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 448.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 448.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 448.
 
 
 [11]
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 508.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 513.
+
+[12]
 File: inkscape/ThmS1.pdf Graphic file (type pdf)
 <inkscape/ThmS1.pdf>
 File: inkscape/ThmS2.pdf Graphic file (type pdf)
 <inkscape/ThmS2.pdf>
 File: inkscape/ThmS3.pdf Graphic file (type pdf)
 <inkscape/ThmS3.pdf>
-
-
-[12]
 File: inkscape/ThmD1.pdf Graphic file (type pdf)
 <inkscape/ThmD1.pdf>
 File: inkscape/ThmD2.pdf Graphic file (type pdf)
 <inkscape/ThmD2.pdf>
+
+
+[13]
 File: inkscape/ThmU1.pdf Graphic file (type pdf)
 <inkscape/ThmU1.pdf>
 File: inkscape/ThmU3.pdf Graphic file (type pdf)
@@ -931,18 +998,16 @@ File: inkscape/ThmU4.pdf Graphic file (type pdf)
 <inkscape/ThmU4.pdf>
 
 
-[13]
+[14]
 File: inkscape/ThmU5.pdf Graphic file (type pdf)
 <inkscape/ThmU5.pdf>
 File: inkscape/ThmC1.pdf Graphic file (type pdf)
 <inkscape/ThmC1.pdf>
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/it' undefined
-(Font)              No change on input line 580.
 
-
-[14]
 
 [15]
+
+[16]
 File: inkscape/prove4tpre.pdf Graphic file (type pdf)
 <inkscape/prove4tpre.pdf>
 File: inkscape/prove4t1.pdf Graphic file (type pdf)
@@ -951,41 +1016,56 @@ File: inkscape/prove4t2.pdf Graphic file (type pdf)
 <inkscape/prove4t2.pdf>
 File: inkscape/prove4t3.pdf Graphic file (type pdf)
 <inkscape/prove4t3.pdf>
+
+
+[17]
 File: inkscape/prove4t4.pdf Graphic file (type pdf)
 <inkscape/prove4t4.pdf>
-
-
-[16]
 File: inkscape/prove4t5.pdf Graphic file (type pdf)
 <inkscape/prove4t5.pdf>
 File: inkscape/prove4t6.pdf Graphic file (type pdf)
 <inkscape/prove4t6.pdf>
 File: inkscape/prove4t7.pdf Graphic file (type pdf)
 <inkscape/prove4t7.pdf>
+
+Overfull \hbox (15.56511pt too wide) in paragraph at lines 619--619
+[][]  
+ []
+
 File: inkscape/prove4t8.pdf Graphic file (type pdf)
 <inkscape/prove4t8.pdf>
+
+
+[18]
 File: inkscape/prove4t9.pdf Graphic file (type pdf)
 <inkscape/prove4t9.pdf>
 
+Overfull \hbox (6.53137pt too wide) in paragraph at lines 627--627
+ [][] 
+ []
 
-[17]
 File: inkscape/prove4t10.pdf Graphic file (type pdf)
 <inkscape/prove4t10.pdf>
 
-Overfull \hbox (4.47374pt too wide) in paragraph at lines 633--633
+Overfull \hbox (24.59886pt too wide) in paragraph at lines 634--634
  [][] 
  []
 
 File: inkscape/prove4t11.pdf Graphic file (type pdf)
 <inkscape/prove4t11.pdf>
 
-Overfull \hbox (2.06607pt too wide) in paragraph at lines 639--641
-[][]  
+Overfull \hbox (19.58011pt too wide) in paragraph at lines 641--643
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--643
+
  []
 
 
 
-[18]
+[19]
 File: inkscape/vipre.pdf Graphic file (type pdf)
 <inkscape/vipre.pdf>
 File: inkscape/vi1.pdf Graphic file (type pdf)
@@ -994,52 +1074,73 @@ File: inkscape/vi2.pdf Graphic file (type pdf)
 <inkscape/vi2.pdf>
 File: inkscape/vi3.pdf Graphic file (type pdf)
 <inkscape/vi3.pdf>
+
+Overfull \hbox (2.51636pt too wide) in paragraph at lines 652--652
+[][]  
+ []
+
 File: inkscape/vi4.pdf Graphic file (type pdf)
 <inkscape/vi4.pdf>
 File: inkscape/vi5.pdf Graphic file (type pdf)
 <inkscape/vi5.pdf>
 
+Overfull \hbox (7.53511pt too wide) in paragraph at lines 654--654
+[][]  
+ []
 
-[19]
+
+
+[20]
 File: inkscape/vi6.pdf Graphic file (type pdf)
 <inkscape/vi6.pdf>
+
+Overfull \hbox (6.53137pt too wide) in paragraph at lines 655--655
+[][]  
+ []
+
 File: inkscape/vi7.pdf Graphic file (type pdf)
 <inkscape/vi7.pdf>
 File: inkscape/vi8.pdf Graphic file (type pdf)
 <inkscape/vi8.pdf>
 
-
-[20] (out/Miyaji_U_Thesis.bbl
-Underfull \hbox (badness 5331) in paragraph at lines 4--7
-[]\OT1/cmr/m/n/12 D Bar-Natan.  Al-ge-braic knot theory-a call for ac-tion.
+Overfull \hbox (12.55386pt too wide) in paragraph at lines 660--662
+[][]
  []
 
-LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 11.
-LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 16.
-LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 21.
-LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 26.
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--662
+
+ []
+
+
+
+[21] (out/JP_Miyaji_U_Thesis.bbl
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 11.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 11.
 )
 
-[21] (out/Miyaji_U_Thesis.aux)
+[22] (out/JP_Miyaji_U_Thesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-24>
  ***********
-Package rerunfilecheck Info: File `Miyaji_U_Thesis.out' has not changed.
+Package rerunfilecheck Info: File `JP_Miyaji_U_Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8A7F04060532CBA583440617CB125FD7;915.
  ) 
 Here is how much of TeX's memory you used:
- 28943 strings out of 469856
- 577808 string characters out of 5479602
- 946832 words of memory out of 5000000
- 56951 multiletter control sequences out of 15000+600000
- 712385 words of font info for 166 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 84i,10n,104p,613b,798s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 29180 strings out of 469856
+ 580523 string characters out of 5479602
+ 951909 words of memory out of 5000000
+ 57171 multiletter control sequences out of 15000+600000
+ 713089 words of font info for 185 fonts, out of 8000000 for 9000
+ 41 hyphenation exceptions out of 8191
+ 84i,10n,104p,723b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/Miyaji_U_Thesis.dvi (21 pages, 55504 bytes).
+Output written on out/JP_Miyaji_U_Thesis.dvi (22 pages, 58028 bytes).
