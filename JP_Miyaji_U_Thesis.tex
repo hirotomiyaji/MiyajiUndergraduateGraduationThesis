@@ -211,7 +211,9 @@
   \end{figure}
 \end{definition}
 
-以降の図では，knotted trivalent graph を書く際には黒板上の枠付けを用い，曲面を省略し骨格のみを描く．
+\begin{remark}
+  knotted trivalent graph を書く際には黒板上の枠付けを用い，曲面を省略し骨格のみを描く．また，knotted trivalent graph は向き付け可能であるため，表裏の情報が含まれていることに注意されたい．
+\end{remark}
 
 \begin{definition}
   枠付きグラフを $\mathbf{\Gamma} = (\Gamma, \Sigma)$ とする．このとき，2つの knotted trivalent graphs $\gamma_1 = (\Gamma, \Sigma, g), \gamma_2 = (\Gamma, \Sigma, h)$ が\textbf{枠付きイソトピック (framed isotopic)} であるとは，滑らかな埋め込み
@@ -241,7 +243,7 @@
   \mathcal{K}(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\ZZ_{> 0}, a_i\in \QQ, \gamma_i\text{: }\Gamma \text{ を骨格とする KTG.}\right\}.
 \]
 \begin{definition}
-  3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数 n のコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ 上の相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化される．
+  3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数 n のコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ 上の相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化される．{\color{red} コード図の同一視書いてない．}
   % 3価グラフ $\Gamma$ に対し，\textbf{コード図 (chord diagram)} $D$ とは，$\Gamma$ と，$\Gamma$ 上に1価頂点を持つ頂点向き付きの1,3価グラフからなる組であり，そのグラフは円に同相な連結成分を持たないものである．
   % For a graph $\Gamma$, a \textbf{chord diagram} $D$ with support $\Gamma$ is $\Gamma$ together with an vertex-oriented uni-trivalent graph whose univalent vertices are on $\Gamma$; and the graph does not have any connected component homeomorphic to a circle. We call the uni-trivalent graph the chord graph of the diagram.
 \end{definition}
@@ -287,10 +289,7 @@
 {\color{red}ここにつなぎの文が欲しい}\\
 KTGs における演算を4つ定義する:
 \begin{definition}
-  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ の向きを反転させることによって得られる3価グラフを $S_e(\Gamma)$ と表す．また，KTG $\gamma\in\mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{switch the orientation}を，$e$の向きを反転させることによって定義し，$S_e$ と表す．
-  % Let $\Gamma$ be a trivalent graph and let $e$ be an edge of $\Gamma$.
-  % We denote by $S_e(\Gamma)$ the graph obtained from $\Gamma$ by reversing the orientation of the edge $e$.
-  % For a knotted trivalent graph $\gamma \in \mathcal{K}(\Gamma)$, the operation of \textbf{switch the orientation} of $e$ is defined by reversing its orientation, and is denoted by $S_e$.
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ の向きを反転させる演算を \textbf{switch the orientation} といい，得られる3価グラフを $S_e(\Gamma)$ と表す．同様に，$\gamma\in\mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{switch the orientation}を，$e$ の向きを反転させることによって定義し，$S_e$ と表す．
   \[
     S_e \colon \mathcal{K}(\Gamma) \to \mathcal{K}(S_e(\Gamma)) \,;\, \gamma \mapsto S_e(\gamma)
   \]
@@ -301,9 +300,7 @@ KTGs における演算を4つ定義する:
 \end{definition}
 
 \begin{definition}
-  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を取り除き，さらにその両端に生じる2価頂点を取り除き1本の辺にすることによって得られるグラフを $d_e(\Gamma)$ と表す．このとき，$e$ の両端で $e$ に接続する2つの辺の向きが一致していることが必要である．また，KTG $\gamma\in \mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{delete}を同様に定義し，$d_e$ と表す．
-  % Let $\Gamma$ be a trivalent graph and let $e$ be an edge of $\Gamma$. We denote by $d_e(\Gamma)$ the graph obtained from $\Gamma$ by removing $e$ and two vertices at the ends of $e$ and smoothing the two resulting bivalent vertices into single edges. To do this, it is required that the orientations of the two edges connecting to $e$ at either end match.
-  % For a knotted trivalent graph $\gamma\in \mathcal{K}(\Gamma)$, the operation of \textbf{delete} of $e$ is defined in the same way, and is denoted by $d_e$.
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を取り除き，さらにその両端に生じる2価頂点を取り除き1本の辺にする演算を \textbf{delete} といい，得られるグラフを $d_e(\Gamma)$ と表す．この演算を行うためには，$e$ の両端に接続する2つの辺の向きが一致していることが必要である．また，$\gamma\in\mathcal{K}(\Gamma)$ に対しても同様に辺 $e$ の\textbf{delete}を定義し，$d_e$ と表す．
   \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
   \begin{figure}[H]
   \centering
@@ -312,11 +309,10 @@ KTGs における演算を4つ定義する:
 \end{definition}
 
 \begin{definition}
-  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を十分近い2つの辺に置き換え，さらに両端の頂点を取り除くことによって得られるグラフを $u_e(\Gamma)$ と表す．このとき，$e$ の始点に接続する2つの辺は両方とも $e$ に入る向きであり，終点に接続する2つの辺は両方とも $e$ から出る向きでなければならない．また，KTG $\gamma\in\mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{unzip}を同様に定義し，$u_e$ と表す．
-  % Let $\Gamma$ be a trivalent graph and let $e$ be an edge of $\Gamma$. We denote by $u_e(\Gamma)$ the graph obtained from $\Gamma$ by replacing $e$ with two edges that are ``very close to each other'', and the two vertices at the ends of $e$ will disappear. Again the edges at the vertex where $e$ begins have to both be incoming, while the edges at the vertex where $e$ ends must both be outgoing.
-  % For a knotted trivalent graph $\gamma\in\mathcal{K}(\Gamma)$, the operation of \textbf{unzip} of $e$ is defined in the same way, and is denoted by $u_e$.
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を十分近い2つの辺に置き換え，さらに両端の頂点を取り除く演算を \textbf{unzip} といい，得られるグラフを $u_e(\Gamma)$ と表す．このとき，$e$ の始点に接続する2つの辺は両方とも $e$ に入る向きであり，終点に接続する2つの辺は両方とも $e$ から出る向きでなければならない．ここで，グラフに対し黒板上の枠付けを用いているため，2つに分割する方法は一意に定まることに注意されたい．
+  また，$\gamma\in\mathcal{K}(\Gamma)$ に対し辺 $e$ の \textbf{unzip} を同様に定義し，$u_e$ と表す．
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
-  {\Large \color{red} 元の論文には$u_e(\Gamma)$とあるが，単なるグラフ$\Gamma$に対しては2つに分割する方法が一意に定まらないため，枠付きグラフ$\mathbf{\Gamma}$に対して定義する(これではwell-defにできる)べきではないか？その場合，$\mathcal{K}(\Gamma)$等の定義全てを$\mathcal{K}(\mathbf{\Gamma})$に変更する必要がある．}
+  % {\Large \color{red} 元の論文には$u_e(\Gamma)$とあるが，単なるグラフ$\Gamma$に対しては2つに分割する方法が一意に定まらないため，枠付きグラフ$\mathbf{\Gamma}$に対して定義する(これではwell-defにできる)べきではないか？その場合，$\mathcal{K}(\Gamma)$等の定義全てを$\mathcal{K}(\mathbf{\Gamma})$に変更する必要がある．}
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/unzip.pdf}}
@@ -324,15 +320,15 @@ KTGs における演算を4つ定義する:
 \end{definition}
 
 \begin{definition}
-  $(\Gamma,e), (\Gamma',f)$ をそれぞれ3価グラフとその辺の組とする．辺 $e$ と $f$ を新たな辺で結ぶことによって得られるグラフを $\Gamma\#_{e,f}\Gamma'$ と表す．Well-defined であるために，新たな辺は $\Gamma$ から $\Gamma'$ へ向かう向きとし，頂点では反時計周りの向きを与える．また，$\gamma\in\mathcal{K}(\Gamma), \gamma'\in\mathcal{K}(\Gamma')$ とし．2つの組 $(\gamma, e), (\gamma', f)$ に対し，\textbf{connected sum} を同様に定義し，$\#_{e,f}$ と表す．ここで，新たな辺はねじれを持たず，$e$ と $f$ の右側に黒板上の枠付けを用いて接続されるものとする．{\color{red}なんか文章が下手．後で直す．}
-  % Let $(\Gamma,e), (\Gamma',f)$ be two pairs of trivalent graph and their edge. We denote by $\Gamma\#_{e,f}\Gamma'$ the graph obtained by joining $e$ and $f$ by a new edge. For this to be well-defined, the new edge be oriented from $\Gamma$ towards $\Gamma'$, and we also need to specify the direction of the new edge, the cyclic orientations at each new vertex.
-  % Let $\gamma\in\mathcal{K}(\Gamma)$ and $\gamma'\in\mathcal{K}(\Gamma')$. For two pairs $(\gamma, e), (\gamma', f)$, the operation of \textbf{connected sum} is defined in the same way, and is denoted by $\#_{e,f}$. To compress notation, let us declare that the new edge be oriented from $\gamma$ towards $\gamma'$, have no twists, and, using the blackboard framing, be attached to the right side of $e$ and $f$.
+  $(\Gamma,e), (\Gamma',f)$ をそれぞれ3価グラフとその辺の組とする．辺 $e$ と $f$ を新たな辺で結ぶ演算を \textbf{connected sum} といい，得られるグラフを $\Gamma\#_{e,f}\Gamma'$ と表す．Well-defined であるために，新たな辺は $\Gamma$ から $\Gamma'$ へ向かう向きとし，頂点では反時計周りの向きを与える．また，$\gamma\in\ck(\Gamma), \gamma'\in\ck(\Gamma)$ とし，2つの組 $(\gamma, e), (\gamma', f)$ に対し \textbf{connected sum} を同様に定義し，$\#_{e,f}$ と表す．ここで，新たな辺はねじれを持たず，$e$ と $f$ の向きに対し右側に接続されるものとする．
   \[\#_{e,f}\colon \mathcal{K}(\Gamma)\times\mathcal{K}(\Gamma')\to \mathcal{K}(\Gamma\#_{e, f}\Gamma')\]
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/connectedSum.pdf}}
   \end{figure}
 \end{definition}
+
+これら4つの演算はベクトル空間 $\ck(\Gamma)$ 上の線形写像を誘導する．
 
 結び目と同様の手順により KTGs の有限型不変量を定義する．具体的には，``特異点''の解消によって得られるベクトル空間でフィルトレーションを構成する．
 
@@ -386,59 +382,82 @@ $\mathcal{F}_n'(\Gamma)\ (n\geq 0)$に対し，$\mathcal{F}_n(\Gamma)$を$\mathc
 \]
 次数$n$のコード図を基底とする$\QQ$上のベクトル空間を$\mathcal{D}_n(\Gamma)$と書き，$\mathcal{D}(\Gamma)\coloneqq \bigoplus_{n=0}^\infty\mathcal{D}_n(\Gamma)$とする．$\mathcal{A}(\Gamma)$ における2重点を，$\mathcal{D}(\Gamma)$ におけるコードに対応させることで，$\mathcal{D}(\Gamma)$ から $\mathcal{A}(\Gamma)$ への自然な全射 $\pi$ が存在する．
 % We denote by $\mathcal{D}_n(\Gamma)$ the vector space over $\QQ$ generated by chord diagrams of order $n$, and set $\mathcal{D}(\Gamma)\coloneqq \bigoplus_n\mathcal{D}_n(\Gamma)$. There is a natural surjection $\pi$ from $\mathcal{D}(\Gamma)$ to $\mathcal{A}(\Gamma)$ by associating the chords in a chord diagram to double points.
-% We call the following relations the $4T$ and $VI$ relations in $\mathcal{D}(\Gamma)$:
-$\mathcal{D}(\Gamma)$ において，以下の関係式を $4T, VI$ 関係式という:
+% We call the following relations the 4T and VI relations in $\mathcal{D}(\Gamma)$:
+$\mathcal{D}(\Gamma)$ において，以下の関係式を 4T, VI 関係式という:
 \begin{itemize}
-  \item ($4T$) Four term relation
+  \item (4T) Four term relation
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/4t.pdf}}
   \end{figure}
 
-  \item ($VI$) Vertex invariance relation
+  \item (VI) Vertex invariance relation
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/vi.pdf}}
   \end{figure}
 \end{itemize}
-それぞれの関係式において，図に描かれていない部分にはグラフがあるがそれらは全て同じである必要がある．$4T$ では反時計回りの向きが与えられており，$VI$ において，$(-1)^\to$は，コードの付いた辺が外向きなら $-1$, 内向きなら $1$ をかけるという表記法である．\\
-% In both pictures, there may be other chords in the parts of the graph not shown, but they have to be the same throughout.  In $4T$, all skeleton parts (solid lines) are oriented counterclockwise. In $VI$, the sign $(-1)^\to$ is $-1$ if the edge the chord is ending on is oriented to be outgoing from the vertex, and $+1$ if it is incoming (thus there are 8 versions of the relation).
+それぞれの関係式において，図に描かれていない部分にはグラフがあるがそれらは全て同じである必要がある．4T では反時計回りの向きが与えられており，VI において，$(-1)^\to$は，コードの付いた辺が外向きなら $-1$, 内向きなら $1$ をかけるという表記法である．\\
+% In both pictures, there may be other chords in the parts of the graph not shown, but they have to be the same throughout.  In 4T, all skeleton parts (solid lines) are oriented counterclockwise. In VI, the sign $(-1)^\to$ is $-1$ if the edge the chord is ending on is oriented to be outgoing from the vertex, and $+1$ if it is incoming (thus there are 8 versions of the relation).
 \begin{theorem}\label{thm:4TVI}
-  $4T, VI$ 関係式は $\ker\pi$ に含まれる．
-  % The relations $4T$ and $VI$ are contained in $\ker\pi$.
+  4T, VI 関係式は $\ker\pi$ に含まれる．
+  % The relations 4T and VI are contained in $\ker\pi$.
 \end{theorem}
 この定理の証明は \ref{sec:thm4TVIproof} で与える．
 % The proof of this theorem is given in Appendix~\ref{sec:thm4TVIproof}.
 
-$4T$, $VI$ が $\ker\pi$ に含まれることは分かるが，これ以上の relations が存在``しない''ことを示すのは困難である．これを示すには，universal finite type invariant $\QQ \text{KTG}\to \ca$を構成するのが最善である．これは，T.Le, H.Murakami, J. Murakami, T.Ohtsuki の結果をもとに，また Drinfeld の associator の理論を用いて[KO, CD],\cite{bar898algebraic}での Kontsevich integral を拡張する形で\cite{murakami1997topological}で初めて得られた．
+4T, VI が $\ker\pi$ に含まれることは分かるが，これ以上の relations が存在``しない''ことを示すのは困難である．これを示すには，universal finite type invariant $\QQ \text{KTG}\to \ca$を構成するのが最善である．これは，T.Le, H.Murakami, J. Murakami, T.Ohtsuki の結果をもとに，また Drinfeld の associator の理論を用いて[KO, CD](一旦手書き),\cite{bar898algebraic}での Kontsevich integral を拡張する形で\cite{murakami1997topological}で初めて得られた．
 % Although it is easy to see that these relations are contained in kernel, showing that there are no more is difficult, and is best achieved by constructing a universal finite type invariant $\QQ \text{KTG}\to \mathcal{A}$ (we do not define universal finite type invariants here, but will do so later in the general context).
 
 $\ck$上の各演算は$\ca$上の演算を誘導する．
 % Each operation on KTGs induces an operation on $\ca$ (the associated graded space of $\mathcal{K}(\Gamma)$).
 
-\begin{itemize}
-  \item orientation switch
+\begin{definition}
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．このとき，\textbf{orientation switch}はコード図 $D\in\mathcal{A}(\Gamma)$ に対し，次のように定義される線形写像である．
+  \[S_e\colon \mathcal{A}(\Gamma)\to \mathcal{A}(S_e(\Gamma))\,;\,D\mapsto (-1)^k D\]
+  ここで，$k$ は辺 $e$ に端点を持つコードの本数である．
   \begin{figure}[H]
     \centering
     \huge 図
   \end{figure}
-  \item delete
+\end{definition}
+
+\begin{definition}
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．このとき，\textbf{delete} $d_e\colon\mathcal{A}(\Gamma)\to \mathcal{A}(d_e(\Gamma))$ はコード図 $D\in\mathcal{A}(\Gamma)$ に対し，次のように定義される線形写像である．
+  \[
+    d_e(D) = 
+    \begin{cases}
+      0 & (\text{辺 } e \text{ に端点を持つコードが存在する場合}) \\
+      D \setminus e & (\text{それ以外の場合})
+    \end{cases}
+  \]
+  ここで，$D \setminus e$ はコード図 $D$ から辺 $e$ を取り除いたものを表す．
   \begin{figure}[H]
     \centering
     \huge 図
   \end{figure}
-  \item edge unzip
+\end{definition}
+
+\begin{definition}
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．このとき，\textbf{edge unzip} $u_e\colon\mathcal{A}(\Gamma)\to \mathcal{A}(u_e(\Gamma))$ はコード図 $D\in\mathcal{A}(\Gamma)$ に対し，次のように定義される線形写像である．
+  \[u_e(D) = \sum_{\sigma\colon C_e(D)\to\{e_1,e_2\}} D_\sigma\]
+  ここで $u_e(\Gamma)$ において辺 $e$ は2本の辺 $e_1,e_2$ に分割されているものとし，$C_e(D)$ は辺 $e$ 上に端点を持つコードの集合を表し，各写像 $\sigma$ に対して $D_\sigma$ は各端点 $p\in C_e(D)$ を辺 $\sigma(p)$ 上に配置して得られるコード図を表す．$k=|C_e(D)|$ とすると，$u_e(D)$ は $2^k$ 個の項の和となる．
   \begin{figure}[H]
     \centering
     \huge 図
   \end{figure}
-  \item connected sum
-  well-definedである．Introduction to Vassiliev knot invariants(Chmutov) のLemma4.2.9
+\end{definition}
+
+\begin{definition}
+  $(\Gamma,e), (\Gamma',f)$ をそれぞれ3価グラフとその辺の組とする．このとき，\textbf{connected sum} $\#_{e,f}\colon\mathcal{A}(\Gamma)\times\mathcal{A}(\Gamma')\to \mathcal{A}(\Gamma\#_{e,f}\Gamma')$ はコード図 $D\in\mathcal{A}(\Gamma), D'\in\mathcal{A}(\Gamma')$ に対し，次のように定義される線形写像である．
+  骨格 $\Gamma, \Gamma'$ に対して辺 $e,f$ の connected sum によって得られる 3価グラフ $\Gamma\#_{e,f}\Gamma'$ 上において，$D, D'$ のコードをその位置関係を変更することなくそのまま配置して得られるコード図を与える．
+  
+  これは Kirchhoff law により well-defined である．{\color{red} Kirchhoff law の引用を丁寧に書く．}
   \begin{figure}[H]
     \centering
     \huge 図
   \end{figure}
-\end{itemize}
+\end{definition}
 
 \begin{theorem}\label{thm:KTGgen}
   任意の KTG は，自明に埋め込まれた枠付き四面体と，ねじられた枠付き四面体から4つの演算を有限回適用することで得られる．{\color{red}とっとと引用文献書け}
@@ -606,8 +625,8 @@ $\mathcal{A}(\Gamma) =\bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4tpre.pdf}}
 \end{figure}
-同じ図式を足し引きすることで，$4T$ 関係式を導出する．\vspace{5mm} \\
-% Now, we derive $4T$ relation by adding and subtracting same diagrams as follows:\vspace{5mm} \\
+同じ図式を足し引きすることで，4T 関係式を導出する．\vspace{5mm} \\
+% Now, we derive 4T relation by adding and subtracting same diagrams as follows:\vspace{5mm} \\
 {
   \raggedright
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4t1.pdf}}\\ \vspace{5mm}
@@ -633,8 +652,8 @@ $\mathcal{A}(\Gamma) =\bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4t10.pdf}}\\ \vspace{5mm}
 }
-最後に，骨格を円周のようになるように変形すると $4T$ 関係式を得る．\\
-% Finally, we obtain the $4T$ relation:\\
+最後に，骨格を円周のようになるように変形すると 4T 関係式を得る．\\
+% Finally, we obtain the 4T relation:\\
 
 {
   \centering
