@@ -177,7 +177,7 @@
 グラフにおいて，全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．また，ループや円などの辺を許すこととする．
 
 \begin{definition}
-  \textbf{滑らかな曲面 (surface)}とはコンパクトで向き付け可能で第2可算公理\footnote{高々可算な開基を持つ．}を満たす境界付き2次元 $C^\infty$ 級多様体をいう．
+  \textbf{向き付けられた滑らかな曲面 (oriented smooth surface)}とはコンパクトで第2可算公理\footnote{高々可算な開基を持つ．}を満たす向き付けられた境界付き2次元 $C^\infty$ 級多様体をいう．
 \end{definition}
 
 \begin{definition}
@@ -185,12 +185,12 @@
 \end{definition}
 
 \begin{definition}
-  グラフ $\Gamma$に対し \textbf{枠付きグラフ (framed graph)} $\mathbf{\Gamma}$とは，1次元単体複体 $\Gamma$ と， $\Gamma$ を滑らかな曲面 $\Sigma$ に spine となるように埋め込む写像 $\Gamma\hookrightarrow\Sigma$ の組 $(\Gamma, \Sigma)$ のことである．ここで，$\Gamma$ への埋め込みは各辺の内部において滑らかであるものとする．
+  グラフ $\Gamma$に対し \textbf{枠付きグラフ (framed graph)} $\mathbf{\Gamma}$とは，1次元単体複体 $\Gamma$ と， $\Gamma$ を向き付けられた滑らかな曲面 $\Sigma$ に spine となるように埋め込む写像 $\Gamma\hookrightarrow\Sigma$ の組 $(\Gamma, \Sigma)$ のことである．ここで，$\Gamma$ への埋め込みは各辺の内部において滑らかであるものとする．
   特に $\Gamma$ が3価グラフのとき，$\mathbf{\Gamma}$を\textbf{枠付き3価グラフ (framed trivalent graph)}という．
   % For a graph $\Gamma$, a \textbf{framed graph} $\mathbf{\Gamma}$ is a pair $(\Gamma, \Sigma)$ of 1-dimensional simplicial complex $\Gamma$ and an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph, it is called a \textbf{framed trivalent graph}.
 \end{definition}
 
-2つの枠付きグラフ $\mathbf{\Gamma} = (\Gamma, \Sigma), \mathbf{\Gamma}' = (\Gamma', \Sigma')$ が同値であるとは，$\Sigma$ から $\Sigma'$ への向きを保つ $C^\infty$ 級微分同相写像 $h\colon \Sigma \to \Sigma'$ が存在し，$h(\Gamma) = \Gamma'$ となることをいう．このとき，$h$ はグラフ同型 $\Gamma\to\Gamma'$ を誘導し，各頂点において反時計周りの順序を保つ．以下では枠付きグラフはこの同値関係のもとで考える．また，枠付きグラフはこの同値関係のもとで一意に定まる．
+2つの枠付きグラフ $\mathbf{\Gamma} = (\Gamma, \Sigma), \mathbf{\Gamma}' = (\Gamma', \Sigma')$ が同値であるとは，$\Sigma$ から $\Sigma'$ への向きを保つ $C^\infty$ 級微分同相写像 $h\colon \Sigma \to \Sigma'$ が存在し，$h(\Gamma) = \Gamma'$ となることをいう．このとき，$h$ はグラフ同型 $\Gamma\to\Gamma'$ を誘導し，各頂点において反時計周りの順序を保つ．以下では枠付きグラフはこの同値関係のもとで考える．また，3価グラフ $\Gamma$ に対し，枠付きグラフ $\mathbf{\Gamma}$ はこの同値関係のもとで一意に定まる．
 % We regard two framed graphs $(\Gamma, \Sigma)$ and $(\Gamma, \Sigma')$ as equivalent if there exists an orientation-preserving diffeomorphism $h\colon \Sigma \to \Sigma'$ such that $h|_{\Gamma} = \id_{\Gamma}$. We consider framed graphs up to this equivalence. Under a fixed cyclic ordering of edges at each vertex, the framed graph is uniquely determined up to this equivalence.
 
 \begin{definition}
@@ -212,7 +212,7 @@
 \end{definition}
 
 \begin{remark}
-  knotted trivalent graph を書く際には黒板上の枠付けを用い，曲面を省略し骨格のみを描く．また，knotted trivalent graph は向き付け可能であるため，表裏の情報が含まれていることに注意されたい．
+  knotted trivalent graph を書く際には blackboard framing を用い，曲面を省略し骨格のみを描く．また，knotted trivalent graph は向きづけられているため，表裏の情報が含まれていることに注意されたい．
 \end{remark}
 
 \begin{definition}
@@ -243,7 +243,7 @@
   \mathcal{K}(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\ZZ_{> 0}, a_i\in \QQ, \gamma_i\text{: }\Gamma \text{ を骨格とする KTG.}\right\}.
 \]
 \begin{definition}
-  3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数nのコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ 上の相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化され，コード図は辺の向きを保つ同相写像により同一視する．
+  3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数nのコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ の辺上の頂点を除いた相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化され，コード図は辺の向きを保つ同相写像により同一視する．
   \begin{figure}[H]
     \centering
     \raisebox{-0.45\height}{\includegraphics[scale=0.9]{inkscape/chordEx.pdf}}
@@ -289,7 +289,7 @@
     \end{minipage}
   \end{center}
 \end{proposition}
-ここでは証明を省略する．詳細は\cite[Theorem~1.4]{murakami1997topological}を参照されたい．空間グラフに対して定義された拡張 Reidemeister 変形\cite{yamada1987invariant}に関して不変であることを示せば十分である．ここでは黒板上の枠付けを考えているため，頂点周りの辺の順序を変える変形は考慮しなくてよいことに注意されたい．\\
+ここでは証明を省略する．詳細は\cite[Theorem~1.4]{murakami1997topological}を参照されたい．空間グラフに対して定義された拡張 Reidemeister 変形\cite{yamada1987invariant}に関して不変であることを示せば十分である．ここでは blackboard framing を考えているため，頂点周りの辺の順序を変える変形は考慮しなくてよいことに注意されたい．\\
 % We omit the proof here. For details, please refer to \cite[Theorem~1.4]{murakami1997topological}. It is sufficient to show the invariance under extended Reidemeister moves for spatial graphs defined in \cite{yamada1987invariant}. Note that we do not need the move in \cite{yamada1987invariant} which changes the order of edges around a vertex, since we consider framed graphs with the blackboard framing.\\
 {\color{red}ここにつなぎの文が欲しい}\\
 KTGs における演算を4つ定義する:
@@ -316,7 +316,7 @@ KTGs における演算を4つ定義する:
 \end{definition}
 
 \begin{definition}
-  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を十分近い2つの辺に置き換え，さらに両端の頂点を取り除く演算を \textbf{unzip} といい，得られるグラフを $u_e(\Gamma)$ と表す．このとき，$e$ の始点に接続する2つの辺は両方とも $e$ に入る向きであり，終点に接続する2つの辺は両方とも $e$ から出る向きでなければならない．ここで，グラフに対し黒板上の枠付けを用いているため，2つに分割する方法は一意に定まることに注意されたい．
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を十分近い2つの辺に置き換え，さらに両端の頂点を取り除く演算を \textbf{unzip} といい，得られるグラフを $u_e(\Gamma)$ と表す．このとき，$e$ の始点に接続する2つの辺は両方とも $e$ に入る向きであり，終点に接続する2つの辺は両方とも $e$ から出る向きでなければならない．ここで，グラフに対し blackboard framing を用いているため，2つに分割する方法は一意に定まることに注意されたい．
   また，$\gamma\in\mathcal{K}(\Gamma)$ に対し辺 $e$ の \textbf{unzip} を同様に定義し，$u_e$ と表す．
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
   % {\Large \color{red} 元の論文には$u_e(\Gamma)$とあるが，単なるグラフ$\Gamma$に対しては2つに分割する方法が一意に定まらないため，枠付きグラフ$\mathbf{\Gamma}$に対して定義する(これではwell-defにできる)べきではないか？その場合，$\mathcal{K}(\Gamma)$等の定義全てを$\mathcal{K}(\mathbf{\Gamma})$に変更する必要がある．}
