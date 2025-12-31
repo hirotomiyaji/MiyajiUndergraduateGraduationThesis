@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex out/JP_Miyaji_U_Thesis"] 1767066947.52902 "out/JP_Miyaji_U_Thesis.aux" "out/JP_Miyaji_U_Thesis.bbl" "out/JP_Miyaji_U_Thesis" 1767070941.44224 0
+["bibtex out/JP_Miyaji_U_Thesis"] 1767149349.89483 "out/JP_Miyaji_U_Thesis.aux" "out/JP_Miyaji_U_Thesis.bbl" "out/JP_Miyaji_U_Thesis" 1767149376.42681 0
   "./references.bib" 1761796978 2316 845a6af84e3b06d64eaf52dfee65e843 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/base/alpha.bst" 1761759400 23907 a5f93555796fb564b924339521f10a7c ""
-  "out/JP_Miyaji_U_Thesis.aux" 1767070939 2528 4902853ed0f908b931b279cf3710ce98 "latex"
+  "out/JP_Miyaji_U_Thesis.aux" 1767149374 4205 487dee9460f0a46110b91183604328ec "latex"
   (generated)
   "out/JP_Miyaji_U_Thesis.bbl"
   "out/JP_Miyaji_U_Thesis.blg"
   (rewritten before read)
-["dvipdf"] 1767070940.65079 "out/JP_Miyaji_U_Thesis.dvi" "out/JP_Miyaji_U_Thesis.pdf" "out/JP_Miyaji_U_Thesis" 1767070941.45714 0
-  "out/JP_Miyaji_U_Thesis.dvi" 1767070939 61516 e8dbae28d5bbb7c9f5970d5d820c5227 "latex"
+["dvipdf"] 1767149375.64844 "out/JP_Miyaji_U_Thesis.dvi" "out/JP_Miyaji_U_Thesis.pdf" "out/JP_Miyaji_U_Thesis" 1767149376.44325 0
+  "out/JP_Miyaji_U_Thesis.dvi" 1767149374 64132 99321ddee3d738e4d7cabf643f7152b2 "latex"
   (generated)
   "out/JP_Miyaji_U_Thesis.pdf"
   (rewritten before read)
-["latex"] 1767070917.12905 "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/JP_Miyaji_U_Thesis.tex" "out/JP_Miyaji_U_Thesis.dvi" "JP_Miyaji_U_Thesis" 1767070941.44257 0
-  "JP_Miyaji_U_Thesis.tex" 1767070896 46149 d195c8d5d72904f7f28c9d433e9d93b5 ""
-  "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/JP_Miyaji_U_Thesis.tex" 1767070896 46149 d195c8d5d72904f7f28c9d433e9d93b5 ""
+["latex"] 1767149350.30884 "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/JP_Miyaji_U_Thesis.tex" "out/JP_Miyaji_U_Thesis.dvi" "JP_Miyaji_U_Thesis" 1767149376.42718 0
+  "JP_Miyaji_U_Thesis.tex" 1767149326 47236 9e497e0afcc08ab9337484913ea57de3 ""
+  "c:/Users/hirot/Documents/MiyajiUndergraduateGraduationThesis/JP_Miyaji_U_Thesis.tex" 1767149326 47236 9e497e0afcc08ab9337484913ea57de3 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761759936 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1761759771 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1761760818 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -267,8 +267,11 @@
   "inkscape/ThmU3.pdf" 1766114098 2906 f93a2119229493bc9fd296f4144fc19b ""
   "inkscape/ThmU4.pdf" 1766114128 2812 abd52f4d7915334990f9b1769f4af5ae ""
   "inkscape/ThmU5.pdf" 1766114136 2152 7430ad562d9ef5127bad4be10847d5cc ""
+  "inkscape/chordEx.pdf" 1767148744 1394 b6ba0537d8a354eceea01db296aa6d07 ""
+  "inkscape/connectA.pdf" 1767148912 12319 0ef7032805879f9068d8c1eb30808d47 ""
   "inkscape/connectedSum.pdf" 1764815531 2587 90a1c75185d858acdce935df40fd9a2d ""
   "inkscape/delete.pdf" 1764815500 2198 4e326acef9acf1079e943f07e3bf7cbd ""
+  "inkscape/deleteA.pdf" 1767147866 2912 2bd8307c54349cdea29f6dbbb47360c6 ""
   "inkscape/exKTG.pdf" 1761796978 1688 a8fc68aed9e727554371b3b07a4e970d ""
   "inkscape/framedtrivalentgraph.pdf" 1761796978 1467 e0b63639441b5337c14dd14bfe9205d8 ""
   "inkscape/prove4t1.pdf" 1765806823 2904 00c406284ddc86b0c2c90f8a8d70fd34 ""
@@ -285,8 +288,10 @@
   "inkscape/prove4tpre.pdf" 1765899339 4267 ab43ba706b96baaf23e263fd4ceee86d ""
   "inkscape/singularKTG.pdf" 1766501668 2869 de97b2468da2eccb765096d46fc08a7b ""
   "inkscape/switch.pdf" 1764815504 1984 842506f6e5c7cdec0d67f8a010a2f16c ""
+  "inkscape/switchA.pdf" 1767147979 5388 688cd43ec64c227ba48d0d0a26161773 ""
   "inkscape/trivalentgraph.pdf" 1761796978 1308 8c87a020208966d30ef485ec378e255b ""
   "inkscape/unzip.pdf" 1764815517 2211 e6752cb93d94c2d52baccef770abd3b2 ""
+  "inkscape/unzipA.pdf" 1767148276 5215 2aefc1ff627a149a855baff6b4b5fef5 ""
   "inkscape/vi.pdf" 1765898404 3852 ed298f13e05c2385876c3305bba065a3 ""
   "inkscape/vi1.pdf" 1765898331 2778 b32c5634337ed491f32b116be61c0dda ""
   "inkscape/vi2.pdf" 1765898339 2182 5e83aef48b938b4fe9e0a8f21dcc3d14 ""
@@ -297,10 +302,10 @@
   "inkscape/vi7.pdf" 1765898387 2995 e75fdbe4e40e1bef869c97ec3e55c25b ""
   "inkscape/vi8.pdf" 1765898396 3147 53f96b522bd78e175ed0d4795731b955 ""
   "inkscape/vipre.pdf" 1765898315 3877 45a6f6e14636f34801f4fe551d6f2f19 ""
-  "out/JP_Miyaji_U_Thesis.aux" 1767070939 2528 4902853ed0f908b931b279cf3710ce98 "latex"
-  "out/JP_Miyaji_U_Thesis.bbl" 1767066947 1000 22842c65aaa0837a63933098b902183d "bibtex out/JP_Miyaji_U_Thesis"
-  "out/JP_Miyaji_U_Thesis.out" 1767070939 915 b06a75ea93065bc95c8d4089874eb953 "latex"
-  "out/JP_Miyaji_U_Thesis.toc" 1767070939 526 1c2d171d1ff2782d5c7a79b31675841c "latex"
+  "out/JP_Miyaji_U_Thesis.aux" 1767149374 4205 487dee9460f0a46110b91183604328ec "latex"
+  "out/JP_Miyaji_U_Thesis.bbl" 1767149350 1000 22842c65aaa0837a63933098b902183d "bibtex out/JP_Miyaji_U_Thesis"
+  "out/JP_Miyaji_U_Thesis.out" 1767149374 915 b06a75ea93065bc95c8d4089874eb953 "latex"
+  "out/JP_Miyaji_U_Thesis.toc" 1767149374 526 87ee4aff14af5e43f1cf7c70a75a9f04 "latex"
   (generated)
   "out/JP_Miyaji_U_Thesis.aux"
   "out/JP_Miyaji_U_Thesis.dvi"

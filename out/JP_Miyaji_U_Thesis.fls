@@ -456,6 +456,10 @@ INPUT ./inkscape/exKTG.pdf
 INPUT ./inkscape/exKTG.pdf
 INPUT extractbb -B cropbox -O inkscape/exKTG.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT ./inkscape/chordEx.pdf
+INPUT ./inkscape/chordEx.pdf
+INPUT ./inkscape/chordEx.pdf
+INPUT extractbb -B cropbox -O inkscape/chordEx.pdf
 INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
 INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
 INPUT ./inkscape/FramedReideMoves/fR1_0.pdf
@@ -545,6 +549,22 @@ INPUT ./inkscape/vi.pdf
 INPUT ./inkscape/vi.pdf
 INPUT ./inkscape/vi.pdf
 INPUT extractbb -B cropbox -O inkscape/vi.pdf
+INPUT ./inkscape/switchA.pdf
+INPUT ./inkscape/switchA.pdf
+INPUT ./inkscape/switchA.pdf
+INPUT extractbb -B cropbox -O inkscape/switchA.pdf
+INPUT ./inkscape/deleteA.pdf
+INPUT ./inkscape/deleteA.pdf
+INPUT ./inkscape/deleteA.pdf
+INPUT extractbb -B cropbox -O inkscape/deleteA.pdf
+INPUT ./inkscape/unzipA.pdf
+INPUT ./inkscape/unzipA.pdf
+INPUT ./inkscape/unzipA.pdf
+INPUT extractbb -B cropbox -O inkscape/unzipA.pdf
+INPUT ./inkscape/connectA.pdf
+INPUT ./inkscape/connectA.pdf
+INPUT ./inkscape/connectA.pdf
+INPUT extractbb -B cropbox -O inkscape/connectA.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./inkscape/ThmS1.pdf
 INPUT ./inkscape/ThmS1.pdf

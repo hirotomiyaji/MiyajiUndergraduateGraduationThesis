@@ -243,7 +243,12 @@
   \mathcal{K}(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\ZZ_{> 0}, a_i\in \QQ, \gamma_i\text{: }\Gamma \text{ を骨格とする KTG.}\right\}.
 \]
 \begin{definition}
-  3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数 n のコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ 上の相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化される．{\color{red} コード図の同一視書いてない．}
+  3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数nのコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ 上の相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化され，コード図は辺の向きを保つ同相写像により同一視する．
+  \begin{figure}[H]
+    \centering
+    \raisebox{-0.45\height}{\includegraphics[scale=0.9]{inkscape/chordEx.pdf}}
+    \caption{3価グラフ $\Gamma$ を台とする次数3のコード図の例}
+  \end{figure}
   % 3価グラフ $\Gamma$ に対し，\textbf{コード図 (chord diagram)} $D$ とは，$\Gamma$ と，$\Gamma$ 上に1価頂点を持つ頂点向き付きの1,3価グラフからなる組であり，そのグラフは円に同相な連結成分を持たないものである．
   % For a graph $\Gamma$, a \textbf{chord diagram} $D$ with support $\Gamma$ is $\Gamma$ together with an vertex-oriented uni-trivalent graph whose univalent vertices are on $\Gamma$; and the graph does not have any connected component homeomorphic to a circle. We call the uni-trivalent graph the chord graph of the diagram.
 \end{definition}
@@ -289,13 +294,14 @@
 {\color{red}ここにつなぎの文が欲しい}\\
 KTGs における演算を4つ定義する:
 \begin{definition}
-  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ の向きを反転させる演算を \textbf{switch the orientation} といい，得られる3価グラフを $S_e(\Gamma)$ と表す．同様に，$\gamma\in\mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{switch the orientation}を，$e$ の向きを反転させることによって定義し，$S_e$ と表す．
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ の向きを反転させる演算を \textbf{orientation switch} といい，得られる3価グラフを $S_e(\Gamma)$ と表す．同様に，$\gamma\in\mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{orientation switch}を，$e$ の向きを反転させることによって定義し，$S_e$ と表す．
   \[
     S_e \colon \mathcal{K}(\Gamma) \to \mathcal{K}(S_e(\Gamma)) \,;\, \gamma \mapsto S_e(\gamma)
   \]
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/switch.pdf}}
+  \caption{$\ck(\Gamma)$ における orientation switch の例}
   \end{figure}
 \end{definition}
 
@@ -305,6 +311,7 @@ KTGs における演算を4つ定義する:
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/delete.pdf}}
+  \caption{$\ck(\Gamma)$ における delete の例}
   \end{figure}
 \end{definition}
 
@@ -316,6 +323,7 @@ KTGs における演算を4つ定義する:
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/unzip.pdf}}
+  \caption{$\ck(\Gamma)$ における unzip の例}
   \end{figure}
 \end{definition}
 
@@ -325,6 +333,7 @@ KTGs における演算を4つ定義する:
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/connectedSum.pdf}}
+  \caption{$\ck(\Gamma)\times\ck(\Gamma')$ における connected sum の例}
   \end{figure}
 \end{definition}
 
@@ -418,7 +427,8 @@ $\ck$上の各演算は$\ca$上の演算を誘導する．
   ここで，$k$ は辺 $e$ に端点を持つコードの本数である．
   \begin{figure}[H]
     \centering
-    \huge 図
+    \raisebox{-0.45\height}{\includegraphics[scale = 0.8]{inkscape/switchA.pdf}}
+    \caption{辺 $e$ に端点を持つコードが $k$ 本の場合の orientation switch の例}
   \end{figure}
 \end{definition}
 
@@ -434,17 +444,19 @@ $\ck$上の各演算は$\ca$上の演算を誘導する．
   ここで，$D \setminus e$ はコード図 $D$ から辺 $e$ を取り除いたものを表す．
   \begin{figure}[H]
     \centering
-    \huge 図
+    \raisebox{-0.45\height}{\includegraphics[scale = 0.8]{inkscape/deleteA.pdf}}
+    \caption{辺 $e$ に端点を持つコードが存在する場合の edge delete の例}
   \end{figure}
 \end{definition}
 
 \begin{definition}
   $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．このとき，\textbf{edge unzip} $u_e\colon\mathcal{A}(\Gamma)\to \mathcal{A}(u_e(\Gamma))$ はコード図 $D\in\mathcal{A}(\Gamma)$ に対し，次のように定義される線形写像である．
   \[u_e(D) = \sum_{\sigma\colon C_e(D)\to\{e_1,e_2\}} D_\sigma\]
-  ここで $u_e(\Gamma)$ において辺 $e$ は2本の辺 $e_1,e_2$ に分割されているものとし，$C_e(D)$ は辺 $e$ 上に端点を持つコードの集合を表し，各写像 $\sigma$ に対して $D_\sigma$ は各端点 $p\in C_e(D)$ を辺 $\sigma(p)$ 上に配置して得られるコード図を表す．$k=|C_e(D)|$ とすると，$u_e(D)$ は $2^k$ 個の項の和となる．
+  ここで $u_e(\Gamma)$ において辺 $e$ は2本の辺 $e_1,e_2$ に分割されているものとし，辺 $e$ 上に端点を持つコードの端点の集合を $C_e(D)$ とし，各写像 $\sigma$ に対して $D_\sigma$ は各端点 $p\in C_e(D)$ を辺 $\sigma(p)$ 上に配置して得られるコード図を表す．$k=|C_e(D)|$ とすると，$u_e(D)$ は $2^k$ 個の項の和となる．
   \begin{figure}[H]
     \centering
-    \huge 図
+    \raisebox{-0.45\height}{\includegraphics[scale = 0.8]{inkscape/unzipA.pdf}}
+    \caption{辺 $e$ に端点を持つコードが1本の場合の edge unzip の例}
   \end{figure}
 \end{definition}
 
@@ -455,7 +467,8 @@ $\ck$上の各演算は$\ca$上の演算を誘導する．
   これは Kirchhoff law により well-defined である．{\color{red} Kirchhoff law の引用を丁寧に書く．}
   \begin{figure}[H]
     \centering
-    \huge 図
+    \raisebox{-0.45\height}{\includegraphics[scale = 0.7]{inkscape/connectA.pdf}}
+    \caption{辺 $e, f$ による connected sum の例}
   \end{figure}
 \end{definition}
 

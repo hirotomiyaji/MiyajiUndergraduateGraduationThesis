@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  30 DEC 2025 14:01
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.sjis) (TeX Live 2025) (preloaded format=platex 2025.10.30)  31 DEC 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,6 +887,8 @@ File: inkscape/exKTG.pdf Graphic file (type pdf)
 [4]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 243.
+File: inkscape/chordEx.pdf Graphic file (type pdf)
+<inkscape/chordEx.pdf>
 
 
 [5]
@@ -916,7 +918,7 @@ File: inkscape/FramedReideMoves/fR4b_1.pdf Graphic file (type pdf)
 <inkscape/FramedReideMoves/fR4b_1.pdf>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 282.
+(caption)                particular \caption on input line 287.
 See the caption package documentation for explanation.
 
 
@@ -924,11 +926,11 @@ See the caption package documentation for explanation.
 [6]
 File: inkscape/switch.pdf Graphic file (type pdf)
 <inkscape/switch.pdf>
-File: inkscape/delete.pdf Graphic file (type pdf)
-<inkscape/delete.pdf>
 
 
 [7]
+File: inkscape/delete.pdf Graphic file (type pdf)
+<inkscape/delete.pdf>
 File: inkscape/unzip.pdf Graphic file (type pdf)
 <inkscape/unzip.pdf>
 File: inkscape/connectedSum.pdf Graphic file (type pdf)
@@ -950,65 +952,79 @@ File: inkscape/ResF2.pdf Graphic file (type pdf)
 File: inkscape/4t.pdf Graphic file (type pdf)
 <inkscape/4t.pdf>
 
-Overfull \hbox (19.58011pt too wide) in paragraph at lines 391--392
+Overfull \hbox (19.58011pt too wide) in paragraph at lines 400--401
  [][] 
  []
 
 File: inkscape/vi.pdf Graphic file (type pdf)
 <inkscape/vi.pdf>
 
-Overfull \hbox (18.57637pt too wide) in paragraph at lines 397--398
+Overfull \hbox (18.57637pt too wide) in paragraph at lines 406--407
  [][] 
  []
 
 
 
 [10]
+File: inkscape/switchA.pdf Graphic file (type pdf)
+<inkscape/switchA.pdf>
+
 
 [11]
-LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 467.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 467.
-LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 467.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 467.
+File: inkscape/deleteA.pdf Graphic file (type pdf)
+<inkscape/deleteA.pdf>
+File: inkscape/unzipA.pdf Graphic file (type pdf)
+<inkscape/unzipA.pdf>
 
 
 [12]
-File: inkscape/ThmS1.pdf Graphic file (type pdf)
-<inkscape/ThmS1.pdf>
+File: inkscape/connectA.pdf Graphic file (type pdf)
+<inkscape/connectA.pdf>
 
 
 [13]
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 480.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 480.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 480.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 480.
+
+
+[14]
+File: inkscape/ThmS1.pdf Graphic file (type pdf)
+<inkscape/ThmS1.pdf>
 File: inkscape/ThmS2.pdf Graphic file (type pdf)
 <inkscape/ThmS2.pdf>
 File: inkscape/ThmS3.pdf Graphic file (type pdf)
 <inkscape/ThmS3.pdf>
+
+
+[15]
 File: inkscape/ThmD1.pdf Graphic file (type pdf)
 <inkscape/ThmD1.pdf>
 File: inkscape/ThmD2.pdf Graphic file (type pdf)
 <inkscape/ThmD2.pdf>
 File: inkscape/ThmU1.pdf Graphic file (type pdf)
 <inkscape/ThmU1.pdf>
-
-
-[14]
 File: inkscape/ThmU3.pdf Graphic file (type pdf)
 <inkscape/ThmU3.pdf>
+
+
+[16]
 File: inkscape/ThmU4.pdf Graphic file (type pdf)
 <inkscape/ThmU4.pdf>
 File: inkscape/ThmU5.pdf Graphic file (type pdf)
 <inkscape/ThmU5.pdf>
-
-
-[15]
 File: inkscape/ThmC1.pdf Graphic file (type pdf)
 <inkscape/ThmC1.pdf>
 
 
-[16]
+[17]
+
+[18]
 File: inkscape/prove4tpre.pdf Graphic file (type pdf)
 <inkscape/prove4tpre.pdf>
 File: inkscape/prove4t1.pdf Graphic file (type pdf)
@@ -1019,7 +1035,7 @@ File: inkscape/prove4t3.pdf Graphic file (type pdf)
 <inkscape/prove4t3.pdf>
 
 
-[17]
+[19]
 File: inkscape/prove4t4.pdf Graphic file (type pdf)
 <inkscape/prove4t4.pdf>
 File: inkscape/prove4t5.pdf Graphic file (type pdf)
@@ -1029,7 +1045,7 @@ File: inkscape/prove4t6.pdf Graphic file (type pdf)
 File: inkscape/prove4t7.pdf Graphic file (type pdf)
 <inkscape/prove4t7.pdf>
 
-Overfull \hbox (15.56511pt too wide) in paragraph at lines 638--638
+Overfull \hbox (15.56511pt too wide) in paragraph at lines 651--651
 [][]  
  []
 
@@ -1037,36 +1053,36 @@ File: inkscape/prove4t8.pdf Graphic file (type pdf)
 <inkscape/prove4t8.pdf>
 
 
-[18]
+[20]
 File: inkscape/prove4t9.pdf Graphic file (type pdf)
 <inkscape/prove4t9.pdf>
 
-Overfull \hbox (6.53137pt too wide) in paragraph at lines 646--646
+Overfull \hbox (6.53137pt too wide) in paragraph at lines 659--659
  [][] 
  []
 
 File: inkscape/prove4t10.pdf Graphic file (type pdf)
 <inkscape/prove4t10.pdf>
 
-Overfull \hbox (24.59886pt too wide) in paragraph at lines 653--653
+Overfull \hbox (24.59886pt too wide) in paragraph at lines 666--666
  [][] 
  []
 
 File: inkscape/prove4t11.pdf Graphic file (type pdf)
 <inkscape/prove4t11.pdf>
 
-Overfull \hbox (19.58011pt too wide) in paragraph at lines 660--662
+Overfull \hbox (19.58011pt too wide) in paragraph at lines 673--675
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--662
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
 
  []
 
 
 
-[19]
+[21]
 File: inkscape/vipre.pdf Graphic file (type pdf)
 <inkscape/vipre.pdf>
 File: inkscape/vi1.pdf Graphic file (type pdf)
@@ -1076,7 +1092,7 @@ File: inkscape/vi2.pdf Graphic file (type pdf)
 File: inkscape/vi3.pdf Graphic file (type pdf)
 <inkscape/vi3.pdf>
 
-Overfull \hbox (2.51636pt too wide) in paragraph at lines 671--671
+Overfull \hbox (2.51636pt too wide) in paragraph at lines 684--684
 [][]  
  []
 
@@ -1085,17 +1101,17 @@ File: inkscape/vi4.pdf Graphic file (type pdf)
 File: inkscape/vi5.pdf Graphic file (type pdf)
 <inkscape/vi5.pdf>
 
-Overfull \hbox (7.53511pt too wide) in paragraph at lines 673--673
+Overfull \hbox (7.53511pt too wide) in paragraph at lines 686--686
 [][]  
  []
 
 
 
-[20]
+[22]
 File: inkscape/vi6.pdf Graphic file (type pdf)
 <inkscape/vi6.pdf>
 
-Overfull \hbox (6.53137pt too wide) in paragraph at lines 674--674
+Overfull \hbox (6.53137pt too wide) in paragraph at lines 687--687
 [][]  
  []
 
@@ -1104,18 +1120,18 @@ File: inkscape/vi7.pdf Graphic file (type pdf)
 File: inkscape/vi8.pdf Graphic file (type pdf)
 <inkscape/vi8.pdf>
 
-Overfull \hbox (12.55386pt too wide) in paragraph at lines 679--681
+Overfull \hbox (12.55386pt too wide) in paragraph at lines 692--694
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--681
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
 
  []
 
 
 
-[21] (out/JP_Miyaji_U_Thesis.bbl
+[23] (out/JP_Miyaji_U_Thesis.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -1126,7 +1142,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 11.
 )
 
-[22] (out/JP_Miyaji_U_Thesis.aux)
+[24] (out/JP_Miyaji_U_Thesis.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -1136,12 +1152,12 @@ Package rerunfilecheck Info: File `JP_Miyaji_U_Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B06A75EA93065BC95C8D4089874EB953;915.
  ) 
 Here is how much of TeX's memory you used:
- 29175 strings out of 469856
- 580490 string characters out of 5479602
- 952911 words of memory out of 5000000
- 57166 multiletter control sequences out of 15000+600000
+ 29205 strings out of 469856
+ 581235 string characters out of 5479602
+ 948911 words of memory out of 5000000
+ 57191 multiletter control sequences out of 15000+600000
  710958 words of font info for 176 fonts, out of 8000000 for 9000
  41 hyphenation exceptions out of 8191
- 84i,10n,104p,678b,791s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,104p,678b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/JP_Miyaji_U_Thesis.dvi (22 pages, 61516 bytes).
+Output written on out/JP_Miyaji_U_Thesis.dvi (24 pages, 64132 bytes).
