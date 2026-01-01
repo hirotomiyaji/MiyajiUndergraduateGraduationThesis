@@ -175,18 +175,18 @@
 %   \textbf{Trivalent graph}(3価グラフ)とは，各頂点が3つの辺をもつようなグラフをいう．
 % \end{definition}
 
-グラフにおいて，全ての辺は向きづけられているものとし，ループや円などの辺を許す．
+本論文で扱うグラフは有向であり，ループや頂点を持たない円周成分を許容し，各頂点には辺の反時計周りの順序を定める付加構造が与えられているものとする．
 
 \begin{definition}
-  \textbf{向き付けられた滑らかな曲面 (oriented smooth surface)}とはコンパクトで第2可算公理\footnote{高々可算な開基を持つ．}を満たす向き付けられた境界付き2次元 $C^\infty$ 級多様体をいう．
+  \textbf{向き付けられた滑らかな境界付き曲面 (oriented smooth surface with boundary)}とはコンパクトで第2可算公理\footnote{高々可算な開基を持つ．}を満たす向き付けられた境界付き2次元 $C^\infty$ 級多様体をいう．
 \end{definition}
 
 \begin{definition}
-  単体複体 $Y$ の \textbf{spine} $X$ とは，$Y$ の部分複体 $X$ であって，$Y$ を $X$ へ潰すことができるものをいう．ここで\textbf{潰す (collapse)}とは，$k$-単体 $\Delta^{k}$ と $(k+1)$-単体 $\Delta^{k+1}$ の対を取り除いていく操作のことをいう．ただし，$\Delta^{k+1}$ はその境界上に $\Delta^{k}$ を持つような唯一の $(k+1)$-単体でなければならない．
+  単体複体 $Y$ の \textbf{spine} $X$ とは，$Y$ の部分複体 $X$ であって，$Y$ を $X$ へ潰すことができるものをいう．ここで\textbf{潰す (collapse)}とは，$k$ 単体 $\Delta^{k}$ と $k+1$ 単体 $\Delta^{k+1}$ の対を取り除いていく操作のことをいう．ただし，$\Delta^{k+1}$ はその境界上に $\Delta^{k}$ を持つような唯一の $k+1$ 単体でなければならない．
 \end{definition}
 
 \begin{definition}
-  グラフ $\Gamma$に対し \textbf{枠付きグラフ (framed graph)} $\mathbf{\Gamma}$とは，1次元単体複体 $\Gamma$ と， $\Gamma$ を向き付けられた滑らかな曲面 $\Sigma$ に spine となるように埋め込む写像 $\Gamma\hookrightarrow\Sigma$ の組 $(\Gamma, \Sigma)$ のことである．ここで，$\Gamma$ から $\Sigma$ への埋め込みは各辺の内部において滑らかであるものとし，blackboard framing を用いることで各頂点において辺の反時計周りの順序を定める．
+  グラフ $\Gamma$に対し \textbf{枠付きグラフ (framed graph)} $\mathbf{\Gamma}$とは，$\Gamma$ と， $\Gamma$ を向き付けられた滑らかな境界付き曲面 $\Sigma$ に spine となるように埋め込む写像 $\Gamma\hookrightarrow\Sigma$ の組 $(\Gamma, \Sigma)$ のことである．ここで，$\Gamma$ から $\Sigma$ への埋め込みは各辺の内部において滑らかであるものとする．
   特に $\Gamma$ が3価グラフのとき，$\mathbf{\Gamma}$を\textbf{枠付き3価グラフ (framed trivalent graph)}という．
   % For a graph $\Gamma$, a \textbf{framed graph} $\mathbf{\Gamma}$ is a pair $(\Gamma, \Sigma)$ of 1-dimensional simplicial complex $\Gamma$ and an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph, it is called a \textbf{framed trivalent graph}.
   \begin{figure}[H]
@@ -202,7 +202,7 @@
 % We regard two framed graphs $(\Gamma, \Sigma)$ and $(\Gamma, \Sigma')$ as equivalent if there exists an orientation-preserving diffeomorphism $h\colon \Sigma \to \Sigma'$ such that $h|_{\Gamma} = \id_{\Gamma}$. We consider framed graphs up to this equivalence. Under a fixed cyclic ordering of edges at each vertex, the framed graph is uniquely determined up to this equivalence.
 
 \begin{definition}
-  枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ に対し，\textbf{knotted trivalent graph (KTG)} $\gamma$ とは，枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ と滑らかな埋め込み写像 $g\colon \Sigma \hookrightarrow \RR^3$ の組 $(\Gamma, \Sigma, g)$ のことである．また，KTG $\gamma = (\Gamma, \Sigma, g)$ の\textbf{骨格 (skeleton)}とは，$\Gamma$ のことである．
+  枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ に対し，\textbf{knotted trivalent graph (KTG)} $\gamma$ とは，枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ と滑らかな埋め込み写像 $g\colon \Sigma \hookrightarrow \RR^3$ の組 $(\Gamma, \Sigma, g)$ のことである．また，KTG $\gamma = (\Gamma, \Sigma, g)$ の\textbf{骨格 (skeleton)}とは，$\Gamma$ のことをいう．
   % For a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textbf{knotted trivalent graph (KTG)} $\gamma$ is a triple $(\Gamma, \Sigma, g)$ consisting of the framed graph $\Gamma$ and an embedding $g\colon \Sigma\hookrightarrow\RR^3$. The \textbf{skeleton} of a KTG $\gamma$ is the trivalent graph $\Gamma$ behind it.
   \begin{figure}[H]
     \centering
@@ -243,7 +243,7 @@
 \[
   \mathcal{K}(\Gamma) \coloneqq \text{span}_{\mathbb{Q}} \left\{ \gamma \;\middle|\; \gamma \text{ は } \Gamma \text{ を骨格とする KTG} \right\}.
 \]
-とし，$\mathcal{K}\coloneqq \sum_{\Gamma'} \ck(\Gamma')$ とする．
+とし，$\mathcal{K}\coloneqq \bigoplus_{\Gamma'} \ck(\Gamma')$ とする．
 \begin{definition}
   3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数nのコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ の辺上の頂点を除いた相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化され，コード図は辺の向きを保つ同相写像により同一視する．
   \begin{figure}[H]
@@ -357,21 +357,13 @@ $\ck$ における演算を4つ定義する:
 $n\geq 0$ に対し，次のベクトル空間を考える:
 % For $n\geq 0$, we consider the following vector space:
 \[
-  \mathcal{F}'_n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i'\,\middle|\,
+  \mathcal{F}'_n(\Gamma) \coloneqq \Span_{\QQ} \left\{ \gamma' \;\middle|\; 
   \begin{aligned}
-    &m\in\ZZ_{> 0}, a_i\in \QQ,\gamma'_i\colon \Gamma\text{を骨格とし} \\
-    &\quad \text{少なくとも}n\text{個の特異点を持つ特異 KTG}
+    &\gamma' \text{ は } \Gamma \text{ を骨格とし，少なくとも} \\
+    &\quad n \text{ 個の特異点を持つ特異 KTG}
   \end{aligned}
-  \right\}
+\right\}.
 \]
-% \[
-%   \mathcal{F}'_n(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\,
-%   \begin{aligned}
-%     &m\in\ZZ_{> 0}, a_i\in \QQ, \gamma'_i\colon \text{KTG which has } \\
-%     &\quad \text{ at least } n \text{ double point with skeleton }\Gamma
-%   \end{aligned}
-%   \right\}
-% \]
 全ての特異点を同時に解消する写像 $\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$ を以下のように定める:
 % We define a map $\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$ that resolves all singular points as follows:
 \begin{figure}[H]
