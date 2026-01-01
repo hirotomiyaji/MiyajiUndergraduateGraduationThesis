@@ -74,6 +74,7 @@
 \DeclareMathOperator{\gr}{gr} %graded
 \DeclareMathOperator{\id}{id} %id
 \DeclareMathOperator{\proj}{proj}
+\DeclareMathOperator{\Span}{Span}
 
 \let\Re\relax%実部虚部の更新
 \DeclareMathOperator{\Re}{Re}
@@ -174,7 +175,7 @@
 %   \textbf{Trivalent graph}(3価グラフ)とは，各頂点が3つの辺をもつようなグラフをいう．
 % \end{definition}
 
-グラフにおいて，全ての辺は向きづけられているものとし，頂点は反時計回りに向きを与える．また，ループや円などの辺を許すこととする．
+グラフにおいて，全ての辺は向きづけられているものとし，ループや円などの辺を許す．
 
 \begin{definition}
   \textbf{向き付けられた滑らかな曲面 (oriented smooth surface)}とはコンパクトで第2可算公理\footnote{高々可算な開基を持つ．}を満たす向き付けられた境界付き2次元 $C^\infty$ 級多様体をいう．
@@ -185,17 +186,9 @@
 \end{definition}
 
 \begin{definition}
-  グラフ $\Gamma$に対し \textbf{枠付きグラフ (framed graph)} $\mathbf{\Gamma}$とは，1次元単体複体 $\Gamma$ と， $\Gamma$ を向き付けられた滑らかな曲面 $\Sigma$ に spine となるように埋め込む写像 $\Gamma\hookrightarrow\Sigma$ の組 $(\Gamma, \Sigma)$ のことである．ここで，$\Gamma$ への埋め込みは各辺の内部において滑らかであるものとする．
+  グラフ $\Gamma$に対し \textbf{枠付きグラフ (framed graph)} $\mathbf{\Gamma}$とは，1次元単体複体 $\Gamma$ と， $\Gamma$ を向き付けられた滑らかな曲面 $\Sigma$ に spine となるように埋め込む写像 $\Gamma\hookrightarrow\Sigma$ の組 $(\Gamma, \Sigma)$ のことである．ここで，$\Gamma$ から $\Sigma$ への埋め込みは各辺の内部において滑らかであるものとし，blackboard framing を用いることで各頂点において辺の反時計周りの順序を定める．
   特に $\Gamma$ が3価グラフのとき，$\mathbf{\Gamma}$を\textbf{枠付き3価グラフ (framed trivalent graph)}という．
   % For a graph $\Gamma$, a \textbf{framed graph} $\mathbf{\Gamma}$ is a pair $(\Gamma, \Sigma)$ of 1-dimensional simplicial complex $\Gamma$ and an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph, it is called a \textbf{framed trivalent graph}.
-\end{definition}
-
-2つの枠付きグラフ $\mathbf{\Gamma} = (\Gamma, \Sigma), \mathbf{\Gamma}' = (\Gamma', \Sigma')$ が同値であるとは，$\Sigma$ から $\Sigma'$ への向きを保つ $C^\infty$ 級微分同相写像 $h\colon \Sigma \to \Sigma'$ が存在し，$h(\Gamma) = \Gamma'$ となることをいう．このとき，$h$ はグラフ同型 $\Gamma\to\Gamma'$ を誘導し，各頂点において反時計周りの順序を保つ．以下では枠付きグラフはこの同値関係のもとで考える．また，3価グラフ $\Gamma$ に対し，枠付きグラフ $\mathbf{\Gamma}$ はこの同値関係のもとで一意に定まる．
-% We regard two framed graphs $(\Gamma, \Sigma)$ and $(\Gamma, \Sigma')$ as equivalent if there exists an orientation-preserving diffeomorphism $h\colon \Sigma \to \Sigma'$ such that $h|_{\Gamma} = \id_{\Gamma}$. We consider framed graphs up to this equivalence. Under a fixed cyclic ordering of edges at each vertex, the framed graph is uniquely determined up to this equivalence.
-
-\begin{definition}
-  枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ に対し，\textbf{knotted trivalent graph (KTG)} $\gamma$ とは，枠付きグラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ と滑らかな埋め込み写像 $g\colon \Sigma \hookrightarrow \RR^3$ の組 $(\Gamma, \Sigma, g)$ のことである．また，KTG $\gamma = (\Gamma, \Sigma, g)$ の\textbf{骨格 (skeleton)}とは，$\Gamma$ のことである．
-  % For a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textbf{knotted trivalent graph (KTG)} $\gamma$ is a triple $(\Gamma, \Sigma, g)$ consisting of the framed graph $\Gamma$ and an embedding $g\colon \Sigma\hookrightarrow\RR^3$. The \textbf{skeleton} of a KTG $\gamma$ is the trivalent graph $\Gamma$ behind it.
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/trivalentgraph.pdf}}
@@ -203,6 +196,14 @@
     \raisebox{-0.4\height}{\includegraphics[scale=0.23]{inkscape/framedtrivalentgraph.pdf}}
     \caption{枠付き3価グラフの例}
   \end{figure}
+\end{definition}
+
+2つの枠付きグラフ $\mathbf{\Gamma} = (\Gamma, \Sigma), \mathbf{\Gamma}' = (\Gamma', \Sigma')$ が同値であるとは，$\Sigma$ から $\Sigma'$ への向きを保つ $C^\infty$ 級微分同相写像 $h\colon \Sigma \to \Sigma'$ が存在し，$h(\Gamma) = \Gamma'$ となることをいう．このとき，$h$ はグラフ同型 $\Gamma\to\Gamma'$ を誘導し，各頂点において辺の反時計周りの順序を保つ．以下では枠付きグラフはこの同値関係のもとで考える．また，3価グラフ $\Gamma$ に対し，枠付き3価グラフ $\mathbf{\Gamma}$ はこの同値関係のもとで一意に定まる．
+% We regard two framed graphs $(\Gamma, \Sigma)$ and $(\Gamma, \Sigma')$ as equivalent if there exists an orientation-preserving diffeomorphism $h\colon \Sigma \to \Sigma'$ such that $h|_{\Gamma} = \id_{\Gamma}$. We consider framed graphs up to this equivalence. Under a fixed cyclic ordering of edges at each vertex, the framed graph is uniquely determined up to this equivalence.
+
+\begin{definition}
+  枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ に対し，\textbf{knotted trivalent graph (KTG)} $\gamma$ とは，枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ と滑らかな埋め込み写像 $g\colon \Sigma \hookrightarrow \RR^3$ の組 $(\Gamma, \Sigma, g)$ のことである．また，KTG $\gamma = (\Gamma, \Sigma, g)$ の\textbf{骨格 (skeleton)}とは，$\Gamma$ のことである．
+  % For a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textbf{knotted trivalent graph (KTG)} $\gamma$ is a triple $(\Gamma, \Sigma, g)$ consisting of the framed graph $\Gamma$ and an embedding $g\colon \Sigma\hookrightarrow\RR^3$. The \textbf{skeleton} of a KTG $\gamma$ is the trivalent graph $\Gamma$ behind it.
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/exKTG.pdf}}
@@ -212,11 +213,11 @@
 \end{definition}
 
 \begin{remark}
-  knotted trivalent graph を書く際には blackboard framing を用い，曲面を省略し骨格のみを描く．また，knotted trivalent graph は向きづけられているため，表裏の情報が含まれていることに注意されたい．
+  Knotted trivalent graph を書く際には blackboard framing を用い，曲面を省略し骨格のみを描く．また，knotted trivalent graph は向きづけられているため，表裏の情報が含まれていることに注意されたい．
 \end{remark}
 
 \begin{definition}
-  枠付きグラフを $\mathbf{\Gamma} = (\Gamma, \Sigma)$ とする．このとき，2つの knotted trivalent graphs $\gamma_1 = (\Gamma, \Sigma, g), \gamma_2 = (\Gamma, \Sigma, h)$ が\textbf{枠付きイソトピック (framed isotopic)} であるとは，滑らかな埋め込み
+  枠付き3価グラフを $\mathbf{\Gamma} = (\Gamma, \Sigma)$ とする．このとき，2つの knotted trivalent graphs $\gamma_1 = (\Gamma, \Sigma, g), \gamma_2 = (\Gamma, \Sigma, h)$ が\textbf{枠付きイソトピック (framed isotopic)} であるとは，滑らかな埋め込み
   \[
     \Phi \colon \Sigma \times I \to \RR^3 \times I\quad (I=[0,1])
   \]
@@ -237,11 +238,12 @@
   % \end{enumerate}
 \end{definition}
 以下では knotted trivalent graphs を枠付きイソトピックで同一視する．
-ここで，骨格が $\Gamma$ である全ての knotted trivalent graphs の線形結合からなる $\QQ$ 上のベクトル空間を次のように表す:
+ここで，骨格が $\Gamma$ である全ての knotted trivalent graphs の線形結合からなる $\QQ$ 上のベクトル空間を
 % We identify KTGs whose are framed isotopic. For a trivalent graph $\Gamma$, we denote the vector space over $\QQ$ generated by all linear combinations of KTGs with skeleton $\Gamma$ by
 \[
-  \mathcal{K}(\Gamma)\coloneqq\left\{\sum_{i=1}^m a_i \gamma_i\,\middle|\, m\in\ZZ_{> 0}, a_i\in \QQ, \gamma_i\text{: }\Gamma \text{ を骨格とする KTG.}\right\}.
+  \mathcal{K}(\Gamma) \coloneqq \text{span}_{\mathbb{Q}} \left\{ \gamma \;\middle|\; \gamma \text{ は } \Gamma \text{ を骨格とする KTG} \right\}.
 \]
+とし，$\mathcal{K}\coloneqq \sum_{\Gamma'} \ck(\Gamma')$ とする．
 \begin{definition}
   3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数nのコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ の辺上の頂点を除いた相異なる $2n$ 個の点の組をいい，各2点の組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化され，コード図は辺の向きを保つ同相写像により同一視する．
   \begin{figure}[H]
@@ -292,7 +294,7 @@
 ここでは証明を省略する．詳細は\cite[Theorem~1.4]{murakami1997topological}を参照されたい．空間グラフに対して定義された拡張 Reidemeister 変形\cite{yamada1987invariant}に関して不変であることを示せば十分である．ここでは blackboard framing を考えているため，頂点周りの辺の順序を変える変形は考慮しなくてよいことに注意されたい．\\
 % We omit the proof here. For details, please refer to \cite[Theorem~1.4]{murakami1997topological}. It is sufficient to show the invariance under extended Reidemeister moves for spatial graphs defined in \cite{yamada1987invariant}. Note that we do not need the move in \cite{yamada1987invariant} which changes the order of edges around a vertex, since we consider framed graphs with the blackboard framing.\\
 {\color{red}ここにつなぎの文が欲しい}\\
-KTGs における演算を4つ定義する:
+$\ck$ における演算を4つ定義する:
 \begin{definition}
   $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ の向きを反転させる演算を \textbf{orientation switch} といい，得られる3価グラフを $S_e(\Gamma)$ と表す．同様に，$\gamma\in\mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{orientation switch}を，$e$ の向きを反転させることによって定義し，$S_e$ と表す．
   \[
@@ -306,7 +308,7 @@ KTGs における演算を4つ定義する:
 \end{definition}
 
 \begin{definition}
-  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を取り除き，さらにその両端に生じる2価頂点を取り除き1本の辺にする演算を \textbf{delete} といい，得られるグラフを $d_e(\Gamma)$ と表す．この演算を行うためには，$e$ の両端に接続する2つの辺の向きが一致していることが必要である．また，$\gamma\in\mathcal{K}(\Gamma)$ に対しても同様に辺 $e$ の\textbf{delete}を定義し，$d_e$ と表す．
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を取り除き，さらにその両端に生じる2価頂点を取り除き1本の辺にする演算を \textbf{delete} といい，得られる3価グラフを $d_e(\Gamma)$ と表す．この演算を行うためには，$e$ の両端に接続する2つの辺の向きが一致していることが必要である．また，$\gamma\in\mathcal{K}(\Gamma)$ に対しても同様に辺 $e$ の\textbf{delete}を定義し，$d_e$ と表す．
   \[d_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(d_e(\Gamma))\,;\,\gamma\mapsto d_e(\gamma)\]
   \begin{figure}[H]
   \centering
@@ -316,7 +318,7 @@ KTGs における演算を4つ定義する:
 \end{definition}
 
 \begin{definition}
-  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を十分近い2つの辺に置き換え，さらに両端の頂点を取り除く演算を \textbf{unzip} といい，得られるグラフを $u_e(\Gamma)$ と表す．このとき，$e$ の始点に接続する2つの辺は両方とも $e$ に入る向きであり，終点に接続する2つの辺は両方とも $e$ から出る向きでなければならない．ここで，グラフに対し blackboard framing を用いているため，2つに分割する方法は一意に定まることに注意されたい．
+  $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を十分近い2つの辺に置き換え，さらに両端の頂点を取り除く演算を \textbf{unzip} といい，得られる3価グラフを $u_e(\Gamma)$ と表す．このとき，$e$ の始点に接続する2つの辺は両方とも $e$ に入る向きであり，終点に接続する2つの辺は両方とも $e$ から出る向きでなければならない．ここで，3価グラフに対し blackboard framing を用いている\footnote{本来 blackboard framing は枠付きグラフに対して用いるものであるが，ここでは便宜上グラフに対しても用いている．}ため，2つに分割する方法は一意に定まることに注意されたい．
   また，$\gamma\in\mathcal{K}(\Gamma)$ に対し辺 $e$ の \textbf{unzip} を同様に定義し，$u_e$ と表す．
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
   % {\Large \color{red} 元の論文には$u_e(\Gamma)$とあるが，単なるグラフ$\Gamma$に対しては2つに分割する方法が一意に定まらないため，枠付きグラフ$\mathbf{\Gamma}$に対して定義する(これではwell-defにできる)べきではないか？その場合，$\mathcal{K}(\Gamma)$等の定義全てを$\mathcal{K}(\mathbf{\Gamma})$に変更する必要がある．}
@@ -328,7 +330,7 @@ KTGs における演算を4つ定義する:
 \end{definition}
 
 \begin{definition}
-  $(\Gamma,e), (\Gamma',f)$ をそれぞれ3価グラフとその辺の組とする．辺 $e$ と $f$ を新たな辺で結ぶ演算を \textbf{connected sum} といい，得られるグラフを $\Gamma\#_{e,f}\Gamma'$ と表す．Well-defined であるために，新たな辺は $\Gamma$ から $\Gamma'$ へ向かう向きとし，頂点では反時計周りの向きを与える．また，$\gamma\in\ck(\Gamma), \gamma'\in\ck(\Gamma)$ とし，2つの組 $(\gamma, e), (\gamma', f)$ に対し \textbf{connected sum} を同様に定義し，$\#_{e,f}$ と表す．ここで，新たな辺はねじれを持たず，$e$ と $f$ の向きに対し右側に接続されるものとする．
+  $(\Gamma,e), (\Gamma',f)$ をそれぞれ3価グラフとその辺の組とする．辺 $e$ と $f$ を新たな辺で結ぶ演算を \textbf{connected sum} といい，得られる3価グラフを $\Gamma\#_{e,f}\Gamma'$ と表す．Well-defined であるために，新たな辺は $\Gamma$ から $\Gamma'$ へ向かう向きとし，頂点では反時計周りの向きを与える．また，$\gamma\in\ck(\Gamma), \gamma'\in\ck(\Gamma)$ とし，2つの組 $(\gamma, e), (\gamma', f)$ に対し \textbf{connected sum} を同様に定義し，$\#_{e,f}$ と表す．ここで，新たな辺はねじれを持たず，$e$ と $f$ の向きに対し右側に接続されるものとする．
   \[\#_{e,f}\colon \mathcal{K}(\Gamma)\times\mathcal{K}(\Gamma')\to \mathcal{K}(\Gamma\#_{e, f}\Gamma')\]
   \begin{figure}[H]
   \centering
@@ -394,7 +396,7 @@ $\mathcal{F}_n'(\Gamma)\ (n\geq 0)$に対し，$\mathcal{F}_n(\Gamma)$を$\mathc
 % We call the following relations the 4T and VI relations in $\mathcal{D}(\Gamma)$:
 $\mathcal{D}(\Gamma)$ において，以下の関係式を 4T, VI 関係式という:
 \begin{itemize}
-  \item (4T) Four term relation
+  \item (4T) Four-term relation
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/4t.pdf}}
@@ -505,23 +507,20 @@ $\mathcal{K}$において，orientation switch, delete, edge unzip, connected su
   $\gamma_1, \gamma_2, \gamma_3$ を， $\Gamma$ を骨格とする KTGs とする．このとき，$\gamma_1-\gamma_2, \gamma_1-\frac{1}{2}\gamma-\frac{1}{2}\gamma_3\in \mathcal{I}(\Gamma)$である．
   % Let $\gamma_1, \gamma_2$ and $\gamma_3$ be KTGs with skeleton $\Gamma$. Then, $\gamma_1-\gamma_2, \gamma_1-\frac{1}{2}\gamma-\frac{1}{2}\gamma_3\in \mathcal{I}(\Gamma)$.
 \end{example}
-
 \begin{definition}
-  $\mathcal{I}$ の元を少なくとも $m$ 個含むようなものから任意の演算の合成で得られる元が生成する$\ck$の部分空間を $\mathcal{I}^m$ とする．つまり，
-  % Let $\mathcal{I}^m$ be the set of all outputs of arbitrary compositions of the operations in $\mathcal{K}$ that have at least $m$ inputs in $\mathcal{I}$. In other words,
-  \[ 
-    \mathcal{I}^m \coloneqq \left\{ \gamma\in\mathcal{K} \;\middle|\;
+  $\mathcal{I}$ の元を少なくとも $m$ 個含むようなものから，$\mathcal{K}$ 上の演算 (orientation switch, delete, unzip, connected sum) の有限回の合成で得られる元全体で張られる部分空間を $\mathcal{I}^m$ とする．つまり，
+  \[
+    \mathcal{I}^m \coloneqq \Span_{\QQ} \left\{ f(x_1, \dots, x_n) \;\middle|\;
     \begin{aligned}
-      &\text{ある } n\in\ZZ_{> 0},\ f\colon\prod^n_{i=1}\mathcal{K}\to\mathcal{K},\ x_1,\dots,x_n\in\mathcal{K} \text{が存在し，} \\
-      &\quad \gamma=f(x_1,\dots,x_n)\text{ かつ } \#\{i\mid x_i\in\mathcal{I}\}\geq m \text{を満たす．}
-    \end{aligned}\right\}.
+      &f\colon \ck\text{ 上の演算の有限回の合成},\\
+      &\quad x_1, \dots, x_n \in \mathcal{K},\ \#\{ i \mid x_i \in \mathcal{I}\subset\ck \} \geq m
+    \end{aligned}
+    \right\}.
   \]
   さらに，$\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$とする．
-  % Moreover, we define $\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$.
 \end{definition}
 ここで，$\mathcal{I}^m$は明らかにフィルトレーションの構造をもつ．
 % Clearly, $\mathcal{I}^m$ has a filtration structure.
-
 \begin{lemma}\label{lem:Ichar}
   $\mathcal{I}(\Gamma)=\{\sum\limits_{i}c_i(\gamma_i - \gamma_i')\mid \gamma_i, \gamma_i'\in\ck(\Gamma), c_i\in\QQ\}$.
 \end{lemma}
@@ -581,7 +580,8 @@ $\mathcal{K}$において，orientation switch, delete, edge unzip, connected su
     % Both cases, if $e$ connects to $f$ or not, $d_e(\Gamma) = 0$. 0 is included in $\mathcal{F}_n$ for all $n\geq 0$, so the number of double points does not change.
     edge unzip の場合，
 
-    同じ KTG を足し引きすることで特異点の個数が保存されることを示す．
+    同じ KTG を足し引きすることで特異点の個数が保存されることを示す．{\color{red} $=$と$+$が縦に並ぶのは読みにくいので適度に indent する．}
+
     % We prove with a technical method by adding and subtracting same diagrams as follows:
       {
         \centering
