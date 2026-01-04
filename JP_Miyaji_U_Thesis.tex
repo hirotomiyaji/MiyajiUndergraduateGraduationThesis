@@ -142,38 +142,26 @@
 \end{tabular}
 \newpage
 \begin{abstract}
-  【保留】
-  KTGsに対し a universal Vassiliev invariant が存在することは知られていた\cite{murakami1997topological,cheptea2007tqft,dancso2010kontsevich}．
-  KTGsにおいて``edge unzip''という演算のみ準同型にならず，補正項が現れる．dotted Knotted Trivalent Graphs において$Z^{old}$が準同型となるように$Z$を2通りで構成することが目的．
+
 \end{abstract}
 \tableofcontents
 \newpage
 
 \section{Introduction}
-結び目理論とは位相幾何学の分野の一つであり，物理学とも関係する分野である．その中でも，結び目同士が異なるかどうかを区別する際に手段として使われるものとして結び目の不変量というものがある．
+{\color{red}Knotted trivalent graphs などのイメージ図を適当に入れようと思う．}\\
+結び目理論とは，空間内の閉じた曲線，厳密には3次元ユークリッド空間内の円周 $S^1$ の埋め込み（結び目）を研究する位相幾何学の分野の一つであり，物理学や化学とも密接に関係する分野である．この分野では我々が直感的に理解する``紐の結び目''を厳密に扱い，連続的な変形により移り合う結び目を同じ対象として扱い，その数学的な構造を明らかにすることを目的としている．
 
-% Knotted Trivalent Graphs(Knots や links を含む) のなす空間には良い構造がある．
-% 次の4つの操作がある: orientation switch, edge delete, edge unzip, connected sum．
-% KTGs は有限生成である\cite{thurston2002algebra}．
-% %要確認
-% KTGsはKnot genus(ザイフェルト曲面？)やribbon property(ribbon knot？自己交差あり)などの良い代数構造をもつため，それらを使うことが出来る\cite{bar898algebraic}．
+結び目を分類するための強力な道具として結び目不変量がある．有名な結び目不変量として，Jones 多項式や Alexander 多項式や HOMFLY 多項式，Arf 不変量などがある．特に，1990年に V.A.Vassiliev によって導入された Vassiliev 不変量（有限型不変量とも呼ばれる）という不変量について本論文で扱う．Vassiliev 不変量とは，結び目の空間を特異点の個数によりフィルトレーションを与え，次数で分類することができるというものである．
 
-% Knots の Kontsevich integral は universal Vassiliev invariant に拡張できる．
-% その中でも unzip 以外が準同型になる．
-% \begin{itemize}
-%   \item unzip, delete, connected sum を``tree connected sums''と呼ばれるより一般の操作へ変える．
-%   \item unzip が出来る edge を制限する．
-% \end{itemize}
-% 簡単に$Z^{old}$をdKTGsで準同型にすることができ，dKTGsはKTGsの良い性質をすべて保つことを示す．
-% 有限生成やclose connection to Drinfel'd associators (知らん) など．
-\section{Acknowledgements}
+円周 $S^1$ の埋め込みである結び目の研究をより一般的な1次元の単体複体，すなわちグラフへと拡張することは自然である．このような対象は空間グラフと呼ばれる．空間グラフ理論とは，3次元ユークリッド空間において，いくつかの点を紐でつないでできる図形を研究する位相幾何学の分野の一つである．この分野では埋め込む対象を $S^1$ に限定していないため，統一的な取り扱いが難しく，結び目理論では見られない特有の現象が生じることがある．空間グラフの不変量では，Wu 不変量と呼ばれるものがある．
+
+本論文で扱う対象は空間グラフとは異なり，グラフにさらに``枠''の構造が付加されたものを3次元ユークリッド空間に埋め込んだ knotted trivalent graph (KTG) というD.P.Thurston により導入された対象\cite{thurston2002algebra}を扱う．結び目理論は代数的な操作が乏しいという側面がある一方で，KTGs の理論では，Orientation switch, Delete, Unzip, Connected sum という4つの演算を備えている．特に，Unzip という辺を二重化する操作を定義するために，枠付きグラフの概念が導入されている．単なる線としてのグラフでは，辺を2本に二重化する際にどのように二重化するかが一意に定まらないため，この操作を一意に定めるために``枠''が必要となる．
+
+本論文は，Dror Bar-Natan と Zsuzsanna Dancso による論文「Homomorphic expansions for knotted trivalent graphs」\cite{barnatan2012homomorphicexpansionsknottedtrivalent}に基づき，KTGs の性質を調べることが目的である．具体的には，任意の KTG はある2種類の KTGs により，演算を有限回適用することで得られるということや，特異点の解消によって定義される幾何学的に構成されたフィルトレーションと，KTG の演算によって定義されるフィルトレーションが一致することを示す．
+\section*{Acknowledgements}
 \newpage
-\section{Preliminaries}
-\subsection{KTGs and $Z^{old}$}
-
-% \begin{definition}
-%   \textbf{Trivalent graph}(3価グラフ)とは，各頂点が3つの辺をもつようなグラフをいう．
-% \end{definition}
+\section{Knotted Trivalent Graphs}
+\subsection{定義}
 
 本論文で扱うグラフは有向であり，ループや頂点を持たない円周成分を許容し，各頂点には辺の反時計周りの順序を定める付加構造が与えられているものとする．
 
@@ -188,7 +176,6 @@
 \begin{definition}
   グラフ $\Gamma$に対し \textbf{枠付きグラフ (framed graph)} $\mathbf{\Gamma}$とは，$\Gamma$ と， $\Gamma$ を向き付けられた滑らかな境界付き曲面 $\Sigma$ に spine となるように埋め込む写像 $\Gamma\hookrightarrow\Sigma$ の組 $(\Gamma, \Sigma)$ のことである．ここで，$\Gamma$ から $\Sigma$ への埋め込みは各辺の内部において滑らかであるものとする．
   特に $\Gamma$ が3価グラフのとき，$\mathbf{\Gamma}$を\textbf{枠付き3価グラフ (framed trivalent graph)}という．
-  % For a graph $\Gamma$, a \textbf{framed graph} $\mathbf{\Gamma}$ is a pair $(\Gamma, \Sigma)$ of 1-dimensional simplicial complex $\Gamma$ and an embedding $\Gamma\hookrightarrow\Sigma$ of $\Gamma$ into a surface $\Sigma$ as a spine. In particular, when $\Gamma$ is a trivalent graph, it is called a \textbf{framed trivalent graph}.
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/trivalentgraph.pdf}}
@@ -199,11 +186,8 @@
 \end{definition}
 
 2つの枠付きグラフ $\mathbf{\Gamma} = (\Gamma, \Sigma), \mathbf{\Gamma}' = (\Gamma', \Sigma')$ が同値であるとは，$\Sigma$ から $\Sigma'$ への向きを保つ $C^\infty$ 級微分同相写像 $h\colon \Sigma \to \Sigma'$ が存在し，$h(\Gamma) = \Gamma'$ となることをいう．このとき，$h$ はグラフ同型 $\Gamma\to\Gamma'$ を誘導し，各頂点において辺の反時計周りの順序を保つ．以下では枠付きグラフはこの同値関係のもとで考える．また，3価グラフ $\Gamma$ に対し，枠付き3価グラフ $\mathbf{\Gamma}$ はこの同値関係のもとで一意に定まる．
-% We regard two framed graphs $(\Gamma, \Sigma)$ and $(\Gamma, \Sigma')$ as equivalent if there exists an orientation-preserving diffeomorphism $h\colon \Sigma \to \Sigma'$ such that $h|_{\Gamma} = \id_{\Gamma}$. We consider framed graphs up to this equivalence. Under a fixed cyclic ordering of edges at each vertex, the framed graph is uniquely determined up to this equivalence.
-
 \begin{definition}
-  枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ に対し，\textbf{knotted trivalent graph (KTG)} $\gamma$ とは，枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ と滑らかな埋め込み写像 $g\colon \Sigma \hookrightarrow \RR^3$ の組 $(\Gamma, \Sigma, g)$ のことである．また，knotted trivalent graph $\gamma = (\Gamma, \Sigma, g)$ の\textbf{骨格 (skeleton)}とは，組み合わせ的対象である $\Gamma$ のことをいう．
-  % For a framed trivalent graph $\mathbf{\Gamma}=(\Gamma,\Sigma)$, a \textbf{knotted trivalent graph (KTG)} $\gamma$ is a triple $(\Gamma, \Sigma, g)$ consisting of the framed graph $\Gamma$ and an embedding $g\colon \Sigma\hookrightarrow\RR^3$. The \textbf{skeleton} of a KTG $\gamma$ is the trivalent graph $\Gamma$ behind it.
+  枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ に対し，\textbf{knotted trivalent graph (KTG)} $\gamma$ とは，枠付き3価グラフ $\mathbf{\Gamma} = (\Gamma, \Sigma)$ と滑らかな埋め込み写像 $g\colon \Sigma \hookrightarrow \RR^3$ の組 $(\Gamma, \Sigma, g)$ のことである．また，knotted trivalent graph $\gamma = (\Gamma, \Sigma, g)$ の\textbf{骨格 (skeleton)}とは $\Gamma$ のことをいい，骨格全体の集合を $\mathcal{S}$ と書く．
   \begin{figure}[H]
     \centering
     \raisebox{-0.4\height}{\includegraphics[scale=0.3]{inkscape/exKTG.pdf}}
@@ -226,24 +210,15 @@
     \item 任意の $x \in \Sigma$ と $t \in I$ に対し，$\Phi(x,t) = (\varphi_t(x), t)$ となる滑らかな埋め込み $\varphi_t \colon \Sigma \hookrightarrow \RR^3$ が存在する，
     \item $\varphi_0 = g$ かつ $\varphi_1 = h$ である．
   \end{enumerate}
-  % Two knotted trivalent graphs $\gamma_1=(\Gamma, \Sigma, g)$ and $\gamma_2=(\Gamma, \Sigma, h)$ are said to be \textbf{framed isotopic} if there exists a smooth embedding
-  % \[
-  %   \Phi \colon \Sigma \times I \to \RR^3 \times I\quad (I=[0,1])
-  % \]
-  % satisfying the following conditions:
-  % \begin{enumerate}
-  %   \item $\Phi$ is level-preserving, that is, for any $x \in \Sigma$ and $t \in I$, $\Phi(x,t) = (\varphi_t(x), t)$ for a smooth embedding $\varphi_t \colon \Sigma \hookrightarrow \RR^3$,
-  %   \item The restriction $\Phi|_{\Gamma\times I}$ is an identity,
-  %   \item $\varphi_0 = g$ and $\varphi_1 = h$.
-  % \end{enumerate}
 \end{definition}
 以下では knotted trivalent graphs を枠付きイソトピックで同一視する．
 ここで，骨格が $\Gamma$ である全ての knotted trivalent graphs の線形結合からなる $\QQ$ 上のベクトル空間を
-% We identify KTGs whose are framed isotopic. For a trivalent graph $\Gamma$, we denote the vector space over $\QQ$ generated by all linear combinations of KTGs with skeleton $\Gamma$ by
 \[
   \mathcal{K}(\Gamma) \coloneqq \Span_{\mathbb{Q}} \left\{ \gamma \;\middle|\; \gamma \text{ は } \Gamma \text{ を骨格とする KTG} \right\}
 \]
-とし，$\mathcal{K}\coloneqq \bigoplus_{\Gamma'} \ck(\Gamma')$ とする．
+とし，\[\mathcal{K}\coloneqq \bigoplus_{\Gamma\in\mathcal{S}} \ck(\Gamma)\]とする．
+
+\subsection{Reidemeister 変形}
 \begin{definition}
   3価グラフ $\Gamma$ に対し，$\Gamma$ を台とする\textbf{次数nのコード図 (chord diagram of order n)}とは，$\Gamma$と，$\Gamma$ の辺上の頂点を除いた相異なる $2n$ 個の点の組をいい，各組を結ぶ線を\textbf{コード (chord)}という．ここで，コードは骨格とは区別された点線として視覚化され，コード図は辺の向きを保つ同相写像により同一視する．
   \begin{figure}[H]
@@ -251,13 +226,10 @@
     \raisebox{-0.45\height}{\includegraphics[scale=0.9]{inkscape/chordEx.pdf}}
     \caption{3価グラフ $\Gamma$ を台とする次数3のコード図の例}
   \end{figure}
-  % 3価グラフ $\Gamma$ に対し，\textbf{コード図 (chord diagram)} $D$ とは，$\Gamma$ と，$\Gamma$ 上に1価頂点を持つ頂点向き付きの1,3価グラフからなる組であり，そのグラフは円に同相な連結成分を持たないものである．
-  % For a graph $\Gamma$, a \textbf{chord diagram} $D$ with support $\Gamma$ is $\Gamma$ together with an vertex-oriented uni-trivalent graph whose univalent vertices are on $\Gamma$; and the graph does not have any connected component homeomorphic to a circle. We call the uni-trivalent graph the chord graph of the diagram.
 \end{definition}
 
 \begin{proposition}
   2つの knotted trivalent graphs が枠付きイソトピックであることと，それらのコード図が有限回の Reidemeister 変形 $R1', R2, R3, R4$ で移り合うことは同値である．
-  % Two KTGs are framed isotopic if and only if their graph diagrams are related by a finite sequence of Reidemeister moves $R1', R2, R3$ and $R4$.
   \begin{center}
     $R1'$:\hspace{2mm}
     \raisebox{-0.45\height}{\includegraphics[scale=0.5]{inkscape/FramedReideMoves/fR1_0.pdf}} \hspace{3mm}$\longleftrightarrow$ \hspace{3mm}
@@ -292,8 +264,8 @@
   \end{center}
 \end{proposition}
 ここでは証明を省略する．詳細は\cite[Theorem~1.4]{murakami1997topological}を参照されたい．空間グラフに対して定義された拡張 Reidemeister 変形\cite{yamada1987invariant}に関して不変であることを示せば十分である．ここでは blackboard framing を考えているため，頂点周りの辺の順序を変える変形は考慮しなくてよいことに注意されたい．\\
-% We omit the proof here. For details, please refer to \cite[Theorem~1.4]{murakami1997topological}. It is sufficient to show the invariance under extended Reidemeister moves for spatial graphs defined in \cite{yamada1987invariant}. Note that we do not need the move in \cite{yamada1987invariant} which changes the order of edges around a vertex, since we consider framed graphs with the blackboard framing.\\
-{\color{red}ここにつなぎの文が欲しい}\\
+{\color{red}ここにつなぎの文が欲しい}
+\subsection{KTGs 上の演算}
 $\ck$ における演算を4つ定義する:
 \begin{definition}
   $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ の向きを反転させる演算を \textbf{orientation switch} といい，得られる3価グラフを $S_e(\Gamma)$ と表す．同様に，$\gamma\in\mathcal{K}(\Gamma)$ に対し，辺 $e$ の\textbf{orientation switch}を，$e$ の向きを反転させることによって定義し，$S_e$ と表す．
@@ -321,7 +293,6 @@ $\ck$ における演算を4つ定義する:
   $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．$e$ を十分近い2つの辺に置き換え，さらに両端の頂点を取り除く演算を \textbf{unzip} といい，得られる3価グラフを $u_e(\Gamma)$ と表す．このとき，$e$ の始点に接続する2つの辺は両方とも $e$ に入る向きであり，終点に接続する2つの辺は両方とも $e$ から出る向きでなければならない．ここで，3価グラフに対し blackboard framing を用いている\footnote{本来 blackboard framing は枠付きグラフに対して用いるものであるが，ここでは便宜上のためグラフに対しても用いている．}ため，2つに分割する方法は一意に定まることに注意されたい．
   また，$\gamma\in\mathcal{K}(\Gamma)$ に対し辺 $e$ の \textbf{unzip} を同様に定義し，$u_e$ と表す．
   \[u_e\colon \mathcal{K}(\Gamma)\to\mathcal{K}(u_e(\Gamma))\,;\,\gamma\mapsto u_e(\gamma)\]
-  % {\Large \color{red} 元の論文には$u_e(\Gamma)$とあるが，単なるグラフ$\Gamma$に対しては2つに分割する方法が一意に定まらないため，枠付きグラフ$\mathbf{\Gamma}$に対して定義する(これではwell-defにできる)べきではないか？その場合，$\mathcal{K}(\Gamma)$等の定義全てを$\mathcal{K}(\mathbf{\Gamma})$に変更する必要がある．}
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/unzip.pdf}}
@@ -341,12 +312,12 @@ $\ck$ における演算を4つ定義する:
 
 これら4つの演算はベクトル空間 $\ck(\Gamma)$ 上の線形写像を誘導する．
 
-結び目と同様の手順により KTGs の有限型不変量を定義する．具体的には，``特異点''の解消によって得られるベクトル空間でフィルトレーションを構成する．
+\section{Vassiliev 不変量とコード図の空間}
+\subsection{Vassiliev 不変量}
+結び目と同様の手順により KTGs のVassiliev 不変量を定義する．具体的には，``特異点''の解消によって得られるベクトル空間でフィルトレーションを構成する．
 
-% We define finite type invariants of KTGs in the same way as for links. In detail, we filter the resulting vector space by the resolution of ``singular points''.
 \begin{definition}
-  3価グラフ $\Gamma$ に対し，$\Gamma$ を骨格とする\textbf{n-特異 KTG (n-singular KTG)} とは，$\Gamma$ から $\RR^3$ へのはめ込みであって $n$ 個の特異点を持つものをいう．ここで特異点とは，互いに交差する2本の辺の横断的な2重点，または辺上に ``$F$'' と記された $F$ 点のことである．{\color{red}$F$とは何者かを書く．}
-  % An \textbf{n-singular KTG} is a trivalent graph immersed in $\RR^3$ with $n$ singular points: each singular point is a transverse double point or a point on an edge marked with an ``$F$''.←こいつは何者か？
+  3価グラフ $\Gamma$ に対し，$\Gamma$ を骨格とする\textbf{n-特異 KTG (n-singular KTG)} とは，$\Gamma$ から $\RR^3$ へのはめ込みであって $n$ 個の特異点を持つものをいう．ここで特異点とは，互いに交差する2本の辺の横断的な2重点，または辺上に ``$F$'' と記された点 $F$ のことである．点 $F$ は向き付け可能性を崩さないような1回転のねじれを許容するためのものである．
   \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/singularKTG.pdf}}
@@ -355,7 +326,6 @@ $\ck$ における演算を4つ定義する:
 \end{definition}
 
 $n\geq 0$ に対し，次のベクトル空間を考える:
-% For $n\geq 0$, we consider the following vector space:
 \[
   \mathcal{F}'_n(\Gamma) \coloneqq \Span_{\QQ} \left\{ \gamma' \;\middle|\; 
   \begin{aligned}
@@ -365,27 +335,34 @@ $n\geq 0$ に対し，次のベクトル空間を考える:
 \right\}.
 \]
 全ての特異点を同時に解消する写像 $\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$ を以下のように定める:
-% We define a map $\rho\colon\mathcal{F}'_\ast(\Gamma) \to \mathcal{F}_0(\Gamma)$ that resolves all singular points as follows:
 \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResDouble.pdf}},\\ \vspace{5mm}
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF1.pdf}},\hspace{7mm}
   \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ResF2.pdf}}.
 \end{figure}
-{\color{red} ひねりを表す図の説明未完}\\
+ここで，枠を表記を省略しているため1回転のねじれはそれぞれ以下のように表している:
+\begin{figure}[H]
+  \centering
+  \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/resolution_swift_remark1.pdf}}\hspace{1mm},\hspace{7mm}
+  \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/resolution_swift_remark2.pdf}}\hspace{1mm}.
+\end{figure}
 $\mathcal{F}_n'(\Gamma)\ (n\geq 0)$に対し，$\mathcal{F}_n(\Gamma)$を$\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$と定義すると，明らかに$\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$であり，
-% For each $\mathcal{F}_n'(\Gamma)\ (n\geq 0)$, we define $\mathcal{F}_n(\Gamma)\coloneqq \rho(\mathcal{F}_n'(\Gamma))$. Then, obviously, $\mathcal{K}(\Gamma)=\mathcal{F}_0(\Gamma)$, and we obtain the following filtration:
 \[
-  \mathcal{K}(\Gamma) = \mathcal{F}_0(\Gamma)\supset \mathcal{F}_1(\Gamma)\supset \mathcal{F}_2(\Gamma) \supset \mathcal{F}_3(\Gamma)\cdots.
+  \mathcal{K}(\Gamma) = \mathcal{F}_0(\Gamma)\supset \mathcal{F}_1(\Gamma)\supset \mathcal{F}_2(\Gamma) \supset \mathcal{F}_3(\Gamma)\cdots
 \]
-というフィルトレーションが得られる．このフィルトレーションにおいて隣合う2つのベクトル空間から得られる商ベクトル空間を$\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$とし，次数付きベクトル空間 (associated graded space) を以下のように定義する:
-% In this filtration, we denote the quotient vector space obtained from two adjacent vector spaces by $\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$, and define the associated graded space as follows:
+というフィルトレーションが得られる．
+
+\begin{definition}
+  3価グラフを $\Gamma$ とする．このとき，$d$ 次の\textbf{Vassiliev 不変量}とは，$\mathcal{K}(\Gamma)$ から $\QQ$ への線形写像 $v\colon \mathcal{K}(\Gamma)\to \QQ$ であって，任意の KTG $\gamma\in\mathcal{F}_{d+1}(\Gamma)$ に対し，$v(\gamma) = 0$ を満たすものをいう．
+\end{definition}
+
+このフィルトレーションにおいて隣合う2つのベクトル空間から得られる商ベクトル空間を$\mathcal{A}_n(\Gamma)\coloneqq \mathcal{F}_n(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$とし，次数付きベクトル空間 (associated graded space) を以下のように定義する:
 \[
   \mathcal{A}(\Gamma)\coloneqq \bigoplus_{n=0}^{\infty}\mathcal{A}_n(\Gamma) \left(= \bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F}_{n+1}(\Gamma)\right)
 \]
+\subsection{コード図が満たす関係式}
 次数$n$のコード図を基底とする$\QQ$上のベクトル空間を$\mathcal{D}_n(\Gamma)$と書き，$\mathcal{D}(\Gamma)\coloneqq \bigoplus_{n=0}^\infty\mathcal{D}_n(\Gamma)$とする．$\mathcal{A}(\Gamma)$ における2重点を，$\mathcal{D}(\Gamma)$ におけるコードに対応させることで，$\mathcal{D}(\Gamma)$ から $\mathcal{A}(\Gamma)$ への自然な全射 $\pi$ が存在する．
-% We denote by $\mathcal{D}_n(\Gamma)$ the vector space over $\QQ$ generated by chord diagrams of order $n$, and set $\mathcal{D}(\Gamma)\coloneqq \bigoplus_n\mathcal{D}_n(\Gamma)$. There is a natural surjection $\pi$ from $\mathcal{D}(\Gamma)$ to $\mathcal{A}(\Gamma)$ by associating the chords in a chord diagram to double points.
-% We call the following relations the 4T and VI relations in $\mathcal{D}(\Gamma)$:
 $\mathcal{D}(\Gamma)$ において，以下の関係式を 4T, VI 関係式という:
 \begin{itemize}
   \item (4T) Four-term relation
@@ -400,20 +377,15 @@ $\mathcal{D}(\Gamma)$ において，以下の関係式を 4T, VI 関係式と�
   \raisebox{-0.45\height}{\includegraphics{inkscape/vi.pdf}}
   \end{figure}
 \end{itemize}
-それぞれの関係式において，図に描かれていない部分にはグラフがあるがそれらは全て同じである必要がある．4T では反時計回りの向きが与えられており，VI において，$(-1)^\to$は，コードの付いた辺が外向きなら $-1$, 内向きなら $1$ をかけるという表記法である．\\
-% In both pictures, there may be other chords in the parts of the graph not shown, but they have to be the same throughout.  In 4T, all skeleton parts (solid lines) are oriented counterclockwise. In VI, the sign $(-1)^\to$ is $-1$ if the edge the chord is ending on is oriented to be outgoing from the vertex, and $+1$ if it is incoming (thus there are 8 versions of the relation).
+それぞれの関係式において，図に描かれていない部分にはグラフがあるがそれらは全て同じである必要がある．4T では反時計回りの向きが与えられており，VI において，$(-1)^\to$は，コードの付いた辺が外向きなら $-1$, 内向きなら $1$ をかけるという表記法である．
 \begin{theorem}\label{thm:4TVI}
   4T, VI 関係式は $\ker\pi$ に含まれる．
-  % The relations 4T and VI are contained in $\ker\pi$.
 \end{theorem}
 この定理の証明は \ref{sec:thm4TVIproof} で与える．
-% The proof of this theorem is given in Appendix~\ref{sec:thm4TVIproof}.
 
 4T, VI が $\ker\pi$ に含まれることは分かるが，これ以上の relations が存在``しない''ことを示すのは困難である．これを示すには，universal finite type invariant $\QQ \text{KTG}\to \ca$を構成するのが最善である．これは，T.Le, H.Murakami, J. Murakami, T.Ohtsuki の結果をもとに，また Drinfeld の associator の理論を用いて[KO, CD](一旦手書き),\cite{bar898algebraic}での Kontsevich integral を拡張する形で\cite{murakami1997topological}で初めて得られた．
-% Although it is easy to see that these relations are contained in kernel, showing that there are no more is difficult, and is best achieved by constructing a universal finite type invariant $\QQ \text{KTG}\to \mathcal{A}$ (we do not define universal finite type invariants here, but will do so later in the general context).
-
+\subsection{コード図の空間の演算}
 $\ck$上の各演算は$\ca$上の演算を誘導する．
-% Each operation on KTGs induces an operation on $\ca$ (the associated graded space of $\mathcal{K}(\Gamma)$).
 
 \begin{definition}
   $\Gamma$ を3価グラフ，$e$ を $\Gamma$ の辺とする．このとき，\textbf{orientation switch}はコード図 $D\in\mathcal{A}(\Gamma)$ に対し，次のように定義される線形写像である．
@@ -467,8 +439,7 @@ $\ck$上の各演算は$\ca$上の演算を誘導する．
 \end{definition}
 
 \begin{theorem}\label{thm:KTGgen}
-  任意の KTG は，自明に埋め込まれた枠付き四面体と，ねじられた枠付き四面体から4つの演算を有限回適用することで得られる．{\color{red}とっとと引用文献書け}
-  % Any KTG can be obtained from the trivially embedded tetrahedron and the twisted tetrahedron by a finite sequence of the four operations defined above.{\Large 引用文献書け}
+  任意の KTG は，自明に埋め込まれた枠付き四面体と，ねじられた枠付き四面体から4つの演算を有限回適用することで得られる．{\color{red}枠付き四面体とねじられた枠付き四面体ってなんだよ．あと，とっとと引用文献書け}
 \end{theorem}
 \begin{proof}
   aa
@@ -480,39 +451,36 @@ $\ck$上の各演算は$\ca$上の演算を誘導する．
 
 \begin{theorem}\label{thm:nSingularKTGgen}
   任意の $n$特異 KTG は，自明に埋め込まれた枠付き四面体，ねじられた枠付き四面体，および特異なねじられた枠付き四面体から4つの演算を有限回適用することで得られる．
-  % Any $n$-singular KTG can be obtained from the trivially embedded tetrahedron, twisted tetrahedron and singular twisted tetrahedron using the four operations.
 \end{theorem}
 \begin{proof}
-  Same as Theorem~\ref{thm:KTGgen}.
+  Theorem~\ref{thm:KTGgen} と同様である．
 \end{proof}
 
-\subsection{Algebraic structures and expansions}
+\section{フィルトレーションの一致}
+\subsection{演算により定義されるフィルトレーション}
 $\mathcal{K}$において，orientation switch, delete, edge unzip, connected sum を線形に拡張し，$\QQ$係数の形式和を許すように拡張することで，$\mathcal{K}$はベクトル空間となる．
-% By linearly extending the operations of orientation switch, edge delete, edge unzip and connected sum on $\mathcal{K}$ to allow linear combinations with coefficients in $\QQ$, $\mathcal{K}$ becomes a vector space.
 
 \begin{definition}
-  $\Gamma$ を3価グラフとする．$\ck(\Gamma)$ の部分集合であって係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，$\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$とする．
-  % Let $\Gamma$ be a KTG. Let $\mathcal{I}(\Gamma)$ be the sub-structure made out of all such combinations in which the sum of coefficients is 0, and let $\mathcal{I}\coloneqq \bigoplus_{\Gamma'}\mathcal{I}(\Gamma')$.
+  $\Gamma$ を3価グラフとする．$\ck(\Gamma)$ の部分集合であって係数の和が0となるような形式和全体から生成される集合を$\mathcal{I}(\Gamma)$と書き，\[\mathcal{I}\coloneqq \bigoplus_{\Gamma\in\mathcal{S}}\mathcal{I}(\Gamma)\]とする．
 \end{definition}
 
 \begin{example}
   $\gamma_1, \gamma_2, \gamma_3$ を， $\Gamma$ を骨格とする KTGs とする．このとき，$\gamma_1-\gamma_2, \gamma_1-\frac{1}{2}\gamma-\frac{1}{2}\gamma_3\in \mathcal{I}(\Gamma)$である．
-  % Let $\gamma_1, \gamma_2$ and $\gamma_3$ be KTGs with skeleton $\Gamma$. Then, $\gamma_1-\gamma_2, \gamma_1-\frac{1}{2}\gamma-\frac{1}{2}\gamma_3\in \mathcal{I}(\Gamma)$.
 \end{example}
 \begin{definition}
-  $\mathcal{I}$ の元を少なくとも $m$ 個含むようなものから，$\mathcal{K}$ 上の演算 (orientation switch, delete, unzip, connected sum) の有限回の合成で得られる元全体で張られる部分空間を $\mathcal{I}^m$ とする．つまり，
+  $\mathcal{I}$ の元を少なくとも $n$ 個含むようなものから，$\mathcal{K}$ 上の演算 (orientation switch, delete, unzip, connected sum) の有限回の合成で得られる元全体で張られる部分空間を $\mathcal{I}^n$ とする．つまり，
   \[
-    \mathcal{I}^m \coloneqq \Span_{\QQ} \left\{ f(x_1, \dots, x_n) \;\middle|\;
+    \mathcal{I}^n \coloneqq \Span_{\QQ} \left\{ f(x_1, \dots, x_m) \;\middle|\;
     \begin{aligned}
       &f\colon \ck\text{ 上の演算の有限回の合成},\\
-      &\quad x_1, \dots, x_n \in \mathcal{K},\ \#\{ i \mid x_i \in \mathcal{I}\subset\ck \} \geq m
+      &\quad x_1, \dots, x_m \in \mathcal{K},\ \#\{ i \mid x_i \in \mathcal{I}\subset\ck \} \geq n
     \end{aligned}
     \right\}.
   \]
-  さらに，$\mathcal{I}^m(\Gamma)\coloneqq \mathcal{I}^m\cap \mathcal{I}(\Gamma)$とする．
+  さらに，$\mathcal{I}^n(\Gamma)\coloneqq \mathcal{I}^n\cap \mathcal{I}(\Gamma)$とする．
 \end{definition}
-ここで，$\mathcal{I}^m$は明らかにフィルトレーションの構造をもつ．
-% Clearly, $\mathcal{I}^m$ has a filtration structure.
+ここで，$\mathcal{I}^n(\Gamma)$は明らかにフィルトレーションの構造をもつ．
+\subsection{主定理}
 \begin{lemma}\label{lem:Ichar}
   $\mathcal{I}(\Gamma)=\{\sum\limits_{i}c_i(\gamma_i - \gamma_i')\mid \gamma_i, \gamma_i'\in\ck(\Gamma), c_i\in\QQ\}$.
 \end{lemma}
@@ -521,9 +489,6 @@ $\mathcal{K}$において，orientation switch, delete, edge unzip, connected su
   $(\supset)$ 各 $c_i(\gamma_i-\gamma_i')$ の係数の和は0であるため，係数の総和も0である．\\
   $(\subset)$ 任意に $\gamma\in\mathcal{I}(\Gamma)$ をとる．このとき $\gamma_1,\dots,\gamma_n\in\ck(\Gamma)$ と総和が0となる $c_1,\dots,c_n\in\QQ$ を用いて $\gamma=\sum_{i=1}^{n}c_i \gamma_i$ と表せる. $\sum_{i=1}^{n}c_i=0$ より，$c_n = - \sum_{i=1}^{n-1}c_i$となる．よって，
   \[\sum_{i=1}^{n}c_i \gamma_i = c_1\gamma_1+c_2\gamma_2+\dots +\left(-\sum_{i=1}^{n-1}c_i\right)\gamma_n = \sum_{i=1}^{n-1}c_i(\gamma_i-\gamma_n).\]
-  % $(\supset)$ Each coefficient of $c_i(\gamma_i-\gamma_i')$ is 0, so the sum of coefficients is also 0.\\
-  % $(\subset)$ For any element of $\mathcal{I}$, it can be written as $\sum_{i=1}^{n}c_i \gamma_i$. Since $\sum_{i=1}^{n}c_i=0$, we have $c_n = - \sum_{i=1}^{n-1}c_i$. Thus 
-  % \[\sum_{i=1}^{n}c_i \gamma_i = c_1\gamma_1+c_2\gamma_2+\dots +\left(-\sum_{i=1}^{n-1}c_i\right)\gamma_n = \sum_{i=1}^{n-1}c_i(\gamma_i-\gamma_n).\]
 \end{proof}
 
 \begin{theorem}
@@ -534,18 +499,15 @@ $\mathcal{K}$において，orientation switch, delete, edge unzip, connected su
   \begin{enumerate}
     \item $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$\\
     $(\supset)$
-    任意の $\gamma\in\mathcal{F}_1(\Gamma)$ は少なくとも1つの特異点を持つため，正負の交差の差，または $F$ 点に対応するねじれの差として書ける．つまり，ある $\gamma_1, \gamma_2\in \mathcal{K}(\Gamma)$ が存在して，$\gamma=\gamma_1 - \gamma_2$ と書ける．よって，$\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$．\\
-    % Since any element $\gamma\in\mathcal{F}_1(\Gamma)$ has at least one double point, so there exist $\gamma_+, \gamma_-\in \mathcal{K}(\Gamma)$ such that $\gamma=\gamma_+ - \gamma_-$, thus $\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$.\\
+    任意の $\gamma\in\mathcal{F}_1(\Gamma)$ は少なくとも1つの特異点を持つため，正負の交差の差，または点 $F$ に対応するねじれの差として書ける．つまり，ある $\gamma_1, \gamma_2\in \mathcal{K}(\Gamma)$ が存在して，$\gamma=\gamma_1 - \gamma_2$ と書ける．よって，$\mathcal{F}_1(\Gamma)\subset \mathcal{I}(\Gamma)$．\\
     $(\subset)$
     任意の $\gamma\in\mathcal{I}(\Gamma)$ はLemma~\ref{lem:Ichar}より $\sum_i c_i(\gamma_i-\gamma'_i)$ と表すことができる．$\mathcal{F}_1(\Gamma)$において，同じ骨格を持つ任意の2つのKTGは交差の上下の変更により移りあうため，$\gamma_i - \gamma'_i$ を1点における正負の交差の差 $\tilde{\gamma}_i-\tilde{\gamma}'_i$となるようにできる．よって
-    % Any element of $\mathcal{I}(\Gamma)$ can be written as $\sum_i c_i(\gamma_i-\gamma'_i)$ by Lemma~\ref{lem:Ichar}. In $\mathcal{F}_1(\Gamma)$, any two KTGs with the same skeleton can be related by crossing changes, so we can make $\gamma_i - \gamma'_i$ into the difference of positive and negative crossings at one point $\tilde{\gamma}_i-\tilde{\gamma}'_i$. Therefore,
     \[
       \gamma=\sum_{i}c_i(\gamma_i-\gamma'_i)=\sum_{i}c_i(\tilde{\gamma}_i-\tilde{\gamma}'_i)\in\mathcal{F}_1(\Gamma).
     \]
     \item $\mathcal{I}^n(\Gamma)\subset\mathcal{F}_n(\Gamma)$\\
     $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$ より，任意の元 $\gamma\in\mathcal{I}^n(\Gamma)$ は $\mathcal{F}_1(\Gamma)$ の元を少なくとも $n$ 個含むものから4つの演算を有限回行うことで得られる．よって，4つの演算が特異点の数を保存することを示せば十分である．\\
     %修正 F-point も確認
-    % By $\mathcal{I}(\Gamma)=\mathcal{F}_1(\Gamma)$, any element $\gamma\in\mathcal{I}^n(\Gamma)$ is generated by at least $n$ elements of $\mathcal{F}_1(\Gamma)$. It is enough to check that the four operations for an edge with double points preserve number of double points.
     Orientation switch の場合，
     \begin{figure}[H]
       \centering
@@ -569,12 +531,10 @@ $\mathcal{K}$において，orientation switch, delete, edge unzip, connected su
       \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmD2.pdf}}
     \end{figure}
     $e$ が $f$ に接続しているかどうかにかかわらず，$d_e(\Gamma) = 0$ である． 0は全ての $n\geq 0$ に対して $\mathcal{F}_n$ に含まれるため，特異点の数は変わらない．\\
-    % Both cases, if $e$ connects to $f$ or not, $d_e(\Gamma) = 0$. 0 is included in $\mathcal{F}_n$ for all $n\geq 0$, so the number of double points does not change.
     edge unzip の場合，
 
     同じ KTG を足し引きすることで特異点の個数が保存されることを示す．{\color{red} $=$と$+$が縦に並ぶのは読みにくいので適度に indent する．}
 
-    % We prove with a technical method by adding and subtracting same diagrams as follows:
       {
         \centering
         \raisebox{-0.45\height}{\includegraphics[scale=0.6]{inkscape/ThmU1.pdf}}\\ \vspace{5mm}
@@ -592,7 +552,6 @@ $\mathcal{K}$において，orientation switch, delete, edge unzip, connected su
       \end{figure}
     \item $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$\\
     任意の $\mathcal{F}_n(\Gamma)$ の元は Theorem~\ref{thm:nSingularKTGgen} より，$n$ 個の1-特異 KTG に4つの演算を有限回適用することで得られるため明らかに成り立つ．
-    % Since any $n$-singular KTG can be obtained from $n$ pieces of 1-singular KTGs and the four operations by Theorem~\ref{thm:nSingularKTGgen}, $\mathcal{F}_n(\Gamma)\subset \mathcal{I}^n(\Gamma)$.
   \end{enumerate}
   よって任意の $n\geq 0$ と 骨格 $\Gamma$ に対して $\mathcal{I}^n(\Gamma)=\mathcal{F}_n(\Gamma)$ が成り立つ．
 \end{proof}
@@ -608,30 +567,15 @@ $\mathcal{K}$において，orientation switch, delete, edge unzip, connected su
 \newpage
 \appendix
 \addtocontents{toc}{\protect\setlength{\cftsecnumwidth}{4em}}
-% \titleformat{\section}
-%   {\normalfont\Large\bfseries} % フォント設定
-%   {\thesection:}      % ラベル部分を "Appendix A:" にする
-%   {0.7em}                      % ラベルとタイトルの間のスペース
-%   {}
-% \addtocontents{toc}{%
-%   \protect\renewcommand{\protect\cftsecpresnum}{Appendix }
-%   % 番号の前に "Appendix " をつける
-%   \protect\renewcommand{\protect\cftsecaftersnum}{:}
-%   % 番号の後に ":" をつける
-%   \protect\setlength{\protect\cftsecnumwidth}{7em}
-%   % "Appendix A:" が収まるように番号の幅を広げる
-% }
 
-\section{Proof of Theorem~\ref{thm:4TVI}}
+\section{Theorem~\ref{thm:4TVI} の証明}
 \label{sec:thm4TVIproof}
 $\mathcal{A}(\Gamma) =\bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$ において，本来は特異点は存在しないが，証明を分かりやすくするために以下の図では特異点を描く．証明の準備として，以下の関係式が成り立つことを確認する．
-% In $\mathcal{A}(\Gamma)=\bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F}_{n+1}(\Gamma)$, there are no double points, but for the readers to understand the proof easily, we draw double points in the following figures. Any chord can move freely as shown below:
 \begin{figure}[H]
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4tpre.pdf}}
 \end{figure}
 同じ図式を足し引きすることで，4T 関係式を導出する．\vspace{5mm} \\
-% Now, we derive 4T relation by adding and subtracting same diagrams as follows:\vspace{5mm} \\
 {
   \raggedright
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4t1.pdf}}\\ \vspace{5mm}
@@ -644,21 +588,18 @@ $\mathcal{A}(\Gamma) =\bigoplus_{n=0}^{\infty}\mathcal{F}_{n}(\Gamma)/\mathcal{F
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4t8.pdf}}\\ \vspace{5mm}
 }
 2重点を2つ持つものについて以下の関係式を得る．また，辺を順序に沿って接続する．
-% Thus, we have a new equation with two double points and connect ordered edges:
 
 {
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4t9.pdf}}\\ \vspace{5mm}
 }
 接続して得られた関係式から2重点をコードと見なす．\\
-% Then we straighten the three edges. \\
 
 {
   \centering
   \raisebox{-0.45\height}{\includegraphics{inkscape/prove4t10.pdf}}\\ \vspace{5mm}
 }
 最後に，骨格を円周のようになるように変形すると 4T 関係式を得る．\\
-% Finally, we obtain the 4T relation:\\
 
 {
   \centering

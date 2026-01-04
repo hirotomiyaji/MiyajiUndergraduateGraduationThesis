@@ -1,24 +1,24 @@
-\begin{thebibliography}{Yam87}
+\begin{thebibliography}{BND12}
 
 \bibitem[BN]{bar898algebraic}
 D~Bar-Natan.
 \newblock Algebraic knot theory-a call for action.
 \newblock 898(10.1016):0040--9383.
 
-\bibitem[CL07]{cheptea2007tqft}
-Dorin Cheptea and Thang~TQ Le.
-\newblock A tqft associated to the lmo invariant of three-dimensional manifolds.
-\newblock {\em Communications in mathematical physics}, 272(3):601--634, 2007.
-
-\bibitem[Dan10]{dancso2010kontsevich}
-Zsuzsanna Dancso.
-\newblock On the kontsevich integral for knotted trivalent graphs.
-\newblock {\em Algebraic \& Geometric Topology}, 10(3):1317--1365, 2010.
+\bibitem[BND12]{barnatan2012homomorphicexpansionsknottedtrivalent}
+Dror Bar-Natan and Zsuzsanna Dancso.
+\newblock Homomorphic expansions for knotted trivalent graphs.
+\newblock 2012.
 
 \bibitem[MO97]{murakami1997topological}
 Jun Murakami and Tomotada Ohtsuki.
 \newblock Topological quantum field theory for the universal quantum invariant.
 \newblock {\em Communications in Mathematical Physics}, 188(3):501--520, 1997.
+
+\bibitem[Thu02]{thurston2002algebra}
+Dylan~P Thurston.
+\newblock The algebra of knotted trivalent graphs and turaev’s shadow world.
+\newblock {\em Geometry \& Topology Monographs}, 4:337--362, 2002.
 
 \bibitem[Yam87]{yamada1987invariant}
 Shuji Yamada.
